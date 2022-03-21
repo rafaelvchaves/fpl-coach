@@ -1,0 +1,34 @@
+{
+  "G" : {
+    "alpha": 1,
+    "beta": 0.3,
+    "goal_value": 6,
+    "assist_value": 3,
+    "clean_sheet_value": 4,
+    "two_goals_conceded_value": -1
+  },
+  "D": {
+    "alpha": 1,
+    "beta": 0.3,
+    "goal_value": 6,
+    "assist_value": 3,
+    "clean_sheet_value": 4,
+    "two_goals_conceded_value": -1
+  },
+  "M": {
+    "alpha": 1,
+    "beta": 0.3,
+    "goal_value": 5,
+    "assist_value": 3,
+    "clean_sheet_value": 1,
+    "two_goals_conceded_value": 0
+  },
+  "F": {
+    "alpha": 1,
+    "beta": 0.3,
+    "goal_value": 4,
+    "assist_value": 3,
+    "clean_sheet_value": 0,
+    "two_goals_conceded_value": 0
+  }
+}

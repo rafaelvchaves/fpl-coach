@@ -1,0 +1,3635 @@
+[
+    {
+        "fpl_id": 233,
+        "understat_id": 1250,
+        "name": "Mohamed Salah",
+        "team_name": "Liverpool",
+        "position": "M"
+    },
+    {
+        "fpl_id": 240,
+        "understat_id": 6854,
+        "name": "Diogo Jota",
+        "team_name": "Liverpool",
+        "position": "M"
+    },
+    {
+        "fpl_id": 357,
+        "understat_id": 647,
+        "name": "Harry Kane",
+        "team_name": "Spurs",
+        "position": "F"
+    },
+    {
+        "fpl_id": 230,
+        "understat_id": 838,
+        "name": "Sadio Mané",
+        "team_name": "Liverpool",
+        "position": "M"
+    },
+    {
+        "fpl_id": 579,
+        "understat_id": 2371,
+        "name": "Cristiano Ronaldo dos Santos Aveiro",
+        "team_name": "Man Utd",
+        "position": "F"
+    },
+    {
+        "fpl_id": 359,
+        "understat_id": 453,
+        "name": "Heung-Min Son",
+        "team_name": "Spurs",
+        "position": "M"
+    },
+    {
+        "fpl_id": 78,
+        "understat_id": 998,
+        "name": "Ivan Toney",
+        "team_name": "Brentford",
+        "position": "F"
+    },
+    {
+        "fpl_id": 255,
+        "understat_id": 618,
+        "name": "Raheem Sterling",
+        "team_name": "Man City",
+        "position": "M"
+    },
+    {
+        "fpl_id": 254,
+        "understat_id": 750,
+        "name": "Riyad Mahrez",
+        "team_name": "Man City",
+        "position": "M"
+    },
+    {
+        "fpl_id": 205,
+        "understat_id": 755,
+        "name": "Jamie Vardy",
+        "team_name": "Leicester",
+        "position": "F"
+    },
+    {
+        "fpl_id": 251,
+        "understat_id": 447,
+        "name": "Kevin De Bruyne",
+        "team_name": "Man City",
+        "position": "M"
+    },
+    {
+        "fpl_id": 154,
+        "understat_id": 522,
+        "name": "Wilfried Zaha",
+        "team_name": "Crystal Palace",
+        "position": "M"
+    },
+    {
+        "fpl_id": 277,
+        "understat_id": 1228,
+        "name": "Bruno Miguel Borges Fernandes",
+        "team_name": "Man Utd",
+        "position": "M"
+    },
+    {
+        "fpl_id": 21,
+        "understat_id": 7230,
+        "name": "Emile Smith Rowe",
+        "team_name": "Arsenal",
+        "position": "M"
+    },
+    {
+        "fpl_id": 22,
+        "understat_id": 7322,
+        "name": "Bukayo Saka",
+        "team_name": "Arsenal",
+        "position": "M"
+    },
+    {
+        "fpl_id": 196,
+        "understat_id": 8026,
+        "name": "Raphael Dias Belloli",
+        "team_name": "Leeds",
+        "position": "M"
+    },
+    {
+        "fpl_id": 450,
+        "understat_id": 9301,
+        "name": "Emmanuel Dennis",
+        "team_name": "Watford",
+        "position": "F"
+    },
+    {
+        "fpl_id": 413,
+        "understat_id": 531,
+        "name": "Michail Antonio",
+        "team_name": "West Ham",
+        "position": "F"
+    },
+    {
+        "fpl_id": 420,
+        "understat_id": 1776,
+        "name": "Jarrod Bowen",
+        "team_name": "West Ham",
+        "position": "M"
+    },
+    {
+        "fpl_id": 63,
+        "understat_id": 3621,
+        "name": "Neal Maupay",
+        "team_name": "Brighton",
+        "position": "F"
+    },
+    {
+        "fpl_id": 315,
+        "understat_id": 7696,
+        "name": "Teemu Pukki",
+        "team_name": "Norwich",
+        "position": "F"
+    },
+    {
+        "fpl_id": 138,
+        "understat_id": 7768,
+        "name": "Mason Mount",
+        "team_name": "Chelsea",
+        "position": "M"
+    },
+    {
+        "fpl_id": 144,
+        "understat_id": 9040,
+        "name": "Conor Gallagher",
+        "team_name": "Crystal Palace",
+        "position": "M"
+    },
+    {
+        "fpl_id": 261,
+        "understat_id": 3635,
+        "name": "Bernardo Mota Veiga de Carvalho e Silva",
+        "team_name": "Man City",
+        "position": "M"
+    },
+    {
+        "fpl_id": 265,
+        "understat_id": 6055,
+        "name": "Phil Foden",
+        "team_name": "Man City",
+        "position": "M"
+    },
+    {
+        "fpl_id": 212,
+        "understat_id": 6818,
+        "name": "James Maddison",
+        "team_name": "Leicester",
+        "position": "M"
+    },
+    {
+        "fpl_id": 345,
+        "understat_id": 7700,
+        "name": "Che Adams",
+        "team_name": "Southampton",
+        "position": "F"
+    },
+    {
+        "fpl_id": 40,
+        "understat_id": 8865,
+        "name": "Ollie Watkins",
+        "team_name": "Aston Villa",
+        "position": "F"
+    },
+    {
+        "fpl_id": 296,
+        "understat_id": 468,
+        "name": "Callum Wilson",
+        "team_name": "Newcastle",
+        "position": "F"
+    },
+    {
+        "fpl_id": 341,
+        "understat_id": 843,
+        "name": "James Ward-Prowse",
+        "team_name": "Southampton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 123,
+        "understat_id": 1389,
+        "name": "Jorge Luiz Frello Filho",
+        "team_name": "Chelsea",
+        "position": "M"
+    },
+    {
+        "fpl_id": 423,
+        "understat_id": 2335,
+        "name": "Pablo Fornals",
+        "team_name": "West Ham",
+        "position": "M"
+    },
+    {
+        "fpl_id": 578,
+        "understat_id": 3278,
+        "name": "Maxwel Cornet",
+        "team_name": "Burnley",
+        "position": "M"
+    },
+    {
+        "fpl_id": 586,
+        "understat_id": 3697,
+        "name": "Odsonne Edouard",
+        "team_name": "Crystal Palace",
+        "position": "F"
+    },
+    {
+        "fpl_id": 430,
+        "understat_id": 4105,
+        "name": "Raúl Jiménez",
+        "team_name": "Wolves",
+        "position": "F"
+    },
+    {
+        "fpl_id": 141,
+        "understat_id": 5220,
+        "name": "Kai Havertz",
+        "team_name": "Chelsea",
+        "position": "M"
+    },
+    {
+        "fpl_id": 210,
+        "understat_id": 5956,
+        "name": "Youri Tielemans",
+        "team_name": "Leicester",
+        "position": "M"
+    },
+    {
+        "fpl_id": 518,
+        "understat_id": 8384,
+        "name": "Armando Broja",
+        "team_name": "Southampton",
+        "position": "F"
+    },
+    {
+        "fpl_id": 51,
+        "understat_id": 8941,
+        "name": "Jacob Ramsey",
+        "team_name": "Aston Villa",
+        "position": "M"
+    },
+    {
+        "fpl_id": 307,
+        "understat_id": 101,
+        "name": "Allan Saint-Maximin",
+        "team_name": "Newcastle",
+        "position": "F"
+    },
+    {
+        "fpl_id": 250,
+        "understat_id": 314,
+        "name": "Ilkay Gündogan",
+        "team_name": "Man City",
+        "position": "M"
+    },
+    {
+        "fpl_id": 468,
+        "understat_id": 465,
+        "name": "Joshua King",
+        "team_name": "Watford",
+        "position": "F"
+    },
+    {
+        "fpl_id": 228,
+        "understat_id": 482,
+        "name": "Roberto Firmino",
+        "team_name": "Liverpool",
+        "position": "F"
+    },
+    {
+        "fpl_id": 529,
+        "understat_id": 594,
+        "name": "Romelu Lukaku",
+        "team_name": "Chelsea",
+        "position": "F"
+    },
+    {
+        "fpl_id": 484,
+        "understat_id": 762,
+        "name": "Demarai Gray",
+        "team_name": "Everton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 337,
+        "understat_id": 986,
+        "name": "Danny Ings",
+        "team_name": "Aston Villa",
+        "position": "F"
+    },
+    {
+        "fpl_id": 266,
+        "understat_id": 2381,
+        "name": "Rodrigo Hernandez",
+        "team_name": "Man City",
+        "position": "M"
+    },
+    {
+        "fpl_id": 558,
+        "understat_id": 2517,
+        "name": "Martin Ødegaard",
+        "team_name": "Arsenal",
+        "position": "M"
+    },
+    {
+        "fpl_id": 419,
+        "understat_id": 3585,
+        "name": "Saïd Benrahma",
+        "team_name": "West Ham",
+        "position": "M"
+    },
+    {
+        "fpl_id": 399,
+        "understat_id": 5675,
+        "name": "Ismaila Sarr",
+        "team_name": "Watford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 472,
+        "understat_id": 6954,
+        "name": "Juan Camilo Hernández Suárez",
+        "team_name": "Watford",
+        "position": "F"
+    },
+    {
+        "fpl_id": 289,
+        "understat_id": 7490,
+        "name": "Mason Greenwood",
+        "team_name": "Man Utd",
+        "position": "M"
+    },
+    {
+        "fpl_id": 26,
+        "understat_id": 7752,
+        "name": "Gabriel Teodoro Martinelli Silva",
+        "team_name": "Arsenal",
+        "position": "M"
+    },
+    {
+        "fpl_id": 142,
+        "understat_id": 8067,
+        "name": "Reece James",
+        "team_name": "Chelsea",
+        "position": "D"
+    },
+    {
+        "fpl_id": 267,
+        "understat_id": 8720,
+        "name": "Jack Harrison",
+        "team_name": "Leeds",
+        "position": "M"
+    },
+    {
+        "fpl_id": 583,
+        "understat_id": 8845,
+        "name": "Hee-Chan Hwang",
+        "team_name": "Wolves",
+        "position": "F"
+    },
+    {
+        "fpl_id": 4,
+        "understat_id": 318,
+        "name": "Pierre-Emerick Aubameyang",
+        "team_name": "Arsenal",
+        "position": "F"
+    },
+    {
+        "fpl_id": 681,
+        "understat_id": 488,
+        "name": "Philippe Coutinho Correia",
+        "team_name": "Aston Villa",
+        "position": "M"
+    },
+    {
+        "fpl_id": 416,
+        "understat_id": 535,
+        "name": "Manuel Lanzini",
+        "team_name": "West Ham",
+        "position": "M"
+    },
+    {
+        "fpl_id": 281,
+        "understat_id": 556,
+        "name": "Marcus Rashford",
+        "team_name": "Man Utd",
+        "position": "M"
+    },
+    {
+        "fpl_id": 149,
+        "understat_id": 606,
+        "name": "Christian Benteke",
+        "team_name": "Crystal Palace",
+        "position": "F"
+    },
+    {
+        "fpl_id": 137,
+        "understat_id": 2662,
+        "name": "Christian Pulisic",
+        "team_name": "Chelsea",
+        "position": "M"
+    },
+    {
+        "fpl_id": 6,
+        "understat_id": 3277,
+        "name": "Alexandre Lacazette",
+        "team_name": "Arsenal",
+        "position": "F"
+    },
+    {
+        "fpl_id": 232,
+        "understat_id": 3420,
+        "name": "Fabio Henrique Tavares",
+        "team_name": "Liverpool",
+        "position": "M"
+    },
+    {
+        "fpl_id": 109,
+        "understat_id": 4456,
+        "name": "Chris Wood",
+        "team_name": "Newcastle",
+        "position": "F"
+    },
+    {
+        "fpl_id": 587,
+        "understat_id": 5556,
+        "name": "Ademola Lookman",
+        "team_name": "Leicester",
+        "position": "M"
+    },
+    {
+        "fpl_id": 287,
+        "understat_id": 5595,
+        "name": "Daniel James",
+        "team_name": "Leeds",
+        "position": "M"
+    },
+    {
+        "fpl_id": 180,
+        "understat_id": 6026,
+        "name": "Richarlison de Andrade",
+        "team_name": "Everton",
+        "position": "F"
+    },
+    {
+        "fpl_id": 436,
+        "understat_id": 6853,
+        "name": "Rúben Diogo da Silva Neves",
+        "team_name": "Wolves",
+        "position": "M"
+    },
+    {
+        "fpl_id": 517,
+        "understat_id": 6894,
+        "name": "Mohamed Elyounoussi",
+        "team_name": "Southampton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 64,
+        "understat_id": 7698,
+        "name": "Leandro Trossard",
+        "team_name": "Brighton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 422,
+        "understat_id": 8288,
+        "name": "Tomas Soucek",
+        "team_name": "West Ham",
+        "position": "M"
+    },
+    {
+        "fpl_id": 74,
+        "understat_id": 8379,
+        "name": "Alexis Mac Allister",
+        "team_name": "Brighton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 131,
+        "understat_id": 8992,
+        "name": "Hakim Ziyech",
+        "team_name": "Chelsea",
+        "position": "M"
+    },
+    {
+        "fpl_id": 455,
+        "understat_id": 9738,
+        "name": "Patson Daka",
+        "team_name": "Leicester",
+        "position": "F"
+    },
+    {
+        "fpl_id": 447,
+        "understat_id": 501,
+        "name": "Danny Welbeck",
+        "team_name": "Brighton",
+        "position": "F"
+    },
+    {
+        "fpl_id": 155,
+        "understat_id": 757,
+        "name": "Jeffrey Schlupp",
+        "team_name": "Crystal Palace",
+        "position": "M"
+    },
+    {
+        "fpl_id": 482,
+        "understat_id": 775,
+        "name": "Andros Townsend",
+        "team_name": "Everton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 135,
+        "understat_id": 782,
+        "name": "Benjamin Chilwell",
+        "team_name": "Chelsea",
+        "position": "D"
+    },
+    {
+        "fpl_id": 229,
+        "understat_id": 833,
+        "name": "Virgil van Dijk",
+        "team_name": "Liverpool",
+        "position": "D"
+    },
+    {
+        "fpl_id": 106,
+        "understat_id": 1654,
+        "name": "Ben Mee",
+        "team_name": "Burnley",
+        "position": "D"
+    },
+    {
+        "fpl_id": 266,
+        "understat_id": 2496,
+        "name": "Rodrigo Hernandez",
+        "team_name": "Man City",
+        "position": "M"
+    },
+    {
+        "fpl_id": 259,
+        "understat_id": 2498,
+        "name": "Aymeric Laporte",
+        "team_name": "Man City",
+        "position": "D"
+    },
+    {
+        "fpl_id": 121,
+        "understat_id": 3288,
+        "name": "Thiago Emiliano da Silva",
+        "team_name": "Chelsea",
+        "position": "D"
+    },
+    {
+        "fpl_id": 177,
+        "understat_id": 5555,
+        "name": "Dominic Calvert-Lewin",
+        "team_name": "Everton",
+        "position": "F"
+    },
+    {
+        "fpl_id": 23,
+        "understat_id": 5613,
+        "name": "Gabriel Magalhães",
+        "team_name": "Arsenal",
+        "position": "D"
+    },
+    {
+        "fpl_id": 159,
+        "understat_id": 5735,
+        "name": "Jean-Philippe Mateta",
+        "team_name": "Crystal Palace",
+        "position": "F"
+    },
+    {
+        "fpl_id": 524,
+        "understat_id": 5786,
+        "name": "Yoane Wissa",
+        "team_name": "Brentford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 343,
+        "understat_id": 6042,
+        "name": "Jan Bednarek",
+        "team_name": "Southampton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 485,
+        "understat_id": 6345,
+        "name": "Jadon Sancho",
+        "team_name": "Man Utd",
+        "position": "M"
+    },
+    {
+        "fpl_id": 96,
+        "understat_id": 6552,
+        "name": "Bryan Mbeumo",
+        "team_name": "Brentford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 527,
+        "understat_id": 6615,
+        "name": "Trevoh Chalobah",
+        "team_name": "Chelsea",
+        "position": "D"
+    },
+    {
+        "fpl_id": 215,
+        "understat_id": 6681,
+        "name": "Harvey Barnes",
+        "team_name": "Leicester",
+        "position": "M"
+    },
+    {
+        "fpl_id": 274,
+        "understat_id": 6817,
+        "name": "Frederico Rodrigues de Paula Santos",
+        "team_name": "Man Utd",
+        "position": "M"
+    },
+    {
+        "fpl_id": 429,
+        "understat_id": 6851,
+        "name": "Conor Coady",
+        "team_name": "Wolves",
+        "position": "D"
+    },
+    {
+        "fpl_id": 35,
+        "understat_id": 7723,
+        "name": "John McGinn",
+        "team_name": "Aston Villa",
+        "position": "M"
+    },
+    {
+        "fpl_id": 503,
+        "understat_id": 8150,
+        "name": "Anthony Gordon",
+        "team_name": "Everton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 44,
+        "understat_id": 8864,
+        "name": "Matthew Cash",
+        "team_name": "Aston Villa",
+        "position": "D"
+    },
+    {
+        "fpl_id": 310,
+        "understat_id": 87,
+        "name": "Joelinton Cássio Apolinário de Lira",
+        "team_name": "Newcastle",
+        "position": "F"
+    },
+    {
+        "fpl_id": 365,
+        "understat_id": 343,
+        "name": "Pierre-Emile Højbjerg",
+        "team_name": "Spurs",
+        "position": "M"
+    },
+    {
+        "fpl_id": 235,
+        "understat_id": 484,
+        "name": "Divock Origi",
+        "team_name": "Liverpool",
+        "position": "F"
+    },
+    {
+        "fpl_id": 174,
+        "understat_id": 500,
+        "name": "Alex Iwobi",
+        "team_name": "Everton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 276,
+        "understat_id": 558,
+        "name": "Jesse Lingard",
+        "team_name": "Man Utd",
+        "position": "M"
+    },
+    {
+        "fpl_id": 575,
+        "understat_id": 593,
+        "name": "Aaron Lennon",
+        "team_name": "Burnley",
+        "position": "M"
+    },
+    {
+        "fpl_id": 222,
+        "understat_id": 605,
+        "name": "Jordan Henderson",
+        "team_name": "Liverpool",
+        "position": "M"
+    },
+    {
+        "fpl_id": 213,
+        "understat_id": 620,
+        "name": "Kelechi Iheanacho",
+        "team_name": "Leicester",
+        "position": "F"
+    },
+    {
+        "fpl_id": 678,
+        "understat_id": 652,
+        "name": "Kieran Trippier",
+        "team_name": "Newcastle",
+        "position": "D"
+    },
+    {
+        "fpl_id": 33,
+        "understat_id": 675,
+        "name": "Jack Grealish",
+        "team_name": "Man City",
+        "position": "M"
+    },
+    {
+        "fpl_id": 130,
+        "understat_id": 751,
+        "name": "N'Golo Kanté",
+        "team_name": "Chelsea",
+        "position": "M"
+    },
+    {
+        "fpl_id": 291,
+        "understat_id": 769,
+        "name": "Jonjo Shelvey",
+        "team_name": "Newcastle",
+        "position": "M"
+    },
+    {
+        "fpl_id": 354,
+        "understat_id": 772,
+        "name": "Moussa Sissoko",
+        "team_name": "Watford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 414,
+        "understat_id": 804,
+        "name": "Craig Dawson",
+        "team_name": "West Ham",
+        "position": "D"
+    },
+    {
+        "fpl_id": 189,
+        "understat_id": 822,
+        "name": "Patrick Bamford",
+        "team_name": "Leeds",
+        "position": "F"
+    },
+    {
+        "fpl_id": 227,
+        "understat_id": 966,
+        "name": "Alex Oxlade-Chamberlain",
+        "team_name": "Liverpool",
+        "position": "M"
+    },
+    {
+        "fpl_id": 81,
+        "understat_id": 1078,
+        "name": "Sergi Canós",
+        "team_name": "Brentford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 169,
+        "understat_id": 1653,
+        "name": "Michael Keane",
+        "team_name": "Everton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 298,
+        "understat_id": 1683,
+        "name": "Ryan Fraser",
+        "team_name": "Newcastle",
+        "position": "M"
+    },
+    {
+        "fpl_id": 173,
+        "understat_id": 1726,
+        "name": "Abdoulaye Doucouré",
+        "team_name": "Everton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 237,
+        "understat_id": 1791,
+        "name": "Trent Alexander-Arnold",
+        "team_name": "Liverpool",
+        "position": "D"
+    },
+    {
+        "fpl_id": 127,
+        "understat_id": 1822,
+        "name": "Antonio Rüdiger",
+        "team_name": "Chelsea",
+        "position": "D"
+    },
+    {
+        "fpl_id": 190,
+        "understat_id": 2163,
+        "name": "Diego Llorente",
+        "team_name": "Leeds",
+        "position": "D"
+    },
+    {
+        "fpl_id": 43,
+        "understat_id": 2203,
+        "name": "Emiliano Buendía Stati",
+        "team_name": "Aston Villa",
+        "position": "M"
+    },
+    {
+        "fpl_id": 125,
+        "understat_id": 2254,
+        "name": "Mateo Kovacic",
+        "team_name": "Chelsea",
+        "position": "M"
+    },
+    {
+        "fpl_id": 15,
+        "understat_id": 2328,
+        "name": "Thomas Partey",
+        "team_name": "Arsenal",
+        "position": "M"
+    },
+    {
+        "fpl_id": 362,
+        "understat_id": 3293,
+        "name": "Lucas Rodrigues Moura da Silva",
+        "team_name": "Spurs",
+        "position": "M"
+    },
+    {
+        "fpl_id": 269,
+        "understat_id": 3294,
+        "name": "Edinson Cavani",
+        "team_name": "Man Utd",
+        "position": "F"
+    },
+    {
+        "fpl_id": 426,
+        "understat_id": 3422,
+        "name": "João Filipe Iria Santos Moutinho",
+        "team_name": "Wolves",
+        "position": "M"
+    },
+    {
+        "fpl_id": 431,
+        "understat_id": 3491,
+        "name": "Romain Saïss",
+        "team_name": "Wolves",
+        "position": "D"
+    },
+    {
+        "fpl_id": 525,
+        "understat_id": 4419,
+        "name": "Adam Armstrong",
+        "team_name": "Southampton",
+        "position": "F"
+    },
+    {
+        "fpl_id": 239,
+        "understat_id": 5247,
+        "name": "Naby Keita",
+        "team_name": "Liverpool",
+        "position": "M"
+    },
+    {
+        "fpl_id": 263,
+        "understat_id": 5543,
+        "name": "Gabriel Fernando de Jesus",
+        "team_name": "Man City",
+        "position": "F"
+    },
+    {
+        "fpl_id": 367,
+        "understat_id": 6249,
+        "name": "Davinson Sánchez",
+        "team_name": "Spurs",
+        "position": "D"
+    },
+    {
+        "fpl_id": 268,
+        "understat_id": 6441,
+        "name": "Ferran Torres",
+        "team_name": "Man City",
+        "position": "M"
+    },
+    {
+        "fpl_id": 19,
+        "understat_id": 6630,
+        "name": "Joseph Willock",
+        "team_name": "Newcastle",
+        "position": "M"
+    },
+    {
+        "fpl_id": 701,
+        "understat_id": 6691,
+        "name": "Dejan Kulusevski",
+        "team_name": "Spurs",
+        "position": "M"
+    },
+    {
+        "fpl_id": 339,
+        "understat_id": 6893,
+        "name": "Stuart Armstrong",
+        "team_name": "Southampton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 77,
+        "understat_id": 7083,
+        "name": "Christian Nørgaard",
+        "team_name": "Brentford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 370,
+        "understat_id": 7187,
+        "name": "Sergio Reguilón",
+        "team_name": "Spurs",
+        "position": "D"
+    },
+    {
+        "fpl_id": 516,
+        "understat_id": 7295,
+        "name": "Joshua Sargent",
+        "team_name": "Norwich",
+        "position": "F"
+    },
+    {
+        "fpl_id": 477,
+        "understat_id": 7603,
+        "name": "Marc Guéhi",
+        "team_name": "Crystal Palace",
+        "position": "D"
+    },
+    {
+        "fpl_id": 61,
+        "understat_id": 7699,
+        "name": "Adam Webster",
+        "team_name": "Brighton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 45,
+        "understat_id": 7726,
+        "name": "Ezri Konsa Ngoyo",
+        "team_name": "Aston Villa",
+        "position": "D"
+    },
+    {
+        "fpl_id": 236,
+        "understat_id": 8239,
+        "name": "Takumi Minamino",
+        "team_name": "Liverpool",
+        "position": "M"
+    },
+    {
+        "fpl_id": 404,
+        "understat_id": 8272,
+        "name": "João Pedro Junqueira de Jesus",
+        "team_name": "Watford",
+        "position": "F"
+    },
+    {
+        "fpl_id": 438,
+        "understat_id": 8291,
+        "name": "Daniel Castelo Podence",
+        "team_name": "Wolves",
+        "position": "M"
+    },
+    {
+        "fpl_id": 369,
+        "understat_id": 8300,
+        "name": "Steven Bergwijn",
+        "team_name": "Spurs",
+        "position": "M"
+    },
+    {
+        "fpl_id": 185,
+        "understat_id": 8716,
+        "name": "Luke Ayling",
+        "team_name": "Leeds",
+        "position": "D"
+    },
+    {
+        "fpl_id": 262,
+        "understat_id": 8961,
+        "name": "Rúben Santos Gato Alves Dias",
+        "team_name": "Man City",
+        "position": "D"
+    },
+    {
+        "fpl_id": 577,
+        "understat_id": 9339,
+        "name": "Joe Gelhardt",
+        "team_name": "Leeds",
+        "position": "F"
+    },
+    {
+        "fpl_id": 512,
+        "understat_id": 9524,
+        "name": "Anthony Elanga",
+        "team_name": "Man Utd",
+        "position": "M"
+    },
+    {
+        "fpl_id": 83,
+        "understat_id": 9679,
+        "name": "Rico Henry",
+        "team_name": "Brentford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 84,
+        "understat_id": 9680,
+        "name": "Vitaly Janelt",
+        "team_name": "Brentford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 464,
+        "understat_id": 9948,
+        "name": "Michael Olise",
+        "team_name": "Crystal Palace",
+        "position": "M"
+    },
+    {
+        "fpl_id": 696,
+        "understat_id": 10408,
+        "name": "Luis Díaz",
+        "team_name": "Liverpool",
+        "position": "M"
+    },
+    {
+        "fpl_id": 134,
+        "understat_id": 65,
+        "name": "Timo Werner",
+        "team_name": "Chelsea",
+        "position": "F"
+    },
+    {
+        "fpl_id": 305,
+        "understat_id": 76,
+        "name": "Fabian Schär",
+        "team_name": "Newcastle",
+        "position": "D"
+    },
+    {
+        "fpl_id": 225,
+        "understat_id": 229,
+        "name": "Thiago Alcántara do Nascimento",
+        "team_name": "Liverpool",
+        "position": "M"
+    },
+    {
+        "fpl_id": 224,
+        "understat_id": 332,
+        "name": "Joel Matip",
+        "team_name": "Liverpool",
+        "position": "D"
+    },
+    {
+        "fpl_id": 10,
+        "understat_id": 508,
+        "name": "Calum Chambers",
+        "team_name": "Aston Villa",
+        "position": "D"
+    },
+    {
+        "fpl_id": 409,
+        "understat_id": 528,
+        "name": "Angelo Ogbonna",
+        "team_name": "West Ham",
+        "position": "D"
+    },
+    {
+        "fpl_id": 147,
+        "understat_id": 530,
+        "name": "James Tomkins",
+        "team_name": "Crystal Palace",
+        "position": "D"
+    },
+    {
+        "fpl_id": 406,
+        "understat_id": 533,
+        "name": "Mark Noble",
+        "team_name": "West Ham",
+        "position": "M"
+    },
+    {
+        "fpl_id": 411,
+        "understat_id": 534,
+        "name": "Aaron Cresswell",
+        "team_name": "West Ham",
+        "position": "D"
+    },
+    {
+        "fpl_id": 278,
+        "understat_id": 553,
+        "name": "Anthony Martial",
+        "team_name": "Man Utd",
+        "position": "F"
+    },
+    {
+        "fpl_id": 258,
+        "understat_id": 579,
+        "name": "Nathan Aké",
+        "team_name": "Man City",
+        "position": "D"
+    },
+    {
+        "fpl_id": 165,
+        "understat_id": 585,
+        "name": "Seamus Coleman",
+        "team_name": "Everton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 252,
+        "understat_id": 586,
+        "name": "John Stones",
+        "team_name": "Man City",
+        "position": "D"
+    },
+    {
+        "fpl_id": 453,
+        "understat_id": 614,
+        "name": "Fernando Luiz Rosa",
+        "team_name": "Man City",
+        "position": "M"
+    },
+    {
+        "fpl_id": 363,
+        "understat_id": 645,
+        "name": "Bamidele Alli",
+        "team_name": "Everton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 153,
+        "understat_id": 672,
+        "name": "Jordan Ayew",
+        "team_name": "Crystal Palace",
+        "position": "F"
+    },
+    {
+        "fpl_id": 202,
+        "understat_id": 753,
+        "name": "Marc Albrighton",
+        "team_name": "Leicester",
+        "position": "M"
+    },
+    {
+        "fpl_id": 299,
+        "understat_id": 766,
+        "name": "Jamaal Lascelles",
+        "team_name": "Newcastle",
+        "position": "D"
+    },
+    {
+        "fpl_id": 201,
+        "understat_id": 807,
+        "name": "Jonny Evans",
+        "team_name": "Leicester",
+        "position": "D"
+    },
+    {
+        "fpl_id": 591,
+        "understat_id": 813,
+        "name": "Salomón Rondón",
+        "team_name": "Everton",
+        "position": "F"
+    },
+    {
+        "fpl_id": 519,
+        "understat_id": 839,
+        "name": "Shane Long",
+        "team_name": "Southampton",
+        "position": "F"
+    },
+    {
+        "fpl_id": 335,
+        "understat_id": 842,
+        "name": "Oriol Romeu Vidal",
+        "team_name": "Southampton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 104,
+        "understat_id": 844,
+        "name": "Jay Rodriguez",
+        "team_name": "Burnley",
+        "position": "F"
+    },
+    {
+        "fpl_id": 39,
+        "understat_id": 884,
+        "name": "Matt Targett",
+        "team_name": "Newcastle",
+        "position": "D"
+    },
+    {
+        "fpl_id": 342,
+        "understat_id": 885,
+        "name": "Kyle Walker-Peters",
+        "team_name": "Southampton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 435,
+        "understat_id": 900,
+        "name": "Adama Traoré",
+        "team_name": "Wolves",
+        "position": "M"
+    },
+    {
+        "fpl_id": 128,
+        "understat_id": 935,
+        "name": "Kurt Zouma",
+        "team_name": "West Ham",
+        "position": "D"
+    },
+    {
+        "fpl_id": 193,
+        "understat_id": 1014,
+        "name": "Tyler Roberts",
+        "team_name": "Leeds",
+        "position": "M"
+    },
+    {
+        "fpl_id": 111,
+        "understat_id": 1017,
+        "name": "Matej Vydra",
+        "team_name": "Burnley",
+        "position": "F"
+    },
+    {
+        "fpl_id": 38,
+        "understat_id": 1024,
+        "name": "Tyrone Mings",
+        "team_name": "Aston Villa",
+        "position": "D"
+    },
+    {
+        "fpl_id": 176,
+        "understat_id": 1042,
+        "name": "Tom Davies",
+        "team_name": "Everton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 495,
+        "understat_id": 1123,
+        "name": "Juraj Kucka",
+        "team_name": "Watford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 122,
+        "understat_id": 1621,
+        "name": "Marcos Alonso",
+        "team_name": "Chelsea",
+        "position": "D"
+    },
+    {
+        "fpl_id": 110,
+        "understat_id": 1652,
+        "name": "Matthew Lowton",
+        "team_name": "Burnley",
+        "position": "D"
+    },
+    {
+        "fpl_id": 98,
+        "understat_id": 1665,
+        "name": "James Tarkowski",
+        "team_name": "Burnley",
+        "position": "D"
+    },
+    {
+        "fpl_id": 273,
+        "understat_id": 1687,
+        "name": "Harry Maguire",
+        "team_name": "Man Utd",
+        "position": "D"
+    },
+    {
+        "fpl_id": 234,
+        "understat_id": 1688,
+        "name": "Andrew Robertson",
+        "team_name": "Liverpool",
+        "position": "D"
+    },
+    {
+        "fpl_id": 302,
+        "understat_id": 1719,
+        "name": "Javier Manquillo",
+        "team_name": "Newcastle",
+        "position": "D"
+    },
+    {
+        "fpl_id": 272,
+        "understat_id": 1740,
+        "name": "Paul Pogba",
+        "team_name": "Man Utd",
+        "position": "M"
+    },
+    {
+        "fpl_id": 297,
+        "understat_id": 1746,
+        "name": "Jeff Hendrick",
+        "team_name": "Newcastle",
+        "position": "M"
+    },
+    {
+        "fpl_id": 417,
+        "understat_id": 1760,
+        "name": "Arthur Masuaku",
+        "team_name": "West Ham",
+        "position": "D"
+    },
+    {
+        "fpl_id": 76,
+        "understat_id": 1801,
+        "name": "Pontus Jansson",
+        "team_name": "Brentford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 433,
+        "understat_id": 2280,
+        "name": "Jonathan Castro Otto",
+        "team_name": "Wolves",
+        "position": "D"
+    },
+    {
+        "fpl_id": 256,
+        "understat_id": 2379,
+        "name": "João Pedro Cavaco Cancelo",
+        "team_name": "Man City",
+        "position": "D"
+    },
+    {
+        "fpl_id": 207,
+        "understat_id": 3303,
+        "name": "Ricardo Domingos Barbosa Pereira",
+        "team_name": "Leicester",
+        "position": "D"
+    },
+    {
+        "fpl_id": 186,
+        "understat_id": 4381,
+        "name": "Mateusz Klich",
+        "team_name": "Leeds",
+        "position": "M"
+    },
+    {
+        "fpl_id": 492,
+        "understat_id": 5221,
+        "name": "Leon Bailey",
+        "team_name": "Aston Villa",
+        "position": "M"
+    },
+    {
+        "fpl_id": 217,
+        "understat_id": 5264,
+        "name": "Çaglar Söyüncü",
+        "team_name": "Leicester",
+        "position": "D"
+    },
+    {
+        "fpl_id": 421,
+        "understat_id": 5553,
+        "name": "Declan Rice",
+        "team_name": "West Ham",
+        "position": "M"
+    },
+    {
+        "fpl_id": 285,
+        "understat_id": 5560,
+        "name": "Scott McTominay",
+        "team_name": "Man Utd",
+        "position": "M"
+    },
+    {
+        "fpl_id": 42,
+        "understat_id": 5612,
+        "name": "Anwar El Ghazi",
+        "team_name": "Everton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 17,
+        "understat_id": 5656,
+        "name": "Nicolas Pépé",
+        "team_name": "Arsenal",
+        "position": "M"
+    },
+    {
+        "fpl_id": 375,
+        "understat_id": 5962,
+        "name": "Tanguy Ndombele",
+        "team_name": "Spurs",
+        "position": "M"
+    },
+    {
+        "fpl_id": 594,
+        "understat_id": 6030,
+        "name": "Mathias Jorgensen",
+        "team_name": "Brentford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 56,
+        "understat_id": 6047,
+        "name": "Shane Duffy",
+        "team_name": "Brighton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 59,
+        "understat_id": 6048,
+        "name": "Lewis Dunk",
+        "team_name": "Brighton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 306,
+        "understat_id": 6062,
+        "name": "Isaac Hayden",
+        "team_name": "Newcastle",
+        "position": "M"
+    },
+    {
+        "fpl_id": 304,
+        "understat_id": 6063,
+        "name": "Jacob Murphy",
+        "team_name": "Newcastle",
+        "position": "M"
+    },
+    {
+        "fpl_id": 50,
+        "understat_id": 6122,
+        "name": "Douglas Luiz Soares de Paulo",
+        "team_name": "Aston Villa",
+        "position": "M"
+    },
+    {
+        "fpl_id": 412,
+        "understat_id": 6274,
+        "name": "Andriy Yarmolenko",
+        "team_name": "West Ham",
+        "position": "M"
+    },
+    {
+        "fpl_id": 582,
+        "understat_id": 6276,
+        "name": "Nikola Vlasic",
+        "team_name": "West Ham",
+        "position": "M"
+    },
+    {
+        "fpl_id": 425,
+        "understat_id": 6424,
+        "name": "Ben Johnson",
+        "team_name": "West Ham",
+        "position": "D"
+    },
+    {
+        "fpl_id": 140,
+        "understat_id": 6456,
+        "name": "Callum Hudson-Odoi",
+        "team_name": "Chelsea",
+        "position": "M"
+    },
+    {
+        "fpl_id": 449,
+        "understat_id": 6523,
+        "name": "Milot Rashica",
+        "team_name": "Norwich",
+        "position": "M"
+    },
+    {
+        "fpl_id": 244,
+        "understat_id": 6665,
+        "name": "Curtis Jones",
+        "team_name": "Liverpool",
+        "position": "M"
+    },
+    {
+        "fpl_id": 360,
+        "understat_id": 6852,
+        "name": "Matt Doherty",
+        "team_name": "Spurs",
+        "position": "D"
+    },
+    {
+        "fpl_id": 36,
+        "understat_id": 6859,
+        "name": "Kortney Hause",
+        "team_name": "Aston Villa",
+        "position": "D"
+    },
+    {
+        "fpl_id": 700,
+        "understat_id": 7052,
+        "name": "Wout Weghorst",
+        "team_name": "Burnley",
+        "position": "F"
+    },
+    {
+        "fpl_id": 85,
+        "understat_id": 7069,
+        "name": "Saman Ghoddos",
+        "team_name": "Brentford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 309,
+        "understat_id": 7078,
+        "name": "Sean Longstaff",
+        "team_name": "Newcastle",
+        "position": "M"
+    },
+    {
+        "fpl_id": 494,
+        "understat_id": 7218,
+        "name": "Cristian Romero",
+        "team_name": "Spurs",
+        "position": "D"
+    },
+    {
+        "fpl_id": 434,
+        "understat_id": 7236,
+        "name": "Leander Dendoncker",
+        "team_name": "Wolves",
+        "position": "M"
+    },
+    {
+        "fpl_id": 439,
+        "understat_id": 7332,
+        "name": "Max Kilman",
+        "team_name": "Wolves",
+        "position": "D"
+    },
+    {
+        "fpl_id": 58,
+        "understat_id": 7382,
+        "name": "Dan Burn",
+        "team_name": "Newcastle",
+        "position": "D"
+    },
+    {
+        "fpl_id": 581,
+        "understat_id": 7470,
+        "name": "Mathias Normann",
+        "team_name": "Norwich",
+        "position": "M"
+    },
+    {
+        "fpl_id": 319,
+        "understat_id": 7690,
+        "name": "Grant Hanley",
+        "team_name": "Norwich",
+        "position": "D"
+    },
+    {
+        "fpl_id": 318,
+        "understat_id": 7693,
+        "name": "Kenny McLean",
+        "team_name": "Norwich",
+        "position": "M"
+    },
+    {
+        "fpl_id": 329,
+        "understat_id": 8021,
+        "name": "Adam Idah",
+        "team_name": "Norwich",
+        "position": "F"
+    },
+    {
+        "fpl_id": 16,
+        "understat_id": 8089,
+        "name": "Kieran Tierney",
+        "team_name": "Arsenal",
+        "position": "D"
+    },
+    {
+        "fpl_id": 115,
+        "understat_id": 8323,
+        "name": "Josh Brownhill",
+        "team_name": "Burnley",
+        "position": "M"
+    },
+    {
+        "fpl_id": 697,
+        "understat_id": 8327,
+        "name": "Bruno Guimarães Rodriguez Moura",
+        "team_name": "Newcastle",
+        "position": "M"
+    },
+    {
+        "fpl_id": 544,
+        "understat_id": 8476,
+        "name": "Jarrad Branthwaite",
+        "team_name": "Everton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 188,
+        "understat_id": 8718,
+        "name": "Stuart Dallas",
+        "team_name": "Leeds",
+        "position": "M"
+    },
+    {
+        "fpl_id": 282,
+        "understat_id": 8821,
+        "name": "Donny van de Beek",
+        "team_name": "Everton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 461,
+        "understat_id": 8934,
+        "name": "Francisco Machado Mota de Castro Trincão",
+        "team_name": "Wolves",
+        "position": "M"
+    },
+    {
+        "fpl_id": 491,
+        "understat_id": 9512,
+        "name": "Tino Livramento",
+        "team_name": "Southampton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 91,
+        "understat_id": 9678,
+        "name": "Ethan Pinnock",
+        "team_name": "Brentford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 89,
+        "understat_id": 9685,
+        "name": "Mads Roerslev Rasmussen",
+        "team_name": "Brentford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 462,
+        "understat_id": 9734,
+        "name": "Enock Mwepu",
+        "team_name": "Brighton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 331,
+        "understat_id": 9833,
+        "name": "Andrew Omobamidele",
+        "team_name": "Norwich",
+        "position": "D"
+    },
+    {
+        "fpl_id": 499,
+        "understat_id": 9914,
+        "name": "Shandon Baptiste",
+        "team_name": "Brentford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 317,
+        "understat_id": 62,
+        "name": "Lukas Rupp",
+        "team_name": "Norwich",
+        "position": "M"
+    },
+    {
+        "fpl_id": 340,
+        "understat_id": 111,
+        "name": "Jannik Vestergaard",
+        "team_name": "Leicester",
+        "position": "D"
+    },
+    {
+        "fpl_id": 1,
+        "understat_id": 181,
+        "name": "Bernd Leno",
+        "team_name": "Arsenal",
+        "position": "G"
+    },
+    {
+        "fpl_id": 133,
+        "understat_id": 200,
+        "name": "Andreas Christensen",
+        "team_name": "Chelsea",
+        "position": "D"
+    },
+    {
+        "fpl_id": 7,
+        "understat_id": 204,
+        "name": "Granit Xhaka",
+        "team_name": "Arsenal",
+        "position": "M"
+    },
+    {
+        "fpl_id": 55,
+        "understat_id": 239,
+        "name": "Pascal Groß",
+        "team_name": "Brighton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 11,
+        "understat_id": 342,
+        "name": "Sead Kolasinac",
+        "team_name": "Arsenal",
+        "position": "D"
+    },
+    {
+        "fpl_id": 292,
+        "understat_id": 461,
+        "name": "Matt Ritchie",
+        "team_name": "Newcastle",
+        "position": "D"
+    },
+    {
+        "fpl_id": 378,
+        "understat_id": 462,
+        "name": "Dan Gosling",
+        "team_name": "Watford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 53,
+        "understat_id": 486,
+        "name": "Adam Lallana",
+        "team_name": "Brighton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 221,
+        "understat_id": 489,
+        "name": "James Milner",
+        "team_name": "Liverpool",
+        "position": "M"
+    },
+    {
+        "fpl_id": 12,
+        "understat_id": 496,
+        "name": "Mohamed Naser El Sayed Elneny",
+        "team_name": "Arsenal",
+        "position": "M"
+    },
+    {
+        "fpl_id": 332,
+        "understat_id": 503,
+        "name": "Theo Walcott",
+        "team_name": "Southampton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 480,
+        "understat_id": 509,
+        "name": "Wayne Hennessey",
+        "team_name": "Burnley",
+        "position": "G"
+    },
+    {
+        "fpl_id": 474,
+        "understat_id": 510,
+        "name": "Joel Ward",
+        "team_name": "Crystal Palace",
+        "position": "D"
+    },
+    {
+        "fpl_id": 150,
+        "understat_id": 532,
+        "name": "Cheikhou Kouyaté",
+        "team_name": "Crystal Palace",
+        "position": "D"
+    },
+    {
+        "fpl_id": 270,
+        "understat_id": 546,
+        "name": "David de Gea",
+        "team_name": "Man Utd",
+        "position": "G"
+    },
+    {
+        "fpl_id": 380,
+        "understat_id": 574,
+        "name": "Troy Deeney",
+        "team_name": "Watford",
+        "position": "F"
+    },
+    {
+        "fpl_id": 379,
+        "understat_id": 581,
+        "name": "Craig Cathcart",
+        "team_name": "Watford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 124,
+        "understat_id": 592,
+        "name": "Ross Barkley",
+        "team_name": "Chelsea",
+        "position": "M"
+    },
+    {
+        "fpl_id": 381,
+        "understat_id": 596,
+        "name": "Tom Cleverley",
+        "team_name": "Watford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 493,
+        "understat_id": 603,
+        "name": "Nathaniel Clyne",
+        "team_name": "Crystal Palace",
+        "position": "D"
+    },
+    {
+        "fpl_id": 641,
+        "understat_id": 624,
+        "name": "Willy Caballero",
+        "team_name": "Southampton",
+        "position": "G"
+    },
+    {
+        "fpl_id": 52,
+        "understat_id": 631,
+        "name": "Ashley Young",
+        "team_name": "Aston Villa",
+        "position": "D"
+    },
+    {
+        "fpl_id": 148,
+        "understat_id": 633,
+        "name": "James McArthur",
+        "team_name": "Crystal Palace",
+        "position": "M"
+    },
+    {
+        "fpl_id": 334,
+        "understat_id": 635,
+        "name": "Alex McCarthy",
+        "team_name": "Southampton",
+        "position": "G"
+    },
+    {
+        "fpl_id": 353,
+        "understat_id": 637,
+        "name": "Hugo Lloris",
+        "team_name": "Spurs",
+        "position": "G"
+    },
+    {
+        "fpl_id": 249,
+        "understat_id": 638,
+        "name": "Kyle Walker",
+        "team_name": "Man City",
+        "position": "D"
+    },
+    {
+        "fpl_id": 377,
+        "understat_id": 641,
+        "name": "Danny Rose",
+        "team_name": "Watford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 361,
+        "understat_id": 643,
+        "name": "Eric Dier",
+        "team_name": "Spurs",
+        "position": "D"
+    },
+    {
+        "fpl_id": 699,
+        "understat_id": 646,
+        "name": "Christian Eriksen",
+        "team_name": "Brentford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 364,
+        "understat_id": 660,
+        "name": "Ben Davies",
+        "team_name": "Spurs",
+        "position": "D"
+    },
+    {
+        "fpl_id": 107,
+        "understat_id": 669,
+        "name": "Ashley Westwood",
+        "team_name": "Burnley",
+        "position": "M"
+    },
+    {
+        "fpl_id": 119,
+        "understat_id": 681,
+        "name": "César Azpilicueta",
+        "team_name": "Chelsea",
+        "position": "D"
+    },
+    {
+        "fpl_id": 132,
+        "understat_id": 688,
+        "name": "Ruben Loftus-Cheek",
+        "team_name": "Chelsea",
+        "position": "M"
+    },
+    {
+        "fpl_id": 481,
+        "understat_id": 694,
+        "name": "Asmir Begović",
+        "team_name": "Everton",
+        "position": "G"
+    },
+    {
+        "fpl_id": 32,
+        "understat_id": 695,
+        "name": "Bertrand Traoré",
+        "team_name": "Aston Villa",
+        "position": "M"
+    },
+    {
+        "fpl_id": 271,
+        "understat_id": 697,
+        "name": "Nemanja Matic",
+        "team_name": "Man Utd",
+        "position": "M"
+    },
+    {
+        "fpl_id": 408,
+        "understat_id": 706,
+        "name": "Lukasz Fabianski",
+        "team_name": "West Ham",
+        "position": "G"
+    },
+    {
+        "fpl_id": 465,
+        "understat_id": 708,
+        "name": "Federico Fernández",
+        "team_name": "Newcastle",
+        "position": "D"
+    },
+    {
+        "fpl_id": 101,
+        "understat_id": 712,
+        "name": "Jack Cork",
+        "team_name": "Burnley",
+        "position": "M"
+    },
+    {
+        "fpl_id": 170,
+        "understat_id": 741,
+        "name": "Jordan Pickford",
+        "team_name": "Everton",
+        "position": "G"
+    },
+    {
+        "fpl_id": 300,
+        "understat_id": 743,
+        "name": "Dwight Gayle",
+        "team_name": "Newcastle",
+        "position": "F"
+    },
+    {
+        "fpl_id": 200,
+        "understat_id": 745,
+        "name": "Kasper Schmeichel",
+        "team_name": "Leicester",
+        "position": "G"
+    },
+    {
+        "fpl_id": 208,
+        "understat_id": 759,
+        "name": "Daniel Amartey",
+        "team_name": "Leicester",
+        "position": "D"
+    },
+    {
+        "fpl_id": 211,
+        "understat_id": 770,
+        "name": "Ayoze Pérez",
+        "team_name": "Leicester",
+        "position": "M"
+    },
+    {
+        "fpl_id": 294,
+        "understat_id": 780,
+        "name": "Karl Darlow",
+        "team_name": "Newcastle",
+        "position": "G"
+    },
+    {
+        "fpl_id": 336,
+        "understat_id": 790,
+        "name": "Nathan Redmond",
+        "team_name": "Southampton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 376,
+        "understat_id": 803,
+        "name": "Ben Foster",
+        "team_name": "Watford",
+        "position": "G"
+    },
+    {
+        "fpl_id": 333,
+        "understat_id": 831,
+        "name": "Fraser Forster",
+        "team_name": "Southampton",
+        "position": "G"
+    },
+    {
+        "fpl_id": 473,
+        "understat_id": 835,
+        "name": "Ryan Bertrand",
+        "team_name": "Leicester",
+        "position": "D"
+    },
+    {
+        "fpl_id": 5,
+        "understat_id": 847,
+        "name": "Cédric Soares",
+        "team_name": "Arsenal",
+        "position": "D"
+    },
+    {
+        "fpl_id": 513,
+        "understat_id": 852,
+        "name": "Freddie Woodman",
+        "team_name": "Newcastle",
+        "position": "G"
+    },
+    {
+        "fpl_id": 301,
+        "understat_id": 853,
+        "name": "Paul Dummett",
+        "team_name": "Newcastle",
+        "position": "D"
+    },
+    {
+        "fpl_id": 156,
+        "understat_id": 856,
+        "name": "Jack Butland",
+        "team_name": "Crystal Palace",
+        "position": "G"
+    },
+    {
+        "fpl_id": 293,
+        "understat_id": 875,
+        "name": "Ciaran Clark",
+        "team_name": "Newcastle",
+        "position": "D"
+    },
+    {
+        "fpl_id": 163,
+        "understat_id": 876,
+        "name": "Fabian Delph",
+        "team_name": "Everton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 100,
+        "understat_id": 887,
+        "name": "Erik Pieters",
+        "team_name": "Burnley",
+        "position": "D"
+    },
+    {
+        "fpl_id": 321,
+        "understat_id": 902,
+        "name": "Sam Byram",
+        "team_name": "Norwich",
+        "position": "D"
+    },
+    {
+        "fpl_id": 283,
+        "understat_id": 934,
+        "name": "Axel Tuanzebe",
+        "team_name": "Man Utd",
+        "position": "D"
+    },
+    {
+        "fpl_id": 632,
+        "understat_id": 951,
+        "name": "Phil Jones",
+        "team_name": "Man Utd",
+        "position": "D"
+    },
+    {
+        "fpl_id": 366,
+        "understat_id": 971,
+        "name": "Harry Winks",
+        "team_name": "Spurs",
+        "position": "M"
+    },
+    {
+        "fpl_id": 314,
+        "understat_id": 982,
+        "name": "Tim Krul",
+        "team_name": "Norwich",
+        "position": "G"
+    },
+    {
+        "fpl_id": 178,
+        "understat_id": 985,
+        "name": "Mason Holgate",
+        "team_name": "Everton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 238,
+        "understat_id": 987,
+        "name": "Joseph Gomez",
+        "team_name": "Liverpool",
+        "position": "D"
+    },
+    {
+        "fpl_id": 275,
+        "understat_id": 1006,
+        "name": "Luke Shaw",
+        "team_name": "Man Utd",
+        "position": "D"
+    },
+    {
+        "fpl_id": 389,
+        "understat_id": 1025,
+        "name": "Daniel Bachmann",
+        "team_name": "Watford",
+        "position": "G"
+    },
+    {
+        "fpl_id": 323,
+        "understat_id": 1032,
+        "name": "Kieran Dowell",
+        "team_name": "Norwich",
+        "position": "M"
+    },
+    {
+        "fpl_id": 49,
+        "understat_id": 1053,
+        "name": "Keinan Davis",
+        "team_name": "Aston Villa",
+        "position": "F"
+    },
+    {
+        "fpl_id": 502,
+        "understat_id": 1084,
+        "name": "Jonjoe Kenny",
+        "team_name": "Everton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 677,
+        "understat_id": 1142,
+        "name": "Samir Caetano de Souza Santos",
+        "team_name": "Watford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 539,
+        "understat_id": 1245,
+        "name": "Emerson Palmieri dos Santos",
+        "team_name": "Chelsea",
+        "position": "D"
+    },
+    {
+        "fpl_id": 231,
+        "understat_id": 1257,
+        "name": "Alisson Ramses Becker",
+        "team_name": "Liverpool",
+        "position": "G"
+    },
+    {
+        "fpl_id": 564,
+        "understat_id": 1304,
+        "name": "Moise Kean",
+        "team_name": "Everton",
+        "position": "F"
+    },
+    {
+        "fpl_id": 171,
+        "understat_id": 1379,
+        "name": "Allan Marques Loureiro",
+        "team_name": "Everton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 390,
+        "understat_id": 1441,
+        "name": "Adam Masina",
+        "team_name": "Watford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 303,
+        "understat_id": 1545,
+        "name": "Emil Krafth",
+        "team_name": "Newcastle",
+        "position": "D"
+    },
+    {
+        "fpl_id": 108,
+        "understat_id": 1663,
+        "name": "Johann Berg Gudmundsson",
+        "team_name": "Burnley",
+        "position": "M"
+    },
+    {
+        "fpl_id": 395,
+        "understat_id": 1675,
+        "name": "Ashley Fletcher",
+        "team_name": "Watford",
+        "position": "F"
+    },
+    {
+        "fpl_id": 456,
+        "understat_id": 1707,
+        "name": "Ben Gibson",
+        "team_name": "Norwich",
+        "position": "D"
+    },
+    {
+        "fpl_id": 552,
+        "understat_id": 1711,
+        "name": "Adam Forshaw",
+        "team_name": "Leeds",
+        "position": "M"
+    },
+    {
+        "fpl_id": 384,
+        "understat_id": 1725,
+        "name": "Christian Kabasele",
+        "team_name": "Watford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 338,
+        "understat_id": 1735,
+        "name": "Jack Stephens",
+        "team_name": "Southampton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 286,
+        "understat_id": 1739,
+        "name": "Eric Bailly",
+        "team_name": "Man Utd",
+        "position": "D"
+    },
+    {
+        "fpl_id": 14,
+        "understat_id": 1749,
+        "name": "Rob Holding",
+        "team_name": "Arsenal",
+        "position": "D"
+    },
+    {
+        "fpl_id": 13,
+        "understat_id": 1750,
+        "name": "Ainsley Maitland-Niles",
+        "team_name": "Arsenal",
+        "position": "M"
+    },
+    {
+        "fpl_id": 203,
+        "understat_id": 1785,
+        "name": "Nampalys Mendy",
+        "team_name": "Leicester",
+        "position": "M"
+    },
+    {
+        "fpl_id": 168,
+        "understat_id": 1823,
+        "name": "Lucas Digne",
+        "team_name": "Aston Villa",
+        "position": "D"
+    },
+    {
+        "fpl_id": 279,
+        "understat_id": 1828,
+        "name": "Alex Nicolao Telles",
+        "team_name": "Man Utd",
+        "position": "D"
+    },
+    {
+        "fpl_id": 146,
+        "understat_id": 2190,
+        "name": "Vicente Guaita",
+        "team_name": "Crystal Palace",
+        "position": "G"
+    },
+    {
+        "fpl_id": 555,
+        "understat_id": 2245,
+        "name": "Raphaël Varane",
+        "team_name": "Man Utd",
+        "position": "D"
+    },
+    {
+        "fpl_id": 592,
+        "understat_id": 2266,
+        "name": "Saúl Ñíguez",
+        "team_name": "Chelsea",
+        "position": "M"
+    },
+    {
+        "fpl_id": 489,
+        "understat_id": 2310,
+        "name": "Alphonse Areola",
+        "team_name": "West Ham",
+        "position": "G"
+    },
+    {
+        "fpl_id": 172,
+        "understat_id": 2383,
+        "name": "André Filipe Tavares Gomes",
+        "team_name": "Everton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 264,
+        "understat_id": 2958,
+        "name": "Oleksandr Zinchenko",
+        "team_name": "Man City",
+        "position": "D"
+    },
+    {
+        "fpl_id": 424,
+        "understat_id": 3203,
+        "name": "Issa Diop",
+        "team_name": "West Ham",
+        "position": "D"
+    },
+    {
+        "fpl_id": 618,
+        "understat_id": 3387,
+        "name": "Nicolas Nkoulou",
+        "team_name": "Watford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 253,
+        "understat_id": 3389,
+        "name": "Benjamin Mendy",
+        "team_name": "Man City",
+        "position": "D"
+    },
+    {
+        "fpl_id": 192,
+        "understat_id": 3428,
+        "name": "Hélder Wander Sousa de Azevedo e Costa",
+        "team_name": "Leeds",
+        "position": "M"
+    },
+    {
+        "fpl_id": 673,
+        "understat_id": 3468,
+        "name": "Jonas Lössl",
+        "team_name": "Brentford",
+        "position": "G"
+    },
+    {
+        "fpl_id": 34,
+        "understat_id": 3696,
+        "name": "Morgan Sanson",
+        "team_name": "Aston Villa",
+        "position": "M"
+    },
+    {
+        "fpl_id": 676,
+        "understat_id": 3729,
+        "name": "Hassane Kamara",
+        "team_name": "Watford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 30,
+        "understat_id": 4401,
+        "name": "Emiliano Martínez",
+        "team_name": "Aston Villa",
+        "position": "G"
+    },
+    {
+        "fpl_id": 105,
+        "understat_id": 4422,
+        "name": "Ashley Barnes",
+        "team_name": "Burnley",
+        "position": "F"
+    },
+    {
+        "fpl_id": 28,
+        "understat_id": 4475,
+        "name": "Jed Steer",
+        "team_name": "Aston Villa",
+        "position": "G"
+    },
+    {
+        "fpl_id": 504,
+        "understat_id": 4764,
+        "name": "Jean-Philippe Gbamin",
+        "team_name": "Everton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 382,
+        "understat_id": 5043,
+        "name": "Francisco Femenía Far",
+        "team_name": "Watford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 129,
+        "understat_id": 5061,
+        "name": "Kepa Arrizabalaga",
+        "team_name": "Chelsea",
+        "position": "G"
+    },
+    {
+        "fpl_id": 556,
+        "understat_id": 5191,
+        "name": "Álvaro Fernández",
+        "team_name": "Brentford",
+        "position": "G"
+    },
+    {
+        "fpl_id": 448,
+        "understat_id": 5544,
+        "name": "Angus Gunn",
+        "team_name": "Norwich",
+        "position": "G"
+    },
+    {
+        "fpl_id": 216,
+        "understat_id": 5545,
+        "name": "Wilfred Ndidi",
+        "team_name": "Leicester",
+        "position": "M"
+    },
+    {
+        "fpl_id": 152,
+        "understat_id": 5549,
+        "name": "Luka Milivojevic",
+        "team_name": "Crystal Palace",
+        "position": "M"
+    },
+    {
+        "fpl_id": 112,
+        "understat_id": 5552,
+        "name": "Nick Pope",
+        "team_name": "Burnley",
+        "position": "G"
+    },
+    {
+        "fpl_id": 585,
+        "understat_id": 5568,
+        "name": "Connor Roberts",
+        "team_name": "Burnley",
+        "position": "D"
+    },
+    {
+        "fpl_id": 288,
+        "understat_id": 5584,
+        "name": "Aaron Wan-Bissaka",
+        "team_name": "Man Utd",
+        "position": "D"
+    },
+    {
+        "fpl_id": 559,
+        "understat_id": 5603,
+        "name": "Aaron Ramsdale",
+        "team_name": "Arsenal",
+        "position": "G"
+    },
+    {
+        "fpl_id": 70,
+        "understat_id": 5609,
+        "name": "Yves Bissouma",
+        "team_name": "Brighton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 471,
+        "understat_id": 5619,
+        "name": "Pierre Lees-Melou",
+        "team_name": "Norwich",
+        "position": "M"
+    },
+    {
+        "fpl_id": 501,
+        "understat_id": 5648,
+        "name": "Malang Sarr",
+        "team_name": "Chelsea",
+        "position": "D"
+    },
+    {
+        "fpl_id": 372,
+        "understat_id": 5681,
+        "name": "Giovani Lo Celso",
+        "team_name": "Spurs",
+        "position": "M"
+    },
+    {
+        "fpl_id": 432,
+        "understat_id": 5708,
+        "name": "Fernando Marçal",
+        "team_name": "Wolves",
+        "position": "D"
+    },
+    {
+        "fpl_id": 157,
+        "understat_id": 6027,
+        "name": "Jairo Riedewald",
+        "team_name": "Crystal Palace",
+        "position": "M"
+    },
+    {
+        "fpl_id": 113,
+        "understat_id": 6044,
+        "name": "Charlie Taylor",
+        "team_name": "Burnley",
+        "position": "D"
+    },
+    {
+        "fpl_id": 60,
+        "understat_id": 6049,
+        "name": "Solomon March",
+        "team_name": "Brighton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 102,
+        "understat_id": 6051,
+        "name": "Dale Stephens",
+        "team_name": "Burnley",
+        "position": "M"
+    },
+    {
+        "fpl_id": 257,
+        "understat_id": 6054,
+        "name": "Ederson Santana de Moraes",
+        "team_name": "Man City",
+        "position": "G"
+    },
+    {
+        "fpl_id": 284,
+        "understat_id": 6080,
+        "name": "Victor Lindelöf",
+        "team_name": "Man Utd",
+        "position": "D"
+    },
+    {
+        "fpl_id": 386,
+        "understat_id": 6104,
+        "name": "Will Hughes",
+        "team_name": "Crystal Palace",
+        "position": "M"
+    },
+    {
+        "fpl_id": 702,
+        "understat_id": 6108,
+        "name": "Rodrigo Bentancur",
+        "team_name": "Spurs",
+        "position": "M"
+    },
+    {
+        "fpl_id": 209,
+        "understat_id": 6157,
+        "name": "Timothy Castagne",
+        "team_name": "Leicester",
+        "position": "D"
+    },
+    {
+        "fpl_id": 437,
+        "understat_id": 6163,
+        "name": "Nélson Cabral Semedo",
+        "team_name": "Wolves",
+        "position": "D"
+    },
+    {
+        "fpl_id": 567,
+        "understat_id": 6252,
+        "name": "Lyanco Evangelista Silveira Neves Vojnovic",
+        "team_name": "Southampton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 194,
+        "understat_id": 6273,
+        "name": "Robin Koch",
+        "team_name": "Leeds",
+        "position": "D"
+    },
+    {
+        "fpl_id": 458,
+        "understat_id": 6310,
+        "name": "Boubakary Soumaré",
+        "team_name": "Leicester",
+        "position": "M"
+    },
+    {
+        "fpl_id": 488,
+        "understat_id": 6314,
+        "name": "Joachim Andersen",
+        "team_name": "Crystal Palace",
+        "position": "D"
+    },
+    {
+        "fpl_id": 243,
+        "understat_id": 6326,
+        "name": "Ibrahima Konaté",
+        "team_name": "Liverpool",
+        "position": "D"
+    },
+    {
+        "fpl_id": 374,
+        "understat_id": 6377,
+        "name": "Joe Rodon",
+        "team_name": "Spurs",
+        "position": "D"
+    },
+    {
+        "fpl_id": 441,
+        "understat_id": 6382,
+        "name": "Pedro Lomba Neto",
+        "team_name": "Wolves",
+        "position": "M"
+    },
+    {
+        "fpl_id": 214,
+        "understat_id": 6418,
+        "name": "Hamza Choudhury",
+        "team_name": "Leicester",
+        "position": "M"
+    },
+    {
+        "fpl_id": 161,
+        "understat_id": 6451,
+        "name": "Nathan Ferguson",
+        "team_name": "Crystal Palace",
+        "position": "D"
+    },
+    {
+        "fpl_id": 622,
+        "understat_id": 6477,
+        "name": "Cenk Tosun",
+        "team_name": "Everton",
+        "position": "F"
+    },
+    {
+        "fpl_id": 20,
+        "understat_id": 6482,
+        "name": "Edward Nketiah",
+        "team_name": "Arsenal",
+        "position": "F"
+    },
+    {
+        "fpl_id": 463,
+        "understat_id": 6485,
+        "name": "Héctor Junior Firpo Adames",
+        "team_name": "Leeds",
+        "position": "D"
+    },
+    {
+        "fpl_id": 531,
+        "understat_id": 6492,
+        "name": "Reiss Nelson",
+        "team_name": "Arsenal",
+        "position": "M"
+    },
+    {
+        "fpl_id": 460,
+        "understat_id": 6500,
+        "name": "Romain Perraud",
+        "team_name": "Southampton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 175,
+        "understat_id": 6521,
+        "name": "Yerry Mina",
+        "team_name": "Everton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 295,
+        "understat_id": 6532,
+        "name": "Martin Dubravka",
+        "team_name": "Newcastle",
+        "position": "G"
+    },
+    {
+        "fpl_id": 467,
+        "understat_id": 6538,
+        "name": "Oghenekaro Peter Etebo",
+        "team_name": "Watford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 595,
+        "understat_id": 6542,
+        "name": "Jürgen Locadia",
+        "team_name": "Brighton",
+        "position": "F"
+    },
+    {
+        "fpl_id": 470,
+        "understat_id": 6674,
+        "name": "Rayan Ait Nouri",
+        "team_name": "Wolves",
+        "position": "D"
+    },
+    {
+        "fpl_id": 349,
+        "understat_id": 6736,
+        "name": "Ibrahima Diallo",
+        "team_name": "Southampton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 118,
+        "understat_id": 6756,
+        "name": "Dwight McNeil",
+        "team_name": "Burnley",
+        "position": "M"
+    },
+    {
+        "fpl_id": 368,
+        "understat_id": 6837,
+        "name": "Ryan Sessegnon",
+        "team_name": "Spurs",
+        "position": "D"
+    },
+    {
+        "fpl_id": 391,
+        "understat_id": 6841,
+        "name": "Ken Sema",
+        "team_name": "Watford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 428,
+        "understat_id": 6850,
+        "name": "Willy Boly",
+        "team_name": "Wolves",
+        "position": "D"
+    },
+    {
+        "fpl_id": 440,
+        "understat_id": 6857,
+        "name": "Morgan Gibbs-White",
+        "team_name": "Wolves",
+        "position": "M"
+    },
+    {
+        "fpl_id": 143,
+        "understat_id": 6880,
+        "name": "Edouard Mendy",
+        "team_name": "Chelsea",
+        "position": "G"
+    },
+    {
+        "fpl_id": 415,
+        "understat_id": 6891,
+        "name": "Ryan Fredericks",
+        "team_name": "West Ham",
+        "position": "D"
+    },
+    {
+        "fpl_id": 351,
+        "understat_id": 6923,
+        "name": "Mohammed Salisu",
+        "team_name": "Southampton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 698,
+        "understat_id": 6947,
+        "name": "Samuel Kalu",
+        "team_name": "Watford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 387,
+        "understat_id": 6996,
+        "name": "William Troost-Ekong",
+        "team_name": "Watford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 396,
+        "understat_id": 7081,
+        "name": "Francisco Sierralta",
+        "team_name": "Watford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 584,
+        "understat_id": 7134,
+        "name": "Marc Cucurella",
+        "team_name": "Brighton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 86,
+        "understat_id": 7166,
+        "name": "Mathias Jensen",
+        "team_name": "Brentford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 373,
+        "understat_id": 7198,
+        "name": "Oliver Skipp",
+        "team_name": "Spurs",
+        "position": "M"
+    },
+    {
+        "fpl_id": 54,
+        "understat_id": 7235,
+        "name": "Jason Steele",
+        "team_name": "Brighton",
+        "position": "G"
+    },
+    {
+        "fpl_id": 403,
+        "understat_id": 7278,
+        "name": "Imrân Louza",
+        "team_name": "Watford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 546,
+        "understat_id": 7280,
+        "name": "Yan Valery",
+        "team_name": "Southampton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 510,
+        "understat_id": 7281,
+        "name": "José Diogo Dalot Teixeira",
+        "team_name": "Man Utd",
+        "position": "D"
+    },
+    {
+        "fpl_id": 67,
+        "understat_id": 7298,
+        "name": "Ben White",
+        "team_name": "Arsenal",
+        "position": "D"
+    },
+    {
+        "fpl_id": 487,
+        "understat_id": 7338,
+        "name": "Bryan Gil Salvatierra",
+        "team_name": "Spurs",
+        "position": "M"
+    },
+    {
+        "fpl_id": 580,
+        "understat_id": 7376,
+        "name": "Ozan Kabak",
+        "team_name": "Norwich",
+        "position": "D"
+    },
+    {
+        "fpl_id": 308,
+        "understat_id": 7420,
+        "name": "Miguel Almirón",
+        "team_name": "Newcastle",
+        "position": "M"
+    },
+    {
+        "fpl_id": 539,
+        "understat_id": 7430,
+        "name": "Emerson Palmieri dos Santos",
+        "team_name": "Chelsea",
+        "position": "D"
+    },
+    {
+        "fpl_id": 506,
+        "understat_id": 7546,
+        "name": "Harvey Elliott",
+        "team_name": "Liverpool",
+        "position": "M"
+    },
+    {
+        "fpl_id": 326,
+        "understat_id": 7688,
+        "name": "Max Aarons",
+        "team_name": "Norwich",
+        "position": "D"
+    },
+    {
+        "fpl_id": 179,
+        "understat_id": 7689,
+        "name": "Ben Godfrey",
+        "team_name": "Everton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 311,
+        "understat_id": 7691,
+        "name": "Jamal Lewis",
+        "team_name": "Newcastle",
+        "position": "D"
+    },
+    {
+        "fpl_id": 325,
+        "understat_id": 7695,
+        "name": "Todd Cantwell",
+        "team_name": "Norwich",
+        "position": "M"
+    },
+    {
+        "fpl_id": 350,
+        "understat_id": 7701,
+        "name": "Moussa Djenepo",
+        "team_name": "Southampton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 37,
+        "understat_id": 7722,
+        "name": "Mahmoud Ahmed Ibrahim Hassan",
+        "team_name": "Aston Villa",
+        "position": "M"
+    },
+    {
+        "fpl_id": 47,
+        "understat_id": 7724,
+        "name": "Wesley Moraes",
+        "team_name": "Aston Villa",
+        "position": "F"
+    },
+    {
+        "fpl_id": 218,
+        "understat_id": 7753,
+        "name": "James Justin",
+        "team_name": "Leicester",
+        "position": "D"
+    },
+    {
+        "fpl_id": 260,
+        "understat_id": 7817,
+        "name": "Zack Steffen",
+        "team_name": "Man City",
+        "position": "G"
+    },
+    {
+        "fpl_id": 242,
+        "understat_id": 7904,
+        "name": "Caoimhin Kelleher",
+        "team_name": "Liverpool",
+        "position": "G"
+    },
+    {
+        "fpl_id": 590,
+        "understat_id": 7931,
+        "name": "Takehiro Tomiyasu",
+        "team_name": "Arsenal",
+        "position": "D"
+    },
+    {
+        "fpl_id": 145,
+        "understat_id": 7988,
+        "name": "Billy Gilmour",
+        "team_name": "Norwich",
+        "position": "M"
+    },
+    {
+        "fpl_id": 324,
+        "understat_id": 7990,
+        "name": "Christoph Zimmermann",
+        "team_name": "Norwich",
+        "position": "D"
+    },
+    {
+        "fpl_id": 72,
+        "understat_id": 7991,
+        "name": "Aaron Connolly",
+        "team_name": "Brighton",
+        "position": "F"
+    },
+    {
+        "fpl_id": 589,
+        "understat_id": 8017,
+        "name": "Alex Kral",
+        "team_name": "West Ham",
+        "position": "M"
+    },
+    {
+        "fpl_id": 73,
+        "understat_id": 8020,
+        "name": "Steven Alzate",
+        "team_name": "Brighton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 41,
+        "understat_id": 8040,
+        "name": "Marvelous Nakamba",
+        "team_name": "Aston Villa",
+        "position": "M"
+    },
+    {
+        "fpl_id": 290,
+        "understat_id": 8075,
+        "name": "Brandon Williams",
+        "team_name": "Norwich",
+        "position": "D"
+    },
+    {
+        "fpl_id": 547,
+        "understat_id": 8179,
+        "name": "Luke Cundle",
+        "team_name": "Wolves",
+        "position": "M"
+    },
+    {
+        "fpl_id": 246,
+        "understat_id": 8204,
+        "name": "Neco Williams",
+        "team_name": "Liverpool",
+        "position": "D"
+    },
+    {
+        "fpl_id": 162,
+        "understat_id": 8214,
+        "name": "Tyrick Mitchell",
+        "team_name": "Crystal Palace",
+        "position": "D"
+    },
+    {
+        "fpl_id": 371,
+        "understat_id": 8222,
+        "name": "Japhet Tanganga",
+        "team_name": "Spurs",
+        "position": "D"
+    },
+    {
+        "fpl_id": 347,
+        "understat_id": 8224,
+        "name": "William Smallbone",
+        "team_name": "Southampton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 71,
+        "understat_id": 8226,
+        "name": "Tariq Lamptey",
+        "team_name": "Brighton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 400,
+        "understat_id": 8235,
+        "name": "Jeremy Ngakia",
+        "team_name": "Watford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 443,
+        "understat_id": 8351,
+        "name": "Ki-Jana Hoever",
+        "team_name": "Wolves",
+        "position": "D"
+    },
+    {
+        "fpl_id": 8,
+        "understat_id": 8380,
+        "name": "Pablo Marí",
+        "team_name": "Arsenal",
+        "position": "D"
+    },
+    {
+        "fpl_id": 346,
+        "understat_id": 8456,
+        "name": "Nathan Tella",
+        "team_name": "Southampton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 507,
+        "understat_id": 8497,
+        "name": "Cole Palmer",
+        "team_name": "Man City",
+        "position": "M"
+    },
+    {
+        "fpl_id": 624,
+        "understat_id": 8544,
+        "name": "Lewis Bate",
+        "team_name": "Leeds",
+        "position": "M"
+    },
+    {
+        "fpl_id": 219,
+        "understat_id": 8562,
+        "name": "Luke Thomas",
+        "team_name": "Leicester",
+        "position": "D"
+    },
+    {
+        "fpl_id": 602,
+        "understat_id": 8582,
+        "name": "Ellis Simms",
+        "team_name": "Everton",
+        "position": "F"
+    },
+    {
+        "fpl_id": 160,
+        "understat_id": 8706,
+        "name": "Eberechi Eze",
+        "team_name": "Crystal Palace",
+        "position": "M"
+    },
+    {
+        "fpl_id": 199,
+        "understat_id": 8715,
+        "name": "Illan Meslier",
+        "team_name": "Leeds",
+        "position": "G"
+    },
+    {
+        "fpl_id": 198,
+        "understat_id": 8717,
+        "name": "Pascal Struijk",
+        "team_name": "Leeds",
+        "position": "D"
+    },
+    {
+        "fpl_id": 191,
+        "understat_id": 8719,
+        "name": "Kalvin Phillips",
+        "team_name": "Leeds",
+        "position": "M"
+    },
+    {
+        "fpl_id": 197,
+        "understat_id": 8721,
+        "name": "Jamie Shackleton",
+        "team_name": "Leeds",
+        "position": "M"
+    },
+    {
+        "fpl_id": 445,
+        "understat_id": 8778,
+        "name": "Fabio Silva",
+        "team_name": "Wolves",
+        "position": "F"
+    },
+    {
+        "fpl_id": 62,
+        "understat_id": 8780,
+        "name": "Joël Veltman",
+        "team_name": "Brighton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 184,
+        "understat_id": 8816,
+        "name": "Liam Cooper",
+        "team_name": "Leeds",
+        "position": "D"
+    },
+    {
+        "fpl_id": 245,
+        "understat_id": 8852,
+        "name": "Konstantinos Tsimikas",
+        "team_name": "Liverpool",
+        "position": "D"
+    },
+    {
+        "fpl_id": 704,
+        "understat_id": 8868,
+        "name": "Liam Delap",
+        "team_name": "Man City",
+        "position": "F"
+    },
+    {
+        "fpl_id": 418,
+        "understat_id": 8965,
+        "name": "Vladimir Coufal",
+        "team_name": "West Ham",
+        "position": "D"
+    },
+    {
+        "fpl_id": 69,
+        "understat_id": 9098,
+        "name": "Robert Sánchez",
+        "team_name": "Brighton",
+        "position": "G"
+    },
+    {
+        "fpl_id": 563,
+        "understat_id": 9220,
+        "name": "Charlie Cresswell",
+        "team_name": "Leeds",
+        "position": "D"
+    },
+    {
+        "fpl_id": 75,
+        "understat_id": 9284,
+        "name": "Jakub Moder",
+        "team_name": "Brighton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 630,
+        "understat_id": 9287,
+        "name": "Tyler Onyango",
+        "team_name": "Everton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 520,
+        "understat_id": 9332,
+        "name": "Dane Scarlett",
+        "team_name": "Spurs",
+        "position": "F"
+    },
+    {
+        "fpl_id": 526,
+        "understat_id": 9356,
+        "name": "Carney Chukwuemeka",
+        "team_name": "Aston Villa",
+        "position": "M"
+    },
+    {
+        "fpl_id": 497,
+        "understat_id": 9415,
+        "name": "Jaden Philogene-Bidace",
+        "team_name": "Aston Villa",
+        "position": "M"
+    },
+    {
+        "fpl_id": 541,
+        "understat_id": 9461,
+        "name": "Jesurun Rak-Sakyi",
+        "team_name": "Crystal Palace",
+        "position": "M"
+    },
+    {
+        "fpl_id": 551,
+        "understat_id": 9492,
+        "name": "Crysencio Summerville",
+        "team_name": "Leeds",
+        "position": "M"
+    },
+    {
+        "fpl_id": 550,
+        "understat_id": 9493,
+        "name": "Sam Greenwood",
+        "team_name": "Leeds",
+        "position": "F"
+    },
+    {
+        "fpl_id": 562,
+        "understat_id": 9499,
+        "name": "Cody Drameh",
+        "team_name": "Leeds",
+        "position": "D"
+    },
+    {
+        "fpl_id": 638,
+        "understat_id": 9554,
+        "name": "Tim Iroegbunam",
+        "team_name": "Aston Villa",
+        "position": "M"
+    },
+    {
+        "fpl_id": 80,
+        "understat_id": 9676,
+        "name": "David Raya Martin",
+        "team_name": "Brentford",
+        "position": "G"
+    },
+    {
+        "fpl_id": 483,
+        "understat_id": 9677,
+        "name": "Kristoffer Ajer",
+        "team_name": "Brentford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 479,
+        "understat_id": 9681,
+        "name": "Frank Onyeka",
+        "team_name": "Brentford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 97,
+        "understat_id": 9682,
+        "name": "Mads Bidstrup",
+        "team_name": "Brentford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 90,
+        "understat_id": 9683,
+        "name": "Mads Bech Sørensen",
+        "team_name": "Brentford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 88,
+        "understat_id": 9684,
+        "name": "Marcus Forss",
+        "team_name": "Brentford",
+        "position": "F"
+    },
+    {
+        "fpl_id": 87,
+        "understat_id": 9687,
+        "name": "Charlie Goode",
+        "team_name": "Brentford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 478,
+        "understat_id": 9689,
+        "name": "Albert Sambi Lokonga",
+        "team_name": "Arsenal",
+        "position": "M"
+    },
+    {
+        "fpl_id": 530,
+        "understat_id": 9690,
+        "name": "Folarin Balogun",
+        "team_name": "Arsenal",
+        "position": "F"
+    },
+    {
+        "fpl_id": 466,
+        "understat_id": 9691,
+        "name": "Nuno Varela Tavares",
+        "team_name": "Arsenal",
+        "position": "D"
+    },
+    {
+        "fpl_id": 490,
+        "understat_id": 9700,
+        "name": "Kristoffer Klaesson",
+        "team_name": "Leeds",
+        "position": "G"
+    },
+    {
+        "fpl_id": 451,
+        "understat_id": 9733,
+        "name": "Nathan Collins",
+        "team_name": "Burnley",
+        "position": "D"
+    },
+    {
+        "fpl_id": 537,
+        "understat_id": 9735,
+        "name": "Taylor Richards",
+        "team_name": "Brighton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 505,
+        "understat_id": 9739,
+        "name": "Kiernan Dewsbury-Hall",
+        "team_name": "Leicester",
+        "position": "M"
+    },
+    {
+        "fpl_id": 475,
+        "understat_id": 9740,
+        "name": "José Malheiro de Sá",
+        "team_name": "Wolves",
+        "position": "G"
+    },
+    {
+        "fpl_id": 457,
+        "understat_id": 9745,
+        "name": "Dimitris Giannoulis",
+        "team_name": "Norwich",
+        "position": "D"
+    },
+    {
+        "fpl_id": 528,
+        "understat_id": 9746,
+        "name": "Christos Tzolis",
+        "team_name": "Norwich",
+        "position": "M"
+    },
+    {
+        "fpl_id": 515,
+        "understat_id": 9747,
+        "name": "Bali Mumba",
+        "team_name": "Norwich",
+        "position": "D"
+    },
+    {
+        "fpl_id": 327,
+        "understat_id": 9748,
+        "name": "Jacob Sørensen",
+        "team_name": "Norwich",
+        "position": "D"
+    },
+    {
+        "fpl_id": 568,
+        "understat_id": 9912,
+        "name": "Cameron Archer",
+        "team_name": "Aston Villa",
+        "position": "F"
+    },
+    {
+        "fpl_id": 498,
+        "understat_id": 9915,
+        "name": "Dominic Thompson",
+        "team_name": "Brentford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 569,
+        "understat_id": 9916,
+        "name": "Finley Stevens",
+        "team_name": "Brentford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 576,
+        "understat_id": 9933,
+        "name": "Liam McCarron",
+        "team_name": "Leeds",
+        "position": "M"
+    },
+    {
+        "fpl_id": 557,
+        "understat_id": 9957,
+        "name": "Ozan Tufan",
+        "team_name": "Watford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 601,
+        "understat_id": 10001,
+        "name": "Stuart McKinstry",
+        "team_name": "Leeds",
+        "position": "M"
+    },
+    {
+        "fpl_id": 607,
+        "understat_id": 10027,
+        "name": "Lewis Dobbin",
+        "team_name": "Everton",
+        "position": "F"
+    },
+    {
+        "fpl_id": 608,
+        "understat_id": 10028,
+        "name": "Leo Fuhr Hjelde",
+        "team_name": "Leeds",
+        "position": "D"
+    },
+    {
+        "fpl_id": 612,
+        "understat_id": 10036,
+        "name": "Jeremy Sarmiento",
+        "team_name": "Brighton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 617,
+        "understat_id": 10061,
+        "name": "Harrison Ashby",
+        "team_name": "West Ham",
+        "position": "D"
+    },
+    {
+        "fpl_id": 620,
+        "understat_id": 10091,
+        "name": "Tyler Morton",
+        "team_name": "Liverpool",
+        "position": "M"
+    },
+    {
+        "fpl_id": 328,
+        "understat_id": 10097,
+        "name": "Przemyslaw Placheta",
+        "team_name": "Norwich",
+        "position": "M"
+    },
+    {
+        "fpl_id": 625,
+        "understat_id": 10118,
+        "name": "Kaide Gordon",
+        "team_name": "Liverpool",
+        "position": "M"
+    },
+    {
+        "fpl_id": 629,
+        "understat_id": 10126,
+        "name": "James McAtee",
+        "team_name": "Man City",
+        "position": "M"
+    },
+    {
+        "fpl_id": 634,
+        "understat_id": 10141,
+        "name": "Sonny Perkins",
+        "team_name": "West Ham",
+        "position": "M"
+    },
+    {
+        "fpl_id": 647,
+        "understat_id": 10166,
+        "name": "Kasey McAteer",
+        "team_name": "Leicester",
+        "position": "M"
+    },
+    {
+        "fpl_id": 648,
+        "understat_id": 10172,
+        "name": "Jonathan Rowe",
+        "team_name": "Norwich",
+        "position": "M"
+    },
+    {
+        "fpl_id": 655,
+        "understat_id": 10177,
+        "name": "Evan Ferguson",
+        "team_name": "Brighton",
+        "position": "F"
+    },
+    {
+        "fpl_id": 663,
+        "understat_id": 10203,
+        "name": "Kayky da Silva Chagas",
+        "team_name": "Man City",
+        "position": "F"
+    },
+    {
+        "fpl_id": 679,
+        "understat_id": 10290,
+        "name": "Edo Kayembe",
+        "team_name": "Watford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 675,
+        "understat_id": 10291,
+        "name": "Vitalii Mykolenko",
+        "team_name": "Everton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 685,
+        "understat_id": 10293,
+        "name": "Toti António Gomes",
+        "team_name": "Wolves",
+        "position": "D"
+    },
+    {
+        "fpl_id": 689,
+        "understat_id": 10327,
+        "name": "Francisco Jorge Tomás Oliveira",
+        "team_name": "Wolves",
+        "position": "M"
+    },
+    {
+        "fpl_id": 82,
+        "understat_id": 10405,
+        "name": "Pelenda Joshua Dasilva",
+        "team_name": "Brentford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 710,
+        "understat_id": 10424,
+        "name": "Daniel Chesters",
+        "team_name": "West Ham",
+        "position": "M"
+    }
+]
