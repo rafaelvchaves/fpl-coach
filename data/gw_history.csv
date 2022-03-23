@@ -1,5 +1,6 @@
 gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 1,1,2021-08-13,Pelenda Joshua Dasilva,M,True,0,0,0,,
+1,1,2021-08-13,Tariqe Fosu-Henry,M,True,0,0,0,,
 1,1,2021-08-13,Dominic Thompson,D,True,0,0,0,,
 1,1,2021-08-13,Nuno Varela Tavares,D,False,9,0,1,0.014,0.0
 1,1,2021-08-13,Folarin Balogun,F,False,58,0,1,0.157,0.0
@@ -37,8 +38,8 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 1,1,2021-08-13,Thomas Partey,M,False,0,0,0,,
 1,1,2021-08-13,Sergi Canós,M,True,90,3,11,0.19,0.559
 1,1,2021-08-13,Bryan Mbeumo,M,True,85,0,3,0.199,0.073
-1,1,2021-08-13,Yoane Wissa,M,True,0,0,0,,
 1,1,2021-08-13,Gabriel Magalhães,D,False,0,0,0,,
+1,1,2021-08-13,Yoane Wissa,M,True,0,0,0,,
 1,1,2021-08-13,Alexandre Lacazette,F,False,0,0,0,,
 1,1,2021-08-13,Pierre-Emerick Aubameyang,F,False,0,0,0,,
 1,1,2021-08-13,Gabriel Teodoro Martinelli Silva,M,False,70,0,2,0.121,0.076
@@ -122,7 +123,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 1,5,2021-08-14,Boubakary Soumaré,M,True,28,0,1,0.0,0.0
 1,6,2021-08-14,Robin Koch,D,False,90,0,0,0.0,0.0
 1,5,2021-08-14,Nélson Cabral Semedo,D,False,0,0,0,,
-1,5,2021-08-14,Timothy Castagne,D,True,0,0,0,,
 1,8,2021-08-14,Will Hughes,M,True,0,0,0,,
 1,6,2021-08-14,Victor Lindelöf,D,True,90,0,5,0.0,0.362
 1,2,2021-08-14,Dale Stephens,M,True,0,0,0,,
@@ -229,6 +229,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 1,7,2021-08-14,Curtis Jones,M,False,0,0,0,,
 1,7,2021-08-14,Milot Rashica,M,True,76,0,2,0.042,0.063
 1,3,2021-08-14,Callum Hudson-Odoi,M,True,0,0,0,,
+1,5,2021-08-14,Timothy Castagne,D,True,0,0,0,,
 1,8,2021-08-14,Douglas Luiz Soares de Paulo,M,False,0,0,0,,
 1,2,2021-08-14,Lewis Dunk,D,False,90,0,2,0.0,0.0
 1,2,2021-08-14,Shane Duffy,D,False,90,0,2,0.064,0.0
@@ -347,10 +348,10 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 1,4,2021-08-14,James Ward-Prowse,M,False,90,0,2,0.0,0.073
 1,8,2021-08-14,Ollie Watkins,F,False,0,0,0,,
 1,4,2021-08-14,Che Adams,F,False,90,0,5,0.0,0.361
-1,5,2021-08-14,James Maddison,M,True,61,0,3,0.0,0.081
 1,3,2021-08-14,Conor Gallagher,M,False,0,0,0,,
 1,3,2021-08-14,Mason Mount,M,True,90,0,6,0.147,0.0
 1,7,2021-08-14,Teemu Pukki,F,True,76,0,2,0.309,0.0
+1,5,2021-08-14,James Maddison,M,True,61,0,3,0.0,0.081
 1,2,2021-08-14,Neal Maupay,F,False,90,0,5,0.815,0.0
 1,8,2021-08-14,Emmanuel Dennis,F,True,65,3,12,0.593,0.214
 1,6,2021-08-14,Raphael Dias Belloli,M,False,90,0,1,0.304,0.105
@@ -434,10 +435,10 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 1,10,2021-08-15,Rodrigo Hernandez,M,False,0,0,0,,
 1,9,2021-08-15,Tomas Soucek,M,False,90,1,8,0.797,0.0
 1,9,2021-08-15,Manuel Lanzini,M,False,0,0,0,,
-1,9,2021-08-15,Saïd Benrahma,M,False,87,2,12,0.577,0.389
 1,10,2021-08-15,Rodrigo Hernandez,M,False,0,0,0,,
 1,10,2021-08-15,Ilkay Gündogan,M,False,90,0,2,0.173,0.0
 1,9,2021-08-15,Allan Saint-Maximin,F,True,90,1,6,0.0,0.858
+1,9,2021-08-15,Saïd Benrahma,M,False,87,2,12,0.577,0.389
 1,9,2021-08-15,Pablo Fornals,M,False,90,0,5,0.077,0.554
 1,9,2021-08-15,Callum Wilson,F,True,84,0,6,1.007,0.0
 1,10,2021-08-15,Phil Foden,M,False,0,0,0,,
@@ -447,10 +448,11 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 1,10,2021-08-15,Kevin De Bruyne,M,False,11,0,1,0.024,0.008
 1,10,2021-08-15,Riyad Mahrez,M,False,78,0,2,0.5,0.014
 1,10,2021-08-15,Raheem Sterling,M,False,69,0,2,0.032,0.0
-1,10,2021-08-15,Heung-Min Son,M,True,90,2,10,0.274,0.054
 1,10,2021-08-15,Harry Kane,F,True,0,0,0,,
+1,10,2021-08-15,Heung-Min Son,M,True,90,2,10,0.274,0.054
 2,13,2021-08-21,Pelenda Joshua Dasilva,M,False,0,0,0,,
 2,16,2021-08-21,Przemyslaw Placheta,M,False,0,0,0,,
+2,13,2021-08-21,Tariqe Fosu-Henry,M,False,0,0,0,,
 2,12,2021-08-21,Ozan Tufan,M,False,0,0,0,,
 2,13,2021-08-21,Dominic Thompson,D,False,0,0,0,,
 2,16,2021-08-21,Jacob Sørensen,D,False,0,0,0,,
@@ -679,7 +681,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 2,14,2021-08-21,Anthony Gordon,M,False,0,0,0,,
 2,11,2021-08-21,John McGinn,M,True,90,0,3,0.022,0.08
 2,13,2021-08-21,Bryan Mbeumo,M,False,76,0,3,0.159,0.236
-2,13,2021-08-21,Yoane Wissa,M,False,13,0,1,0.0,0.0
 2,13,2021-08-21,Jean-Philippe Mateta,F,True,0,0,0,,
 2,14,2021-08-21,Dominic Calvert-Lewin,F,False,89,1,7,0.56,0.107
 2,16,2021-08-21,Aymeric Laporte,D,True,90,2,14,0.163,0.0
@@ -692,6 +693,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 2,12,2021-08-21,Alexis Mac Allister,M,True,90,0,3,0.604,0.111
 2,12,2021-08-21,Leandro Trossard,M,True,71,0,3,0.057,0.0
 2,14,2021-08-21,Richarlison de Andrade,F,False,90,0,2,0.246,0.05
+2,13,2021-08-21,Yoane Wissa,M,False,13,0,1,0.0,0.0
 2,15,2021-08-21,Chris Wood,F,False,74,0,2,0.07,0.0
 2,15,2021-08-21,Fabio Henrique Tavares,M,True,0,0,0,,
 2,13,2021-08-21,Christian Benteke,F,True,90,0,1,0.111,0.052
@@ -863,8 +865,8 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 2,18,2021-08-22,Bukayo Saka,M,True,60,0,2,0.019,0.035
 2,18,2021-08-22,Emile Smith Rowe,M,True,90,0,2,0.125,0.0
 2,19,2021-08-22,Bruno Miguel Borges Fernandes,M,False,90,0,1,0.092,0.592
-2,17,2021-08-22,Heung-Min Son,M,False,71,0,3,0.177,0.0
 2,17,2021-08-22,Harry Kane,F,False,18,0,0,0.453,0.158
+2,17,2021-08-22,Heung-Min Son,M,False,71,0,3,0.177,0.0
 2,20,2021-08-23,Kiernan Dewsbury-Hall,M,False,0,0,0,,
 2,20,2021-08-23,Vladimir Coufal,D,True,90,0,5,0.0,0.551
 2,20,2021-08-23,Luke Thomas,D,False,90,0,0,0.0,0.0
@@ -872,7 +874,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 2,20,2021-08-23,Ryan Fredericks,D,True,0,0,0,,
 2,20,2021-08-23,Hamza Choudhury,M,False,0,0,0,,
 2,20,2021-08-23,Boubakary Soumaré,M,False,9,0,1,0.0,0.0
-2,20,2021-08-23,Timothy Castagne,D,False,0,0,0,,
 2,20,2021-08-23,Wilfred Ndidi,M,False,90,0,2,0.0,0.0
 2,20,2021-08-23,Issa Diop,D,True,0,0,0,,
 2,20,2021-08-23,Alphonse Areola,G,True,0,0,0,,
@@ -885,6 +886,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 2,20,2021-08-23,Jannik Vestergaard,D,False,0,0,0,,
 2,20,2021-08-23,Ben Johnson,D,True,0,0,0,,
 2,20,2021-08-23,Andriy Yarmolenko,M,True,1,0,1,0.0,0.0
+2,20,2021-08-23,Timothy Castagne,D,False,0,0,0,,
 2,20,2021-08-23,Declan Rice,M,True,90,1,6,0.014,0.178
 2,20,2021-08-23,Çaglar Söyüncü,D,False,90,0,0,0.0,0.0
 2,20,2021-08-23,Ricardo Domingos Barbosa Pereira,D,False,90,0,-1,0.07,0.0
@@ -900,8 +902,8 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 2,20,2021-08-23,Patson Daka,F,False,26,0,1,0.0,0.0
 2,20,2021-08-23,Tomas Soucek,M,True,90,0,2,0.248,0.0
 2,20,2021-08-23,Manuel Lanzini,M,True,0,0,0,,
-2,20,2021-08-23,Saïd Benrahma,M,True,87,2,12,0.424,0.18
 2,20,2021-08-23,Youri Tielemans,M,False,90,0,7,0.489,0.0
+2,20,2021-08-23,Saïd Benrahma,M,True,87,2,12,0.424,0.18
 2,20,2021-08-23,Pablo Fornals,M,True,90,1,8,0.122,0.433
 2,20,2021-08-23,James Maddison,M,False,80,0,2,0.02,0.078
 2,20,2021-08-23,Jarrod Bowen,M,True,90,0,2,0.0,0.329
@@ -909,6 +911,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 2,20,2021-08-23,Jamie Vardy,F,False,80,0,2,0.0,0.0
 3,21,2021-08-28,Pelenda Joshua Dasilva,M,False,0,0,0,,
 3,26,2021-08-28,Przemyslaw Placheta,M,True,0,0,0,,
+3,21,2021-08-28,Tariqe Fosu-Henry,M,False,0,0,0,,
 3,21,2021-08-28,Finley Stevens,D,False,0,0,0,,
 3,21,2021-08-28,Dominic Thompson,D,False,0,0,0,,
 3,21,2021-08-28,Cameron Archer,F,True,0,0,0,,
@@ -983,7 +986,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 3,28,2021-08-28,Joachim Andersen,D,False,90,0,1,0.0,0.013
 3,26,2021-08-28,Boubakary Soumaré,M,False,0,0,0,,
 3,25,2021-08-28,Lyanco Evangelista Silveira Neves Vojnovic,D,False,0,0,0,,
-3,26,2021-08-28,Timothy Castagne,D,False,79,0,2,0.0,0.0
 3,28,2021-08-28,Will Hughes,M,False,0,0,0,,
 3,24,2021-08-28,Ederson Santana de Moraes,G,True,90,0,6,0.0,0.0
 3,22,2021-08-28,Solomon March,M,True,0,0,0,,
@@ -1087,6 +1089,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 3,23,2021-08-28,Callum Hudson-Odoi,M,False,0,0,0,,
 3,28,2021-08-28,Ben Johnson,D,True,0,0,0,,
 3,28,2021-08-28,Andriy Yarmolenko,M,True,3,0,1,0.039,0.0
+3,26,2021-08-28,Timothy Castagne,D,False,79,0,2,0.0,0.0
 3,21,2021-08-28,Douglas Luiz Soares de Paulo,M,True,90,0,2,0.0,0.07
 3,25,2021-08-28,Jacob Murphy,M,True,90,0,5,0.101,0.508
 3,25,2021-08-28,Isaac Hayden,M,True,0,0,0,,
@@ -1171,7 +1174,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 3,23,2021-08-28,Trevoh Chalobah,D,False,3,0,1,0.0,0.0
 3,21,2021-08-28,Bryan Mbeumo,M,False,79,0,2,0.319,0.0
 3,25,2021-08-28,Jan Bednarek,D,False,0,0,0,,
-3,21,2021-08-28,Yoane Wissa,M,False,24,0,1,0.0,0.0
 3,28,2021-08-28,Jean-Philippe Mateta,F,False,0,0,0,,
 3,24,2021-08-28,Gabriel Magalhães,D,False,0,0,0,,
 3,22,2021-08-28,Dominic Calvert-Lewin,F,False,69,3,9,0.08,0.032
@@ -1190,6 +1192,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 3,22,2021-08-28,Leandro Trossard,M,True,90,0,2,0.241,0.021
 3,25,2021-08-28,Mohamed Elyounoussi,M,False,90,1,8,1.596,0.138
 3,22,2021-08-28,Richarlison de Andrade,F,False,90,0,1,0.14,0.073
+3,21,2021-08-28,Yoane Wissa,M,False,24,0,1,0.0,0.0
 3,23,2021-08-28,Fabio Henrique Tavares,M,True,90,0,2,0.033,0.0
 3,24,2021-08-28,Alexandre Lacazette,F,False,31,0,1,0.0,0.0
 3,23,2021-08-28,Christian Pulisic,M,False,0,0,0,,
@@ -1198,7 +1201,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 3,24,2021-08-28,Pierre-Emerick Aubameyang,F,False,58,0,1,0.0,0.0
 3,23,2021-08-28,Reece James,D,False,47,0,1,0.0,0.021
 3,24,2021-08-28,Gabriel Teodoro Martinelli Silva,M,False,0,0,0,,
-3,28,2021-08-28,Saïd Benrahma,M,True,90,0,2,0.095,0.081
 3,24,2021-08-28,Martin Ødegaard,M,False,70,0,2,0.0,0.0
 3,24,2021-08-28,Rodrigo Hernandez,M,True,90,0,7,0.05,0.121
 3,21,2021-08-28,Danny Ings,F,True,90,0,4,0.128,0.063
@@ -1211,18 +1213,19 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 3,25,2021-08-28,Armando Broja,F,False,19,0,1,0.0,0.0
 3,26,2021-08-28,Youri Tielemans,M,False,90,0,2,0.032,0.082
 3,23,2021-08-28,Kai Havertz,M,False,45,1,7,0.123,0.0
+3,28,2021-08-28,Saïd Benrahma,M,True,90,0,2,0.095,0.081
 3,28,2021-08-28,Pablo Fornals,M,True,86,0,7,0.562,0.019
 3,23,2021-08-28,Jorge Luiz Frello Filho,M,False,86,0,2,0.0,0.0
 3,25,2021-08-28,James Ward-Prowse,M,False,90,2,8,0.125,0.06
 3,25,2021-08-28,Callum Wilson,F,True,68,3,9,0.571,0.0
 3,21,2021-08-28,Ollie Watkins,F,True,11,0,1,0.09,0.0
 3,25,2021-08-28,Che Adams,F,False,70,0,2,0.08,0.088
-3,26,2021-08-28,James Maddison,M,False,85,0,2,0.207,0.0
 3,24,2021-08-28,Phil Foden,M,True,0,0,0,,
 3,24,2021-08-28,Bernardo Mota Veiga de Carvalho e Silva,M,True,57,0,4,0.114,0.0
 3,28,2021-08-28,Conor Gallagher,M,False,90,3,15,0.741,0.767
 3,23,2021-08-28,Mason Mount,M,False,90,0,2,0.114,0.149
 3,26,2021-08-28,Teemu Pukki,F,True,72,1,7,0.179,0.021
+3,26,2021-08-28,James Maddison,M,False,85,0,2,0.207,0.0
 3,22,2021-08-28,Neal Maupay,F,True,90,0,2,0.113,0.089
 3,28,2021-08-28,Jarrod Bowen,M,True,78,0,2,0.021,0.225
 3,28,2021-08-28,Michail Antonio,F,True,90,2,11,0.555,0.571
@@ -1369,10 +1372,11 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 3,27,2021-08-29,Emmanuel Dennis,F,False,90,0,1,0.128,0.0
 3,29,2021-08-29,Raphael Dias Belloli,M,False,90,0,2,0.335,0.126
 3,30,2021-08-29,Bruno Miguel Borges Fernandes,M,False,90,0,2,0.158,0.115
-3,27,2021-08-29,Heung-Min Son,M,True,87,2,10,0.089,0.103
 3,27,2021-08-29,Harry Kane,F,True,90,0,1,0.114,0.175
+3,27,2021-08-29,Heung-Min Son,M,True,87,2,10,0.089,0.103
 4,32,2021-09-11,Pelenda Joshua Dasilva,M,True,0,0,0,,
 4,31,2021-09-11,Przemyslaw Placheta,M,False,0,0,0,,
+4,32,2021-09-11,Tariqe Fosu-Henry,M,True,0,0,0,,
 4,40,2021-09-11,Ozan Tufan,M,True,0,0,0,,
 4,32,2021-09-11,Finley Stevens,D,True,0,0,0,,
 4,32,2021-09-11,Dominic Thompson,D,True,0,0,0,,
@@ -1468,7 +1472,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 4,37,2021-09-11,Boubakary Soumaré,M,True,0,0,0,,
 4,39,2021-09-11,Lyanco Evangelista Silveira Neves Vojnovic,D,True,0,0,0,,
 4,40,2021-09-11,Nélson Cabral Semedo,D,False,90,0,6,0.828,0.0
-4,37,2021-09-11,Timothy Castagne,D,True,90,0,2,0.0,0.0
 4,34,2021-09-11,Will Hughes,M,True,0,0,0,,
 4,38,2021-09-11,Victor Lindelöf,D,True,0,0,0,,
 4,37,2021-09-11,Ederson Santana de Moraes,G,False,90,0,6,0.0,0.0
@@ -1591,6 +1594,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 4,39,2021-09-11,Ben Johnson,D,False,0,0,0,,
 4,39,2021-09-11,Nikola Vlasic,M,False,27,0,1,0.0,0.139
 4,39,2021-09-11,Andriy Yarmolenko,M,False,7,0,1,0.025,0.0
+4,37,2021-09-11,Timothy Castagne,D,True,90,0,2,0.0,0.0
 4,33,2021-09-11,Douglas Luiz Soares de Paulo,M,False,79,0,2,0.031,0.0
 4,38,2021-09-11,Jacob Murphy,M,False,13,0,1,0.0,0.0
 4,38,2021-09-11,Isaac Hayden,M,False,90,0,2,0.0,0.0
@@ -1686,7 +1690,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 4,32,2021-09-11,Bryan Mbeumo,M,True,90,0,1,0.422,0.016
 4,38,2021-09-11,Jadon Sancho,M,True,65,0,2,0.498,0.046
 4,39,2021-09-11,Jan Bednarek,D,True,0,0,0,,
-4,32,2021-09-11,Yoane Wissa,M,True,0,0,0,,
 4,34,2021-09-11,Jean-Philippe Mateta,F,True,0,0,0,,
 4,31,2021-09-11,Gabriel Magalhães,D,True,90,2,8,0.025,0.0
 4,33,2021-09-11,Thiago Emiliano da Silva,D,True,90,0,6,0.0,0.077
@@ -1702,6 +1705,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 4,32,2021-09-11,Leandro Trossard,M,False,90,3,11,0.093,0.168
 4,39,2021-09-11,Mohamed Elyounoussi,M,True,90,0,3,0.054,0.077
 4,40,2021-09-11,Rúben Diogo da Silva Neves,M,False,90,0,3,0.037,0.034
+4,32,2021-09-11,Yoane Wissa,M,True,0,0,0,,
 4,37,2021-09-11,Ademola Lookman,M,True,17,0,1,0.544,0.0
 4,31,2021-09-11,Alexandre Lacazette,F,True,0,0,0,,
 4,33,2021-09-11,Christian Pulisic,M,True,0,0,0,,
@@ -1715,7 +1719,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 4,38,2021-09-11,Mason Greenwood,M,True,84,0,5,0.043,0.046
 4,40,2021-09-11,Juan Camilo Hernández Suárez,F,True,37,0,1,0.0,0.0
 4,40,2021-09-11,Ismaila Sarr,M,True,90,0,2,0.0,0.043
-4,39,2021-09-11,Saïd Benrahma,M,False,62,0,3,0.06,0.168
 4,31,2021-09-11,Martin Ødegaard,M,True,90,0,3,0.0,0.04
 4,37,2021-09-11,Rodrigo Hernandez,M,False,90,0,2,0.0,0.0
 4,33,2021-09-11,Danny Ings,F,False,68,0,2,0.056,0.0
@@ -1729,18 +1732,19 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 4,33,2021-09-11,Kai Havertz,M,True,63,0,3,0.077,0.053
 4,40,2021-09-11,Raúl Jiménez,F,False,90,0,1,0.249,0.319
 4,34,2021-09-11,Odsonne Edouard,F,True,6,3,12,0.621,0.0
+4,39,2021-09-11,Saïd Benrahma,M,False,62,0,3,0.06,0.168
 4,39,2021-09-11,Pablo Fornals,M,False,90,0,3,0.0,0.0
 4,33,2021-09-11,Jorge Luiz Frello Filho,M,True,45,0,1,0.0,0.02
 4,39,2021-09-11,James Ward-Prowse,M,True,90,0,3,0.0,0.117
 4,38,2021-09-11,Callum Wilson,F,False,0,0,0,,
 4,33,2021-09-11,Ollie Watkins,F,False,90,0,2,0.777,0.033
 4,39,2021-09-11,Che Adams,F,True,0,0,0,,
-4,37,2021-09-11,James Maddison,M,True,73,0,2,0.0,0.094
 4,37,2021-09-11,Phil Foden,M,False,0,0,0,,
 4,37,2021-09-11,Bernardo Mota Veiga de Carvalho e Silva,M,False,90,2,10,1.02,0.547
 4,34,2021-09-11,Conor Gallagher,M,True,90,0,8,1.535,0.595
 4,33,2021-09-11,Mason Mount,M,True,0,0,0,,
 4,31,2021-09-11,Teemu Pukki,F,False,90,0,2,0.255,0.0
+4,37,2021-09-11,James Maddison,M,True,73,0,2,0.0,0.094
 4,32,2021-09-11,Neal Maupay,F,False,90,0,2,0.046,0.0
 4,39,2021-09-11,Jarrod Bowen,M,False,82,0,3,0.116,0.047
 4,39,2021-09-11,Michail Antonio,F,False,90,0,-1,0.189,0.0
@@ -1754,9 +1758,9 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 4,37,2021-09-11,Riyad Mahrez,M,False,0,0,0,,
 4,37,2021-09-11,Raheem Sterling,M,False,26,0,1,0.127,0.101
 4,32,2021-09-11,Ivan Toney,F,True,90,0,2,0.016,0.64
-4,34,2021-09-11,Heung-Min Son,M,False,0,0,0,,
 4,38,2021-09-11,Cristiano Ronaldo dos Santos Aveiro,F,True,90,3,13,1.422,0.022
 4,34,2021-09-11,Harry Kane,F,False,90,0,2,0.0,0.0
+4,34,2021-09-11,Heung-Min Son,M,False,0,0,0,,
 4,36,2021-09-12,Liam McCarron,M,True,0,0,0,,
 4,36,2021-09-12,Kristoffer Klaesson,G,True,0,0,0,,
 4,36,2021-09-12,Cody Drameh,D,True,0,0,0,,
@@ -1903,6 +1907,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 5,46,2021-09-17,Raphael Dias Belloli,M,False,66,1,8,0.295,0.211
 5,50,2021-09-18,Pelenda Joshua Dasilva,M,False,0,0,0,,
 5,47,2021-09-18,Przemyslaw Placheta,M,True,0,0,0,,
+5,50,2021-09-18,Tariqe Fosu-Henry,M,False,0,0,0,,
 5,47,2021-09-18,Ozan Tufan,M,False,0,0,0,,
 5,50,2021-09-18,Finley Stevens,D,False,0,0,0,,
 5,50,2021-09-18,Dominic Thompson,D,False,0,0,0,,
@@ -2141,7 +2146,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 5,50,2021-09-18,Conor Coady,D,True,90,0,0,0.0,0.0
 5,50,2021-09-18,Bryan Mbeumo,M,False,90,0,8,1.037,0.026
 5,45,2021-09-18,Jan Bednarek,D,False,90,3,9,0.0,0.0
-5,50,2021-09-18,Yoane Wissa,M,False,0,0,0,,
 5,44,2021-09-18,Jean-Philippe Mateta,F,False,0,0,0,,
 5,43,2021-09-18,Gabriel Magalhães,D,False,90,1,7,0.0,0.0
 5,41,2021-09-18,Dominic Calvert-Lewin,F,False,0,0,0,,
@@ -2154,6 +2158,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 5,45,2021-09-18,Mohamed Elyounoussi,M,False,90,0,3,0.104,0.108
 5,50,2021-09-18,Rúben Diogo da Silva Neves,M,True,90,0,1,0.013,0.023
 5,41,2021-09-18,Richarlison de Andrade,F,False,0,0,0,,
+5,50,2021-09-18,Yoane Wissa,M,False,0,0,0,,
 5,43,2021-09-18,Chris Wood,F,True,81,0,2,0.041,0.066
 5,44,2021-09-18,Fabio Henrique Tavares,M,True,90,0,3,0.119,0.0
 5,43,2021-09-18,Alexandre Lacazette,F,False,0,0,0,,
@@ -2220,7 +2225,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 5,42,2021-09-19,Hamza Choudhury,M,False,0,0,0,,
 5,48,2021-09-19,Joe Rodon,D,True,0,0,0,,
 5,42,2021-09-19,Boubakary Soumaré,M,False,74,0,2,0.032,0.0
-5,42,2021-09-19,Timothy Castagne,D,False,22,0,1,0.0,0.0
 5,49,2021-09-19,Victor Lindelöf,D,False,0,0,0,,
 5,42,2021-09-19,Solomon March,M,True,61,0,2,0.065,0.042
 5,48,2021-09-19,Giovani Lo Celso,M,True,61,0,2,0.124,0.431
@@ -2265,6 +2269,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 5,49,2021-09-19,Ben Johnson,D,True,0,0,0,,
 5,49,2021-09-19,Nikola Vlasic,M,True,67,0,2,0.093,0.0
 5,49,2021-09-19,Andriy Yarmolenko,M,True,22,0,1,0.0,0.015
+5,42,2021-09-19,Timothy Castagne,D,False,22,0,1,0.0,0.0
 5,42,2021-09-19,Lewis Dunk,D,True,90,0,2,0.0,0.0
 5,42,2021-09-19,Shane Duffy,D,True,90,0,5,0.067,0.02
 5,48,2021-09-19,Tanguy Ndombele,M,True,61,0,2,0.016,0.019
@@ -2317,24 +2322,25 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 5,49,2021-09-19,Manuel Lanzini,M,True,2,0,1,0.0,0.0
 5,48,2021-09-19,Reece James,D,False,0,0,0,,
 5,49,2021-09-19,Mason Greenwood,M,False,72,0,2,0.0,0.047
-5,49,2021-09-19,Saïd Benrahma,M,True,87,3,10,0.061,0.365
 5,48,2021-09-19,Romelu Lukaku,F,False,90,0,2,0.311,0.777
 5,42,2021-09-19,Youri Tielemans,M,False,90,0,5,0.117,0.767
 5,48,2021-09-19,Kai Havertz,M,False,69,0,3,0.204,0.0
+5,49,2021-09-19,Saïd Benrahma,M,True,87,3,10,0.061,0.365
 5,49,2021-09-19,Pablo Fornals,M,True,90,0,2,0.146,0.173
 5,48,2021-09-19,Jorge Luiz Frello Filho,M,False,90,0,3,0.0,0.093
-5,42,2021-09-19,James Maddison,M,False,45,0,1,0.019,0.0
 5,48,2021-09-19,Mason Mount,M,False,45,0,1,0.163,0.0
+5,42,2021-09-19,James Maddison,M,False,45,0,1,0.019,0.0
 5,42,2021-09-19,Neal Maupay,F,True,90,1,7,0.13,0.0
 5,49,2021-09-19,Jarrod Bowen,M,True,90,0,5,0.551,0.181
 5,49,2021-09-19,Michail Antonio,F,True,0,0,0,,
 5,49,2021-09-19,Bruno Miguel Borges Fernandes,M,False,90,0,2,0.078,0.858
 5,42,2021-09-19,Jamie Vardy,F,False,90,2,8,0.815,0.078
-5,48,2021-09-19,Heung-Min Son,M,True,90,0,2,0.434,0.027
 5,49,2021-09-19,Cristiano Ronaldo dos Santos Aveiro,F,False,90,0,6,1.896,0.0
 5,48,2021-09-19,Harry Kane,F,True,90,0,2,0.131,0.0
+5,48,2021-09-19,Heung-Min Son,M,True,90,0,2,0.434,0.027
 6,52,2021-09-25,Pelenda Joshua Dasilva,M,True,0,0,0,,
 6,55,2021-09-25,Przemyslaw Placheta,M,False,0,0,0,,
+6,52,2021-09-25,Tariqe Fosu-Henry,M,True,0,0,0,,
 6,56,2021-09-25,Leo Fuhr Hjelde,D,True,0,0,0,,
 6,55,2021-09-25,Lewis Dobbin,F,True,1,0,1,0.0,0.0
 6,56,2021-09-25,Stuart McKinstry,M,True,0,0,0,,
@@ -2410,7 +2416,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 6,52,2021-09-25,Ibrahima Konaté,D,False,0,0,0,,
 6,57,2021-09-25,Boubakary Soumaré,M,True,61,0,2,0.108,0.093
 6,56,2021-09-25,Robin Koch,D,True,0,0,0,,
-6,57,2021-09-25,Timothy Castagne,D,True,45,0,1,0.0,0.091
 6,58,2021-09-25,Victor Lindelöf,D,True,23,0,1,0.0,0.0
 6,53,2021-09-25,Ederson Santana de Moraes,G,False,90,0,6,0.0,0.0
 6,57,2021-09-25,Dale Stephens,M,False,0,0,0,,
@@ -2521,6 +2526,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 6,56,2021-09-25,Ben Johnson,D,False,0,0,0,,
 6,56,2021-09-25,Nikola Vlasic,M,False,12,0,1,0.0,0.0
 6,56,2021-09-25,Andriy Yarmolenko,M,False,1,0,1,0.0,0.0
+6,57,2021-09-25,Timothy Castagne,D,True,45,0,1,0.0,0.091
 6,58,2021-09-25,Douglas Luiz Soares de Paulo,M,False,90,1,7,0.041,0.637
 6,60,2021-09-25,Jacob Murphy,M,False,11,0,1,0.454,0.0
 6,60,2021-09-25,Isaac Hayden,M,False,90,0,2,0.0,0.045
@@ -2614,7 +2620,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 6,53,2021-09-25,Trevoh Chalobah,D,True,0,0,0,,
 6,52,2021-09-25,Bryan Mbeumo,M,True,90,0,2,0.521,0.091
 6,58,2021-09-25,Jadon Sancho,M,True,0,0,0,,
-6,52,2021-09-25,Yoane Wissa,M,True,12,0,6,0.544,0.0
 6,55,2021-09-25,Dominic Calvert-Lewin,F,True,0,0,0,,
 6,53,2021-09-25,Thiago Emiliano da Silva,D,True,61,0,2,0.0,0.0
 6,53,2021-09-25,Aymeric Laporte,D,False,90,0,5,0.43,0.0
@@ -2627,6 +2632,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 6,53,2021-09-25,Hakim Ziyech,M,True,0,0,0,,
 6,56,2021-09-25,Tomas Soucek,M,False,90,0,2,0.015,0.0
 6,55,2021-09-25,Richarlison de Andrade,F,True,0,0,0,,
+6,52,2021-09-25,Yoane Wissa,M,True,12,0,6,0.544,0.0
 6,56,2021-09-25,Daniel James,M,True,45,0,1,0.099,0.0
 6,57,2021-09-25,Ademola Lookman,M,True,77,1,3,0.045,0.361
 6,57,2021-09-25,Chris Wood,F,False,90,0,2,0.089,0.0
@@ -2639,7 +2645,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 6,58,2021-09-25,Mason Greenwood,M,True,90,0,2,0.461,0.1
 6,60,2021-09-25,Juan Camilo Hernández Suárez,F,True,0,0,0,,
 6,60,2021-09-25,Ismaila Sarr,M,True,90,2,9,0.378,0.0
-6,56,2021-09-25,Saïd Benrahma,M,False,90,1,3,0.214,0.729
 6,53,2021-09-25,Rodrigo Hernandez,M,False,90,0,3,0.175,0.102
 6,58,2021-09-25,Danny Ings,F,False,77,0,2,0.0,0.0
 6,55,2021-09-25,Demarai Gray,M,True,82,0,6,0.066,0.4
@@ -2651,16 +2656,17 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 6,58,2021-09-25,Jacob Ramsey,M,False,85,0,3,0.044,0.0
 6,57,2021-09-25,Youri Tielemans,M,True,90,2,7,0.163,0.579
 6,53,2021-09-25,Kai Havertz,M,True,30,0,1,0.0,0.0
+6,56,2021-09-25,Saïd Benrahma,M,False,90,1,3,0.214,0.729
 6,57,2021-09-25,Maxwel Cornet,M,False,45,0,5,0.152,0.0
 6,56,2021-09-25,Pablo Fornals,M,False,77,0,1,0.311,0.031
 6,53,2021-09-25,Jorge Luiz Frello Filho,M,True,75,0,2,0.0,0.0
 6,60,2021-09-25,Callum Wilson,F,False,0,0,0,,
 6,58,2021-09-25,Ollie Watkins,F,False,90,0,2,0.41,0.0
-6,57,2021-09-25,James Maddison,M,True,12,0,1,0.0,0.02
 6,53,2021-09-25,Phil Foden,M,False,86,0,3,0.0,0.559
 6,53,2021-09-25,Bernardo Mota Veiga de Carvalho e Silva,M,False,90,0,3,0.0,0.032
 6,53,2021-09-25,Mason Mount,M,True,0,0,0,,
 6,55,2021-09-25,Teemu Pukki,F,False,90,0,2,0.046,0.011
+6,57,2021-09-25,James Maddison,M,True,12,0,1,0.0,0.02
 6,56,2021-09-25,Jarrod Bowen,M,False,90,0,5,0.106,0.0
 6,56,2021-09-25,Michail Antonio,F,False,90,3,8,1.175,0.39
 6,60,2021-09-25,Emmanuel Dennis,F,True,74,0,1,0.278,0.036
@@ -2768,8 +2774,8 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 6,59,2021-09-26,Che Adams,F,True,63,0,2,0.148,0.146
 6,51,2021-09-26,Bukayo Saka,M,True,86,3,13,0.572,0.579
 6,51,2021-09-26,Emile Smith Rowe,M,True,87,2,12,0.538,0.153
-6,51,2021-09-26,Heung-Min Son,M,False,90,0,7,0.39,0.204
 6,51,2021-09-26,Harry Kane,F,False,90,0,2,0.453,0.0
+6,51,2021-09-26,Heung-Min Son,M,False,90,0,7,0.39,0.204
 6,54,2021-09-27,Taylor Richards,M,False,0,0,0,,
 6,54,2021-09-27,Jesurun Rak-Sakyi,M,True,0,0,0,,
 6,54,2021-09-27,Jakub Moder,M,False,25,0,1,0.0,0.0
@@ -3113,6 +3119,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 7,67,2021-10-02,Bruno Miguel Borges Fernandes,M,True,90,0,5,0.032,0.191
 7,67,2021-10-02,Cristiano Ronaldo dos Santos Aveiro,F,True,33,0,1,0.116,0.051
 7,69,2021-10-03,Pelenda Joshua Dasilva,M,False,0,0,0,,
+7,69,2021-10-03,Tariqe Fosu-Henry,M,False,0,0,0,,
 7,69,2021-10-03,Finley Stevens,D,False,0,0,0,,
 7,69,2021-10-03,Dominic Thompson,D,False,0,0,0,,
 7,68,2021-10-03,Cameron Archer,F,False,1,0,1,0.0,0.0
@@ -3155,7 +3162,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 7,66,2021-10-03,Ibrahima Konaté,D,True,0,0,0,,
 7,64,2021-10-03,Joachim Andersen,D,True,90,0,0,0.0,0.017
 7,64,2021-10-03,Boubakary Soumaré,M,False,30,0,1,0.0,0.0
-7,64,2021-10-03,Timothy Castagne,D,False,90,0,1,0.0,0.0
 7,64,2021-10-03,Will Hughes,M,True,0,0,0,,
 7,66,2021-10-03,Ederson Santana de Moraes,G,False,90,0,1,0.0,0.0
 7,64,2021-10-03,Jairo Riedewald,M,True,0,0,0,,
@@ -3206,6 +3212,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 7,69,2021-10-03,Ben Johnson,D,True,0,0,0,,
 7,69,2021-10-03,Nikola Vlasic,M,True,0,0,0,,
 7,69,2021-10-03,Andriy Yarmolenko,M,True,0,0,0,,
+7,64,2021-10-03,Timothy Castagne,D,False,90,0,1,0.0,0.0
 7,68,2021-10-03,Douglas Luiz Soares de Paulo,M,False,90,0,2,0.0,0.099
 7,69,2021-10-03,Mathias Jorgensen,D,False,90,0,1,0.0,0.0
 7,68,2021-10-03,Tanguy Ndombele,M,True,75,0,2,0.115,0.156
@@ -3263,7 +3270,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 7,68,2021-10-03,John McGinn,M,False,90,0,2,0.074,0.047
 7,64,2021-10-03,Harvey Barnes,M,False,90,0,4,0.165,0.346
 7,69,2021-10-03,Bryan Mbeumo,M,False,81,1,8,0.825,0.0
-7,69,2021-10-03,Yoane Wissa,M,False,8,2,8,0.082,0.0
 7,64,2021-10-03,Jean-Philippe Mateta,F,True,0,0,0,,
 7,66,2021-10-03,Aymeric Laporte,D,False,90,0,1,0.0,0.0
 7,66,2021-10-03,Rodrigo Hernandez,M,False,90,0,2,0.025,0.0
@@ -3271,11 +3277,11 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 7,64,2021-10-03,Jeffrey Schlupp,M,True,19,0,6,0.187,0.0
 7,64,2021-10-03,Patson Daka,F,False,0,0,0,,
 7,69,2021-10-03,Tomas Soucek,M,True,90,3,8,0.0,0.15
+7,69,2021-10-03,Yoane Wissa,M,False,8,2,8,0.082,0.0
 7,64,2021-10-03,Ademola Lookman,M,False,79,0,2,0.048,0.0
 7,66,2021-10-03,Fabio Henrique Tavares,M,True,90,0,1,0.3,0.0
 7,64,2021-10-03,Christian Benteke,F,True,5,0,1,0.0,0.0
 7,69,2021-10-03,Manuel Lanzini,M,True,0,0,0,,
-7,69,2021-10-03,Saïd Benrahma,M,True,90,0,2,0.18,0.108
 7,66,2021-10-03,Rodrigo Hernandez,M,False,90,0,2,0.025,0.0
 7,68,2021-10-03,Danny Ings,F,False,88,0,2,0.061,0.0
 7,66,2021-10-03,Roberto Firmino,F,True,22,0,1,0.0,0.0
@@ -3283,12 +3289,13 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 7,68,2021-10-03,Jacob Ramsey,M,False,68,0,1,0.123,0.0
 7,64,2021-10-03,Youri Tielemans,M,False,90,0,1,0.015,0.051
 7,64,2021-10-03,Odsonne Edouard,F,True,84,0,2,0.308,0.1
+7,69,2021-10-03,Saïd Benrahma,M,True,90,0,2,0.18,0.108
 7,69,2021-10-03,Pablo Fornals,M,True,90,0,2,0.152,0.0
 7,68,2021-10-03,Ollie Watkins,F,False,90,0,6,0.708,0.0
-7,64,2021-10-03,James Maddison,M,False,19,0,1,0.05,0.0
 7,66,2021-10-03,Phil Foden,M,False,90,0,7,0.426,0.083
 7,66,2021-10-03,Bernardo Mota Veiga de Carvalho e Silva,M,False,90,0,1,0.0,0.365
 7,64,2021-10-03,Conor Gallagher,M,True,70,0,2,0.227,0.112
+7,64,2021-10-03,James Maddison,M,False,19,0,1,0.05,0.0
 7,69,2021-10-03,Jarrod Bowen,M,True,90,0,7,0.59,0.0
 7,69,2021-10-03,Michail Antonio,F,True,90,0,2,0.187,0.22
 7,64,2021-10-03,Wilfried Zaha,M,True,90,0,2,0.115,0.197
@@ -3297,13 +3304,14 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 7,66,2021-10-03,Riyad Mahrez,M,False,0,0,0,,
 7,66,2021-10-03,Raheem Sterling,M,False,24,0,1,0.0,0.109
 7,69,2021-10-03,Ivan Toney,F,False,90,0,2,0.078,0.251
-7,68,2021-10-03,Heung-Min Son,M,True,90,2,10,0.545,0.124
 7,66,2021-10-03,Sadio Mané,M,True,90,0,7,0.334,0.0
 7,68,2021-10-03,Harry Kane,F,True,90,0,2,0.386,0.406
 7,66,2021-10-03,Diogo Jota,M,True,67,0,2,0.072,0.0
+7,68,2021-10-03,Heung-Min Son,M,True,90,2,10,0.545,0.124
 7,66,2021-10-03,Mohamed Salah,M,True,90,3,13,0.243,0.634
 8,73,2021-10-16,Pelenda Joshua Dasilva,M,True,0,0,0,,
 8,78,2021-10-16,Przemyslaw Placheta,M,True,0,0,0,,
+8,73,2021-10-16,Tariqe Fosu-Henry,M,True,0,0,0,,
 8,78,2021-10-16,Jeremy Sarmiento,M,False,0,0,0,,
 8,79,2021-10-16,Leo Fuhr Hjelde,D,False,0,0,0,,
 8,79,2021-10-16,Stuart McKinstry,M,False,0,0,0,,
@@ -3397,7 +3405,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 8,79,2021-10-16,Robin Koch,D,False,0,0,0,,
 8,79,2021-10-16,Lyanco Evangelista Silveira Neves Vojnovic,D,True,0,0,0,,
 8,72,2021-10-16,Nélson Cabral Semedo,D,False,90,0,1,0.0,0.05
-8,75,2021-10-16,Timothy Castagne,D,True,90,0,1,0.054,0.028
 8,75,2021-10-16,Victor Lindelöf,D,False,90,0,2,0.0,0.251
 8,76,2021-10-16,Ederson Santana de Moraes,G,True,0,0,0,,
 8,76,2021-10-16,Dale Stephens,M,False,0,0,0,,
@@ -3498,6 +3505,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 8,80,2021-10-16,Curtis Jones,M,False,0,0,0,,
 8,78,2021-10-16,Milot Rashica,M,True,14,0,1,0.0,0.119
 8,73,2021-10-16,Callum Hudson-Odoi,M,False,0,0,0,,
+8,75,2021-10-16,Timothy Castagne,D,True,90,0,1,0.054,0.028
 8,72,2021-10-16,Douglas Luiz Soares de Paulo,M,True,67,0,3,0.019,0.012
 8,78,2021-10-16,Lewis Dunk,D,False,90,3,9,0.026,0.0
 8,78,2021-10-16,Shane Duffy,D,False,90,0,5,0.032,0.0
@@ -3582,7 +3590,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 8,73,2021-10-16,Bryan Mbeumo,M,True,90,0,2,0.153,0.0
 8,75,2021-10-16,Jadon Sancho,M,False,64,0,2,0.0,0.224
 8,79,2021-10-16,Jan Bednarek,D,True,90,0,5,0.0,0.0
-8,73,2021-10-16,Yoane Wissa,M,True,0,0,0,,
 8,73,2021-10-16,Thiago Emiliano da Silva,D,False,0,0,0,,
 8,76,2021-10-16,Aymeric Laporte,D,True,71,0,5,0.068,0.0
 8,76,2021-10-16,Rodrigo Hernandez,M,True,90,0,3,0.0,0.0
@@ -3596,6 +3603,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 8,78,2021-10-16,Leandro Trossard,M,False,90,0,3,0.191,0.0
 8,79,2021-10-16,Mohamed Elyounoussi,M,True,90,0,3,0.588,0.02
 8,72,2021-10-16,Rúben Diogo da Silva Neves,M,False,90,2,8,0.058,0.0
+8,73,2021-10-16,Yoane Wissa,M,True,0,0,0,,
 8,79,2021-10-16,Daniel James,M,False,90,0,2,0.345,0.0
 8,75,2021-10-16,Ademola Lookman,M,True,0,0,0,,
 8,76,2021-10-16,Chris Wood,F,False,81,0,2,0.531,0.0
@@ -3624,11 +3632,11 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 8,79,2021-10-16,James Ward-Prowse,M,True,0,0,0,,
 8,72,2021-10-16,Ollie Watkins,F,True,90,0,4,0.132,0.04
 8,79,2021-10-16,Che Adams,F,True,0,0,0,,
-8,75,2021-10-16,James Maddison,M,True,72,0,2,0.099,0.0
 8,76,2021-10-16,Phil Foden,M,True,90,0,6,0.159,0.0
 8,76,2021-10-16,Bernardo Mota Veiga de Carvalho e Silva,M,True,90,3,11,1.14,0.257
 8,73,2021-10-16,Mason Mount,M,False,25,0,1,0.0,0.0
 8,78,2021-10-16,Teemu Pukki,F,True,89,0,1,0.593,0.0
+8,75,2021-10-16,James Maddison,M,True,72,0,2,0.099,0.0
 8,78,2021-10-16,Neal Maupay,F,False,90,0,2,0.651,0.161
 8,80,2021-10-16,Emmanuel Dennis,F,True,68,0,2,0.0,0.0
 8,79,2021-10-16,Raphael Dias Belloli,M,False,0,0,0,,
@@ -3728,15 +3736,15 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 8,74,2021-10-17,Tomas Soucek,M,False,78,0,3,0.0,0.092
 8,74,2021-10-17,Richarlison de Andrade,F,True,0,0,0,,
 8,74,2021-10-17,Manuel Lanzini,M,False,3,0,1,0.0,0.0
-8,74,2021-10-17,Saïd Benrahma,M,False,86,0,3,0.155,0.044
 8,74,2021-10-17,Demarai Gray,M,True,90,0,2,0.089,0.112
 8,77,2021-10-17,Allan Saint-Maximin,F,True,90,0,2,0.064,0.08
+8,74,2021-10-17,Saïd Benrahma,M,False,86,0,3,0.155,0.044
 8,74,2021-10-17,Pablo Fornals,M,False,90,0,2,0.175,0.0
 8,77,2021-10-17,Callum Wilson,F,True,76,2,8,0.431,0.037
 8,74,2021-10-17,Jarrod Bowen,M,False,90,0,6,0.208,0.57
 8,74,2021-10-17,Michail Antonio,F,False,90,0,1,0.915,0.167
-8,77,2021-10-17,Heung-Min Son,M,False,90,2,9,0.683,0.234
 8,77,2021-10-17,Harry Kane,F,False,90,3,12,0.374,0.748
+8,77,2021-10-17,Heung-Min Son,M,False,90,2,9,0.683,0.234
 8,71,2021-10-18,Nuno Varela Tavares,D,True,0,0,0,,
 8,71,2021-10-18,Folarin Balogun,F,True,0,0,0,,
 8,71,2021-10-18,Albert Sambi Lokonga,M,True,45,0,1,0.0,0.016
@@ -4135,6 +4143,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 9,83,2021-10-23,Riyad Mahrez,M,False,3,0,6,0.435,0.0
 9,83,2021-10-23,Raheem Sterling,M,False,0,0,0,,
 9,82,2021-10-24,Pelenda Joshua Dasilva,M,True,0,0,0,,
+9,82,2021-10-24,Tariqe Fosu-Henry,M,True,0,0,0,,
 9,90,2021-10-24,Harrison Ashby,D,True,0,0,0,,
 9,82,2021-10-24,Finley Stevens,D,True,0,0,0,,
 9,82,2021-10-24,Dominic Thompson,D,True,0,0,0,,
@@ -4166,7 +4175,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 9,90,2021-10-24,Joe Rodon,D,False,0,0,0,,
 9,88,2021-10-24,Ibrahima Konaté,D,False,90,0,6,0.0,0.0
 9,82,2021-10-24,Boubakary Soumaré,M,False,90,0,2,0.044,0.0
-9,82,2021-10-24,Timothy Castagne,D,False,90,0,2,0.0,0.0
 9,88,2021-10-24,Victor Lindelöf,D,True,90,0,0,0.0,0.0
 9,90,2021-10-24,Giovani Lo Celso,M,False,6,0,1,0.0,0.0
 9,88,2021-10-24,Aaron Wan-Bissaka,D,True,90,0,-1,0.0,0.0
@@ -4205,6 +4213,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 9,90,2021-10-24,Ben Johnson,D,True,90,0,6,0.049,0.059
 9,90,2021-10-24,Nikola Vlasic,M,True,0,0,0,,
 9,90,2021-10-24,Andriy Yarmolenko,M,True,0,0,0,,
+9,82,2021-10-24,Timothy Castagne,D,False,90,0,2,0.0,0.0
 9,82,2021-10-24,Mathias Jorgensen,D,True,90,0,6,0.142,0.023
 9,90,2021-10-24,Tanguy Ndombele,M,False,83,0,2,0.139,0.322
 9,88,2021-10-24,Scott McTominay,M,True,90,0,2,0.0,0.728
@@ -4250,18 +4259,18 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 9,82,2021-10-24,Harvey Barnes,M,False,0,0,0,,
 9,82,2021-10-24,Bryan Mbeumo,M,True,56,0,1,0.154,0.0
 9,88,2021-10-24,Jadon Sancho,M,True,0,0,0,,
-9,82,2021-10-24,Yoane Wissa,M,True,0,0,0,,
 9,88,2021-10-24,Virgil van Dijk,D,False,90,0,6,0.0,0.0
 9,82,2021-10-24,Patson Daka,F,False,45,0,4,0.184,0.536
 9,90,2021-10-24,Tomas Soucek,M,True,90,0,2,0.646,0.091
+9,82,2021-10-24,Yoane Wissa,M,True,0,0,0,,
 9,82,2021-10-24,Ademola Lookman,M,False,0,0,0,,
 9,88,2021-10-24,Fabio Henrique Tavares,M,False,0,0,0,,
 9,88,2021-10-24,Marcus Rashford,M,True,61,0,2,0.078,0.0
 9,90,2021-10-24,Manuel Lanzini,M,True,5,0,1,0.0,0.0
 9,88,2021-10-24,Mason Greenwood,M,True,45,0,1,0.043,0.36
-9,90,2021-10-24,Saïd Benrahma,M,True,84,0,3,0.221,0.0
 9,88,2021-10-24,Roberto Firmino,F,False,76,0,2,0.243,0.058
 9,82,2021-10-24,Youri Tielemans,M,False,90,3,10,0.011,0.215
+9,90,2021-10-24,Saïd Benrahma,M,True,84,0,3,0.221,0.0
 9,90,2021-10-24,Pablo Fornals,M,True,90,0,3,0.137,0.626
 9,82,2021-10-24,James Maddison,M,False,77,1,8,0.583,0.044
 9,90,2021-10-24,Jarrod Bowen,M,True,90,0,3,0.121,0.039
@@ -4269,13 +4278,14 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 9,88,2021-10-24,Bruno Miguel Borges Fernandes,M,True,61,0,1,0.091,0.148
 9,82,2021-10-24,Jamie Vardy,F,False,45,0,1,0.0,0.0
 9,82,2021-10-24,Ivan Toney,F,True,90,0,2,0.09,0.166
-9,90,2021-10-24,Heung-Min Son,M,False,90,0,2,0.322,0.145
 9,88,2021-10-24,Cristiano Ronaldo dos Santos Aveiro,F,True,90,0,1,0.414,0.0
 9,88,2021-10-24,Sadio Mané,M,False,13,0,1,0.108,0.0
 9,90,2021-10-24,Harry Kane,F,False,90,0,2,0.05,0.0
 9,88,2021-10-24,Diogo Jota,M,False,90,0,11,0.838,0.516
+9,90,2021-10-24,Heung-Min Son,M,False,90,0,2,0.322,0.145
 9,88,2021-10-24,Mohamed Salah,M,False,90,3,24,2.246,0.507
 10,92,2021-10-30,Pelenda Joshua Dasilva,M,False,0,0,0,,
+10,92,2021-10-30,Tariqe Fosu-Henry,M,False,0,0,0,,
 10,94,2021-10-30,Tyler Morton,M,True,0,0,0,,
 10,94,2021-10-30,Jeremy Sarmiento,M,False,0,0,0,,
 10,99,2021-10-30,Ozan Tufan,M,True,0,0,0,,
@@ -4352,7 +4362,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 10,95,2021-10-30,Joachim Andersen,D,False,90,0,6,0.0,0.0
 10,93,2021-10-30,Boubakary Soumaré,M,True,90,0,2,0.0,0.0
 10,99,2021-10-30,Lyanco Evangelista Silveira Neves Vojnovic,D,False,1,0,1,0.0,0.0
-10,93,2021-10-30,Timothy Castagne,D,True,90,0,1,0.0,0.016
 10,95,2021-10-30,Will Hughes,M,False,0,0,0,,
 10,98,2021-10-30,Victor Lindelöf,D,False,90,0,6,0.0,0.0
 10,95,2021-10-30,Ederson Santana de Moraes,G,True,90,0,0,0.0,0.0
@@ -4460,6 +4469,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 10,98,2021-10-30,Matt Doherty,D,True,0,0,0,,
 10,94,2021-10-30,Curtis Jones,M,True,86,0,2,0.0,0.0
 10,96,2021-10-30,Callum Hudson-Odoi,M,False,87,0,3,0.0,0.11
+10,93,2021-10-30,Timothy Castagne,D,True,90,0,1,0.0,0.016
 10,96,2021-10-30,Jacob Murphy,M,True,0,0,0,,
 10,96,2021-10-30,Isaac Hayden,M,True,66,0,1,0.0,0.0
 10,94,2021-10-30,Lewis Dunk,D,False,90,0,1,0.0,0.0
@@ -4546,7 +4556,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 10,92,2021-10-30,Bryan Mbeumo,M,False,0,0,0,,
 10,98,2021-10-30,Jadon Sancho,M,False,0,0,0,,
 10,99,2021-10-30,Jan Bednarek,D,False,90,2,8,0.056,0.0
-10,92,2021-10-30,Yoane Wissa,M,False,0,0,0,,
 10,95,2021-10-30,Jean-Philippe Mateta,F,False,0,0,0,,
 10,93,2021-10-30,Gabriel Magalhães,D,False,90,3,15,0.12,0.0
 10,96,2021-10-30,Thiago Emiliano da Silva,D,False,90,0,6,0.0,0.0
@@ -4562,6 +4571,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 10,94,2021-10-30,Alexis Mac Allister,M,False,30,0,1,0.0,0.0
 10,94,2021-10-30,Leandro Trossard,M,False,90,2,9,0.538,0.305
 10,99,2021-10-30,Mohamed Elyounoussi,M,False,69,0,3,0.051,0.084
+10,92,2021-10-30,Yoane Wissa,M,False,0,0,0,,
 10,93,2021-10-30,Ademola Lookman,M,True,45,0,1,0.042,0.0
 10,92,2021-10-30,Chris Wood,F,True,90,0,6,0.699,0.0
 10,94,2021-10-30,Fabio Henrique Tavares,M,True,0,0,0,,
@@ -4591,11 +4601,11 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 10,99,2021-10-30,James Ward-Prowse,M,False,79,0,2,0.0,0.056
 10,96,2021-10-30,Callum Wilson,F,True,90,0,2,0.014,0.0
 10,99,2021-10-30,Che Adams,F,False,90,1,7,0.644,0.093
-10,93,2021-10-30,James Maddison,M,True,69,0,2,0.148,0.329
 10,95,2021-10-30,Phil Foden,M,True,90,0,2,0.0,0.115
 10,95,2021-10-30,Bernardo Mota Veiga de Carvalho e Silva,M,True,90,0,1,0.0,0.0
 10,95,2021-10-30,Conor Gallagher,M,False,90,3,13,0.47,0.509
 10,96,2021-10-30,Mason Mount,M,False,0,0,0,,
+10,93,2021-10-30,James Maddison,M,True,69,0,2,0.148,0.329
 10,94,2021-10-30,Neal Maupay,F,False,0,0,0,,
 10,99,2021-10-30,Emmanuel Dennis,F,True,0,0,0,,
 10,93,2021-10-30,Bukayo Saka,M,False,84,0,6,0.181,0.182
@@ -4607,11 +4617,11 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 10,95,2021-10-30,Riyad Mahrez,M,True,12,0,1,0.059,0.0
 10,95,2021-10-30,Raheem Sterling,M,True,12,0,1,0.0,0.059
 10,92,2021-10-30,Ivan Toney,F,False,90,0,2,0.478,0.0
-10,98,2021-10-30,Heung-Min Son,M,True,90,0,2,0.422,0.041
 10,98,2021-10-30,Cristiano Ronaldo dos Santos Aveiro,F,False,70,3,12,0.131,0.576
 10,94,2021-10-30,Sadio Mané,M,True,90,0,7,0.436,0.148
 10,98,2021-10-30,Harry Kane,F,True,90,0,2,0.06,0.0
 10,94,2021-10-30,Diogo Jota,M,True,12,0,1,0.0,0.105
+10,98,2021-10-30,Heung-Min Son,M,True,90,0,2,0.422,0.041
 10,94,2021-10-30,Mohamed Salah,M,True,90,0,5,0.154,0.464
 10,97,2021-10-31,Przemyslaw Placheta,M,True,2,0,1,0.0,0.0
 10,91,2021-10-31,Harrison Ashby,D,False,0,0,0,,
@@ -4706,9 +4716,9 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 10,97,2021-10-31,Daniel James,M,False,76,0,5,0.534,0.138
 10,91,2021-10-31,Manuel Lanzini,M,False,26,0,4,0.056,0.897
 10,97,2021-10-31,Jack Harrison,M,False,90,0,1,0.073,0.145
-10,91,2021-10-31,Saïd Benrahma,M,False,63,0,5,0.055,0.119
 10,91,2021-10-31,Danny Ings,F,True,0,0,0,,
 10,91,2021-10-31,Jacob Ramsey,M,True,14,0,1,0.0,0.0
+10,91,2021-10-31,Saïd Benrahma,M,False,63,0,5,0.055,0.119
 10,91,2021-10-31,Pablo Fornals,M,False,90,0,6,0.685,0.052
 10,91,2021-10-31,Ollie Watkins,F,True,90,1,7,0.484,0.0
 10,97,2021-10-31,Teemu Pukki,F,True,90,0,2,0.056,0.0
@@ -4816,6 +4826,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 11,109,2021-11-05,Che Adams,F,True,90,0,2,0.09,0.043
 11,102,2021-11-06,Pelenda Joshua Dasilva,M,True,0,0,0,,
 11,102,2021-11-06,Przemyslaw Placheta,M,False,0,0,0,,
+11,102,2021-11-06,Tariqe Fosu-Henry,M,True,0,0,0,,
 11,103,2021-11-06,Jeremy Sarmiento,M,True,0,0,0,,
 11,102,2021-11-06,Finley Stevens,D,True,0,0,0,,
 11,102,2021-11-06,Dominic Thompson,D,True,0,0,0,,
@@ -5009,7 +5020,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 11,104,2021-11-06,Trevoh Chalobah,D,True,0,0,0,,
 11,102,2021-11-06,Bryan Mbeumo,M,True,90,0,2,0.053,0.396
 11,108,2021-11-06,Jadon Sancho,M,True,45,0,1,0.0,0.0
-11,102,2021-11-06,Yoane Wissa,M,True,0,0,0,,
 11,105,2021-11-06,Jean-Philippe Mateta,F,True,0,0,0,,
 11,104,2021-11-06,Thiago Emiliano da Silva,D,True,90,0,2,0.195,0.0
 11,108,2021-11-06,Aymeric Laporte,D,False,0,0,0,,
@@ -5022,6 +5032,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 11,103,2021-11-06,Alexis Mac Allister,M,True,45,0,1,0.024,0.0
 11,103,2021-11-06,Leandro Trossard,M,True,90,3,10,0.179,0.178
 11,105,2021-11-06,Rúben Diogo da Silva Neves,M,False,90,0,2,0.016,0.0
+11,102,2021-11-06,Yoane Wissa,M,True,0,0,0,,
 11,104,2021-11-06,Chris Wood,F,False,60,0,2,0.0,0.0
 11,104,2021-11-06,Christian Pulisic,M,True,5,0,1,0.0,0.0
 11,105,2021-11-06,Christian Benteke,F,True,88,0,2,0.155,0.0
@@ -5109,7 +5120,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 11,110,2021-11-07,Ibrahima Konaté,D,False,0,0,0,,
 11,107,2021-11-07,Boubakary Soumaré,M,False,90,1,6,0.024,0.075
 11,107,2021-11-07,Robin Koch,D,True,0,0,0,,
-11,107,2021-11-07,Timothy Castagne,D,False,90,0,2,0.0,0.0
 11,106,2021-11-07,Giovani Lo Celso,M,False,19,0,1,0.023,0.0
 11,101,2021-11-07,Aaron Ramsdale,G,True,90,1,7,0.0,0.0
 11,107,2021-11-07,Wilfred Ndidi,M,False,90,0,1,0.064,0.0
@@ -5169,6 +5179,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 11,110,2021-11-07,Ben Johnson,D,True,90,0,1,0.014,0.0
 11,110,2021-11-07,Nikola Vlasic,M,True,0,0,0,,
 11,110,2021-11-07,Andriy Yarmolenko,M,True,0,0,0,,
+11,107,2021-11-07,Timothy Castagne,D,False,90,0,2,0.0,0.0
 11,106,2021-11-07,Tanguy Ndombele,M,False,5,0,0,0.0,0.0
 11,101,2021-11-07,Nicolas Pépé,M,True,0,0,0,,
 11,110,2021-11-07,Declan Rice,M,True,90,0,2,0.0,0.0
@@ -5234,12 +5245,12 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 11,101,2021-11-07,Gabriel Teodoro Martinelli Silva,M,True,1,0,1,0.0,0.0
 11,101,2021-11-07,Juan Camilo Hernández Suárez,F,False,16,0,1,0.0,0.059
 11,101,2021-11-07,Ismaila Sarr,M,False,90,0,2,0.0,0.0
-11,110,2021-11-07,Saïd Benrahma,M,True,85,0,2,0.0,0.136
 11,101,2021-11-07,Martin Ødegaard,M,True,21,0,1,0.097,0.0
 11,106,2021-11-07,Demarai Gray,M,True,90,0,3,0.356,0.034
 11,110,2021-11-07,Roberto Firmino,F,False,0,0,0,,
 11,101,2021-11-07,Joshua King,F,False,90,0,1,0.344,0.038
 11,107,2021-11-07,Youri Tielemans,M,False,76,0,2,0.462,0.024
+11,110,2021-11-07,Saïd Benrahma,M,True,85,0,2,0.0,0.136
 11,110,2021-11-07,Pablo Fornals,M,True,90,2,12,0.488,0.207
 11,107,2021-11-07,James Maddison,M,False,10,0,1,0.0,0.0
 11,110,2021-11-07,Jarrod Bowen,M,True,83,1,9,0.123,0.895
@@ -5249,14 +5260,15 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 11,101,2021-11-07,Bukayo Saka,M,True,90,0,3,0.0,0.141
 11,101,2021-11-07,Emile Smith Rowe,M,True,85,0,8,0.158,0.0
 11,107,2021-11-07,Jamie Vardy,F,False,90,0,2,0.104,0.0
-11,106,2021-11-07,Heung-Min Son,M,False,84,0,3,0.0,0.031
 11,110,2021-11-07,Sadio Mané,M,False,90,0,2,0.808,0.093
 11,106,2021-11-07,Harry Kane,F,False,90,0,2,0.112,0.346
 11,110,2021-11-07,Diogo Jota,M,False,75,0,2,0.107,0.031
+11,106,2021-11-07,Heung-Min Son,M,False,84,0,3,0.0,0.031
 11,110,2021-11-07,Mohamed Salah,M,False,90,0,5,0.155,0.062
 12,116,2021-11-20,Pelenda Joshua Dasilva,M,False,0,0,0,,
 12,114,2021-11-20,Kaide Gordon,M,True,0,0,0,,
 12,117,2021-11-20,Przemyslaw Placheta,M,True,0,0,0,,
+12,116,2021-11-20,Tariqe Fosu-Henry,M,False,0,0,0,,
 12,114,2021-11-20,Tyler Morton,M,True,6,0,1,0.0,0.0
 12,120,2021-11-20,Harrison Ashby,D,False,0,0,0,,
 12,111,2021-11-20,Jeremy Sarmiento,M,False,0,0,0,,
@@ -5354,7 +5366,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 12,113,2021-11-20,Boubakary Soumaré,M,True,74,0,2,0.0,0.0
 12,117,2021-11-20,Lyanco Evangelista Silveira Neves Vojnovic,D,False,17,0,1,0.0,0.0
 12,120,2021-11-20,Nélson Cabral Semedo,D,True,90,0,6,0.138,0.0
-12,113,2021-11-20,Timothy Castagne,D,True,90,0,1,0.0,0.0
 12,112,2021-11-20,Will Hughes,M,False,0,0,0,,
 12,119,2021-11-20,Victor Lindelöf,D,False,90,0,0,0.0,0.0
 12,112,2021-11-20,Dale Stephens,M,True,0,0,0,,
@@ -5482,6 +5493,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 12,120,2021-11-20,Ben Johnson,D,False,90,0,2,0.0,0.017
 12,120,2021-11-20,Nikola Vlasic,M,False,19,0,1,0.0,0.0
 12,120,2021-11-20,Andriy Yarmolenko,M,False,19,0,1,0.042,0.0
+12,113,2021-11-20,Timothy Castagne,D,True,90,0,1,0.0,0.0
 12,111,2021-11-20,Douglas Luiz Soares de Paulo,M,True,0,0,0,,
 12,116,2021-11-20,Jacob Murphy,M,True,90,0,2,0.036,0.048
 12,116,2021-11-20,Isaac Hayden,M,True,0,0,0,,
@@ -5576,7 +5588,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 12,116,2021-11-20,Bryan Mbeumo,M,False,90,0,2,0.106,0.146
 12,119,2021-11-20,Jadon Sancho,M,False,90,0,2,0.0,0.163
 12,117,2021-11-20,Jan Bednarek,D,False,90,0,0,0.057,0.0
-12,116,2021-11-20,Yoane Wissa,M,False,0,0,0,,
 12,112,2021-11-20,Jean-Philippe Mateta,F,False,0,0,0,,
 12,114,2021-11-20,Gabriel Magalhães,D,False,90,0,0,0.0,0.0
 12,113,2021-11-20,Thiago Emiliano da Silva,D,False,90,0,6,0.0,0.0
@@ -5592,6 +5603,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 12,111,2021-11-20,Leandro Trossard,M,False,90,0,2,0.155,0.392
 12,117,2021-11-20,Mohamed Elyounoussi,M,False,56,0,1,0.302,0.218
 12,120,2021-11-20,Rúben Diogo da Silva Neves,M,True,90,0,2,0.121,0.321
+12,116,2021-11-20,Yoane Wissa,M,False,0,0,0,,
 12,113,2021-11-20,Ademola Lookman,M,True,45,0,1,0.0,0.0
 12,112,2021-11-20,Chris Wood,F,True,79,0,6,0.061,0.0
 12,114,2021-11-20,Fabio Henrique Tavares,M,True,90,0,2,0.0,0.095
@@ -5607,7 +5619,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 12,119,2021-11-20,Mason Greenwood,M,False,0,0,0,,
 12,119,2021-11-20,Juan Camilo Hernández Suárez,F,True,22,0,1,0.0,0.249
 12,119,2021-11-20,Ismaila Sarr,M,True,67,0,5,0.153,0.035
-12,120,2021-11-20,Saïd Benrahma,M,False,70,0,2,0.0,0.0
 12,114,2021-11-20,Martin Ødegaard,M,False,23,0,1,0.0,0.0
 12,111,2021-11-20,Danny Ings,F,True,65,0,2,0.0,0.0
 12,113,2021-11-20,Romelu Lukaku,F,False,0,0,0,,
@@ -5620,6 +5631,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 12,113,2021-11-20,Kai Havertz,M,False,61,0,3,0.047,0.0
 12,120,2021-11-20,Raúl Jiménez,F,True,90,2,8,0.383,0.0
 12,112,2021-11-20,Odsonne Edouard,F,False,3,0,1,0.0,0.0
+12,120,2021-11-20,Saïd Benrahma,M,False,70,0,2,0.0,0.0
 12,112,2021-11-20,Maxwel Cornet,M,True,83,0,7,0.056,0.022
 12,120,2021-11-20,Pablo Fornals,M,False,58,0,1,0.0,0.0
 12,113,2021-11-20,Jorge Luiz Frello Filho,M,False,76,0,3,0.0,0.605
@@ -5627,10 +5639,10 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 12,116,2021-11-20,Callum Wilson,F,True,90,0,1,0.814,0.069
 12,111,2021-11-20,Ollie Watkins,F,True,90,2,8,0.193,0.0
 12,117,2021-11-20,Che Adams,F,False,61,3,9,0.265,0.058
-12,113,2021-11-20,James Maddison,M,True,45,0,1,0.023,0.466
 12,112,2021-11-20,Conor Gallagher,M,False,80,0,5,0.104,0.685
 12,113,2021-11-20,Mason Mount,M,False,61,0,3,0.076,0.0
 12,117,2021-11-20,Teemu Pukki,F,True,90,2,8,0.143,0.0
+12,113,2021-11-20,James Maddison,M,True,45,0,1,0.023,0.466
 12,111,2021-11-20,Neal Maupay,F,False,11,0,1,0.0,0.0
 12,120,2021-11-20,Jarrod Bowen,M,False,70,0,2,0.188,0.0
 12,120,2021-11-20,Michail Antonio,F,False,90,0,2,0.06,0.163
@@ -5745,8 +5757,8 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 12,115,2021-11-21,Kevin De Bruyne,M,True,0,0,0,,
 12,115,2021-11-21,Riyad Mahrez,M,True,32,0,1,0.134,0.0
 12,115,2021-11-21,Raheem Sterling,M,True,90,0,8,0.902,0.223
-12,118,2021-11-21,Heung-Min Son,M,True,90,0,2,0.07,0.0
 12,118,2021-11-21,Harry Kane,F,True,90,0,2,0.641,0.0
+12,118,2021-11-21,Heung-Min Son,M,True,90,0,2,0.07,0.0
 13,128,2021-11-27,Kaide Gordon,M,True,0,0,0,,
 13,130,2021-11-27,Przemyslaw Placheta,M,True,0,0,0,,
 13,128,2021-11-27,Tyler Morton,M,True,0,0,0,,
@@ -6000,6 +6012,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 13,128,2021-11-27,Mohamed Salah,M,True,90,0,6,0.219,0.836
 13,122,2021-11-28,Pelenda Joshua Dasilva,M,True,0,0,0,,
 13,129,2021-11-28,James McAtee,M,True,0,0,0,,
+13,122,2021-11-28,Tariqe Fosu-Henry,M,True,0,0,0,,
 13,129,2021-11-28,Harrison Ashby,D,False,0,0,0,,
 13,122,2021-11-28,Lewis Dobbin,F,False,0,0,0,,
 13,127,2021-11-28,Ozan Tufan,M,False,45,0,1,0.275,0.0
@@ -6037,7 +6050,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 13,122,2021-11-28,Cenk Tosun,F,False,0,0,0,,
 13,127,2021-11-28,Hamza Choudhury,M,True,0,0,0,,
 13,127,2021-11-28,Boubakary Soumaré,M,True,90,0,2,0.0,0.046
-13,127,2021-11-28,Timothy Castagne,D,True,90,0,1,0.0,0.131
 13,125,2021-11-28,Victor Lindelöf,D,False,90,0,2,0.0,0.0
 13,129,2021-11-28,Ederson Santana de Moraes,G,True,90,0,2,0.0,0.0
 13,125,2021-11-28,Malang Sarr,D,True,0,0,0,,
@@ -6102,6 +6114,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 13,129,2021-11-28,Ben Johnson,D,False,90,0,1,0.0,0.055
 13,129,2021-11-28,Nikola Vlasic,M,False,0,0,0,,
 13,129,2021-11-28,Andriy Yarmolenko,M,False,0,0,0,,
+13,127,2021-11-28,Timothy Castagne,D,True,90,0,1,0.0,0.131
 13,122,2021-11-28,Mathias Jorgensen,D,True,0,0,0,,
 13,125,2021-11-28,Scott McTominay,M,False,90,0,1,0.0,0.0
 13,129,2021-11-28,Declan Rice,M,False,90,0,2,0.015,0.0
@@ -6155,7 +6168,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 13,125,2021-11-28,Trevoh Chalobah,D,True,90,0,2,0.0,0.0
 13,122,2021-11-28,Bryan Mbeumo,M,True,90,0,2,0.2,0.0
 13,125,2021-11-28,Jadon Sancho,M,False,63,1,9,0.514,0.015
-13,122,2021-11-28,Yoane Wissa,M,True,3,0,1,0.076,0.0
 13,122,2021-11-28,Dominic Calvert-Lewin,F,False,0,0,0,,
 13,125,2021-11-28,Thiago Emiliano da Silva,D,True,90,3,8,0.055,0.0
 13,129,2021-11-28,Aymeric Laporte,D,True,90,0,1,0.101,0.0
@@ -6166,6 +6178,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 13,125,2021-11-28,Hakim Ziyech,M,True,90,0,2,0.296,0.171
 13,129,2021-11-28,Tomas Soucek,M,False,90,0,2,0.015,0.0
 13,122,2021-11-28,Richarlison de Andrade,F,False,0,0,0,,
+13,122,2021-11-28,Yoane Wissa,M,True,3,0,1,0.076,0.0
 13,127,2021-11-28,Ademola Lookman,M,True,74,0,7,0.823,0.076
 13,125,2021-11-28,Christian Pulisic,M,True,12,0,1,0.0,0.092
 13,125,2021-11-28,Marcus Rashford,M,False,76,0,1,0.0,0.0
@@ -6174,7 +6187,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 13,125,2021-11-28,Mason Greenwood,M,False,0,0,0,,
 13,127,2021-11-28,Juan Camilo Hernández Suárez,F,False,90,0,2,0.146,0.371
 13,127,2021-11-28,Ismaila Sarr,M,False,0,0,0,,
-13,129,2021-11-28,Saïd Benrahma,M,False,58,0,1,0.055,0.0
 13,129,2021-11-28,Rodrigo Hernandez,M,True,90,0,2,0.0,0.0
 13,122,2021-11-28,Demarai Gray,M,False,20,0,1,0.022,0.0
 13,125,2021-11-28,Romelu Lukaku,F,True,8,0,1,0.0,0.051
@@ -6182,12 +6194,13 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 13,129,2021-11-28,Ilkay Gündogan,M,True,90,3,13,1.218,0.265
 13,127,2021-11-28,Youri Tielemans,M,True,0,0,0,,
 13,125,2021-11-28,Kai Havertz,M,True,0,0,0,,
+13,129,2021-11-28,Saïd Benrahma,M,False,58,0,1,0.055,0.0
 13,129,2021-11-28,Pablo Fornals,M,False,90,0,2,0.0,0.015
 13,125,2021-11-28,Jorge Luiz Frello Filho,M,True,90,2,8,0.0,0.025
-13,127,2021-11-28,James Maddison,M,True,87,3,16,0.464,0.524
 13,129,2021-11-28,Phil Foden,M,True,0,0,0,,
 13,129,2021-11-28,Bernardo Mota Veiga de Carvalho e Silva,M,True,90,0,2,0.1,0.099
 13,125,2021-11-28,Mason Mount,M,True,12,0,1,0.0,0.079
+13,127,2021-11-28,James Maddison,M,True,87,3,16,0.464,0.524
 13,129,2021-11-28,Jarrod Bowen,M,False,16,0,1,0.0,0.0
 13,129,2021-11-28,Michail Antonio,F,False,90,0,2,0.0,0.0
 13,127,2021-11-28,Emmanuel Dennis,F,False,70,1,10,0.462,0.052
@@ -6371,7 +6384,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 14,139,2021-12-01,Boubakary Soumaré,M,False,45,0,1,0.0,0.0
 14,139,2021-12-01,Lyanco Evangelista Silveira Neves Vojnovic,D,True,5,0,1,0.0,0.0
 14,137,2021-12-01,Nélson Cabral Semedo,D,True,90,3,9,0.036,0.044
-14,139,2021-12-01,Timothy Castagne,D,False,90,0,1,0.0,0.0
 14,131,2021-12-01,Ederson Santana de Moraes,G,False,90,0,2,0.0,0.0
 14,137,2021-12-01,Dale Stephens,M,False,0,0,0,,
 14,136,2021-12-01,Solomon March,M,False,77,0,3,0.0,0.227
@@ -6460,6 +6472,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 14,136,2021-12-01,Ben Johnson,D,True,90,0,2,0.0,0.0
 14,136,2021-12-01,Nikola Vlasic,M,True,0,0,0,,
 14,136,2021-12-01,Andriy Yarmolenko,M,True,0,0,0,,
+14,139,2021-12-01,Timothy Castagne,D,False,90,0,1,0.0,0.0
 14,131,2021-12-01,Douglas Luiz Soares de Paulo,M,True,90,0,5,0.0,0.199
 14,136,2021-12-01,Lewis Dunk,D,False,90,0,2,0.334,0.0
 14,136,2021-12-01,Shane Duffy,D,False,54,0,1,0.0,0.0
@@ -6561,7 +6574,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 14,135,2021-12-01,Reece James,D,False,0,0,0,,
 14,135,2021-12-01,Juan Camilo Hernández Suárez,F,True,0,0,0,,
 14,135,2021-12-01,Ismaila Sarr,M,True,0,0,0,,
-14,136,2021-12-01,Saïd Benrahma,M,True,75,0,3,0.015,0.053
 14,131,2021-12-01,Rodrigo Hernandez,M,False,90,0,2,0.068,0.0
 14,131,2021-12-01,Danny Ings,F,True,0,0,0,,
 14,132,2021-12-01,Demarai Gray,M,True,84,0,6,0.293,0.029
@@ -6574,16 +6586,17 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 14,139,2021-12-01,Youri Tielemans,M,False,0,0,0,,
 14,135,2021-12-01,Kai Havertz,M,False,90,0,5,0.066,0.576
 14,137,2021-12-01,Raúl Jiménez,F,True,90,0,2,0.088,0.046
+14,136,2021-12-01,Saïd Benrahma,M,True,75,0,3,0.015,0.053
 14,137,2021-12-01,Maxwel Cornet,M,False,84,0,3,0.0,0.0
 14,136,2021-12-01,Pablo Fornals,M,True,76,0,6,0.083,0.657
 14,135,2021-12-01,Jorge Luiz Frello Filho,M,False,0,0,0,,
 14,139,2021-12-01,James Ward-Prowse,M,True,90,0,2,0.0,0.49
 14,131,2021-12-01,Ollie Watkins,F,True,90,3,9,0.044,0.15
 14,139,2021-12-01,Che Adams,F,True,90,3,9,0.513,0.0
-14,139,2021-12-01,James Maddison,M,False,90,3,10,0.182,0.101
 14,131,2021-12-01,Phil Foden,M,False,0,0,0,,
 14,131,2021-12-01,Bernardo Mota Veiga de Carvalho e Silva,M,False,90,3,10,0.368,0.126
 14,135,2021-12-01,Mason Mount,M,False,90,2,12,0.493,0.097
+14,139,2021-12-01,James Maddison,M,False,90,3,10,0.182,0.101
 14,136,2021-12-01,Neal Maupay,F,False,90,3,8,0.241,0.512
 14,136,2021-12-01,Jarrod Bowen,M,True,90,0,2,0.124,0.0
 14,136,2021-12-01,Michail Antonio,F,True,90,0,1,0.064,0.105
@@ -6596,6 +6609,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 14,132,2021-12-01,Diogo Jota,M,False,87,1,8,0.336,0.681
 14,132,2021-12-01,Mohamed Salah,M,False,90,3,15,1.585,0.0
 14,140,2021-12-02,Pelenda Joshua Dasilva,M,False,0,0,0,,
+14,140,2021-12-02,Tariqe Fosu-Henry,M,False,0,0,0,,
 14,140,2021-12-02,Finley Stevens,D,False,0,0,0,,
 14,140,2021-12-02,Dominic Thompson,D,False,0,0,0,,
 14,134,2021-12-02,Nuno Varela Tavares,D,False,90,0,1,0.04,0.027
@@ -6678,8 +6692,8 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 14,134,2021-12-02,Frederico Rodrigues de Paula Santos,M,True,90,1,9,0.0,0.152
 14,140,2021-12-02,Bryan Mbeumo,M,False,90,0,2,0.027,0.0
 14,134,2021-12-02,Jadon Sancho,M,True,90,0,2,0.0,0.153
-14,140,2021-12-02,Yoane Wissa,M,False,20,0,1,0.0,0.0
 14,134,2021-12-02,Gabriel Magalhães,D,False,90,0,1,0.041,0.0
+14,140,2021-12-02,Yoane Wissa,M,False,20,0,1,0.0,0.0
 14,134,2021-12-02,Alexandre Lacazette,F,False,11,0,1,0.0,0.0
 14,134,2021-12-02,Marcus Rashford,M,True,78,0,5,0.02,0.427
 14,134,2021-12-02,Pierre-Emerick Aubameyang,F,False,78,0,2,0.642,0.0
@@ -6690,9 +6704,9 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 14,134,2021-12-02,Emile Smith Rowe,M,False,69,0,7,0.015,0.065
 14,134,2021-12-02,Bruno Miguel Borges Fernandes,M,True,89,2,9,0.264,0.263
 14,140,2021-12-02,Ivan Toney,F,False,90,0,2,0.169,0.013
-14,140,2021-12-02,Heung-Min Son,M,True,86,0,8,0.84,0.09
 14,134,2021-12-02,Cristiano Ronaldo dos Santos Aveiro,F,True,87,3,13,0.679,0.0
 14,140,2021-12-02,Harry Kane,F,True,90,0,2,0.376,0.613
+14,140,2021-12-02,Heung-Min Son,M,True,86,0,8,0.84,0.09
 15,149,2021-12-04,Sonny Perkins,M,True,0,0,0,,
 15,148,2021-12-04,James McAtee,M,False,0,0,0,,
 15,150,2021-12-04,Kaide Gordon,M,False,0,0,0,,
@@ -6905,7 +6919,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 15,149,2021-12-04,Reece James,D,False,90,0,0,0.026,0.138
 15,148,2021-12-04,Juan Camilo Hernández Suárez,F,True,45,1,6,0.359,0.14
 15,148,2021-12-04,Ismaila Sarr,M,True,0,0,0,,
-15,149,2021-12-04,Saïd Benrahma,M,True,5,0,1,0.0,0.0
 15,148,2021-12-04,Rodrigo Hernandez,M,False,90,0,2,0.0,0.026
 15,149,2021-12-04,Romelu Lukaku,F,False,45,0,1,0.055,0.0
 15,150,2021-12-04,Roberto Firmino,F,False,0,0,0,,
@@ -6915,6 +6928,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 15,146,2021-12-04,Armando Broja,F,True,80,2,8,0.816,0.0
 15,149,2021-12-04,Kai Havertz,M,False,45,0,1,0.182,0.0
 15,150,2021-12-04,Raúl Jiménez,F,True,90,0,1,0.0,0.012
+15,149,2021-12-04,Saïd Benrahma,M,True,5,0,1,0.0,0.0
 15,145,2021-12-04,Maxwel Cornet,M,False,31,0,1,0.187,0.0
 15,149,2021-12-04,Pablo Fornals,M,True,19,0,1,0.0,0.0
 15,149,2021-12-04,Jorge Luiz Frello Filho,M,False,90,0,1,0.087,0.059
@@ -6936,6 +6950,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 15,150,2021-12-04,Mohamed Salah,M,False,90,0,6,0.11,0.708
 15,143,2021-12-05,Pelenda Joshua Dasilva,M,False,0,0,0,,
 15,147,2021-12-05,Przemyslaw Placheta,M,False,0,0,0,,
+15,143,2021-12-05,Tariqe Fosu-Henry,M,False,0,0,0,,
 15,143,2021-12-05,Leo Fuhr Hjelde,D,True,0,0,0,,
 15,143,2021-12-05,Stuart McKinstry,M,True,0,0,0,,
 15,143,2021-12-05,Liam McCarron,M,True,0,0,0,,
@@ -6996,7 +7011,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 15,144,2021-12-05,Joachim Andersen,D,False,0,0,0,,
 15,141,2021-12-05,Boubakary Soumaré,M,False,0,0,0,,
 15,143,2021-12-05,Robin Koch,D,True,0,0,0,,
-15,141,2021-12-05,Timothy Castagne,D,False,90,0,1,0.0,0.0
 15,144,2021-12-05,Will Hughes,M,False,0,0,0,,
 15,144,2021-12-05,Victor Lindelöf,D,True,90,0,5,0.0,0.0
 15,144,2021-12-05,Jairo Riedewald,M,False,0,0,0,,
@@ -7059,6 +7073,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 15,141,2021-12-05,Kortney Hause,D,True,0,0,0,,
 15,147,2021-12-05,Matt Doherty,D,True,28,0,1,0.062,0.049
 15,147,2021-12-05,Milot Rashica,M,False,0,0,0,,
+15,141,2021-12-05,Timothy Castagne,D,False,90,0,1,0.0,0.0
 15,141,2021-12-05,Douglas Luiz Soares de Paulo,M,True,76,0,2,0.017,0.0
 15,143,2021-12-05,Mathias Jorgensen,D,False,0,0,0,,
 15,147,2021-12-05,Tanguy Ndombele,M,True,0,0,0,,
@@ -7108,10 +7123,10 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 15,141,2021-12-05,Harvey Barnes,M,False,90,1,8,0.149,0.034
 15,143,2021-12-05,Bryan Mbeumo,M,False,90,0,5,0.206,0.339
 15,144,2021-12-05,Jadon Sancho,M,True,61,0,3,0.038,0.113
-15,143,2021-12-05,Yoane Wissa,M,False,18,0,1,0.0,0.0
 15,144,2021-12-05,Jean-Philippe Mateta,F,False,0,0,0,,
 15,144,2021-12-05,Jeffrey Schlupp,M,False,90,0,2,0.0,0.0
 15,141,2021-12-05,Patson Daka,F,False,77,0,5,0.103,0.211
+15,143,2021-12-05,Yoane Wissa,M,False,18,0,1,0.0,0.0
 15,143,2021-12-05,Daniel James,M,True,90,0,2,0.0,0.069
 15,141,2021-12-05,Ademola Lookman,M,False,64,0,2,0.0,0.062
 15,144,2021-12-05,Christian Benteke,F,False,66,0,2,0.164,0.015
@@ -7123,17 +7138,17 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 15,141,2021-12-05,Youri Tielemans,M,False,0,0,0,,
 15,144,2021-12-05,Odsonne Edouard,F,False,23,0,1,0.0,0.0
 15,141,2021-12-05,Ollie Watkins,F,True,90,0,2,0.764,0.096
-15,141,2021-12-05,James Maddison,M,False,90,0,1,0.26,0.0
 15,144,2021-12-05,Conor Gallagher,M,False,90,0,2,0.015,0.032
 15,147,2021-12-05,Teemu Pukki,F,False,90,0,1,0.218,0.556
+15,141,2021-12-05,James Maddison,M,False,90,0,1,0.26,0.0
 15,143,2021-12-05,Raphael Dias Belloli,M,True,90,1,5,0.019,0.63
 15,144,2021-12-05,Bruno Miguel Borges Fernandes,M,True,85,0,3,0.172,0.154
 15,144,2021-12-05,Wilfried Zaha,M,False,90,0,2,0.015,0.149
 15,141,2021-12-05,Jamie Vardy,F,False,25,0,1,0.0,0.0
 15,143,2021-12-05,Ivan Toney,F,False,0,0,0,,
-15,147,2021-12-05,Heung-Min Son,M,True,90,2,13,0.256,0.313
 15,144,2021-12-05,Cristiano Ronaldo dos Santos Aveiro,F,True,90,0,2,0.298,0.023
 15,147,2021-12-05,Harry Kane,F,True,90,0,2,0.366,0.0
+15,147,2021-12-05,Heung-Min Son,M,True,90,2,13,0.256,0.313
 15,142,2021-12-06,Lewis Dobbin,F,True,0,0,0,,
 15,142,2021-12-06,Nuno Varela Tavares,D,False,25,0,0,0.0,0.0
 15,142,2021-12-06,Folarin Balogun,F,False,0,0,0,,
@@ -7190,6 +7205,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 15,142,2021-12-06,Bukayo Saka,M,False,90,0,2,0.018,0.485
 15,142,2021-12-06,Emile Smith Rowe,M,False,0,0,0,,
 16,152,2021-12-10,Pelenda Joshua Dasilva,M,True,0,0,0,,
+16,152,2021-12-10,Tariqe Fosu-Henry,M,True,0,0,0,,
 16,152,2021-12-10,Ozan Tufan,M,False,1,0,1,0.0,0.0
 16,152,2021-12-10,Finley Stevens,D,True,0,0,0,,
 16,152,2021-12-10,Dominic Thompson,D,True,0,0,0,,
@@ -7522,7 +7538,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 16,157,2021-12-12,Hamza Choudhury,M,True,0,0,0,,
 16,156,2021-12-12,Joachim Andersen,D,True,0,0,0,,
 16,157,2021-12-12,Boubakary Soumaré,M,True,84,0,3,0.0,0.0
-16,157,2021-12-12,Timothy Castagne,D,True,90,0,5,0.0,0.0
 16,156,2021-12-12,Will Hughes,M,True,72,2,7,0.0,0.557
 16,154,2021-12-12,Dale Stephens,M,True,0,0,0,,
 16,154,2021-12-12,Charlie Taylor,D,True,90,0,5,0.042,0.123
@@ -7576,6 +7591,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 16,154,2021-12-12,Ben Johnson,D,False,0,0,0,,
 16,154,2021-12-12,Nikola Vlasic,M,False,20,0,1,0.0,0.149
 16,154,2021-12-12,Andriy Yarmolenko,M,False,0,0,0,,
+16,157,2021-12-12,Timothy Castagne,D,True,90,0,5,0.0,0.0
 16,157,2021-12-12,Jacob Murphy,M,False,28,0,1,0.0,0.147
 16,157,2021-12-12,Isaac Hayden,M,False,0,0,0,,
 16,154,2021-12-12,Declan Rice,M,False,90,0,3,0.018,0.039
@@ -7627,16 +7643,16 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 16,154,2021-12-12,Chris Wood,F,True,59,0,1,0.079,0.0
 16,156,2021-12-12,Christian Benteke,F,True,16,0,1,0.122,0.0
 16,154,2021-12-12,Manuel Lanzini,M,False,80,0,3,0.042,0.11
-16,154,2021-12-12,Saïd Benrahma,M,False,69,0,3,0.531,0.022
 16,156,2021-12-12,Demarai Gray,M,False,90,0,1,0.104,0.01
 16,157,2021-12-12,Allan Saint-Maximin,F,False,90,0,1,0.093,0.019
 16,157,2021-12-12,Youri Tielemans,M,True,90,3,16,0.479,0.0
 16,156,2021-12-12,Odsonne Edouard,F,True,73,0,2,0.235,0.021
+16,154,2021-12-12,Saïd Benrahma,M,False,69,0,3,0.531,0.022
 16,154,2021-12-12,Maxwel Cornet,M,True,0,0,0,,
 16,154,2021-12-12,Pablo Fornals,M,False,10,0,1,0.0,0.0
 16,157,2021-12-12,Callum Wilson,F,False,90,0,2,0.0,0.0
-16,157,2021-12-12,James Maddison,M,True,87,2,16,0.202,0.462
 16,156,2021-12-12,Conor Gallagher,M,True,90,3,15,0.759,0.288
+16,157,2021-12-12,James Maddison,M,True,87,2,16,0.202,0.462
 16,154,2021-12-12,Jarrod Bowen,M,False,90,0,3,0.081,0.182
 16,154,2021-12-12,Michail Antonio,F,False,90,0,2,0.057,0.0
 16,156,2021-12-12,Wilfried Zaha,M,True,90,0,2,0.038,0.173
@@ -7879,11 +7895,11 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 17,161,2021-12-15,Pierre-Emerick Aubameyang,F,True,0,0,0,,
 17,163,2021-12-15,Hee-Chan Hwang,F,False,15,0,1,0.0,0.0
 17,161,2021-12-15,Gabriel Teodoro Martinelli Silva,M,True,81,0,7,1.045,0.14
-17,161,2021-12-15,Saïd Benrahma,M,False,14,0,1,0.093,0.0
 17,161,2021-12-15,Martin Ødegaard,M,True,65,0,3,0.081,0.172
 17,165,2021-12-15,Armando Broja,F,False,69,3,12,0.069,0.067
 17,163,2021-12-15,Raúl Jiménez,F,False,0,0,0,,
 17,165,2021-12-15,Odsonne Edouard,F,True,90,0,8,0.967,0.096
+17,161,2021-12-15,Saïd Benrahma,M,False,14,0,1,0.093,0.0
 17,161,2021-12-15,Pablo Fornals,M,False,83,0,2,0.017,0.0
 17,165,2021-12-15,James Ward-Prowse,M,False,90,2,9,0.16,0.263
 17,165,2021-12-15,Che Adams,F,False,0,0,0,,
@@ -8192,10 +8208,10 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 18,175,2021-12-19,Kevin De Bruyne,M,False,90,0,3,0.105,0.398
 18,175,2021-12-19,Riyad Mahrez,M,False,76,1,12,0.335,0.451
 18,175,2021-12-19,Raheem Sterling,M,False,90,0,8,0.983,0.0
-18,177,2021-12-19,Heung-Min Son,M,True,90,0,7,0.903,0.553
 18,177,2021-12-19,Sadio Mané,M,False,81,0,2,0.071,0.082
 18,177,2021-12-19,Harry Kane,F,True,90,1,6,1.342,0.589
 18,177,2021-12-19,Diogo Jota,M,False,90,0,7,0.175,0.0
+18,177,2021-12-19,Heung-Min Son,M,True,90,0,7,0.903,0.553
 18,177,2021-12-19,Mohamed Salah,M,False,90,0,2,0.098,0.084
 19,182,2021-12-26,Pelenda Joshua Dasilva,M,False,0,0,0,,
 19,185,2021-12-26,Kayky da Silva Chagas,F,True,0,0,0,,
@@ -8205,6 +8221,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 19,189,2021-12-26,Sonny Perkins,M,True,0,0,0,,
 19,185,2021-12-26,James McAtee,M,True,0,0,0,,
 19,187,2021-12-26,Przemyslaw Placheta,M,True,74,0,1,0.098,0.0
+19,182,2021-12-26,Tariqe Fosu-Henry,M,False,0,0,0,,
 19,189,2021-12-26,Harrison Ashby,D,True,0,0,0,,
 19,182,2021-12-26,Jeremy Sarmiento,M,True,0,0,0,,
 19,182,2021-12-26,Finley Stevens,D,False,0,0,0,,
@@ -8283,7 +8300,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 19,188,2021-12-26,Joachim Andersen,D,False,90,0,1,0.0,0.0
 19,185,2021-12-26,Boubakary Soumaré,M,False,0,0,0,,
 19,189,2021-12-26,Lyanco Evangelista Silveira Neves Vojnovic,D,False,0,0,0,,
-19,185,2021-12-26,Timothy Castagne,D,False,45,0,0,0.0,0.0
 19,188,2021-12-26,Will Hughes,M,False,90,0,2,0.0,0.028
 19,185,2021-12-26,Ederson Santana de Moraes,G,True,90,0,2,0.0,0.0
 19,182,2021-12-26,Solomon March,M,True,0,0,0,,
@@ -8374,6 +8390,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 19,189,2021-12-26,Ben Johnson,D,True,0,0,0,,
 19,189,2021-12-26,Nikola Vlasic,M,True,45,0,1,0.042,0.0
 19,189,2021-12-26,Andriy Yarmolenko,M,True,9,0,1,0.0,0.104
+19,185,2021-12-26,Timothy Castagne,D,False,45,0,0,0.0,0.0
 19,181,2021-12-26,Douglas Luiz Soares de Paulo,M,True,90,0,2,0.0,0.11
 19,182,2021-12-26,Lewis Dunk,D,True,0,0,0,,
 19,182,2021-12-26,Shane Duffy,D,True,0,0,0,,
@@ -8441,7 +8458,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 19,181,2021-12-26,Trevoh Chalobah,D,False,45,0,1,0.0,0.0
 19,182,2021-12-26,Bryan Mbeumo,M,False,40,0,1,0.027,0.0
 19,189,2021-12-26,Jan Bednarek,D,False,90,2,8,0.094,0.0
-19,182,2021-12-26,Yoane Wissa,M,False,49,0,1,0.013,0.069
 19,188,2021-12-26,Jean-Philippe Mateta,F,False,27,0,1,0.0,0.0
 19,187,2021-12-26,Gabriel Magalhães,D,False,90,0,6,0.0,0.0
 19,181,2021-12-26,Thiago Emiliano da Silva,D,False,51,0,1,0.0,0.0
@@ -8456,6 +8472,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 19,189,2021-12-26,Tomas Soucek,M,True,90,0,2,0.077,0.125
 19,182,2021-12-26,Leandro Trossard,M,True,45,0,6,0.343,0.0
 19,189,2021-12-26,Mohamed Elyounoussi,M,False,90,1,8,0.273,0.0
+19,182,2021-12-26,Yoane Wissa,M,False,49,0,1,0.013,0.069
 19,185,2021-12-26,Ademola Lookman,M,False,90,0,7,0.436,0.13
 19,187,2021-12-26,Alexandre Lacazette,F,False,90,2,11,0.606,0.042
 19,181,2021-12-26,Christian Pulisic,M,False,90,0,2,0.0,0.073
@@ -8464,7 +8481,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 19,187,2021-12-26,Pierre-Emerick Aubameyang,F,False,0,0,0,,
 19,181,2021-12-26,Reece James,D,False,90,0,0,0.05,0.0
 19,187,2021-12-26,Gabriel Teodoro Martinelli Silva,M,False,81,0,3,0.117,0.0
-19,189,2021-12-26,Saïd Benrahma,M,True,80,0,7,0.468,0.0
 19,187,2021-12-26,Martin Ødegaard,M,False,90,0,9,0.135,0.236
 19,185,2021-12-26,Rodrigo Hernandez,M,True,0,0,0,,
 19,181,2021-12-26,Danny Ings,F,True,72,0,2,0.173,0.0
@@ -8475,17 +8491,18 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 19,185,2021-12-26,Youri Tielemans,M,False,70,0,2,0.0,0.074
 19,181,2021-12-26,Kai Havertz,M,False,0,0,0,,
 19,188,2021-12-26,Odsonne Edouard,F,False,62,0,2,0.0,0.078
+19,189,2021-12-26,Saïd Benrahma,M,True,80,0,7,0.468,0.0
 19,189,2021-12-26,Pablo Fornals,M,True,45,0,1,0.0,0.0
 19,181,2021-12-26,Jorge Luiz Frello Filho,M,False,90,3,15,0.0,0.292
 19,189,2021-12-26,James Ward-Prowse,M,False,90,3,13,0.0,0.113
 19,181,2021-12-26,Ollie Watkins,F,True,90,0,2,0.11,0.0
 19,189,2021-12-26,Che Adams,F,False,9,0,1,0.0,0.0
-19,185,2021-12-26,James Maddison,M,False,90,1,10,0.484,0.321
 19,185,2021-12-26,Phil Foden,M,True,19,0,1,0.0,0.0
 19,185,2021-12-26,Bernardo Mota Veiga de Carvalho e Silva,M,True,90,0,2,0.0,0.442
 19,188,2021-12-26,Conor Gallagher,M,False,74,0,2,0.0,0.072
 19,181,2021-12-26,Mason Mount,M,False,90,0,2,0.314,0.137
 19,187,2021-12-26,Teemu Pukki,F,True,90,0,2,0.0,0.026
+19,185,2021-12-26,James Maddison,M,False,90,1,10,0.484,0.321
 19,182,2021-12-26,Neal Maupay,F,True,90,0,6,0.156,0.148
 19,189,2021-12-26,Jarrod Bowen,M,True,90,0,4,0.0,0.484
 19,189,2021-12-26,Michail Antonio,F,True,45,0,5,0.782,0.0
@@ -8497,8 +8514,8 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 19,185,2021-12-26,Riyad Mahrez,M,True,90,0,10,0.331,0.122
 19,185,2021-12-26,Raheem Sterling,M,True,90,2,14,1.115,0.0
 19,182,2021-12-26,Ivan Toney,F,False,90,0,1,0.08,0.164
-19,188,2021-12-26,Heung-Min Son,M,True,75,0,8,0.559,0.082
 19,188,2021-12-26,Harry Kane,F,True,63,0,6,0.487,0.0
+19,188,2021-12-26,Heung-Min Son,M,True,75,0,8,0.559,0.082
 19,186,2021-12-27,Jamal Lewis,D,True,0,0,0,,
 19,186,2021-12-27,Miguel Almirón,M,True,15,0,1,0.039,0.0
 19,186,2021-12-27,José Diogo Dalot Teixeira,D,False,90,0,2,0.0,0.081
@@ -8603,7 +8620,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 20,194,2021-12-28,Joachim Andersen,D,True,82,0,6,0.016,0.0
 20,197,2021-12-28,Boubakary Soumaré,M,True,90,0,3,0.022,0.0
 20,199,2021-12-28,Lyanco Evangelista Silveira Neves Vojnovic,D,True,0,0,0,,
-20,197,2021-12-28,Timothy Castagne,D,True,90,1,7,0.0,0.091
 20,194,2021-12-28,Will Hughes,M,True,72,0,6,0.0,0.151
 20,194,2021-12-28,Jairo Riedewald,M,True,0,0,0,,
 20,199,2021-12-28,Giovani Lo Celso,M,False,0,0,0,,
@@ -8669,6 +8685,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 20,200,2021-12-28,Ben Johnson,D,False,81,0,2,0.0,0.0
 20,200,2021-12-28,Nikola Vlasic,M,False,5,0,6,0.541,0.0
 20,200,2021-12-28,Andriy Yarmolenko,M,False,0,0,0,,
+20,197,2021-12-28,Timothy Castagne,D,True,90,1,7,0.0,0.091
 20,199,2021-12-28,Tanguy Ndombele,M,False,0,0,0,,
 20,200,2021-12-28,Declan Rice,M,False,0,0,0,,
 20,197,2021-12-28,Çaglar Söyüncü,D,True,0,0,0,,
@@ -8724,32 +8741,33 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 20,200,2021-12-28,Manuel Lanzini,M,False,89,0,2,0.0,0.066
 20,200,2021-12-28,Juan Camilo Hernández Suárez,F,True,45,0,1,0.027,0.0
 20,200,2021-12-28,Ismaila Sarr,M,True,0,0,0,,
-20,200,2021-12-28,Saïd Benrahma,M,False,84,1,8,0.162,0.192
 20,197,2021-12-28,Roberto Firmino,F,False,20,0,1,0.0,0.079
 20,200,2021-12-28,Joshua King,F,True,90,0,5,0.18,0.093
 20,199,2021-12-28,Armando Broja,F,True,19,0,1,0.024,0.0
 20,197,2021-12-28,Youri Tielemans,M,True,34,0,1,0.0,0.0
 20,194,2021-12-28,Odsonne Edouard,F,True,90,3,14,0.401,0.249
+20,200,2021-12-28,Saïd Benrahma,M,False,84,1,8,0.162,0.192
 20,200,2021-12-28,Pablo Fornals,M,False,0,0,0,,
 20,199,2021-12-28,James Ward-Prowse,M,True,90,2,9,0.071,0.0
 20,199,2021-12-28,Che Adams,F,True,0,0,0,,
-20,197,2021-12-28,James Maddison,M,True,67,0,3,0.32,0.022
 20,194,2021-12-28,Conor Gallagher,M,True,0,0,0,,
 20,194,2021-12-28,Teemu Pukki,F,False,0,0,0,,
+20,197,2021-12-28,James Maddison,M,True,67,0,3,0.32,0.022
 20,200,2021-12-28,Jarrod Bowen,M,False,90,3,14,0.502,1.248
 20,200,2021-12-28,Michail Antonio,F,False,90,0,5,0.595,0.167
 20,200,2021-12-28,Emmanuel Dennis,F,True,90,1,7,0.391,0.0
 20,194,2021-12-28,Wilfried Zaha,M,True,0,0,0,,
 20,197,2021-12-28,Jamie Vardy,F,True,90,0,2,0.15,0.32
-20,199,2021-12-28,Heung-Min Son,M,False,90,1,6,0.366,0.69
 20,197,2021-12-28,Sadio Mané,M,False,90,0,2,0.607,0.0
 20,199,2021-12-28,Harry Kane,F,False,90,0,6,0.485,0.099
 20,197,2021-12-28,Diogo Jota,M,False,90,0,2,0.25,0.372
+20,199,2021-12-28,Heung-Min Son,M,False,90,1,6,0.366,0.69
 20,197,2021-12-28,Mohamed Salah,M,False,90,0,0,1.162,0.158
 20,192,2021-12-29,Pelenda Joshua Dasilva,M,True,0,0,0,,
 20,192,2021-12-29,Kayky da Silva Chagas,F,False,0,0,0,,
 20,193,2021-12-29,Evan Ferguson,F,False,0,0,0,,
 20,192,2021-12-29,James McAtee,M,False,0,0,0,,
+20,192,2021-12-29,Tariqe Fosu-Henry,M,True,0,0,0,,
 20,193,2021-12-29,Jeremy Sarmiento,M,False,0,0,0,,
 20,192,2021-12-29,Finley Stevens,D,True,0,0,0,,
 20,192,2021-12-29,Dominic Thompson,D,True,81,0,2,0.0,0.0
@@ -8823,7 +8841,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 20,192,2021-12-29,Jack Grealish,M,False,90,0,3,0.0,0.011
 20,193,2021-12-29,Trevoh Chalobah,D,True,45,0,1,0.016,0.0
 20,192,2021-12-29,Bryan Mbeumo,M,True,0,0,0,,
-20,192,2021-12-29,Yoane Wissa,M,True,68,0,2,0.081,0.0
 20,193,2021-12-29,Thiago Emiliano da Silva,D,True,0,0,0,,
 20,192,2021-12-29,Aymeric Laporte,D,False,90,0,6,0.0,0.0
 20,192,2021-12-29,Rodrigo Hernandez,M,False,0,0,0,,
@@ -8832,6 +8849,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 20,193,2021-12-29,Hakim Ziyech,M,True,0,0,0,,
 20,193,2021-12-29,Alexis Mac Allister,M,False,79,0,2,0.114,0.267
 20,193,2021-12-29,Leandro Trossard,M,False,0,0,0,,
+20,192,2021-12-29,Yoane Wissa,M,True,68,0,2,0.081,0.0
 20,193,2021-12-29,Christian Pulisic,M,True,90,0,2,0.0,0.063
 20,193,2021-12-29,Reece James,D,True,26,0,1,0.0,0.081
 20,192,2021-12-29,Rodrigo Hernandez,M,False,0,0,0,,
@@ -9019,12 +9037,12 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 21,201,2022-01-01,Gabriel Teodoro Martinelli Silva,M,True,90,0,2,0.692,0.0
 21,210,2022-01-01,Juan Camilo Hernández Suárez,F,True,1,0,1,0.0,0.0
 21,210,2022-01-01,Ismaila Sarr,M,True,0,0,0,,
-21,204,2022-01-01,Saïd Benrahma,M,False,70,0,6,0.329,0.616
 21,201,2022-01-01,Martin Ødegaard,M,True,62,0,2,0.0,0.0
 21,201,2022-01-01,Rodrigo Hernandez,M,False,90,3,9,0.444,0.016
 21,210,2022-01-01,Joshua King,F,True,90,0,2,0.064,0.095
 21,201,2022-01-01,Ilkay Gündogan,M,False,27,0,1,0.0,0.0
 21,204,2022-01-01,Odsonne Edouard,F,True,90,0,6,1.247,0.101
+21,204,2022-01-01,Saïd Benrahma,M,False,70,0,6,0.329,0.616
 21,204,2022-01-01,Pablo Fornals,M,False,0,0,0,,
 21,201,2022-01-01,Phil Foden,M,False,0,0,0,,
 21,201,2022-01-01,Bernardo Mota Veiga de Carvalho e Silva,M,False,90,1,5,0.15,0.022
@@ -9038,12 +9056,13 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 21,201,2022-01-01,Kevin De Bruyne,M,False,90,0,2,0.021,0.169
 21,201,2022-01-01,Riyad Mahrez,M,False,90,2,9,0.071,0.139
 21,201,2022-01-01,Raheem Sterling,M,False,90,0,2,0.022,0.238
-21,210,2022-01-01,Heung-Min Son,M,False,90,0,6,0.629,0.691
 21,210,2022-01-01,Harry Kane,F,False,90,0,2,0.263,0.018
+21,210,2022-01-01,Heung-Min Son,M,False,90,0,6,0.629,0.691
 21,202,2022-01-02,Pelenda Joshua Dasilva,M,True,0,0,0,,
 21,205,2022-01-02,Vitalii Mykolenko,D,True,0,0,0,,
 21,205,2022-01-02,Evan Ferguson,F,False,0,0,0,,
 21,203,2022-01-02,Kaide Gordon,M,False,0,0,0,,
+21,202,2022-01-02,Tariqe Fosu-Henry,M,True,0,0,0,,
 21,203,2022-01-02,Tyler Morton,M,False,0,0,0,,
 21,205,2022-01-02,Jeremy Sarmiento,M,False,0,0,0,,
 21,206,2022-01-02,Leo Fuhr Hjelde,D,True,0,0,0,,
@@ -9214,7 +9233,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 21,202,2022-01-02,John McGinn,M,False,90,0,1,0.033,0.446
 21,203,2022-01-02,Trevoh Chalobah,D,True,69,0,1,0.0,0.0
 21,202,2022-01-02,Bryan Mbeumo,M,True,0,0,0,,
-21,202,2022-01-02,Yoane Wissa,M,True,90,1,8,0.08,0.0
 21,205,2022-01-02,Dominic Calvert-Lewin,F,True,90,0,0,0.189,0.0
 21,203,2022-01-02,Thiago Emiliano da Silva,D,True,90,0,1,0.0,0.0
 21,206,2022-01-02,Ben Mee,D,False,90,0,1,0.0,0.0
@@ -9226,6 +9244,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 21,205,2022-01-02,Alexis Mac Allister,M,False,90,3,15,0.532,0.121
 21,205,2022-01-02,Leandro Trossard,M,False,80,0,2,0.025,0.056
 21,205,2022-01-02,Richarlison de Andrade,F,True,0,0,0,,
+21,202,2022-01-02,Yoane Wissa,M,True,90,1,8,0.08,0.0
 21,206,2022-01-02,Daniel James,M,True,28,0,6,0.465,0.352
 21,206,2022-01-02,Chris Wood,F,False,83,0,2,0.686,0.0
 21,203,2022-01-02,Fabio Henrique Tavares,M,False,90,0,2,0.0,0.0
@@ -9295,6 +9314,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 21,208,2022-01-03,Bruno Miguel Borges Fernandes,M,True,30,0,1,0.418,0.103
 21,208,2022-01-03,Cristiano Ronaldo dos Santos Aveiro,F,True,90,0,2,0.124,0.105
 21,176,2022-01-11,Pelenda Joshua Dasilva,M,False,0,0,0,,
+21,176,2022-01-11,Tariqe Fosu-Henry,M,False,0,0,0,,
 21,176,2022-01-11,Finley Stevens,D,False,14,0,1,0.0,0.029
 21,176,2022-01-11,Dominic Thompson,D,False,0,0,0,,
 21,176,2022-01-11,Charlie Goode,D,False,0,0,0,,
@@ -9339,8 +9359,8 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 21,176,2022-01-11,Sergi Canós,M,False,75,0,2,0.0,0.0
 21,176,2022-01-11,Bryan Mbeumo,M,False,90,0,5,0.34,0.098
 21,176,2022-01-11,Jan Bednarek,D,True,90,0,8,0.489,0.0
-21,176,2022-01-11,Yoane Wissa,M,False,34,0,1,0.0,0.0
 21,176,2022-01-11,Mohamed Elyounoussi,M,True,0,0,0,,
+21,176,2022-01-11,Yoane Wissa,M,False,34,0,1,0.0,0.0
 21,176,2022-01-11,Armando Broja,F,True,77,2,8,0.419,0.0
 21,176,2022-01-11,James Ward-Prowse,M,True,90,2,7,0.026,0.515
 21,176,2022-01-11,Che Adams,F,True,25,0,5,0.308,0.0
@@ -9710,6 +9730,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 22,214,2022-01-16,Pelenda Joshua Dasilva,M,False,0,0,0,,
 22,219,2022-01-16,Sonny Perkins,M,True,3,0,1,0.0,0.0
 22,214,2022-01-16,Kaide Gordon,M,True,8,0,1,0.491,0.0
+22,214,2022-01-16,Tariqe Fosu-Henry,M,False,0,0,0,,
 22,214,2022-01-16,Tyler Morton,M,True,0,0,0,,
 22,219,2022-01-16,Harrison Ashby,D,True,0,0,0,,
 22,219,2022-01-16,Leo Fuhr Hjelde,D,False,67,0,1,0.0,0.024
@@ -9794,15 +9815,15 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 22,214,2022-01-16,Jordan Henderson,M,True,90,0,3,0.0,0.087
 22,214,2022-01-16,Divock Origi,F,True,0,0,0,,
 22,214,2022-01-16,Bryan Mbeumo,M,False,74,0,2,0.104,0.0
-22,214,2022-01-16,Yoane Wissa,M,False,22,0,1,0.0,0.096
 22,214,2022-01-16,Virgil van Dijk,D,True,90,0,6,0.159,0.0
 22,219,2022-01-16,Tomas Soucek,M,True,0,0,0,,
+22,214,2022-01-16,Yoane Wissa,M,False,22,0,1,0.0,0.096
 22,219,2022-01-16,Daniel James,M,False,90,0,1,0.491,0.0
 22,214,2022-01-16,Fabio Henrique Tavares,M,True,90,2,10,0.507,0.094
 22,219,2022-01-16,Manuel Lanzini,M,True,90,0,1,0.0,0.103
 22,219,2022-01-16,Jack Harrison,M,False,90,3,20,1.311,0.123
-22,219,2022-01-16,Saïd Benrahma,M,True,0,0,0,,
 22,214,2022-01-16,Roberto Firmino,F,True,77,0,5,0.069,0.654
+22,219,2022-01-16,Saïd Benrahma,M,True,0,0,0,,
 22,219,2022-01-16,Pablo Fornals,M,True,68,1,8,0.131,0.169
 22,219,2022-01-16,Jarrod Bowen,M,True,90,0,7,1.277,0.0
 22,219,2022-01-16,Michail Antonio,F,True,90,0,4,0.071,0.092
@@ -9864,6 +9885,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 22,232,2022-01-18,Neal Maupay,F,True,28,0,1,0.067,0.0
 22,162,2022-01-19,Pelenda Joshua Dasilva,M,True,0,0,0,,
 22,166,2022-01-19,Kasey McAteer,M,True,0,0,0,,
+22,162,2022-01-19,Tariqe Fosu-Henry,M,True,0,0,0,,
 22,162,2022-01-19,Finley Stevens,D,True,0,0,0,,
 22,162,2022-01-19,Dominic Thompson,D,True,0,0,0,,
 22,166,2022-01-19,Kiernan Dewsbury-Hall,M,True,87,0,2,0.026,0.718
@@ -9886,7 +9908,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 22,166,2022-01-19,Hamza Choudhury,M,True,90,0,1,0.02,0.0
 22,166,2022-01-19,Joe Rodon,D,False,0,0,0,,
 22,166,2022-01-19,Boubakary Soumaré,M,True,2,0,1,0.0,0.0
-22,166,2022-01-19,Timothy Castagne,D,True,0,0,0,,
 22,162,2022-01-19,Victor Lindelöf,D,False,90,0,2,0.0,0.0
 22,166,2022-01-19,Giovani Lo Celso,M,False,16,0,1,0.0,0.0
 22,162,2022-01-19,Aaron Wan-Bissaka,D,False,0,0,0,,
@@ -9918,6 +9939,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 22,166,2022-01-19,Cristian Romero,D,False,0,0,0,,
 22,162,2022-01-19,Saman Ghoddos,M,True,0,0,0,,
 22,166,2022-01-19,Matt Doherty,D,False,45,0,4,0.634,0.51
+22,166,2022-01-19,Timothy Castagne,D,True,0,0,0,,
 22,162,2022-01-19,Mathias Jorgensen,D,True,0,0,0,,
 22,166,2022-01-19,Tanguy Ndombele,M,False,0,0,0,,
 22,162,2022-01-19,Scott McTominay,M,False,83,0,3,0.015,0.021
@@ -9947,8 +9969,8 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 22,166,2022-01-19,Harvey Barnes,M,True,15,0,4,0.125,0.384
 22,162,2022-01-19,Bryan Mbeumo,M,True,90,0,2,0.0,0.082
 22,162,2022-01-19,Jadon Sancho,M,False,0,0,0,,
-22,162,2022-01-19,Yoane Wissa,M,True,23,0,1,0.0,0.0
 22,166,2022-01-19,Patson Daka,F,True,74,0,6,1.09,0.0
+22,162,2022-01-19,Yoane Wissa,M,True,23,0,1,0.0,0.0
 22,166,2022-01-19,Ademola Lookman,M,True,90,0,2,0.063,0.0
 22,162,2022-01-19,Marcus Rashford,M,False,19,0,6,0.093,0.0
 22,162,2022-01-19,Mason Greenwood,M,False,70,3,11,0.656,0.064
@@ -9957,9 +9979,9 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 22,162,2022-01-19,Bruno Miguel Borges Fernandes,M,False,90,1,9,0.427,0.86
 22,166,2022-01-19,Jamie Vardy,F,True,0,0,0,,
 22,162,2022-01-19,Ivan Toney,F,True,90,2,8,0.345,0.6
-22,166,2022-01-19,Heung-Min Son,M,False,0,0,0,,
 22,162,2022-01-19,Cristiano Ronaldo dos Santos Aveiro,F,False,70,0,2,0.187,0.0
 22,166,2022-01-19,Harry Kane,F,False,90,2,11,1.439,0.488
+22,166,2022-01-19,Heung-Min Son,M,False,0,0,0,,
 23,230,2022-01-21,Edo Kayembe,M,True,90,0,2,0.0,0.053
 23,230,2022-01-21,Jonathan Rowe,M,False,0,0,0,,
 23,230,2022-01-21,Przemyslaw Placheta,M,False,1,0,1,0.0,0.0
@@ -10024,6 +10046,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 23,229,2022-01-22,Kayky da Silva Chagas,F,False,0,0,0,,
 23,228,2022-01-22,Sonny Perkins,M,False,0,0,0,,
 23,229,2022-01-22,James McAtee,M,False,0,0,0,,
+23,222,2022-01-22,Tariqe Fosu-Henry,M,True,0,0,0,,
 23,228,2022-01-22,Harrison Ashby,D,False,0,0,0,,
 23,226,2022-01-22,Leo Fuhr Hjelde,D,True,0,0,0,,
 23,225,2022-01-22,Lewis Dobbin,F,True,0,0,0,,
@@ -10234,7 +10257,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 23,222,2022-01-22,Bryan Mbeumo,M,True,90,0,5,0.074,0.024
 23,228,2022-01-22,Jadon Sancho,M,True,0,0,0,,
 23,229,2022-01-22,Jan Bednarek,D,True,70,0,1,0.422,0.0
-23,222,2022-01-22,Yoane Wissa,M,True,32,0,1,0.027,0.0
 23,225,2022-01-22,Dominic Calvert-Lewin,F,True,90,0,1,0.559,0.117
 23,229,2022-01-22,Aymeric Laporte,D,False,90,2,10,0.409,0.0
 23,229,2022-01-22,Rodrigo Hernandez,M,False,90,0,2,0.097,0.0
@@ -10243,6 +10265,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 23,229,2022-01-22,Mohamed Elyounoussi,M,True,45,0,0,0.0,0.0
 23,222,2022-01-22,Rúben Diogo da Silva Neves,M,False,90,2,8,0.045,0.019
 23,225,2022-01-22,Richarlison de Andrade,F,True,90,0,2,0.172,0.0
+23,222,2022-01-22,Yoane Wissa,M,True,32,0,1,0.027,0.0
 23,226,2022-01-22,Daniel James,M,True,70,0,2,0.744,0.0
 23,226,2022-01-22,Chris Wood,F,False,90,0,2,0.177,0.147
 23,228,2022-01-22,Marcus Rashford,M,True,28,0,6,1.03,0.0
@@ -10251,7 +10274,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 23,222,2022-01-22,Hee-Chan Hwang,F,False,0,0,0,,
 23,226,2022-01-22,Jack Harrison,M,True,90,0,2,0.041,0.092
 23,228,2022-01-22,Mason Greenwood,M,True,81,0,3,0.119,0.0
-23,228,2022-01-22,Saïd Benrahma,M,False,0,0,0,,
 23,229,2022-01-22,Rodrigo Hernandez,M,False,90,0,2,0.097,0.0
 23,225,2022-01-22,Danny Ings,F,False,11,0,0,0.0,0.0
 23,225,2022-01-22,Demarai Gray,M,True,90,0,2,0.186,0.032
@@ -10260,6 +10282,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 23,225,2022-01-22,Jacob Ramsey,M,False,90,0,3,0.0,0.0
 23,229,2022-01-22,Armando Broja,F,True,90,0,2,0.685,0.0
 23,222,2022-01-22,Raúl Jiménez,F,False,0,0,0,,
+23,228,2022-01-22,Saïd Benrahma,M,False,0,0,0,,
 23,228,2022-01-22,Pablo Fornals,M,False,90,0,2,0.066,0.0
 23,229,2022-01-22,James Ward-Prowse,M,True,90,0,2,0.0,0.05
 23,226,2022-01-22,Callum Wilson,F,False,0,0,0,,
@@ -10324,7 +10347,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 23,224,2022-01-23,Ibrahima Konaté,D,False,0,0,0,,
 23,224,2022-01-23,Joachim Andersen,D,True,90,0,1,0.027,0.036
 23,227,2022-01-23,Boubakary Soumaré,M,True,12,0,1,0.0,0.0
-23,227,2022-01-23,Timothy Castagne,D,True,0,0,0,,
 23,224,2022-01-23,Will Hughes,M,True,76,0,1,0.0,0.0
 23,221,2022-01-23,Dale Stephens,M,False,0,0,0,,
 23,227,2022-01-23,Solomon March,M,False,13,0,1,0.0,0.354
@@ -10388,6 +10410,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 23,223,2022-01-23,Matt Doherty,D,False,90,0,1,0.056,0.0
 23,224,2022-01-23,Curtis Jones,M,False,90,0,2,0.0,0.086
 23,223,2022-01-23,Callum Hudson-Odoi,M,True,86,0,6,0.289,0.091
+23,227,2022-01-23,Timothy Castagne,D,True,0,0,0,,
 23,227,2022-01-23,Lewis Dunk,D,False,0,0,0,,
 23,227,2022-01-23,Shane Duffy,D,False,0,0,0,,
 23,223,2022-01-23,Tanguy Ndombele,M,False,0,0,0,,
@@ -10459,18 +10482,18 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 23,224,2022-01-23,Odsonne Edouard,F,True,67,2,8,0.509,0.0
 23,221,2022-01-23,Maxwel Cornet,M,False,0,0,0,,
 23,223,2022-01-23,Jorge Luiz Frello Filho,M,True,72,0,2,0.0,0.029
-23,227,2022-01-23,James Maddison,M,True,90,0,2,0.306,0.019
 23,224,2022-01-23,Conor Gallagher,M,True,90,0,1,0.606,0.0
 23,223,2022-01-23,Mason Mount,M,True,90,0,6,0.242,0.207
+23,227,2022-01-23,James Maddison,M,True,90,0,2,0.306,0.019
 23,227,2022-01-23,Neal Maupay,F,False,90,0,5,0.11,0.295
 23,221,2022-01-23,Bukayo Saka,M,True,90,0,3,0.174,0.046
 23,221,2022-01-23,Emile Smith Rowe,M,True,76,0,3,0.169,0.481
 23,224,2022-01-23,Wilfried Zaha,M,True,0,0,0,,
 23,227,2022-01-23,Jamie Vardy,F,True,0,0,0,,
-23,223,2022-01-23,Heung-Min Son,M,False,0,0,0,,
 23,224,2022-01-23,Sadio Mané,M,False,0,0,0,,
 23,223,2022-01-23,Harry Kane,F,False,90,0,2,0.047,0.091
 23,224,2022-01-23,Diogo Jota,M,False,90,0,5,0.019,0.118
+23,223,2022-01-23,Heung-Min Son,M,False,0,0,0,,
 23,224,2022-01-23,Mohamed Salah,M,False,0,0,0,,
 23,164,2022-02-05,Edo Kayembe,M,False,69,0,3,0.0,0.0
 23,164,2022-02-05,Ozan Tufan,M,False,0,0,0,,
@@ -10670,10 +10693,10 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 24,233,2022-02-08,Mason Greenwood,M,False,0,0,0,,
 24,235,2022-02-08,Juan Camilo Hernández Suárez,F,False,0,0,0,,
 24,235,2022-02-08,Ismaila Sarr,M,False,0,0,0,,
-24,235,2022-02-08,Saïd Benrahma,M,True,59,0,1,0.643,0.0
 24,239,2022-02-08,Demarai Gray,M,False,24,0,1,0.0,0.146
 24,235,2022-02-08,Joshua King,F,False,90,0,2,0.0,0.122
 24,239,2022-02-08,Allan Saint-Maximin,F,True,90,0,5,0.802,0.267
+24,235,2022-02-08,Saïd Benrahma,M,True,59,0,1,0.643,0.0
 24,233,2022-02-08,Maxwel Cornet,M,True,68,0,2,0.0,0.0
 24,235,2022-02-08,Pablo Fornals,M,True,90,0,3,0.0,0.0
 24,239,2022-02-08,Callum Wilson,F,True,0,0,0,,
@@ -10687,6 +10710,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 24,234,2022-02-09,Jonathan Rowe,M,True,6,0,1,0.0,0.0
 24,238,2022-02-09,James McAtee,M,True,0,0,0,,
 24,234,2022-02-09,Przemyslaw Placheta,M,True,63,0,2,0.0,0.0
+24,238,2022-02-09,Tariqe Fosu-Henry,M,False,0,0,0,,
 24,231,2022-02-09,Leo Fuhr Hjelde,D,False,0,0,0,,
 24,231,2022-02-09,Stuart McKinstry,M,False,0,0,0,,
 24,231,2022-02-09,Liam McCarron,M,False,0,0,0,,
@@ -10858,12 +10882,12 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 24,231,2022-02-09,John McGinn,M,True,90,0,2,0.0,0.0
 24,238,2022-02-09,Bryan Mbeumo,M,False,28,0,1,0.0,0.0
 24,240,2022-02-09,Jan Bednarek,D,False,90,0,-1,0.016,0.0
-24,238,2022-02-09,Yoane Wissa,M,False,20,0,1,0.053,0.0
 24,234,2022-02-09,Jean-Philippe Mateta,F,False,79,0,1,0.034,0.0
 24,238,2022-02-09,Aymeric Laporte,D,True,90,0,6,0.07,0.0
 24,238,2022-02-09,Rodrigo Hernandez,M,True,90,0,3,0.0,0.31
 24,234,2022-02-09,Jeffrey Schlupp,M,False,79,0,2,0.074,0.0
 24,240,2022-02-09,Mohamed Elyounoussi,M,False,90,2,9,0.114,0.585
+24,238,2022-02-09,Yoane Wissa,M,False,20,0,1,0.053,0.0
 24,231,2022-02-09,Daniel James,M,False,90,1,12,1.126,0.0
 24,234,2022-02-09,Christian Benteke,F,False,0,0,0,,
 24,231,2022-02-09,Philippe Coutinho Correia,M,True,77,3,16,0.077,0.808
@@ -10887,8 +10911,8 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 24,238,2022-02-09,Riyad Mahrez,M,True,66,2,10,0.0,0.0
 24,238,2022-02-09,Raheem Sterling,M,True,90,0,9,0.618,0.172
 24,238,2022-02-09,Ivan Toney,F,False,0,0,0,,
-24,240,2022-02-09,Heung-Min Son,M,True,90,0,7,0.485,0.0
 24,240,2022-02-09,Harry Kane,F,True,90,0,2,0.621,0.409
+24,240,2022-02-09,Heung-Min Son,M,True,90,0,7,0.485,0.0
 24,236,2022-02-10,Francisco Jorge Tomás Oliveira,M,True,28,0,1,0.064,0.07
 24,236,2022-02-10,Toti António Gomes,D,True,0,0,0,,
 24,237,2022-02-10,Kasey McAteer,M,False,0,0,0,,
@@ -10921,7 +10945,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 24,237,2022-02-10,Ibrahima Konaté,D,True,0,0,0,,
 24,237,2022-02-10,Boubakary Soumaré,M,False,59,0,1,0.1,0.0
 24,236,2022-02-10,Nélson Cabral Semedo,D,True,90,0,2,0.011,0.085
-24,237,2022-02-10,Timothy Castagne,D,False,0,0,0,,
 24,236,2022-02-10,Fernando Marçal,D,True,62,0,2,0.064,0.0
 24,236,2022-02-10,Aaron Ramsdale,G,False,90,2,9,0.0,0.0
 24,237,2022-02-10,Wilfred Ndidi,M,False,90,0,2,0.0,0.0
@@ -10946,6 +10969,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 24,236,2022-02-10,Max Kilman,D,True,90,0,2,0.0,0.0
 24,236,2022-02-10,Leander Dendoncker,M,True,90,0,2,0.138,0.0
 24,237,2022-02-10,Curtis Jones,M,True,58,0,1,0.015,0.066
+24,237,2022-02-10,Timothy Castagne,D,False,0,0,0,,
 24,236,2022-02-10,Nicolas Pépé,M,False,0,0,0,,
 24,237,2022-02-10,Çaglar Söyüncü,D,False,0,0,0,,
 24,237,2022-02-10,Ricardo Domingos Barbosa Pereira,D,False,0,0,0,,
@@ -10999,6 +11023,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 25,248,2022-02-12,Jonathan Rowe,M,True,0,0,0,,
 25,248,2022-02-12,James McAtee,M,False,15,0,1,0.0,0.0
 25,248,2022-02-12,Przemyslaw Placheta,M,True,0,0,0,,
+25,241,2022-02-12,Tariqe Fosu-Henry,M,True,0,0,0,,
 25,250,2022-02-12,Jeremy Sarmiento,M,False,0,0,0,,
 25,244,2022-02-12,Leo Fuhr Hjelde,D,False,81,0,1,0.0,0.0
 25,244,2022-02-12,Lewis Dobbin,F,True,0,0,0,,
@@ -11216,7 +11241,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 25,241,2022-02-12,Bryan Mbeumo,M,True,90,0,3,0.412,0.694
 25,246,2022-02-12,Jadon Sancho,M,True,90,2,9,1.377,0.532
 25,246,2022-02-12,Jan Bednarek,D,False,45,0,1,0.0,0.0
-25,241,2022-02-12,Yoane Wissa,M,True,81,0,3,0.803,0.0
 25,241,2022-02-12,Jean-Philippe Mateta,F,False,18,0,1,0.0,0.0
 25,244,2022-02-12,Dominic Calvert-Lewin,F,True,71,0,2,0.113,0.028
 25,248,2022-02-12,Aymeric Laporte,D,False,0,0,0,,
@@ -11228,6 +11252,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 25,250,2022-02-12,Leandro Trossard,M,False,0,0,0,,
 25,246,2022-02-12,Mohamed Elyounoussi,M,False,70,1,6,0.0,0.253
 25,244,2022-02-12,Richarlison de Andrade,F,True,85,0,5,0.197,0.233
+25,241,2022-02-12,Yoane Wissa,M,True,81,0,3,0.803,0.0
 25,244,2022-02-12,Daniel James,M,False,90,0,1,0.025,0.0
 25,241,2022-02-12,Christian Benteke,F,False,0,0,0,,
 25,246,2022-02-12,Marcus Rashford,M,True,81,0,4,0.044,0.903
@@ -11304,7 +11329,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 25,242,2022-02-13,Ibrahima Konaté,D,False,0,0,0,,
 25,245,2022-02-13,Boubakary Soumaré,M,True,0,0,0,,
 25,249,2022-02-13,Nélson Cabral Semedo,D,False,90,0,6,0.0,0.227
-25,245,2022-02-13,Timothy Castagne,D,True,0,0,0,,
 25,249,2022-02-13,Rodrigo Bentancur,M,True,90,0,1,0.013,0.089
 25,242,2022-02-13,Dale Stephens,M,True,0,0,0,,
 25,242,2022-02-13,Charlie Taylor,D,True,0,0,0,,
@@ -11365,6 +11389,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 25,245,2022-02-13,Ben Johnson,D,False,0,0,0,,
 25,245,2022-02-13,Nikola Vlasic,M,False,11,0,1,0.0,0.0
 25,245,2022-02-13,Andriy Yarmolenko,M,False,0,0,0,,
+25,245,2022-02-13,Timothy Castagne,D,True,0,0,0,,
 25,247,2022-02-13,Douglas Luiz Soares de Paulo,M,False,90,0,1,0.046,0.03
 25,247,2022-02-13,Jacob Murphy,M,True,0,0,0,,
 25,247,2022-02-13,Isaac Hayden,M,True,0,0,0,,
@@ -11437,13 +11462,13 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 25,245,2022-02-13,Manuel Lanzini,M,False,78,0,2,0.0,0.0
 25,247,2022-02-13,Philippe Coutinho Correia,M,False,90,0,2,0.122,0.062
 25,249,2022-02-13,Hee-Chan Hwang,F,False,9,0,1,0.0,0.0
-25,245,2022-02-13,Saïd Benrahma,M,False,11,0,1,0.077,0.0
 25,247,2022-02-13,Danny Ings,F,False,18,0,1,0.071,0.0
 25,242,2022-02-13,Roberto Firmino,F,False,90,0,2,0.041,0.0
 25,247,2022-02-13,Allan Saint-Maximin,F,True,90,0,2,0.044,0.135
 25,247,2022-02-13,Jacob Ramsey,M,False,90,0,1,0.0,0.014
 25,245,2022-02-13,Youri Tielemans,M,True,89,2,9,0.066,0.088
 25,249,2022-02-13,Raúl Jiménez,F,False,85,0,6,0.605,0.078
+25,245,2022-02-13,Saïd Benrahma,M,False,11,0,1,0.077,0.0
 25,242,2022-02-13,Maxwel Cornet,M,True,90,0,2,0.063,0.087
 25,245,2022-02-13,Pablo Fornals,M,False,78,0,2,0.0,0.128
 25,247,2022-02-13,Callum Wilson,F,True,0,0,0,,
@@ -11452,10 +11477,10 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 25,245,2022-02-13,Jarrod Bowen,M,False,90,3,13,0.428,0.155
 25,245,2022-02-13,Michail Antonio,F,False,90,0,2,0.0,0.0
 25,245,2022-02-13,Jamie Vardy,F,True,0,0,0,,
-25,249,2022-02-13,Heung-Min Son,M,True,90,0,2,0.194,0.197
 25,242,2022-02-13,Sadio Mané,M,False,66,0,3,0.919,0.694
 25,249,2022-02-13,Harry Kane,F,True,90,0,2,0.417,0.0
 25,242,2022-02-13,Diogo Jota,M,False,23,0,1,0.098,0.017
+25,249,2022-02-13,Heung-Min Son,M,True,90,0,2,0.194,0.197
 25,242,2022-02-13,Mohamed Salah,M,False,90,0,3,0.072,0.02
 25,174,2022-02-15,Evan Ferguson,F,False,0,0,0,,
 25,174,2022-02-15,Jeremy Sarmiento,M,False,0,0,0,,
@@ -11516,6 +11541,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 26,257,2022-02-19,James McAtee,M,True,0,0,0,,
 26,256,2022-02-19,Kaide Gordon,M,True,0,0,0,,
 26,256,2022-02-19,Przemyslaw Placheta,M,False,14,0,1,0.0,0.0
+26,251,2022-02-19,Tariqe Fosu-Henry,M,False,0,0,0,,
 26,256,2022-02-19,Tyler Morton,M,True,0,0,0,,
 26,259,2022-02-19,Harrison Ashby,D,True,0,0,0,,
 26,253,2022-02-19,Jeremy Sarmiento,M,True,0,0,0,,
@@ -11850,7 +11876,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 26,254,2022-02-19,Trevoh Chalobah,D,False,0,0,0,,
 26,251,2022-02-19,Bryan Mbeumo,M,False,90,0,2,0.088,0.019
 26,258,2022-02-19,Jan Bednarek,D,True,90,0,6,0.0,0.0
-26,251,2022-02-19,Yoane Wissa,M,False,90,0,2,0.032,0.0
 26,254,2022-02-19,Jean-Philippe Mateta,F,True,1,0,1,0.0,0.0
 26,251,2022-02-19,Gabriel Magalhães,D,True,90,0,1,0.0,0.0
 26,258,2022-02-19,Dominic Calvert-Lewin,F,False,90,0,1,0.04,0.0
@@ -11869,6 +11894,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 26,253,2022-02-19,Leandro Trossard,M,True,35,0,1,0.058,0.0
 26,258,2022-02-19,Mohamed Elyounoussi,M,True,90,0,3,0.218,0.123
 26,258,2022-02-19,Richarlison de Andrade,F,False,90,0,2,0.022,0.0
+26,251,2022-02-19,Yoane Wissa,M,False,90,0,2,0.032,0.0
 26,259,2022-02-19,Chris Wood,F,False,90,0,2,0.0,0.049
 26,256,2022-02-19,Fabio Henrique Tavares,M,True,0,0,0,,
 26,251,2022-02-19,Alexandre Lacazette,F,True,83,0,5,0.166,0.181
@@ -11881,7 +11907,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 26,251,2022-02-19,Gabriel Teodoro Martinelli Silva,M,True,0,0,0,,
 26,252,2022-02-19,Juan Camilo Hernández Suárez,F,False,1,0,1,0.0,0.0
 26,252,2022-02-19,Ismaila Sarr,M,False,90,2,7,0.017,1.257
-26,259,2022-02-19,Saïd Benrahma,M,True,72,0,2,0.0,0.196
 26,251,2022-02-19,Martin Ødegaard,M,True,90,0,2,0.446,0.025
 26,257,2022-02-19,Rodrigo Hernandez,M,True,90,0,2,0.0,0.178
 26,252,2022-02-19,Danny Ings,F,True,90,0,2,0.479,0.021
@@ -11895,6 +11920,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 26,258,2022-02-19,Armando Broja,F,True,82,0,2,0.336,0.0
 26,254,2022-02-19,Kai Havertz,M,False,90,0,2,0.048,0.021
 26,254,2022-02-19,Odsonne Edouard,F,True,0,0,0,,
+26,259,2022-02-19,Saïd Benrahma,M,True,72,0,2,0.0,0.196
 26,253,2022-02-19,Maxwel Cornet,M,False,54,0,1,0.055,0.0
 26,259,2022-02-19,Pablo Fornals,M,True,90,0,1,0.103,0.0
 26,254,2022-02-19,Jorge Luiz Frello Filho,M,False,73,0,3,0.0,0.0
@@ -11918,10 +11944,10 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 26,257,2022-02-19,Riyad Mahrez,M,True,22,0,6,0.074,0.0
 26,257,2022-02-19,Raheem Sterling,M,True,67,0,2,0.072,0.096
 26,251,2022-02-19,Ivan Toney,F,False,0,0,0,,
-26,257,2022-02-19,Heung-Min Son,M,False,79,2,10,0.144,1.273
 26,256,2022-02-19,Sadio Mané,M,True,90,0,7,0.818,0.026
 26,257,2022-02-19,Harry Kane,F,False,90,3,13,1.503,0.144
 26,256,2022-02-19,Diogo Jota,M,True,0,0,0,,
+26,257,2022-02-19,Heung-Min Son,M,False,79,2,10,0.144,1.273
 26,256,2022-02-19,Mohamed Salah,M,True,90,3,10,0.993,0.651
 26,260,2022-02-20,Francisco Jorge Tomás Oliveira,M,True,0,0,0,,
 26,260,2022-02-20,Toti António Gomes,D,True,0,0,0,,
@@ -11957,7 +11983,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 26,260,2022-02-20,Boubakary Soumaré,M,False,0,0,0,,
 26,255,2022-02-20,Robin Koch,D,True,30,0,1,0.0,0.0
 26,260,2022-02-20,Nélson Cabral Semedo,D,True,90,0,2,0.0,0.073
-26,260,2022-02-20,Timothy Castagne,D,False,0,0,0,,
 26,255,2022-02-20,Victor Lindelöf,D,False,90,0,1,0.0,0.025
 26,260,2022-02-20,Fernando Marçal,D,True,2,0,1,0.0,0.0
 26,255,2022-02-20,Aaron Wan-Bissaka,D,False,90,0,1,0.106,0.0
@@ -11982,6 +12007,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 26,255,2022-02-20,Stuart Dallas,M,True,90,0,2,0.0,0.0
 26,260,2022-02-20,Max Kilman,D,True,90,0,2,0.123,0.0
 26,260,2022-02-20,Leander Dendoncker,M,True,90,0,4,0.025,0.028
+26,260,2022-02-20,Timothy Castagne,D,False,0,0,0,,
 26,255,2022-02-20,Scott McTominay,M,False,90,0,1,0.0,0.0
 26,260,2022-02-20,Çaglar Söyüncü,D,False,90,0,0,0.0,0.0
 26,255,2022-02-20,Mateusz Klich,M,True,90,0,1,0.407,0.13
@@ -12172,10 +12198,10 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 26,178,2022-02-23,Emmanuel Dennis,F,True,90,0,2,0.987,0.028
 26,184,2022-02-23,Raphael Dias Belloli,M,False,90,0,2,0.036,0.0
 26,178,2022-02-23,Wilfried Zaha,M,False,90,3,15,0.229,0.202
-26,124,2022-02-23,Heung-Min Son,M,False,90,0,2,0.0,0.289
 26,184,2022-02-23,Sadio Mané,M,True,90,3,19,1.198,0.238
 26,124,2022-02-23,Harry Kane,F,False,90,0,2,0.097,0.039
 26,184,2022-02-23,Diogo Jota,M,True,0,0,0,,
+26,124,2022-02-23,Heung-Min Son,M,False,90,0,2,0.0,0.289
 26,184,2022-02-23,Mohamed Salah,M,True,90,2,18,0.541,0.537
 26,191,2022-02-24,Francisco Jorge Tomás Oliveira,M,False,0,0,0,,
 26,191,2022-02-24,Toti António Gomes,D,False,0,0,0,,
@@ -12285,6 +12311,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 27,266,2022-02-26,Kayky da Silva Chagas,F,False,0,0,0,,
 27,263,2022-02-26,Evan Ferguson,F,True,0,0,0,,
 27,266,2022-02-26,James McAtee,M,False,0,0,0,,
+27,262,2022-02-26,Tariqe Fosu-Henry,M,True,0,0,0,,
 27,263,2022-02-26,Jeremy Sarmiento,M,True,0,0,0,,
 27,267,2022-02-26,Leo Fuhr Hjelde,D,True,0,0,0,,
 27,266,2022-02-26,Lewis Dobbin,F,True,0,0,0,,
@@ -12546,7 +12573,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 27,268,2022-02-26,Frederico Rodrigues de Paula Santos,M,True,61,0,3,0.015,0.015
 27,262,2022-02-26,Bryan Mbeumo,M,True,90,0,1,0.083,0.017
 27,268,2022-02-26,Jadon Sancho,M,True,28,0,1,0.018,0.0
-27,262,2022-02-26,Yoane Wissa,M,True,61,0,2,0.033,0.021
 27,265,2022-02-26,Jean-Philippe Mateta,F,True,30,0,1,0.0,0.0
 27,266,2022-02-26,Dominic Calvert-Lewin,F,True,0,0,0,,
 27,266,2022-02-26,Aymeric Laporte,D,False,90,1,7,0.013,0.0
@@ -12558,6 +12584,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 27,263,2022-02-26,Alexis Mac Allister,M,True,90,0,2,0.082,0.0
 27,263,2022-02-26,Leandro Trossard,M,True,90,0,1,0.061,0.0
 27,266,2022-02-26,Richarlison de Andrade,F,True,90,0,2,0.539,0.0
+27,262,2022-02-26,Yoane Wissa,M,True,61,0,2,0.033,0.021
 27,267,2022-02-26,Daniel James,M,True,90,0,2,0.097,0.056
 27,262,2022-02-26,Chris Wood,F,False,90,0,2,0.528,0.105
 27,265,2022-02-26,Christian Benteke,F,True,0,0,0,,
@@ -12590,9 +12617,9 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 27,266,2022-02-26,Riyad Mahrez,M,False,13,0,1,0.0,0.0
 27,266,2022-02-26,Raheem Sterling,M,False,76,0,3,0.0,0.065
 27,262,2022-02-26,Ivan Toney,F,True,28,0,1,0.065,0.276
-27,267,2022-02-26,Heung-Min Son,M,False,86,1,9,0.892,0.059
 27,268,2022-02-26,Cristiano Ronaldo dos Santos Aveiro,F,True,90,0,2,0.546,0.125
 27,267,2022-02-26,Harry Kane,F,False,90,2,11,0.38,0.88
+27,267,2022-02-26,Heung-Min Son,M,False,86,1,9,0.892,0.059
 27,270,2022-02-27,Daniel Chesters,M,True,0,0,0,,
 27,270,2022-02-27,Francisco Jorge Tomás Oliveira,M,False,0,0,0,,
 27,270,2022-02-27,Toti António Gomes,D,False,0,0,0,,
@@ -12637,8 +12664,8 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 27,270,2022-02-27,Rúben Diogo da Silva Neves,M,False,90,0,2,0.018,0.072
 27,270,2022-02-27,Manuel Lanzini,M,True,90,0,3,0.122,0.0
 27,270,2022-02-27,Hee-Chan Hwang,F,False,80,0,2,0.092,0.054
-27,270,2022-02-27,Saïd Benrahma,M,True,0,0,0,,
 27,270,2022-02-27,Raúl Jiménez,F,False,9,0,1,0.019,0.0
+27,270,2022-02-27,Saïd Benrahma,M,True,0,0,0,,
 27,270,2022-02-27,Pablo Fornals,M,True,90,0,3,0.029,0.374
 27,270,2022-02-27,Jarrod Bowen,M,True,90,0,3,0.361,0.05
 27,270,2022-02-27,Michail Antonio,F,True,90,0,4,0.089,0.825
@@ -12650,7 +12677,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 27,213,2022-03-01,Dwight McNeil,M,True,90,0,2,0.0,0.132
 27,213,2022-03-01,Hamza Choudhury,M,False,0,0,0,,
 27,213,2022-03-01,Boubakary Soumaré,M,False,0,0,0,,
-27,213,2022-03-01,Timothy Castagne,D,False,0,0,0,,
 27,213,2022-03-01,Dale Stephens,M,True,0,0,0,,
 27,213,2022-03-01,Charlie Taylor,D,True,90,0,1,0.014,0.0
 27,213,2022-03-01,Connor Roberts,D,True,90,0,1,0.028,0.0
@@ -12670,6 +12696,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 27,213,2022-03-01,Jannik Vestergaard,D,False,0,0,0,,
 27,213,2022-03-01,Josh Brownhill,M,True,90,0,2,0.0,0.173
 27,213,2022-03-01,Wout Weghorst,F,True,90,0,1,0.576,0.0
+27,213,2022-03-01,Timothy Castagne,D,False,0,0,0,,
 27,213,2022-03-01,Çaglar Söyüncü,D,False,90,1,7,0.049,0.0
 27,213,2022-03-01,Ricardo Domingos Barbosa Pereira,D,False,45,0,1,0.107,0.03
 27,213,2022-03-01,James Tarkowski,D,True,90,0,1,0.0,0.0
@@ -12698,6 +12725,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 28,274,2022-03-05,Sonny Perkins,M,False,0,0,0,,
 28,274,2022-03-05,Kaide Gordon,M,True,0,0,0,,
 28,277,2022-03-05,Przemyslaw Placheta,M,True,0,0,0,,
+28,277,2022-03-05,Tariqe Fosu-Henry,M,False,0,0,0,,
 28,274,2022-03-05,Tyler Morton,M,True,0,0,0,,
 28,274,2022-03-05,Harrison Ashby,D,False,0,0,0,,
 28,276,2022-03-05,Jeremy Sarmiento,M,False,0,0,0,,
@@ -12796,7 +12824,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 28,273,2022-03-05,Robin Koch,D,False,90,0,2,0.327,0.0
 28,271,2022-03-05,Lyanco Evangelista Silveira Neves Vojnovic,D,False,0,0,0,,
 28,280,2022-03-05,Nélson Cabral Semedo,D,True,0,0,0,,
-28,273,2022-03-05,Timothy Castagne,D,True,0,0,0,,
 28,280,2022-03-05,Will Hughes,M,False,8,0,0,0.0,0.0
 28,272,2022-03-05,Dale Stephens,M,True,0,0,0,,
 28,276,2022-03-05,Solomon March,M,False,31,0,1,0.0,0.097
@@ -12902,6 +12929,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 28,274,2022-03-05,Ben Johnson,D,False,90,0,2,0.0,0.299
 28,274,2022-03-05,Nikola Vlasic,M,False,60,0,2,0.145,0.075
 28,274,2022-03-05,Andriy Yarmolenko,M,False,0,0,0,,
+28,273,2022-03-05,Timothy Castagne,D,True,0,0,0,,
 28,271,2022-03-05,Douglas Luiz Soares de Paulo,M,True,90,0,8,0.623,0.0
 28,276,2022-03-05,Jacob Murphy,M,True,63,0,5,0.596,0.072
 28,276,2022-03-05,Isaac Hayden,M,True,0,0,0,,
@@ -12989,7 +13017,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 28,272,2022-03-05,Trevoh Chalobah,D,False,90,1,10,0.0,0.074
 28,277,2022-03-05,Bryan Mbeumo,M,False,90,0,1,0.15,0.0
 28,271,2022-03-05,Jan Bednarek,D,False,90,0,0,0.255,0.0
-28,277,2022-03-05,Yoane Wissa,M,False,8,0,1,0.0,0.0
 28,280,2022-03-05,Jean-Philippe Mateta,F,False,68,3,9,1.491,0.016
 28,272,2022-03-05,Thiago Emiliano da Silva,D,False,90,0,6,0.0,0.0
 28,272,2022-03-05,Ben Mee,D,True,0,0,0,,
@@ -13004,6 +13031,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 28,276,2022-03-05,Leandro Trossard,M,False,90,0,2,0.168,0.022
 28,271,2022-03-05,Mohamed Elyounoussi,M,False,45,0,1,0.0,0.0
 28,280,2022-03-05,Rúben Diogo da Silva Neves,M,True,90,0,2,0.07,0.0
+28,277,2022-03-05,Yoane Wissa,M,False,8,0,1,0.0,0.0
 28,273,2022-03-05,Daniel James,M,False,90,0,2,0.111,0.243
 28,273,2022-03-05,Ademola Lookman,M,True,29,0,1,0.02,0.086
 28,276,2022-03-05,Chris Wood,F,True,90,0,2,0.0,0.505
@@ -13015,7 +13043,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 28,280,2022-03-05,Hee-Chan Hwang,F,True,90,0,2,0.029,0.0
 28,273,2022-03-05,Jack Harrison,M,False,75,0,2,0.148,0.293
 28,272,2022-03-05,Reece James,D,False,69,3,18,0.138,0.906
-28,274,2022-03-05,Saïd Benrahma,M,False,37,0,1,0.0,0.0
 28,271,2022-03-05,Danny Ings,F,True,70,3,15,0.543,0.421
 28,272,2022-03-05,Romelu Lukaku,F,False,0,0,0,,
 28,274,2022-03-05,Roberto Firmino,F,True,0,0,0,,
@@ -13026,6 +13053,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 28,272,2022-03-05,Kai Havertz,M,False,90,1,14,1.32,0.0
 28,280,2022-03-05,Raúl Jiménez,F,True,27,0,1,0.0,0.0
 28,280,2022-03-05,Odsonne Edouard,F,False,0,0,0,,
+28,274,2022-03-05,Saïd Benrahma,M,False,37,0,1,0.0,0.0
 28,272,2022-03-05,Maxwel Cornet,M,True,27,0,1,0.072,0.0
 28,274,2022-03-05,Pablo Fornals,M,False,90,0,2,0.333,0.042
 28,272,2022-03-05,Jorge Luiz Frello Filho,M,False,90,0,3,0.025,0.028
@@ -13033,10 +13061,10 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 28,276,2022-03-05,Callum Wilson,F,True,0,0,0,,
 28,271,2022-03-05,Ollie Watkins,F,True,90,0,5,0.597,0.846
 28,271,2022-03-05,Che Adams,F,False,90,0,2,0.777,0.0
-28,273,2022-03-05,James Maddison,M,True,0,0,0,,
 28,280,2022-03-05,Conor Gallagher,M,False,90,0,2,0.106,0.0
 28,272,2022-03-05,Mason Mount,M,False,77,0,3,0.037,0.0
 28,277,2022-03-05,Teemu Pukki,F,True,90,2,8,0.264,0.062
+28,273,2022-03-05,James Maddison,M,True,0,0,0,,
 28,276,2022-03-05,Neal Maupay,F,False,31,0,1,0.043,0.0
 28,274,2022-03-05,Jarrod Bowen,M,False,53,0,1,0.129,0.109
 28,274,2022-03-05,Michail Antonio,F,False,90,0,2,0.236,0.0
@@ -13205,8 +13233,8 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 28,278,2022-03-07,Andros Townsend,M,False,0,0,0,,
 28,278,2022-03-07,Richarlison de Andrade,F,False,90,0,2,0.025,0.0
 28,278,2022-03-07,Demarai Gray,M,False,0,0,0,,
-28,278,2022-03-07,Heung-Min Son,M,True,66,0,7,0.683,0.182
 28,278,2022-03-07,Harry Kane,F,True,90,3,13,0.908,0.515
+28,278,2022-03-07,Heung-Min Son,M,True,66,0,7,0.683,0.182
 28,190,2022-03-10,Francisco Jorge Tomás Oliveira,M,True,8,0,4,0.0,0.052
 28,190,2022-03-10,Toti António Gomes,D,True,0,0,0,,
 28,190,2022-03-10,Edo Kayembe,M,False,0,0,0,,
@@ -13426,6 +13454,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 29,282,2022-03-12,Pelenda Joshua Dasilva,M,True,0,0,0,,
 29,283,2022-03-12,Evan Ferguson,F,True,0,0,0,,
 29,283,2022-03-12,Kaide Gordon,M,False,0,0,0,,
+29,282,2022-03-12,Tariqe Fosu-Henry,M,True,0,0,0,,
 29,283,2022-03-12,Tyler Morton,M,False,0,0,0,,
 29,283,2022-03-12,Jeremy Sarmiento,M,True,0,0,0,,
 29,282,2022-03-12,Finley Stevens,D,True,0,0,0,,
@@ -13549,12 +13578,12 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 29,288,2022-03-12,Frederico Rodrigues de Paula Santos,M,True,90,1,5,0.0,0.127
 29,282,2022-03-12,Bryan Mbeumo,M,True,90,0,3,0.203,0.022
 29,288,2022-03-12,Jadon Sancho,M,True,90,2,7,0.069,0.767
-29,282,2022-03-12,Yoane Wissa,M,True,15,0,1,0.0,0.0
 29,282,2022-03-12,Ben Mee,D,False,0,0,0,,
 29,283,2022-03-12,Virgil van Dijk,D,False,90,0,6,0.0,0.0
 29,283,2022-03-12,Danny Welbeck,F,True,24,0,1,0.114,0.0
 29,283,2022-03-12,Alexis Mac Allister,M,True,90,0,1,0.0,0.062
 29,283,2022-03-12,Leandro Trossard,M,True,90,0,2,0.371,0.017
+29,282,2022-03-12,Yoane Wissa,M,True,15,0,1,0.0,0.0
 29,283,2022-03-12,Fabio Henrique Tavares,M,False,90,0,2,0.0,0.0
 29,288,2022-03-12,Marcus Rashford,M,True,67,0,2,0.0,0.0
 29,288,2022-03-12,Mason Greenwood,M,True,0,0,0,,
@@ -13563,11 +13592,11 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 29,283,2022-03-12,Neal Maupay,F,True,90,0,1,0.056,0.347
 29,288,2022-03-12,Bruno Miguel Borges Fernandes,M,True,0,0,0,,
 29,282,2022-03-12,Ivan Toney,F,True,90,3,12,0.505,0.106
-29,288,2022-03-12,Heung-Min Son,M,False,90,0,2,0.166,0.0
 29,288,2022-03-12,Cristiano Ronaldo dos Santos Aveiro,F,True,82,3,17,0.908,0.0
 29,283,2022-03-12,Sadio Mané,M,False,90,0,3,0.324,0.0
 29,288,2022-03-12,Harry Kane,F,False,90,0,6,0.021,0.0
 29,283,2022-03-12,Diogo Jota,M,False,25,0,1,0.0,0.0
+29,288,2022-03-12,Heung-Min Son,M,False,90,0,2,0.166,0.0
 29,283,2022-03-12,Mohamed Salah,M,False,64,1,9,0.58,0.156
 29,290,2022-03-13,Daniel Chesters,M,True,0,0,0,,
 29,286,2022-03-13,Francisco Jorge Tomás Oliveira,M,False,0,0,0,,
@@ -13664,7 +13693,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 29,287,2022-03-13,Robin Koch,D,True,30,0,1,0.0,0.0
 29,289,2022-03-13,Lyanco Evangelista Silveira Neves Vojnovic,D,True,0,0,0,,
 29,286,2022-03-13,Nélson Cabral Semedo,D,False,0,0,0,,
-29,281,2022-03-13,Timothy Castagne,D,False,0,0,0,,
 29,286,2022-03-13,Fernando Marçal,D,False,90,1,7,0.03,0.024
 29,284,2022-03-13,Malang Sarr,D,True,77,2,8,0.0,0.0
 29,287,2022-03-13,Pierre Lees-Melou,M,False,90,0,2,0.0,0.0
@@ -13767,6 +13795,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 29,290,2022-03-13,Ben Johnson,D,True,90,0,2,0.0,0.0
 29,290,2022-03-13,Nikola Vlasic,M,True,0,0,0,,
 29,290,2022-03-13,Andriy Yarmolenko,M,True,38,0,6,0.179,0.013
+29,281,2022-03-13,Timothy Castagne,D,False,0,0,0,,
 29,290,2022-03-13,Douglas Luiz Soares de Paulo,M,False,78,0,2,0.0,0.0
 29,284,2022-03-13,Jacob Murphy,M,False,90,0,1,0.05,0.0
 29,284,2022-03-13,Isaac Hayden,M,False,0,0,0,,
@@ -13864,7 +13893,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 29,281,2022-03-13,Gabriel Teodoro Martinelli Silva,M,True,77,0,6,0.193,0.229
 29,289,2022-03-13,Juan Camilo Hernández Suárez,F,False,90,3,12,0.689,0.04
 29,289,2022-03-13,Ismaila Sarr,M,False,0,0,0,,
-29,290,2022-03-13,Saïd Benrahma,M,True,86,2,11,0.107,0.598
 29,281,2022-03-13,Martin Ødegaard,M,True,90,0,3,0.0,0.413
 29,290,2022-03-13,Danny Ings,F,False,68,0,2,0.07,0.075
 29,286,2022-03-13,Demarai Gray,M,True,73,0,2,0.107,0.045
@@ -13876,15 +13904,16 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 29,281,2022-03-13,Youri Tielemans,M,False,0,0,0,,
 29,284,2022-03-13,Kai Havertz,M,True,90,0,7,0.868,0.065
 29,286,2022-03-13,Raúl Jiménez,F,False,87,0,2,0.25,0.027
+29,290,2022-03-13,Saïd Benrahma,M,True,86,2,11,0.107,0.598
 29,290,2022-03-13,Pablo Fornals,M,True,90,1,8,0.51,0.105
 29,284,2022-03-13,Jorge Luiz Frello Filho,M,True,90,1,7,0.0,0.407
 29,289,2022-03-13,James Ward-Prowse,M,True,90,0,2,0.083,0.269
 29,284,2022-03-13,Callum Wilson,F,False,0,0,0,,
 29,290,2022-03-13,Ollie Watkins,F,False,90,0,2,0.124,0.0
 29,289,2022-03-13,Che Adams,F,True,90,0,5,0.095,0.583
-29,281,2022-03-13,James Maddison,M,False,90,0,2,0.0,0.13
 29,284,2022-03-13,Mason Mount,M,True,62,0,3,0.074,0.0
 29,287,2022-03-13,Teemu Pukki,F,False,90,0,5,0.552,0.489
+29,281,2022-03-13,James Maddison,M,False,90,0,2,0.0,0.13
 29,290,2022-03-13,Jarrod Bowen,M,True,0,0,0,,
 29,290,2022-03-13,Michail Antonio,F,True,51,0,1,0.0,0.022
 29,289,2022-03-13,Emmanuel Dennis,F,False,86,0,2,0.04,0.093
@@ -14037,10 +14066,10 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 29,153,2022-03-16,Neal Maupay,F,True,90,0,1,0.296,0.0
 29,261,2022-03-16,Bukayo Saka,M,True,73,0,2,0.016,0.016
 29,261,2022-03-16,Emile Smith Rowe,M,True,23,0,1,0.044,0.0
-29,153,2022-03-16,Heung-Min Son,M,False,79,0,3,0.079,0.186
 29,261,2022-03-16,Sadio Mané,M,False,90,0,3,0.12,0.0
 29,153,2022-03-16,Harry Kane,F,False,90,2,8,0.94,0.334
 29,261,2022-03-16,Diogo Jota,M,False,55,0,6,0.047,0.0
+29,153,2022-03-16,Heung-Min Son,M,False,79,0,3,0.079,0.186
 29,261,2022-03-16,Mohamed Salah,M,False,34,0,1,0.243,0.0
 29,195,2022-03-17,Vitalii Mykolenko,D,True,0,0,0,,
 29,195,2022-03-17,Lewis Dobbin,F,True,0,0,0,,
@@ -14211,6 +14240,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 30,293,2022-03-20,Pelenda Joshua Dasilva,M,False,0,0,0,,
 30,293,2022-03-20,Kasey McAteer,M,True,0,0,0,,
 30,298,2022-03-20,Sonny Perkins,M,False,0,0,0,,
+30,293,2022-03-20,Tariqe Fosu-Henry,M,False,16,0,1,0.054,0.0
 30,298,2022-03-20,Harrison Ashby,D,False,0,0,0,,
 30,293,2022-03-20,Finley Stevens,D,False,0,0,0,,
 30,293,2022-03-20,Dominic Thompson,D,False,0,0,0,,
@@ -14236,7 +14266,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 30,293,2022-03-20,Hamza Choudhury,M,True,0,0,0,,
 30,298,2022-03-20,Joe Rodon,D,True,0,0,0,,
 30,293,2022-03-20,Boubakary Soumaré,M,True,11,0,1,0.0,0.0
-30,293,2022-03-20,Timothy Castagne,D,True,63,2,14,0.026,0.0
 30,298,2022-03-20,Rodrigo Bentancur,M,True,90,0,2,0.037,0.0
 30,298,2022-03-20,Giovani Lo Celso,M,True,0,0,0,0.0,0.15
 30,293,2022-03-20,Wilfred Ndidi,M,True,0,0,0,,
@@ -14265,6 +14294,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 30,298,2022-03-20,Ben Johnson,D,False,90,0,1,0.0,0.0
 30,298,2022-03-20,Nikola Vlasic,M,False,6,0,1,0.0,0.0
 30,298,2022-03-20,Andriy Yarmolenko,M,False,34,0,1,0.098,0.0
+30,293,2022-03-20,Timothy Castagne,D,True,63,2,14,0.026,0.0
 30,293,2022-03-20,Mathias Jorgensen,D,False,0,0,0,,
 30,298,2022-03-20,Tanguy Ndombele,M,True,0,0,0,,
 30,298,2022-03-20,Declan Rice,M,False,90,0,2,0.0,0.0
@@ -14292,21 +14322,21 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 30,298,2022-03-20,Pierre-Emile Højbjerg,M,True,90,0,2,0.015,0.448
 30,293,2022-03-20,Harvey Barnes,M,True,90,0,5,0.255,0.026
 30,293,2022-03-20,Bryan Mbeumo,M,False,90,0,5,0.589,0.078
-30,293,2022-03-20,Yoane Wissa,M,False,90,1,8,0.057,0.227
 30,293,2022-03-20,Patson Daka,F,True,4,0,1,0.0,0.0
 30,298,2022-03-20,Tomas Soucek,M,False,90,0,2,0.0,0.0
+30,293,2022-03-20,Yoane Wissa,M,False,90,1,8,0.057,0.227
 30,293,2022-03-20,Ademola Lookman,M,True,0,0,0,,
 30,298,2022-03-20,Manuel Lanzini,M,False,83,0,2,0.0,0.0
-30,298,2022-03-20,Saïd Benrahma,M,False,90,1,8,0.347,0.037
 30,293,2022-03-20,Youri Tielemans,M,True,90,0,2,0.0,0.0
+30,298,2022-03-20,Saïd Benrahma,M,False,90,1,8,0.347,0.037
 30,298,2022-03-20,Pablo Fornals,M,False,34,0,1,0.0,0.098
 30,293,2022-03-20,James Maddison,M,True,90,3,10,0.133,0.584
 30,298,2022-03-20,Jarrod Bowen,M,False,0,0,0,,
 30,298,2022-03-20,Michail Antonio,F,False,55,0,1,0.182,0.0
 30,293,2022-03-20,Jamie Vardy,F,True,0,0,0,,
 30,293,2022-03-20,Ivan Toney,F,False,90,0,2,0.13,0.572
-30,298,2022-03-20,Heung-Min Son,M,True,90,3,15,0.96,0.512
 30,298,2022-03-20,Harry Kane,F,True,90,2,13,0.978,0.619
+30,298,2022-03-20,Heung-Min Son,M,True,90,3,15,0.96,0.512
 31,303,2022-04-02,Pelenda Joshua Dasilva,M,False,0,,,,
 31,310,2022-04-02,Francisco Jorge Tomás Oliveira,M,True,0,,,,
 31,310,2022-04-02,Toti António Gomes,D,True,0,,,,
@@ -14318,6 +14348,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 31,302,2022-04-02,James McAtee,M,False,0,,,,
 31,306,2022-04-02,Kaide Gordon,M,True,0,,,,
 31,301,2022-04-02,Przemyslaw Placheta,M,False,0,,,,
+31,303,2022-04-02,Tariqe Fosu-Henry,M,False,0,,,,
 31,306,2022-04-02,Tyler Morton,M,True,0,,,,
 31,301,2022-04-02,Jeremy Sarmiento,M,True,0,,,,
 31,305,2022-04-02,Leo Fuhr Hjelde,D,True,0,,,,
@@ -14416,7 +14447,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 31,305,2022-04-02,Robin Koch,D,True,0,,,,
 31,305,2022-04-02,Lyanco Evangelista Silveira Neves Vojnovic,D,False,0,,,,
 31,310,2022-04-02,Nélson Cabral Semedo,D,True,0,,,,
-31,307,2022-04-02,Timothy Castagne,D,False,0,,,,
 31,307,2022-04-02,Victor Lindelöf,D,True,0,,,,
 31,302,2022-04-02,Ederson Santana de Moraes,G,False,0,,,,
 31,302,2022-04-02,Dale Stephens,M,True,0,,,,
@@ -14524,6 +14554,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 31,306,2022-04-02,Curtis Jones,M,True,0,,,,
 31,301,2022-04-02,Milot Rashica,M,False,0,,,,
 31,303,2022-04-02,Callum Hudson-Odoi,M,True,0,,,,
+31,307,2022-04-02,Timothy Castagne,D,False,0,,,,
 31,310,2022-04-02,Douglas Luiz Soares de Paulo,M,False,0,,,,
 31,301,2022-04-02,Lewis Dunk,D,True,0,,,,
 31,301,2022-04-02,Shane Duffy,D,True,0,,,,
@@ -14608,7 +14639,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 31,303,2022-04-02,Bryan Mbeumo,M,False,0,,,,
 31,307,2022-04-02,Jadon Sancho,M,True,0,,,,
 31,305,2022-04-02,Jan Bednarek,D,False,0,,,,
-31,303,2022-04-02,Yoane Wissa,M,False,0,,,,
 31,303,2022-04-02,Thiago Emiliano da Silva,D,True,0,,,,
 31,302,2022-04-02,Aymeric Laporte,D,False,0,,,,
 31,302,2022-04-02,Rodrigo Hernandez,M,False,0,,,,
@@ -14622,6 +14652,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 31,301,2022-04-02,Leandro Trossard,M,True,0,,,,
 31,305,2022-04-02,Mohamed Elyounoussi,M,False,0,,,,
 31,310,2022-04-02,Rúben Diogo da Silva Neves,M,True,0,,,,
+31,303,2022-04-02,Yoane Wissa,M,False,0,,,,
 31,305,2022-04-02,Daniel James,M,True,0,,,,
 31,307,2022-04-02,Ademola Lookman,M,False,0,,,,
 31,306,2022-04-02,Fabio Henrique Tavares,M,True,0,,,,
@@ -14650,11 +14681,11 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 31,305,2022-04-02,James Ward-Prowse,M,False,0,,,,
 31,310,2022-04-02,Ollie Watkins,F,False,0,,,,
 31,305,2022-04-02,Che Adams,F,False,0,,,,
-31,307,2022-04-02,James Maddison,M,False,0,,,,
 31,302,2022-04-02,Phil Foden,M,False,0,,,,
 31,302,2022-04-02,Bernardo Mota Veiga de Carvalho e Silva,M,False,0,,,,
 31,303,2022-04-02,Mason Mount,M,True,0,,,,
 31,301,2022-04-02,Teemu Pukki,F,False,0,,,,
+31,307,2022-04-02,James Maddison,M,False,0,,,,
 31,301,2022-04-02,Neal Maupay,F,True,0,,,,
 31,306,2022-04-02,Emmanuel Dennis,F,False,0,,,,
 31,305,2022-04-02,Raphael Dias Belloli,M,True,0,,,,
@@ -14767,15 +14798,15 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 31,309,2022-04-03,Richarlison de Andrade,F,False,0,,,,
 31,308,2022-04-03,Chris Wood,F,False,0,,,,
 31,309,2022-04-03,Manuel Lanzini,M,True,0,,,,
-31,309,2022-04-03,Saïd Benrahma,M,True,0,,,,
 31,309,2022-04-03,Demarai Gray,M,False,0,,,,
 31,308,2022-04-03,Allan Saint-Maximin,F,False,0,,,,
+31,309,2022-04-03,Saïd Benrahma,M,True,0,,,,
 31,309,2022-04-03,Pablo Fornals,M,True,0,,,,
 31,308,2022-04-03,Callum Wilson,F,False,0,,,,
 31,309,2022-04-03,Jarrod Bowen,M,True,0,,,,
 31,309,2022-04-03,Michail Antonio,F,True,0,,,,
-31,308,2022-04-03,Heung-Min Son,M,True,0,,,,
 31,308,2022-04-03,Harry Kane,F,True,0,,,,
+31,308,2022-04-03,Heung-Min Son,M,True,0,,,,
 31,304,2022-04-04,Nuno Varela Tavares,D,False,0,,,,
 31,304,2022-04-04,Folarin Balogun,F,False,0,,,,
 31,304,2022-04-04,Albert Sambi Lokonga,M,False,0,,,,
@@ -15192,9 +15223,9 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 32,311,2022-04-09,Bukayo Saka,M,True,0,,,,
 32,311,2022-04-09,Emile Smith Rowe,M,True,0,,,,
 32,314,2022-04-09,Bruno Miguel Borges Fernandes,M,False,0,,,,
-32,312,2022-04-09,Heung-Min Son,M,False,0,,,,
 32,314,2022-04-09,Cristiano Ronaldo dos Santos Aveiro,F,False,0,,,,
 32,312,2022-04-09,Harry Kane,F,False,0,,,,
+32,312,2022-04-09,Heung-Min Son,M,False,0,,,,
 32,313,2022-04-10,Daniel Chesters,M,False,0,,,,
 32,313,2022-04-10,Pelenda Joshua Dasilva,M,True,0,,,,
 32,316,2022-04-10,Kayky da Silva Chagas,F,True,0,,,,
@@ -15204,6 +15235,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 32,316,2022-04-10,James McAtee,M,True,0,,,,
 32,316,2022-04-10,Kaide Gordon,M,False,0,,,,
 32,318,2022-04-10,Przemyslaw Placheta,M,True,0,,,,
+32,313,2022-04-10,Tariqe Fosu-Henry,M,True,0,,,,
 32,316,2022-04-10,Tyler Morton,M,False,0,,,,
 32,313,2022-04-10,Harrison Ashby,D,False,0,,,,
 32,313,2022-04-10,Finley Stevens,D,True,0,,,,
@@ -15249,7 +15281,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 32,316,2022-04-10,Ibrahima Konaté,D,False,0,,,,
 32,315,2022-04-10,Joachim Andersen,D,False,0,,,,
 32,315,2022-04-10,Boubakary Soumaré,M,True,0,,,,
-32,315,2022-04-10,Timothy Castagne,D,True,0,,,,
 32,315,2022-04-10,Will Hughes,M,False,0,,,,
 32,316,2022-04-10,Ederson Santana de Moraes,G,True,0,,,,
 32,318,2022-04-10,Dale Stephens,M,False,0,,,,
@@ -15312,6 +15343,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 32,313,2022-04-10,Ben Johnson,D,False,0,,,,
 32,313,2022-04-10,Nikola Vlasic,M,False,0,,,,
 32,313,2022-04-10,Andriy Yarmolenko,M,False,0,,,,
+32,315,2022-04-10,Timothy Castagne,D,True,0,,,,
 32,313,2022-04-10,Mathias Jorgensen,D,True,0,,,,
 32,313,2022-04-10,Declan Rice,M,False,0,,,,
 32,315,2022-04-10,Çaglar Söyüncü,D,True,0,,,,
@@ -15360,7 +15392,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 32,316,2022-04-10,Divock Origi,F,False,0,,,,
 32,315,2022-04-10,Harvey Barnes,M,True,0,,,,
 32,313,2022-04-10,Bryan Mbeumo,M,True,0,,,,
-32,313,2022-04-10,Yoane Wissa,M,True,0,,,,
 32,315,2022-04-10,Jean-Philippe Mateta,F,False,0,,,,
 32,316,2022-04-10,Aymeric Laporte,D,True,0,,,,
 32,316,2022-04-10,Rodrigo Hernandez,M,True,0,,,,
@@ -15369,23 +15400,24 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 32,315,2022-04-10,Jeffrey Schlupp,M,False,0,,,,
 32,315,2022-04-10,Patson Daka,F,True,0,,,,
 32,313,2022-04-10,Tomas Soucek,M,False,0,,,,
+32,313,2022-04-10,Yoane Wissa,M,True,0,,,,
 32,315,2022-04-10,Ademola Lookman,M,True,0,,,,
 32,316,2022-04-10,Fabio Henrique Tavares,M,False,0,,,,
 32,315,2022-04-10,Christian Benteke,F,False,0,,,,
 32,313,2022-04-10,Manuel Lanzini,M,False,0,,,,
-32,313,2022-04-10,Saïd Benrahma,M,False,0,,,,
 32,316,2022-04-10,Rodrigo Hernandez,M,True,0,,,,
 32,316,2022-04-10,Roberto Firmino,F,False,0,,,,
 32,316,2022-04-10,Ilkay Gündogan,M,True,0,,,,
 32,315,2022-04-10,Youri Tielemans,M,True,0,,,,
 32,315,2022-04-10,Odsonne Edouard,F,False,0,,,,
+32,313,2022-04-10,Saïd Benrahma,M,False,0,,,,
 32,318,2022-04-10,Maxwel Cornet,M,False,0,,,,
 32,313,2022-04-10,Pablo Fornals,M,False,0,,,,
-32,315,2022-04-10,James Maddison,M,True,0,,,,
 32,316,2022-04-10,Phil Foden,M,True,0,,,,
 32,316,2022-04-10,Bernardo Mota Veiga de Carvalho e Silva,M,True,0,,,,
 32,315,2022-04-10,Conor Gallagher,M,False,0,,,,
 32,318,2022-04-10,Teemu Pukki,F,True,0,,,,
+32,315,2022-04-10,James Maddison,M,True,0,,,,
 32,313,2022-04-10,Jarrod Bowen,M,False,0,,,,
 32,313,2022-04-10,Michail Antonio,F,False,0,,,,
 32,315,2022-04-10,Wilfried Zaha,M,False,0,,,,
@@ -15402,6 +15434,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 33,327,2022-04-16,Evan Ferguson,F,False,0,,,,
 33,324,2022-04-16,Jonathan Rowe,M,False,0,,,,
 33,324,2022-04-16,Przemyslaw Placheta,M,False,0,,,,
+33,328,2022-04-16,Tariqe Fosu-Henry,M,False,0,,,,
 33,327,2022-04-16,Jeremy Sarmiento,M,False,0,,,,
 33,328,2022-04-16,Ozan Tufan,M,True,0,,,,
 33,328,2022-04-16,Finley Stevens,D,False,0,,,,
@@ -15575,12 +15608,12 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 33,328,2022-04-16,Bryan Mbeumo,M,False,0,,,,
 33,324,2022-04-16,Jadon Sancho,M,True,0,,,,
 33,326,2022-04-16,Jan Bednarek,D,True,0,,,,
-33,328,2022-04-16,Yoane Wissa,M,False,0,,,,
 33,326,2022-04-16,Gabriel Magalhães,D,False,0,,,,
 33,327,2022-04-16,Danny Welbeck,F,False,0,,,,
 33,327,2022-04-16,Alexis Mac Allister,M,False,0,,,,
 33,327,2022-04-16,Leandro Trossard,M,False,0,,,,
 33,326,2022-04-16,Mohamed Elyounoussi,M,True,0,,,,
+33,328,2022-04-16,Yoane Wissa,M,False,0,,,,
 33,326,2022-04-16,Alexandre Lacazette,F,False,0,,,,
 33,324,2022-04-16,Marcus Rashford,M,True,0,,,,
 33,326,2022-04-16,Pierre-Emerick Aubameyang,F,False,0,,,,
@@ -15600,9 +15633,9 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 33,326,2022-04-16,Emile Smith Rowe,M,False,0,,,,
 33,324,2022-04-16,Bruno Miguel Borges Fernandes,M,True,0,,,,
 33,328,2022-04-16,Ivan Toney,F,False,0,,,,
-33,327,2022-04-16,Heung-Min Son,M,True,0,,,,
 33,324,2022-04-16,Cristiano Ronaldo dos Santos Aveiro,F,True,0,,,,
 33,327,2022-04-16,Harry Kane,F,True,0,,,,
+33,327,2022-04-16,Heung-Min Son,M,True,0,,,,
 33,329,2022-04-17,Daniel Chesters,M,True,0,,,,
 33,325,2022-04-17,Kasey McAteer,M,False,0,,,,
 33,329,2022-04-17,Sonny Perkins,M,True,0,,,,
@@ -15620,7 +15653,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 33,325,2022-04-17,Martin Dubravka,G,True,0,,,,
 33,325,2022-04-17,Hamza Choudhury,M,False,0,,,,
 33,325,2022-04-17,Boubakary Soumaré,M,False,0,,,,
-33,325,2022-04-17,Timothy Castagne,D,False,0,,,,
 33,329,2022-04-17,Dale Stephens,M,False,0,,,,
 33,329,2022-04-17,Charlie Taylor,D,False,0,,,,
 33,329,2022-04-17,Connor Roberts,D,False,0,,,,
@@ -15657,6 +15689,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 33,329,2022-04-17,Ben Johnson,D,True,0,,,,
 33,329,2022-04-17,Nikola Vlasic,M,True,0,,,,
 33,329,2022-04-17,Andriy Yarmolenko,M,True,0,,,,
+33,325,2022-04-17,Timothy Castagne,D,False,0,,,,
 33,325,2022-04-17,Jacob Murphy,M,True,0,,,,
 33,325,2022-04-17,Isaac Hayden,M,True,0,,,,
 33,329,2022-04-17,Declan Rice,M,True,0,,,,
@@ -15693,9 +15726,9 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 33,325,2022-04-17,Ademola Lookman,M,False,0,,,,
 33,325,2022-04-17,Chris Wood,F,True,0,,,,
 33,329,2022-04-17,Manuel Lanzini,M,True,0,,,,
-33,329,2022-04-17,Saïd Benrahma,M,True,0,,,,
 33,325,2022-04-17,Allan Saint-Maximin,F,True,0,,,,
 33,325,2022-04-17,Youri Tielemans,M,False,0,,,,
+33,329,2022-04-17,Saïd Benrahma,M,True,0,,,,
 33,329,2022-04-17,Maxwel Cornet,M,False,0,,,,
 33,329,2022-04-17,Pablo Fornals,M,True,0,,,,
 33,325,2022-04-17,Callum Wilson,F,True,0,,,,
@@ -15802,7 +15835,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 33,172,2022-04-20,Hamza Choudhury,M,False,0,,,,
 33,296,2022-04-20,Joachim Andersen,D,False,0,,,,
 33,172,2022-04-20,Boubakary Soumaré,M,False,0,,,,
-33,172,2022-04-20,Timothy Castagne,D,False,0,,,,
 33,296,2022-04-20,Will Hughes,M,False,0,,,,
 33,295,2022-04-20,Ederson Santana de Moraes,G,True,0,,,,
 33,295,2022-04-20,Solomon March,M,False,0,,,,
@@ -15868,6 +15900,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 33,296,2022-04-20,Dan Burn,D,True,0,,,,
 33,296,2022-04-20,Sean Longstaff,M,True,0,,,,
 33,243,2022-04-20,Callum Hudson-Odoi,M,True,0,,,,
+33,172,2022-04-20,Timothy Castagne,D,False,0,,,,
 33,296,2022-04-20,Jacob Murphy,M,True,0,,,,
 33,296,2022-04-20,Isaac Hayden,M,True,0,,,,
 33,295,2022-04-20,Lewis Dunk,D,False,0,,,,
@@ -15952,11 +15985,11 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 33,296,2022-04-20,Odsonne Edouard,F,False,0,,,,
 33,243,2022-04-20,Jorge Luiz Frello Filho,M,True,0,,,,
 33,296,2022-04-20,Callum Wilson,F,True,0,,,,
-33,172,2022-04-20,James Maddison,M,False,0,,,,
 33,295,2022-04-20,Phil Foden,M,True,0,,,,
 33,295,2022-04-20,Bernardo Mota Veiga de Carvalho e Silva,M,True,0,,,,
 33,296,2022-04-20,Conor Gallagher,M,False,0,,,,
 33,243,2022-04-20,Mason Mount,M,True,0,,,,
+33,172,2022-04-20,James Maddison,M,False,0,,,,
 33,295,2022-04-20,Neal Maupay,F,False,0,,,,
 33,243,2022-04-20,Bukayo Saka,M,False,0,,,,
 33,243,2022-04-20,Emile Smith Rowe,M,False,0,,,,
@@ -16018,6 +16051,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 34,337,2022-04-23,Kasey McAteer,M,True,0,,,,
 34,339,2022-04-23,James McAtee,M,True,0,,,,
 34,340,2022-04-23,Przemyslaw Placheta,M,True,0,,,,
+34,332,2022-04-23,Tariqe Fosu-Henry,M,True,0,,,,
 34,336,2022-04-23,Leo Fuhr Hjelde,D,False,0,,,,
 34,336,2022-04-23,Stuart McKinstry,M,False,0,,,,
 34,339,2022-04-23,Ozan Tufan,M,False,0,,,,
@@ -16100,7 +16134,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 34,336,2022-04-23,Joachim Andersen,D,True,0,,,,
 34,337,2022-04-23,Boubakary Soumaré,M,True,0,,,,
 34,336,2022-04-23,Robin Koch,D,False,0,,,,
-34,337,2022-04-23,Timothy Castagne,D,True,0,,,,
 34,332,2022-04-23,Rodrigo Bentancur,M,False,0,,,,
 34,336,2022-04-23,Will Hughes,M,True,0,,,,
 34,331,2022-04-23,Victor Lindelöf,D,False,0,,,,
@@ -16204,6 +16237,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 34,337,2022-04-23,Kortney Hause,D,False,0,,,,
 34,332,2022-04-23,Matt Doherty,D,False,0,,,,
 34,340,2022-04-23,Milot Rashica,M,True,0,,,,
+34,337,2022-04-23,Timothy Castagne,D,True,0,,,,
 34,337,2022-04-23,Douglas Luiz Soares de Paulo,M,False,0,,,,
 34,340,2022-04-23,Jacob Murphy,M,False,0,,,,
 34,340,2022-04-23,Isaac Hayden,M,False,0,,,,
@@ -16277,13 +16311,13 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 34,337,2022-04-23,Harvey Barnes,M,True,0,,,,
 34,332,2022-04-23,Bryan Mbeumo,M,True,0,,,,
 34,331,2022-04-23,Jadon Sancho,M,False,0,,,,
-34,332,2022-04-23,Yoane Wissa,M,True,0,,,,
 34,336,2022-04-23,Jean-Philippe Mateta,F,True,0,,,,
 34,331,2022-04-23,Gabriel Magalhães,D,True,0,,,,
 34,339,2022-04-23,Aymeric Laporte,D,True,0,,,,
 34,339,2022-04-23,Rodrigo Hernandez,M,True,0,,,,
 34,336,2022-04-23,Jeffrey Schlupp,M,True,0,,,,
 34,337,2022-04-23,Patson Daka,F,True,0,,,,
+34,332,2022-04-23,Yoane Wissa,M,True,0,,,,
 34,336,2022-04-23,Daniel James,M,False,0,,,,
 34,337,2022-04-23,Ademola Lookman,M,True,0,,,,
 34,340,2022-04-23,Chris Wood,F,False,0,,,,
@@ -16308,11 +16342,11 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 34,336,2022-04-23,Odsonne Edouard,F,True,0,,,,
 34,340,2022-04-23,Callum Wilson,F,False,0,,,,
 34,337,2022-04-23,Ollie Watkins,F,False,0,,,,
-34,337,2022-04-23,James Maddison,M,True,0,,,,
 34,339,2022-04-23,Phil Foden,M,True,0,,,,
 34,339,2022-04-23,Bernardo Mota Veiga de Carvalho e Silva,M,True,0,,,,
 34,336,2022-04-23,Conor Gallagher,M,True,0,,,,
 34,340,2022-04-23,Teemu Pukki,F,True,0,,,,
+34,337,2022-04-23,James Maddison,M,True,0,,,,
 34,339,2022-04-23,Emmanuel Dennis,F,False,0,,,,
 34,336,2022-04-23,Raphael Dias Belloli,M,False,0,,,,
 34,331,2022-04-23,Bukayo Saka,M,True,0,,,,
@@ -16324,9 +16358,9 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 34,339,2022-04-23,Riyad Mahrez,M,True,0,,,,
 34,339,2022-04-23,Raheem Sterling,M,True,0,,,,
 34,332,2022-04-23,Ivan Toney,F,True,0,,,,
-34,332,2022-04-23,Heung-Min Son,M,False,0,,,,
 34,331,2022-04-23,Cristiano Ronaldo dos Santos Aveiro,F,False,0,,,,
 34,332,2022-04-23,Harry Kane,F,False,0,,,,
+34,332,2022-04-23,Heung-Min Son,M,False,0,,,,
 34,335,2022-04-24,Daniel Chesters,M,False,0,,,,
 34,334,2022-04-24,Francisco Jorge Tomás Oliveira,M,False,0,,,,
 34,334,2022-04-24,Toti António Gomes,D,False,0,,,,
@@ -16511,13 +16545,13 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 34,335,2022-04-24,Manuel Lanzini,M,False,0,,,,
 34,334,2022-04-24,Hee-Chan Hwang,F,False,0,,,,
 34,335,2022-04-24,Reece James,D,True,0,,,,
-34,335,2022-04-24,Saïd Benrahma,M,False,0,,,,
 34,338,2022-04-24,Demarai Gray,M,False,0,,,,
 34,335,2022-04-24,Romelu Lukaku,F,True,0,,,,
 34,338,2022-04-24,Roberto Firmino,F,True,0,,,,
 34,333,2022-04-24,Armando Broja,F,False,0,,,,
 34,335,2022-04-24,Kai Havertz,M,True,0,,,,
 34,334,2022-04-24,Raúl Jiménez,F,False,0,,,,
+34,335,2022-04-24,Saïd Benrahma,M,False,0,,,,
 34,334,2022-04-24,Maxwel Cornet,M,True,0,,,,
 34,335,2022-04-24,Pablo Fornals,M,False,0,,,,
 34,335,2022-04-24,Jorge Luiz Frello Filho,M,True,0,,,,
@@ -16639,7 +16673,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 35,343,2022-04-30,Robin Koch,D,True,0,,,,
 35,346,2022-04-30,Lyanco Evangelista Silveira Neves Vojnovic,D,True,0,,,,
 35,350,2022-04-30,Nélson Cabral Semedo,D,True,0,,,,
-35,347,2022-04-30,Timothy Castagne,D,False,0,,,,
 35,347,2022-04-30,Rodrigo Bentancur,M,True,0,,,,
 35,346,2022-04-30,Will Hughes,M,False,0,,,,
 35,343,2022-04-30,Ederson Santana de Moraes,G,False,0,,,,
@@ -16749,6 +16782,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 35,347,2022-04-30,Matt Doherty,D,True,0,,,,
 35,345,2022-04-30,Curtis Jones,M,False,0,,,,
 35,341,2022-04-30,Milot Rashica,M,False,0,,,,
+35,347,2022-04-30,Timothy Castagne,D,False,0,,,,
 35,341,2022-04-30,Douglas Luiz Soares de Paulo,M,True,0,,,,
 35,345,2022-04-30,Jacob Murphy,M,True,0,,,,
 35,345,2022-04-30,Isaac Hayden,M,True,0,,,,
@@ -16872,11 +16906,11 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 35,345,2022-04-30,Callum Wilson,F,True,0,,,,
 35,341,2022-04-30,Ollie Watkins,F,True,0,,,,
 35,346,2022-04-30,Che Adams,F,True,0,,,,
-35,347,2022-04-30,James Maddison,M,False,0,,,,
 35,343,2022-04-30,Phil Foden,M,False,0,,,,
 35,343,2022-04-30,Bernardo Mota Veiga de Carvalho e Silva,M,False,0,,,,
 35,346,2022-04-30,Conor Gallagher,M,False,0,,,,
 35,341,2022-04-30,Teemu Pukki,F,False,0,,,,
+35,347,2022-04-30,James Maddison,M,False,0,,,,
 35,350,2022-04-30,Neal Maupay,F,False,0,,,,
 35,348,2022-04-30,Emmanuel Dennis,F,True,0,,,,
 35,343,2022-04-30,Raphael Dias Belloli,M,True,0,,,,
@@ -16885,10 +16919,10 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 35,347,2022-04-30,Jamie Vardy,F,False,0,,,,
 35,343,2022-04-30,Riyad Mahrez,M,False,0,,,,
 35,343,2022-04-30,Raheem Sterling,M,False,0,,,,
-35,347,2022-04-30,Heung-Min Son,M,True,0,,,,
 35,345,2022-04-30,Sadio Mané,M,False,0,,,,
 35,347,2022-04-30,Harry Kane,F,True,0,,,,
 35,345,2022-04-30,Diogo Jota,M,False,0,,,,
+35,347,2022-04-30,Heung-Min Son,M,True,0,,,,
 35,345,2022-04-30,Mohamed Salah,M,False,0,,,,
 35,349,2022-05-01,Daniel Chesters,M,True,0,,,,
 35,342,2022-05-01,Vitalii Mykolenko,D,True,0,,,,
@@ -16986,11 +17020,11 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 35,349,2022-05-01,Pierre-Emerick Aubameyang,F,False,0,,,,
 35,342,2022-05-01,Reece James,D,False,0,,,,
 35,349,2022-05-01,Gabriel Teodoro Martinelli Silva,M,False,0,,,,
-35,349,2022-05-01,Saïd Benrahma,M,True,0,,,,
 35,349,2022-05-01,Martin Ødegaard,M,False,0,,,,
 35,342,2022-05-01,Demarai Gray,M,True,0,,,,
 35,342,2022-05-01,Romelu Lukaku,F,False,0,,,,
 35,342,2022-05-01,Kai Havertz,M,False,0,,,,
+35,349,2022-05-01,Saïd Benrahma,M,True,0,,,,
 35,349,2022-05-01,Pablo Fornals,M,True,0,,,,
 35,342,2022-05-01,Jorge Luiz Frello Filho,M,False,0,,,,
 35,342,2022-05-01,Mason Mount,M,False,0,,,,
@@ -16999,6 +17033,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 35,349,2022-05-01,Bukayo Saka,M,False,0,,,,
 35,349,2022-05-01,Emile Smith Rowe,M,False,0,,,,
 35,344,2022-05-02,Pelenda Joshua Dasilva,M,False,0,,,,
+35,344,2022-05-02,Tariqe Fosu-Henry,M,False,0,,,,
 35,344,2022-05-02,Finley Stevens,D,False,0,,,,
 35,344,2022-05-02,Dominic Thompson,D,False,0,,,,
 35,344,2022-05-02,Charlie Goode,D,False,0,,,,
@@ -17063,6 +17098,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 36,359,2022-05-07,James McAtee,M,True,0,,,,
 36,358,2022-05-07,Kaide Gordon,M,True,0,,,,
 36,360,2022-05-07,Przemyslaw Placheta,M,True,0,,,,
+36,352,2022-05-07,Tariqe Fosu-Henry,M,True,0,,,,
 36,358,2022-05-07,Tyler Morton,M,True,0,,,,
 36,360,2022-05-07,Harrison Ashby,D,False,0,,,,
 36,353,2022-05-07,Jeremy Sarmiento,M,True,0,,,,
@@ -17193,7 +17229,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 36,351,2022-05-07,Robin Koch,D,False,0,,,,
 36,352,2022-05-07,Lyanco Evangelista Silveira Neves Vojnovic,D,False,0,,,,
 36,355,2022-05-07,Nélson Cabral Semedo,D,False,0,,,,
-36,357,2022-05-07,Timothy Castagne,D,True,0,,,,
 36,358,2022-05-07,Rodrigo Bentancur,M,False,0,,,,
 36,356,2022-05-07,Will Hughes,M,True,0,,,,
 36,353,2022-05-07,Victor Lindelöf,D,False,0,,,,
@@ -17355,6 +17390,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 36,360,2022-05-07,Ben Johnson,D,False,0,,,,
 36,360,2022-05-07,Nikola Vlasic,M,False,0,,,,
 36,360,2022-05-07,Andriy Yarmolenko,M,False,0,,,,
+36,357,2022-05-07,Timothy Castagne,D,True,0,,,,
 36,354,2022-05-07,Douglas Luiz Soares de Paulo,M,False,0,,,,
 36,359,2022-05-07,Jacob Murphy,M,False,0,,,,
 36,359,2022-05-07,Isaac Hayden,M,False,0,,,,
@@ -17480,7 +17516,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 36,352,2022-05-07,Bryan Mbeumo,M,True,0,,,,
 36,353,2022-05-07,Jadon Sancho,M,False,0,,,,
 36,352,2022-05-07,Jan Bednarek,D,False,0,,,,
-36,352,2022-05-07,Yoane Wissa,M,True,0,,,,
 36,356,2022-05-07,Jean-Philippe Mateta,F,True,0,,,,
 36,351,2022-05-07,Gabriel Magalhães,D,True,0,,,,
 36,357,2022-05-07,Dominic Calvert-Lewin,F,False,0,,,,
@@ -17501,6 +17536,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 36,352,2022-05-07,Mohamed Elyounoussi,M,False,0,,,,
 36,355,2022-05-07,Rúben Diogo da Silva Neves,M,False,0,,,,
 36,357,2022-05-07,Richarlison de Andrade,F,False,0,,,,
+36,352,2022-05-07,Yoane Wissa,M,True,0,,,,
 36,351,2022-05-07,Daniel James,M,False,0,,,,
 36,357,2022-05-07,Ademola Lookman,M,True,0,,,,
 36,359,2022-05-07,Chris Wood,F,False,0,,,,
@@ -17519,7 +17555,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 36,353,2022-05-07,Mason Greenwood,M,False,0,,,,
 36,356,2022-05-07,Juan Camilo Hernández Suárez,F,False,0,,,,
 36,356,2022-05-07,Ismaila Sarr,M,False,0,,,,
-36,360,2022-05-07,Saïd Benrahma,M,False,0,,,,
 36,351,2022-05-07,Martin Ødegaard,M,True,0,,,,
 36,359,2022-05-07,Rodrigo Hernandez,M,True,0,,,,
 36,354,2022-05-07,Danny Ings,F,False,0,,,,
@@ -17535,6 +17570,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 36,355,2022-05-07,Kai Havertz,M,True,0,,,,
 36,355,2022-05-07,Raúl Jiménez,F,False,0,,,,
 36,356,2022-05-07,Odsonne Edouard,F,True,0,,,,
+36,360,2022-05-07,Saïd Benrahma,M,False,0,,,,
 36,354,2022-05-07,Maxwel Cornet,M,True,0,,,,
 36,360,2022-05-07,Pablo Fornals,M,False,0,,,,
 36,355,2022-05-07,Jorge Luiz Frello Filho,M,True,0,,,,
@@ -17542,12 +17578,12 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 36,359,2022-05-07,Callum Wilson,F,False,0,,,,
 36,354,2022-05-07,Ollie Watkins,F,False,0,,,,
 36,352,2022-05-07,Che Adams,F,False,0,,,,
-36,357,2022-05-07,James Maddison,M,True,0,,,,
 36,359,2022-05-07,Phil Foden,M,True,0,,,,
 36,359,2022-05-07,Bernardo Mota Veiga de Carvalho e Silva,M,True,0,,,,
 36,356,2022-05-07,Conor Gallagher,M,True,0,,,,
 36,355,2022-05-07,Mason Mount,M,True,0,,,,
 36,360,2022-05-07,Teemu Pukki,F,True,0,,,,
+36,357,2022-05-07,James Maddison,M,True,0,,,,
 36,353,2022-05-07,Neal Maupay,F,True,0,,,,
 36,360,2022-05-07,Jarrod Bowen,M,False,0,,,,
 36,360,2022-05-07,Michail Antonio,F,False,0,,,,
@@ -17562,11 +17598,11 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 36,359,2022-05-07,Riyad Mahrez,M,True,0,,,,
 36,359,2022-05-07,Raheem Sterling,M,True,0,,,,
 36,352,2022-05-07,Ivan Toney,F,True,0,,,,
-36,358,2022-05-07,Heung-Min Son,M,False,0,,,,
 36,353,2022-05-07,Cristiano Ronaldo dos Santos Aveiro,F,False,0,,,,
 36,358,2022-05-07,Sadio Mané,M,True,0,,,,
 36,358,2022-05-07,Harry Kane,F,False,0,,,,
 36,358,2022-05-07,Diogo Jota,M,True,0,,,,
+36,358,2022-05-07,Heung-Min Son,M,False,0,,,,
 36,358,2022-05-07,Mohamed Salah,M,True,0,,,,
 37,369,2022-05-15,Daniel Chesters,M,True,0,,,,
 37,362,2022-05-15,Pelenda Joshua Dasilva,M,False,0,,,,
@@ -17582,6 +17618,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 37,369,2022-05-15,James McAtee,M,False,0,,,,
 37,366,2022-05-15,Kaide Gordon,M,False,0,,,,
 37,370,2022-05-15,Przemyslaw Placheta,M,False,0,,,,
+37,362,2022-05-15,Tariqe Fosu-Henry,M,False,0,,,,
 37,366,2022-05-15,Tyler Morton,M,False,0,,,,
 37,369,2022-05-15,Harrison Ashby,D,True,0,,,,
 37,363,2022-05-15,Jeremy Sarmiento,M,False,0,,,,
@@ -17712,7 +17749,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 37,363,2022-05-15,Robin Koch,D,True,0,,,,
 37,366,2022-05-15,Lyanco Evangelista Silveira Neves Vojnovic,D,True,0,,,,
 37,370,2022-05-15,Nélson Cabral Semedo,D,True,0,,,,
-37,368,2022-05-15,Timothy Castagne,D,False,0,,,,
 37,367,2022-05-15,Rodrigo Bentancur,M,True,0,,,,
 37,361,2022-05-15,Will Hughes,M,False,0,,,,
 37,364,2022-05-15,Victor Lindelöf,D,True,0,,,,
@@ -17874,6 +17910,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 37,369,2022-05-15,Ben Johnson,D,True,0,,,,
 37,369,2022-05-15,Nikola Vlasic,M,True,0,,,,
 37,369,2022-05-15,Andriy Yarmolenko,M,True,0,,,,
+37,368,2022-05-15,Timothy Castagne,D,False,0,,,,
 37,361,2022-05-15,Douglas Luiz Soares de Paulo,M,True,0,,,,
 37,365,2022-05-15,Jacob Murphy,M,True,0,,,,
 37,365,2022-05-15,Isaac Hayden,M,True,0,,,,
@@ -17999,7 +18036,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 37,362,2022-05-15,Bryan Mbeumo,M,False,0,,,,
 37,364,2022-05-15,Jadon Sancho,M,True,0,,,,
 37,366,2022-05-15,Jan Bednarek,D,True,0,,,,
-37,362,2022-05-15,Yoane Wissa,M,False,0,,,,
 37,361,2022-05-15,Jean-Philippe Mateta,F,False,0,,,,
 37,365,2022-05-15,Gabriel Magalhães,D,False,0,,,,
 37,362,2022-05-15,Dominic Calvert-Lewin,F,True,0,,,,
@@ -18020,6 +18056,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 37,366,2022-05-15,Mohamed Elyounoussi,M,True,0,,,,
 37,370,2022-05-15,Rúben Diogo da Silva Neves,M,True,0,,,,
 37,362,2022-05-15,Richarlison de Andrade,F,True,0,,,,
+37,362,2022-05-15,Yoane Wissa,M,False,0,,,,
 37,363,2022-05-15,Daniel James,M,True,0,,,,
 37,368,2022-05-15,Ademola Lookman,M,False,0,,,,
 37,365,2022-05-15,Chris Wood,F,True,0,,,,
@@ -18038,7 +18075,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 37,364,2022-05-15,Mason Greenwood,M,True,0,,,,
 37,368,2022-05-15,Juan Camilo Hernández Suárez,F,True,0,,,,
 37,368,2022-05-15,Ismaila Sarr,M,True,0,,,,
-37,369,2022-05-15,Saïd Benrahma,M,True,0,,,,
 37,365,2022-05-15,Martin Ødegaard,M,False,0,,,,
 37,369,2022-05-15,Rodrigo Hernandez,M,False,0,,,,
 37,361,2022-05-15,Danny Ings,F,True,0,,,,
@@ -18054,6 +18090,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 37,364,2022-05-15,Kai Havertz,M,False,0,,,,
 37,370,2022-05-15,Raúl Jiménez,F,True,0,,,,
 37,361,2022-05-15,Odsonne Edouard,F,False,0,,,,
+37,369,2022-05-15,Saïd Benrahma,M,True,0,,,,
 37,367,2022-05-15,Maxwel Cornet,M,False,0,,,,
 37,369,2022-05-15,Pablo Fornals,M,True,0,,,,
 37,364,2022-05-15,Jorge Luiz Frello Filho,M,False,0,,,,
@@ -18061,12 +18098,12 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 37,365,2022-05-15,Callum Wilson,F,True,0,,,,
 37,361,2022-05-15,Ollie Watkins,F,True,0,,,,
 37,366,2022-05-15,Che Adams,F,True,0,,,,
-37,368,2022-05-15,James Maddison,M,False,0,,,,
 37,369,2022-05-15,Phil Foden,M,False,0,,,,
 37,369,2022-05-15,Bernardo Mota Veiga de Carvalho e Silva,M,False,0,,,,
 37,361,2022-05-15,Conor Gallagher,M,False,0,,,,
 37,364,2022-05-15,Mason Mount,M,False,0,,,,
 37,370,2022-05-15,Teemu Pukki,F,False,0,,,,
+37,368,2022-05-15,James Maddison,M,False,0,,,,
 37,363,2022-05-15,Neal Maupay,F,False,0,,,,
 37,369,2022-05-15,Jarrod Bowen,M,True,0,,,,
 37,369,2022-05-15,Michail Antonio,F,True,0,,,,
@@ -18081,11 +18118,11 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 37,369,2022-05-15,Riyad Mahrez,M,False,0,,,,
 37,369,2022-05-15,Raheem Sterling,M,False,0,,,,
 37,362,2022-05-15,Ivan Toney,F,False,0,,,,
-37,367,2022-05-15,Heung-Min Son,M,True,0,,,,
 37,364,2022-05-15,Cristiano Ronaldo dos Santos Aveiro,F,True,0,,,,
 37,366,2022-05-15,Sadio Mané,M,False,0,,,,
 37,367,2022-05-15,Harry Kane,F,True,0,,,,
 37,366,2022-05-15,Diogo Jota,M,False,0,,,,
+37,367,2022-05-15,Heung-Min Son,M,True,0,,,,
 37,366,2022-05-15,Mohamed Salah,M,False,0,,,,
 38,373,2022-05-22,Daniel Chesters,M,False,0,,,,
 38,372,2022-05-22,Pelenda Joshua Dasilva,M,True,0,,,,
@@ -18101,6 +18138,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 38,379,2022-05-22,James McAtee,M,True,0,,,,
 38,378,2022-05-22,Kaide Gordon,M,True,0,,,,
 38,380,2022-05-22,Przemyslaw Placheta,M,True,0,,,,
+38,372,2022-05-22,Tariqe Fosu-Henry,M,True,0,,,,
 38,378,2022-05-22,Tyler Morton,M,True,0,,,,
 38,373,2022-05-22,Harrison Ashby,D,False,0,,,,
 38,373,2022-05-22,Jeremy Sarmiento,M,True,0,,,,
@@ -18231,7 +18269,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 38,372,2022-05-22,Robin Koch,D,False,0,,,,
 38,377,2022-05-22,Lyanco Evangelista Silveira Neves Vojnovic,D,False,0,,,,
 38,378,2022-05-22,Nélson Cabral Semedo,D,False,0,,,,
-38,377,2022-05-22,Timothy Castagne,D,True,0,,,,
 38,380,2022-05-22,Rodrigo Bentancur,M,False,0,,,,
 38,376,2022-05-22,Will Hughes,M,True,0,,,,
 38,376,2022-05-22,Victor Lindelöf,D,False,0,,,,
@@ -18393,6 +18430,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 38,373,2022-05-22,Ben Johnson,D,False,0,,,,
 38,373,2022-05-22,Nikola Vlasic,M,False,0,,,,
 38,373,2022-05-22,Andriy Yarmolenko,M,False,0,,,,
+38,377,2022-05-22,Timothy Castagne,D,True,0,,,,
 38,379,2022-05-22,Douglas Luiz Soares de Paulo,M,False,0,,,,
 38,374,2022-05-22,Jacob Murphy,M,False,0,,,,
 38,374,2022-05-22,Isaac Hayden,M,False,0,,,,
@@ -18518,7 +18556,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 38,372,2022-05-22,Bryan Mbeumo,M,True,0,,,,
 38,376,2022-05-22,Jadon Sancho,M,False,0,,,,
 38,377,2022-05-22,Jan Bednarek,D,False,0,,,,
-38,372,2022-05-22,Yoane Wissa,M,True,0,,,,
 38,376,2022-05-22,Jean-Philippe Mateta,F,True,0,,,,
 38,371,2022-05-22,Gabriel Magalhães,D,True,0,,,,
 38,371,2022-05-22,Dominic Calvert-Lewin,F,False,0,,,,
@@ -18539,6 +18576,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 38,377,2022-05-22,Mohamed Elyounoussi,M,False,0,,,,
 38,378,2022-05-22,Rúben Diogo da Silva Neves,M,False,0,,,,
 38,371,2022-05-22,Richarlison de Andrade,F,False,0,,,,
+38,372,2022-05-22,Yoane Wissa,M,True,0,,,,
 38,372,2022-05-22,Daniel James,M,False,0,,,,
 38,377,2022-05-22,Ademola Lookman,M,True,0,,,,
 38,374,2022-05-22,Chris Wood,F,False,0,,,,
@@ -18557,7 +18595,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 38,376,2022-05-22,Mason Greenwood,M,False,0,,,,
 38,375,2022-05-22,Juan Camilo Hernández Suárez,F,False,0,,,,
 38,375,2022-05-22,Ismaila Sarr,M,False,0,,,,
-38,373,2022-05-22,Saïd Benrahma,M,False,0,,,,
 38,371,2022-05-22,Martin Ødegaard,M,True,0,,,,
 38,379,2022-05-22,Rodrigo Hernandez,M,True,0,,,,
 38,379,2022-05-22,Danny Ings,F,False,0,,,,
@@ -18573,6 +18610,7 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 38,375,2022-05-22,Kai Havertz,M,True,0,,,,
 38,378,2022-05-22,Raúl Jiménez,F,False,0,,,,
 38,376,2022-05-22,Odsonne Edouard,F,True,0,,,,
+38,373,2022-05-22,Saïd Benrahma,M,False,0,,,,
 38,374,2022-05-22,Maxwel Cornet,M,True,0,,,,
 38,373,2022-05-22,Pablo Fornals,M,False,0,,,,
 38,375,2022-05-22,Jorge Luiz Frello Filho,M,True,0,,,,
@@ -18580,12 +18618,12 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 38,374,2022-05-22,Callum Wilson,F,False,0,,,,
 38,379,2022-05-22,Ollie Watkins,F,False,0,,,,
 38,377,2022-05-22,Che Adams,F,False,0,,,,
-38,377,2022-05-22,James Maddison,M,True,0,,,,
 38,379,2022-05-22,Phil Foden,M,True,0,,,,
 38,379,2022-05-22,Bernardo Mota Veiga de Carvalho e Silva,M,True,0,,,,
 38,376,2022-05-22,Conor Gallagher,M,True,0,,,,
 38,375,2022-05-22,Mason Mount,M,True,0,,,,
 38,380,2022-05-22,Teemu Pukki,F,True,0,,,,
+38,377,2022-05-22,James Maddison,M,True,0,,,,
 38,373,2022-05-22,Neal Maupay,F,True,0,,,,
 38,373,2022-05-22,Jarrod Bowen,M,False,0,,,,
 38,373,2022-05-22,Michail Antonio,F,False,0,,,,
@@ -18600,11 +18638,11 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 38,379,2022-05-22,Riyad Mahrez,M,True,0,,,,
 38,379,2022-05-22,Raheem Sterling,M,True,0,,,,
 38,372,2022-05-22,Ivan Toney,F,True,0,,,,
-38,380,2022-05-22,Heung-Min Son,M,False,0,,,,
 38,376,2022-05-22,Cristiano Ronaldo dos Santos Aveiro,F,False,0,,,,
 38,378,2022-05-22,Sadio Mané,M,True,0,,,,
 38,380,2022-05-22,Harry Kane,F,False,0,,,,
 38,378,2022-05-22,Diogo Jota,M,True,0,,,,
+38,380,2022-05-22,Heung-Min Son,M,False,0,,,,
 38,378,2022-05-22,Mohamed Salah,M,True,0,,,,
 ,330,,Francisco Jorge Tomás Oliveira,M,True,0,,,,
 ,330,,Toti António Gomes,D,True,0,,,,
@@ -18731,8 +18769,6 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 ,207,,Boubakary Soumaré,M,True,0,,,,
 ,323,,Robin Koch,D,True,0,,,,
 ,330,,Nélson Cabral Semedo,D,True,0,,,,
-,264,,Timothy Castagne,D,False,0,,,,
-,207,,Timothy Castagne,D,True,0,,,,
 ,218,,Rodrigo Bentancur,M,True,0,,,,
 ,322,,Will Hughes,M,False,0,,,,
 ,330,,Ederson Santana de Moraes,G,False,0,,,,
@@ -18883,6 +18919,8 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 ,207,,Milot Rashica,M,False,0,,,,
 ,323,,Callum Hudson-Odoi,M,False,0,,,,
 ,264,,Callum Hudson-Odoi,M,True,0,,,,
+,264,,Timothy Castagne,D,False,0,,,,
+,207,,Timothy Castagne,D,True,0,,,,
 ,321,,Douglas Luiz Soares de Paulo,M,True,0,,,,
 ,171,,Douglas Luiz Soares de Paulo,M,True,0,,,,
 ,218,,Tanguy Ndombele,M,True,0,,,,
@@ -19057,14 +19095,14 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 ,264,,Jorge Luiz Frello Filho,M,True,0,,,,
 ,321,,Ollie Watkins,F,True,0,,,,
 ,171,,Ollie Watkins,F,True,0,,,,
-,264,,James Maddison,M,False,0,,,,
-,207,,James Maddison,M,True,0,,,,
 ,330,,Phil Foden,M,False,0,,,,
 ,330,,Bernardo Mota Veiga de Carvalho e Silva,M,False,0,,,,
 ,322,,Conor Gallagher,M,False,0,,,,
 ,323,,Mason Mount,M,False,0,,,,
 ,264,,Mason Mount,M,True,0,,,,
 ,207,,Teemu Pukki,F,False,0,,,,
+,264,,James Maddison,M,False,0,,,,
+,207,,James Maddison,M,True,0,,,,
 ,299,,Emmanuel Dennis,F,True,0,,,,
 ,323,,Raphael Dias Belloli,M,True,0,,,,
 ,218,,Bukayo Saka,M,False,0,,,,
@@ -19075,8 +19113,8 @@ gw,fixture_id,date,name,position,home,minutes,bonus,points,npxG,xA
 ,207,,Jamie Vardy,F,True,0,,,,
 ,330,,Riyad Mahrez,M,False,0,,,,
 ,330,,Raheem Sterling,M,False,0,,,,
-,218,,Heung-Min Son,M,True,0,,,,
 ,321,,Sadio Mané,M,False,0,,,,
 ,218,,Harry Kane,F,True,0,,,,
 ,321,,Diogo Jota,M,False,0,,,,
+,218,,Heung-Min Son,M,True,0,,,,
 ,321,,Mohamed Salah,M,False,0,,,,
