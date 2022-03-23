@@ -20,6 +20,26 @@ name_map = understat_to_fpl_map()
 
 
 async def get_team_understat_data():
+    """Retrieves Understat data from all teams in the current season.
+
+    Returns:
+        A dictionary with dates as keys, which map to a dictionary of teams that
+        played that day and their corresponding statistics in that fixture. For
+        example,
+        {
+            "2021-08-13": {
+                "Arsenal": {
+                    "xG": 1.024,
+                    "xGA": 1.888
+                },
+                "Brentford": {
+                    "xG": 1.888,
+                    "xGA": 1.024
+                }
+            },
+            ....
+        }
+    """
     async with aiohttp.ClientSession() as session:
         fixture_map = {}
         understat = Understat(session)
@@ -39,6 +59,13 @@ async def get_team_understat_data():
 
 
 def get_xg_data(fixture, date, understat_team_data):
+    """Get the xG of the home and away team in a certain fixture.
+
+    Returns:
+        A tuple (hxG, axG), where hxG is the home team's xG and axG is the
+        away team's xG for that fixture, if this fixture has occurred.
+        (None, None) otherwise.
+    """
     today = datetime.date.today().strftime("%Y-%m-%d")
     home_team = team_map[fixture["team_h"]]
     away_team = team_map[fixture["team_a"]]
@@ -51,6 +78,7 @@ def get_xg_data(fixture, date, understat_team_data):
 
 
 def get_fixture_info(fixture, understat_team_data):
+    """Extract data from a fixture json."""
     fixture_id = fixture["id"]
     gw = fixture["event"]
     home_team = team_map[fixture["team_h"]]
@@ -71,8 +99,13 @@ def get_fixture_info(fixture, understat_team_data):
         away_xg
     ]
 
-
+# TODO: change to sql queries rather than csv
 def get_fixtures():
+    """Writes fixture data to csv file.
+    
+    First, all of the fixtures are retrieved from the FPL API, and then each
+    fixture is populated with the corresponding Understat xG data, if possible.
+    """
     f = open(FIXTURES_FILE, "w")
     writer = csv.writer(f)
     header = ["fixture_id", "gw", "date", "home_team",
@@ -82,7 +115,7 @@ def get_fixtures():
     fixtures_json = requests.get(FPL_FIXTURES_URL).json()
     understat_team_data = asyncio.run(get_team_understat_data())
     rows = [get_fixture_info(fj, understat_team_data) for fj in fixtures_json]
-    rows.sort(key=compare_by_index(1))
+    rows.sort(key=compare_by_index(2))
     writer.writerows(rows)
     print("Done")
     f.close()

@@ -12,6 +12,24 @@ from utils import compare_by_index
 
 
 async def get_player_understat_data():
+    """Retrieves Understat player data from current season.
+    
+    Returns:
+        A dictionary with dates as keys, mapping to another json object
+        containing as keys all of the players playing on that date. Each of
+        those keys maps to a json object containing the player's npxG and xA
+        for that game. For example,
+            {
+                "2021-08-13": {
+                    "Bukayo Saka" : {
+                        "npxG": ...,
+                        "xA": ...
+                    },
+                    ...
+                },
+                ...
+            }
+    """
     players = get_player_list()
     player_map = {}
     async with aiohttp.ClientSession() as session:
@@ -38,6 +56,12 @@ async def get_player_understat_data():
 
 
 def get_player_xg(name, date, understat_player_data):
+    """Finds player's npxG and xA from game on given date.
+    
+    Returns:
+        A tuple (npxG, xA) if such statistics exist for the player on that date.
+        (None, None) otherwise.
+    """
     if date not in understat_player_data:
         return None, None
     game_data = understat_player_data[date]

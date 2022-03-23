@@ -28,7 +28,8 @@ def get_fpl_players():
       {
         "name": the name of the player (with accents) as given by FPL.
         "fpl_id": the player's id for the current season.
-        "team_name": the name of the team that the player plays for
+        "team_name": the name of the team that the player plays for.
+        "position": the player's position listed on FPL.
       }
     """
     players_json = requests.get(FPL_BASE_URL).json()["elements"]
@@ -59,10 +60,6 @@ def get_aliases():
 
     Returns:
       A dict mapping a player's Understat name to their FPL name.
-
-    Raises:
-      FileNotFoundError: There is no file "aliases.json" in the "data/"
-      directory.
     """
     with open("data/aliases.json") as alias_json:
         return json.load(alias_json)
@@ -97,14 +94,6 @@ def construct_player_json(pmap, name, uid):
 async def generate_player_list(output_file_path):
     """
       Writes a complete list of FPL players to output_file_path.
-
-    The list is comprised of json objects with the following structure:
-      {
-        "fpl_id": player's FPL ID
-        "understat_id":  player's Understat ID
-        "name": player's name, as given on FPL
-        "team_name": name of team that player plays for
-      }
 
     Raises:
       Exception: At least one (FPL name, Understat name) match was not found.

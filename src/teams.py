@@ -14,10 +14,9 @@ understat_names = {
 
 
 def make_team_json(team):
-    team_id = team["id"]
     team_name = team["name"]
     return {
-        "id": team_id,
+        "id": team["id"],
         "fpl_name": team_name,
         "understat_name": understat_names.get(team_name, team_name)
     }
