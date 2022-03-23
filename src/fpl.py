@@ -49,8 +49,6 @@ async def get_player_understat_data():
                         "npxG": float(match["npxG"]),
                         "xA": float(match["xA"])
                     }
-        with open("test.json", "w") as f:
-            json.dump(player_map, f)
         print("Done")
         return player_map
 
@@ -117,15 +115,6 @@ def fetch_gw_data(all=True):
         next_fixtures = player_info["fixtures"]
         add_fixtures(rows, player, understat_player_data, old_fixtures)
         add_fixtures(rows, player, understat_player_data, next_fixtures)
-        # for match in history:
-        #     if match["team_h_score"] is None:
-        #         continue
-        #     row = get_player_match_info(player, match, understat_player_data)
-        #     rows.append(row)
-        # fixtures = player_info["fixtures"]
-        # for match in fixtures:
-        #     row = get_player_match_info(player, match, understat_player_data)
-        #     rows.append(row)
     rows.sort(key=compare_by_index(2))
     writer.writerows(rows)
     print("Done")
