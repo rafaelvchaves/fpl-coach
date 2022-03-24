@@ -98,5 +98,105 @@
         "id": 20,
         "fpl_name": "Wolves",
         "understat_name": "Wolverhampton Wanderers"
+    },
+    {
+        "id": 1,
+        "fpl_name": "Arsenal",
+        "understat_name": "Arsenal"
+    },
+    {
+        "id": 2,
+        "fpl_name": "Aston Villa",
+        "understat_name": "Aston Villa"
+    },
+    {
+        "id": 3,
+        "fpl_name": "Brentford",
+        "understat_name": "Brentford"
+    },
+    {
+        "id": 4,
+        "fpl_name": "Brighton",
+        "understat_name": "Brighton"
+    },
+    {
+        "id": 5,
+        "fpl_name": "Burnley",
+        "understat_name": "Burnley"
+    },
+    {
+        "id": 6,
+        "fpl_name": "Chelsea",
+        "understat_name": "Chelsea"
+    },
+    {
+        "id": 7,
+        "fpl_name": "Crystal Palace",
+        "understat_name": "Crystal Palace"
+    },
+    {
+        "id": 8,
+        "fpl_name": "Everton",
+        "understat_name": "Everton"
+    },
+    {
+        "id": 9,
+        "fpl_name": "Leicester",
+        "understat_name": "Leicester"
+    },
+    {
+        "id": 10,
+        "fpl_name": "Leeds",
+        "understat_name": "Leeds"
+    },
+    {
+        "id": 11,
+        "fpl_name": "Liverpool",
+        "understat_name": "Liverpool"
+    },
+    {
+        "id": 12,
+        "fpl_name": "Man City",
+        "understat_name": "Manchester City"
+    },
+    {
+        "id": 13,
+        "fpl_name": "Man Utd",
+        "understat_name": "Manchester United"
+    },
+    {
+        "id": 14,
+        "fpl_name": "Newcastle",
+        "understat_name": "Newcastle United"
+    },
+    {
+        "id": 15,
+        "fpl_name": "Norwich",
+        "understat_name": "Norwich"
+    },
+    {
+        "id": 16,
+        "fpl_name": "Southampton",
+        "understat_name": "Southampton"
+    },
+    {
+        "id": 17,
+        "fpl_name": "Spurs",
+        "understat_name": "Tottenham"
+    },
+    {
+        "id": 18,
+        "fpl_name": "Watford",
+        "understat_name": "Watford"
+    },
+    {
+        "id": 19,
+        "fpl_name": "West Ham",
+        "understat_name": "West Ham"
+    },
+    {
+        "id": 20,
+        "fpl_name": "Wolves",
+        "understat_name": "Wolverhampton Wanderers"
     }
 ]

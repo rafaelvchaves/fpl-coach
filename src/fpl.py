@@ -11,6 +11,7 @@ from understat import Understat
 from utils import compare_by_index
 
 
+
 async def get_player_understat_data():
     """Retrieves Understat player data from current season.
     

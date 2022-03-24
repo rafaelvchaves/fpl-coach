@@ -1,9 +1,19 @@
+import mysql.connector
 import json
 import requests
 from constants import FPL_BASE_URL
 from datetime import datetime
 from dateutil import parser
 from functools import cmp_to_key
+
+
+def connect_to_db():
+    return mysql.connector.connect(
+        host="localhost",
+        user="root",
+        password="password",
+        database="fplcoachdb"
+    )
 
 
 def parse_date(s):
@@ -57,6 +67,6 @@ def compare_by_index(i):
         elif date1 is None:
             return 1
         elif date1 <= date2:
-          return -1
+            return -1
         return 1
     return cmp_to_key(compare_rows)

@@ -1,8 +1,9 @@
 import requests
 import json
+import mysql.connector
 import os
 from constants import CURRENT_SEASON, FPL_BASE_URL, TEAMS_FILE
-from utils import from_json
+from utils import from_json, connect_to_db
 
 understat_names = {
     "Man City": "Manchester City",
@@ -12,6 +13,14 @@ understat_names = {
     "Wolves": "Wolverhampton Wanderers",
 }
 
+db = mysql.connector.connect(
+        host="localhost",
+        user="root",
+        password="password",
+        database="fplcoachdb"
+    )
+
+cursor = db.cursor()
 
 def make_team_json(team):
     team_name = team["name"]
@@ -32,6 +41,14 @@ def get_fpl_teams(cache=False):
         return from_json(TEAMS_FILE)
     teams_json = requests.get(FPL_BASE_URL).json()['teams']
     teams = [make_team_json(team) for team in teams_json]
+    sql = "INSERT INTO teams (id, fpl_name, understat_name) VALUES ({}, '{}', '{}')"
+    for team_json in teams_json:
+        team = make_team_json(team_json)
+        teams.append(team)
+        cursor.execute(
+            sql.format(team["id"], team["fpl_name"], team["understat_name"])
+        )
+    db.commit()
     with open(TEAMS_FILE, "w") as tj:
         json.dump(teams, tj, indent=4)
     return teams
