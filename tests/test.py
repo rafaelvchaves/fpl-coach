@@ -9,3 +9,4 @@ db = mysql.connector.connect(
 
 cursor = db.cursor()
 
+print(cursor.execute("""SELECT COUNT(*) FROM teams"""))
