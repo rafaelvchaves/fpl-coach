@@ -80,7 +80,7 @@ def construct_player_json(pmap, name, uid):
     try:
         understat_id = int(uid)
     except:
-        print("uid {} cannot be converted to int".format(uid))
+        print("understat id {} cannot be converted to int".format(uid))
         exit()
     return {
         "fpl_id": pmap[name]["fpl_id"],

@@ -1,6 +1,7 @@
+import mysql.connector
 class DB:
-    def __del__(self):
-        self.db.close()
+    # def __del__(self):
+    #     self.db.close()
 
     def __init__(self):
         self.db = mysql.connector.connect(
@@ -11,5 +12,5 @@ class DB:
         )
         print("Started database connection")
 
-    def cursor(self):
-        return self.db.cursor()
+    def writerows(self):
+        cursor = self.db.cursor()

@@ -3,9 +3,6 @@ import asyncio
 import csv
 import datetime
 import json
-import numpy as np
-import os
-import pandas as pd
 import requests
 from constants import CURRENT_SEASON, FIXTURES_FILE, FPL_FIXTURES_URL
 from dateutil import parser
@@ -14,10 +11,21 @@ from teams import id_to_name_map
 from teams import understat_to_fpl_map
 from understat import Understat
 from utils import parse_date, compare_by_index
+from db import DB
 
 team_map = id_to_name_map()
 name_map = understat_to_fpl_map()
 
+
+db = DB()
+# db = mysql.connector.connect(
+#         host="localhost",
+#         user="root",
+#         password="password",
+#         database="fplcoachdb"
+#     )
+
+# cursor = db.cursor()
 
 async def get_team_understat_data():
     """Retrieves Understat data from all teams in the current season.

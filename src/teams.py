@@ -4,6 +4,7 @@ import mysql.connector
 import os
 from constants import CURRENT_SEASON, FPL_BASE_URL, TEAMS_FILE
 from utils import from_json, connect_to_db
+from db import DB
 
 understat_names = {
     "Man City": "Manchester City",
@@ -19,6 +20,8 @@ db = mysql.connector.connect(
         password="password",
         database="fplcoachdb"
     )
+
+# db = DB()
 
 cursor = db.cursor()
 
