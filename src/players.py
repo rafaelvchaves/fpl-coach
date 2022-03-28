@@ -6,6 +6,7 @@ import requests
 import unidecode
 from constants import CURRENT_SEASON, FPL_BASE_URL, PLAYERS_FILE
 from teams import id_to_name_map
+from db import MySQLManager
 from understat import Understat
 from utils import from_json
 
@@ -61,7 +62,7 @@ def get_aliases():
     Returns:
       A dict mapping a player's Understat name to their FPL name.
     """
-    with open("data/aliases.json") as alias_json:
+    with open("../data/aliases.json") as alias_json:
         return json.load(alias_json)
 
 
@@ -81,15 +82,14 @@ def construct_player_json(pmap, name, uid):
         understat_id = int(uid)
     except:
         print("understat id {} cannot be converted to int".format(uid))
-        exit()
+        exit(1)
     return {
         "fpl_id": pmap[name]["fpl_id"],
         "understat_id": understat_id,
-        "name": pmap[name]["name"],
+        "fpl_name": pmap[name]["name"],
         "team_name": pmap[name]["team_name"],
         "position": pmap[name]["position"]
     }
-
 
 async def generate_player_list(output_file_path):
     """
@@ -124,8 +124,8 @@ async def generate_player_list(output_file_path):
             not_found)
         raise Exception(err_msg)
     print("Done")
-    with open(output_file_path, "w") as f:
-        json.dump(players, f, indent=4, ensure_ascii=False)
+    # with open(output_file_path, "w") as f:
+    #     json.dump(players, f, indent=4, ensure_ascii=False)
     return players
 
 def get_player_list():
@@ -135,5 +135,8 @@ def get_player_list():
     return generate_player_list(PLAYERS_FILE)
 
 if __name__ == "__main__":
-    loop = asyncio.get_event_loop()
-    loop.run_until_complete(generate_player_list(PLAYERS_FILE))
+    db = MySQLManager()
+    players = asyncio.run(generate_player_list(PLAYERS_FILE))
+    db.writerows(players, "players")
+
+    

@@ -4,7 +4,7 @@ import mysql.connector
 import os
 from constants import CURRENT_SEASON, FPL_BASE_URL, TEAMS_FILE
 from utils import from_json
-from db import DB
+from db import MySQLManager
 
 understat_names = {
     "Man City": "Manchester City",
@@ -17,7 +17,7 @@ understat_names = {
 def make_team_json(team):
     team_name = team["name"]
     return {
-        "id": team["id"],
+        "fpl_id": team["id"],
         "fpl_name": team_name,
         "understat_name": understat_names.get(team_name, team_name)
     }
@@ -48,11 +48,11 @@ def understat_to_fpl_map():
 
 
 def id_to_name_map():
-    return create_map("id", "fpl_name")
+    return create_map("fpl_id", "fpl_name")
 
 
 if __name__ == "__main__":
-    db = DB()
+    db = MySQLManager()
     teams = get_fpl_teams()
     db.writerows(teams, "teams")
 
