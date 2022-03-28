@@ -1,16 +1,29 @@
 import mysql.connector
+from mysql.connector.locales.eng import client_error
+
+def extract_value(val):
+    if isinstance(val, str):
+        return "'{}'".format(val)
+    else:
+        return str(val)
+
 class DB:
-    # def __del__(self):
-    #     self.db.close()
 
     def __init__(self):
-        self.db = mysql.connector.connect(
-            host="host",
+        self.cnx = mysql.connector.connect(
+            host="localhost",
             user="root",
             password="password",
-            database="fplcoach",
+            database="fplcoachdb",
         )
         print("Started database connection")
 
-    def writerows(self):
-        cursor = self.db.cursor()
+    def writerows(self, rows, table):
+        cursor = self.cnx.cursor()
+        keys = rows[0].keys()
+        cols = ",".join(keys)
+        for row in rows:
+            vals = ",".join([extract_value(row[k]) for k in keys])
+            sql = "INSERT INTO {} ({}) VALUES ({})".format(table, cols, vals)
+            cursor.execute(sql)
+        self.cnx.commit()

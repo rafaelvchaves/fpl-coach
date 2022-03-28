@@ -5,12 +5,11 @@ import json
 import requests
 from constants import CURRENT_SEASON, FPL_BASE_URL, FPL_PLAYER_URL, GW_HISTORY_FILE
 from datetime import datetime
+from db import DB
 from players import get_player_list
 from teams import id_to_name_map
 from understat import Understat
 from utils import compare_by_index
-
-
 
 async def get_player_understat_data():
     """Retrieves Understat player data from current season.
@@ -79,31 +78,48 @@ def convert_date(date):
     return datetime.strptime(date, "%Y-%m-%dT%H:%M:%SZ").strftime("%Y-%m-%d")
 
 
-def get_player_match_info(player, match, understat_player_data):
+def get_match_info(player, match, understat_player_data):
     name = player["name"]
-    position = player["position"]
-    gw = match.get("round", match.get("event", None))
-    fixture_id = match.get("fixture", match.get("id", None))
     date = convert_date(match["kickoff_time"])
-    home = match.get("was_home", match.get("is_home", None))
-    minutes = match.get("minutes", None)
-    bonus = match.get("bonus", None)
-    points = match.get("total_points", None)
     npxG, xA = get_player_xg(name, date, understat_player_data)
-    return [gw, fixture_id, date, name,
-            position, home, minutes, bonus, points, npxG, xA]
+    return {
+        "name": name,
+        "position": player["position"],
+        "gw": match.get("round", match.get("event", None)),
+        "fixture_id": match.get("fixture", match.get("id", None)),
+        "date": date,
+        "home": match.get("was_home", match.get("is_home", None)),
+        "minutes": match.get("minutes", None),
+        "bonus": match.get("bonus", None),
+        "points": match.get("total_points", None),
+        "npxG": npxG,
+        "xA": xA
+    }
+#   fpl_id INT PRIMARY KEY,
+#   understat_id INT NOT NULL,
+#   fpl_name VARCHAR(255) NOT NULL,
+#   position CHAR NOT NULL,
+#   team_name INT NOT NULL,
+
+
+#   player_id INT,
+#   gameweek INT,
+#   fixture_id INT,
+#   team_id INT,
+#   opponent_id INT,
+#   minutes_played INT,
+#   npxg FLOAT,
+#   xa FLOAT,
+#   bonus_points INT,
+#   total_points INT,
+#   price FLOAT,
 
 def add_fixtures(rows, player, understat_player_data, fixtures):
   for match in fixtures:
-    row = get_player_match_info(player, match, understat_player_data)
+    row = get_match_info(player, match, understat_player_data)
     rows.append(row)
 
 def fetch_gw_data(all=True):
-    f = open(GW_HISTORY_FILE, "w")
-    writer = csv.writer(f)
-    header = ["gw", "fixture_id", "date", "name",
-              "position", "home", "minutes", "bonus", "points", "npxG", "xA"]
-    writer.writerow(header)
     tid_map = id_to_name_map()
     players = get_player_list()
     rows = []
@@ -116,11 +132,12 @@ def fetch_gw_data(all=True):
         next_fixtures = player_info["fixtures"]
         add_fixtures(rows, player, understat_player_data, old_fixtures)
         add_fixtures(rows, player, understat_player_data, next_fixtures)
-    rows.sort(key=compare_by_index(2))
-    writer.writerows(rows)
     print("Done")
-    f.close()
+    return rows
 
 
 if __name__ == "__main__":
-    fetch_gw_data()
+    db = DB()
+    gw_data = fetch_gw_data()
+    db.writerows(rows, "player_gws")
+

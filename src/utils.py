@@ -6,16 +6,6 @@ from datetime import datetime
 from dateutil import parser
 from functools import cmp_to_key
 
-
-def connect_to_db():
-    return mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="password",
-        database="fplcoachdb"
-    )
-
-
 def parse_date(s):
     """Converts a string to a string in the form YYYY-MM-DD.
 
