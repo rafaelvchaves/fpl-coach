@@ -35,5 +35,6 @@ class MySQLManager:
                 if e.errno == 1062:
                     # Already in table, can just skip over for now
                     continue
+                print(e)
                 exit(1)
         self.cnx.commit()
