@@ -29,12 +29,8 @@ def get_fpl_teams(cache=False):
     Returns:
       A list, with the ith entry corresponding to the team with id i.
     """
-    # if cache and os.path.exists(TEAMS_FILE):
-    #     return from_json(TEAMS_FILE)
     teams_json = requests.get(FPL_BASE_URL).json()['teams']
     teams = [make_team_json(team) for team in teams_json]
-    # with open(TEAMS_FILE, "w") as tj:
-    #     json.dump(teams, tj, indent=4)
     return teams
 
 

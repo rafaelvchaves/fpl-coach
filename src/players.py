@@ -4,21 +4,19 @@ import json
 import os
 import requests
 import unidecode
-from constants import CURRENT_SEASON, FPL_BASE_URL, PLAYERS_FILE
+from constants import CURRENT_SEASON, FPL_BASE_URL, PLAYERS_FILE, DATA_DIR
 from teams import id_to_name_map
 from db import MySQLManager
 from understat import Understat
 from utils import from_json
 
 def get_position(element_type):
-    if element_type == 1:
-        return "G"
-    elif element_type == 2:
-        return "D"
-    elif element_type == 3:
-        return "M"
-    else:
-        return "F"
+    return {
+        1: "G",
+        2: "D",
+        3: "M",
+        4: "F"
+    }[element_type]
 
 def get_fpl_players():
     """Retrieves a dictionary of all FPL players in current season.
@@ -62,7 +60,7 @@ def get_aliases():
     Returns:
       A dict mapping a player's Understat name to their FPL name.
     """
-    with open("../data/aliases.json") as alias_json:
+    with open(os.path.join(DATA_DIR, "aliases.json")) as alias_json:
         return json.load(alias_json)
 
 
@@ -124,8 +122,6 @@ async def generate_player_list(output_file_path):
             not_found)
         raise Exception(err_msg)
     print("Done")
-    # with open(output_file_path, "w") as f:
-    #     json.dump(players, f, indent=4, ensure_ascii=False)
     return players
 
 def get_player_list():
