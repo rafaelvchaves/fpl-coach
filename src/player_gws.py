@@ -7,12 +7,14 @@ import datetime
 from db import MySQLManager
 from players import get_player_list
 from teams import id_to_name_map
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional, Tuple, Union
 from understat import Understat
-from utils import get_current_gw, from_json, to_json
+from utils import *
 
 # TODO: use get_league_results to get all of the understat fixture ids,
 # and then use get_match_players only for the desired matches.
+
+
 async def get_player_understat_data():
     """Retrieves Understat player data from current season.
 
@@ -65,7 +67,8 @@ async def get_player_understat_data():
         to_json(UNDERSTAT_PLAYER_FILE, j)
         return player_map
 
-understat_player_data = asyncio.run(get_player_understat_data())
+# understat_player_data = asyncio.run(get_player_understat_data())
+# asyncio.run(get_league_data())
 
 
 def get_player_xg(name: str, date: str) -> Tuple[Optional[float], Optional[float]]:
@@ -91,35 +94,29 @@ def get_player_xg(name: str, date: str) -> Tuple[Optional[float], Optional[float
     return npxG, xA
 
 
-def convert_date(date: Optional[str]) -> str:
-    if date is None:
-        return None
-    return datetime.datetime.strptime(date, "%Y-%m-%dT%H:%M:%SZ").strftime("%Y-%m-%d")
-
-
 def get_player_gw_json(player: dict, match: dict, price: float):
     name = player["name"]
-    date = convert_date(match["kickoff_time"])
-    npxG, xA = get_player_xg(name, date)
+    date = parse_date(match["kickoff_time"])
+    # npxG, xA = get_player_xg(name, date)
     return {
-        "player_id": player["fpl_id"],
+        "player_name": name,
         "fixture_id": match.get("fixture", match.get("id", None)),
         "team": player["team_name"],
         "minutes_played": match.get("minutes", None),
-        "npxG": npxG,
-        "xA": xA,
+        "npxG": None,
+        "xA": None,
         "bonus": match.get("bonus", None),
         "total_points": match.get("total_points", None),
         "price": price
     }
 
 
-def add_fixtures(rows: List[dict], player: dict, fpl_player_data: Dict[str, List[dict]], all : bool) -> None:
+def add_fixtures(rows: List[dict], player: dict, fpl_player_data: Dict[str, List[dict]], old: bool) -> None:
     old_fixtures = fpl_player_data["history"]
     upcoming_fixtures = fpl_player_data["fixtures"]
     # probably will fail in GW1 next season
     current_price = old_fixtures[-1]["value"] / 10
-    if all:
+    if old:
         for match in old_fixtures:
             row = get_player_gw_json(
                 player, match, match["value"] / 10)
@@ -130,7 +127,7 @@ def add_fixtures(rows: List[dict], player: dict, fpl_player_data: Dict[str, List
         rows.append(row)
 
 
-def fetch_gw_data(all : bool = False) -> List[dict]:
+def fetch_gw_data(gameweeks: Union[int, Tuple[int]], old : bool) -> List[dict]:
     tid_map = id_to_name_map()
     players = get_player_list()
     rows = []
@@ -138,12 +135,13 @@ def fetch_gw_data(all : bool = False) -> List[dict]:
     for player in players:
         player_url = FPL_PLAYER_URL.format(player["fpl_id"])
         fpl_player_data = requests.get(player_url).json()
-        add_fixtures(rows, player, fpl_player_data, all=all)
+        add_fixtures(rows, player, fpl_player_data, old=old)
     print("Done")
     return rows
 
 
+
 if __name__ == "__main__":
     db = MySQLManager()
-    gw_data = fetch_gw_data()
-    db.writerows(gw_data, "player_gws")
+    rows = fetch_gw_data(None, old=True)
+    db.writerows(rows, "player_gws")
