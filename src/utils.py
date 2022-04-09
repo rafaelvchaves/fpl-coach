@@ -3,8 +3,20 @@ import requests
 from constants import FPL_BASE_URL
 from datetime import datetime
 from dateutil import parser
+from typing import Optional
 
-def parse_date(s):
+
+def cast_float_safe(s: Optional[str]):
+    if s is None:
+        return None
+    return round(float(s), 3)
+
+
+def cast_int_safe(s: Optional[str]):
+    return None if s is None else int(s)
+
+
+def parse_date(s: Optional[str]):
     """Converts a string to a string in the form YYYY-MM-DD.
 
     Returns:
@@ -15,12 +27,13 @@ def parse_date(s):
     return parser.parse(s).strftime("%Y-%m-%d")
 
 
-def from_json(path):
+def from_json(path: str):
     """Returns a dictionary loaded from the json file given by path."""
     with open(path) as f:
         return json.load(f)
 
-def to_json(path, j):
+
+def to_json(path: str, j: dict):
     with open(path, "w") as f:
         json.dump(j, f, indent=4, ensure_ascii=False)
 
