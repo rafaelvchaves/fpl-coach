@@ -20,7 +20,8 @@ def add_fixture(fixture_map, fixture):
         "fpl_id": None,
         "understat_id": cast_int_safe(fixture["id"]),
         "gameweek": None,
-        "kickoff_date": parse_date(fixture["datetime"]),
+        "kickoff_date": None,
+        "completed": None,
         "home_team": home_team,
         "home_score": cast_int_safe(fixture["goals"]["h"]),
         "away_score": cast_int_safe(fixture["goals"]["a"]),
@@ -67,11 +68,14 @@ def get_fixtures():
     understat_fixture_data = asyncio.run(get_understat_fixture_data())
     rows = []
     for fixture in fpl_fixtures:
+        # Fill in data from FPL
         home_team = id_to_name[fixture["team_h"]]
         away_team = id_to_name[fixture["team_a"]]
         row = understat_fixture_data[home_team][away_team]
         row["fpl_id"] = fixture["id"]
         row["gameweek"] = fixture["event"]
+        row["kickoff_date"] = parse_date(fixture["kickoff_time"])
+        row["completed"] = fixture["finished"]
         rows.append(row)
     return rows
 
