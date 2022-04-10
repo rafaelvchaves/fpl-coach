@@ -8,7 +8,8 @@ from constants import CURRENT_SEASON, FPL_BASE_URL, PLAYERS_FILE, DATA_DIR
 from teams import id_to_name_map
 from db import MySQLManager
 from understat import Understat
-from utils import from_json
+from utils import *
+
 
 def get_position(element_type):
     return {
@@ -17,6 +18,7 @@ def get_position(element_type):
         3: "M",
         4: "F"
     }[element_type]
+
 
 def get_fpl_players():
     """Retrieves a dictionary of all FPL players in current season.
@@ -89,13 +91,9 @@ def construct_player_json(pmap, name, uid):
         "position": pmap[name]["position"]
     }
 
-async def generate_player_list(output_file_path):
-    """
-      Writes a complete list of FPL players to output_file_path.
 
-    Raises:
-      Exception: At least one (FPL name, Understat name) match was not found.
-    """
+async def generate_player_list(output_file_path):
+    """Writes a complete list of FPL players to output_file_path. """
     async with aiohttp.ClientSession() as session:
         understat = Understat(session)
         ust_players = await understat.get_league_players(
@@ -106,7 +104,6 @@ async def generate_player_list(output_file_path):
         aliases = get_aliases()
         not_found = []
         players = []
-        print("Fetching players from Understat...")
         for player in ust_players:
             understat_name = player["player_name"]
             player_name = clean_name(aliases, understat_name)
@@ -120,9 +117,11 @@ async def generate_player_list(output_file_path):
     if not_found != []:
         err_msg = "Error: matches not found for following players: {}".format(
             not_found)
-        raise Exception(err_msg)
-    print("Done")
+        print(err_msg)
+        exit(1)
+    to_json(PLAYERS_FILE, players)
     return players
+
 
 def get_player_list():
     # check cache
@@ -130,9 +129,13 @@ def get_player_list():
         return from_json(PLAYERS_FILE)
     return generate_player_list(PLAYERS_FILE)
 
+
+def uid_to_fpl_name():
+    players = get_player_list()
+    return {player["understat_id"]: player["fpl_name"] for player in players}
+
+
 if __name__ == "__main__":
     db = MySQLManager()
     players = asyncio.run(generate_player_list(PLAYERS_FILE))
-    db.writerows(players, "players")
-
-    
+    db.insert_rows("players", players)

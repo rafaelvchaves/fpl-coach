@@ -50,5 +50,5 @@ def id_to_name_map():
 if __name__ == "__main__":
     db = MySQLManager()
     teams = get_fpl_teams()
-    db.writerows(teams, "teams")
+    db.insert_rows("teams", teams)
 
