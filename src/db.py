@@ -4,7 +4,7 @@ from mysql.connector.errors import IntegrityError
 from typing import Any, List, Optional
 
 
-def extract_value(val: Any) -> str:
+def prepare_string(val: Any) -> str:
     if val is None:
         return "NULL"
     elif isinstance(val, str):
@@ -25,36 +25,22 @@ class MySQLManager:
 
     def writerows(self, rows: List[dict], table_name: str) -> None:
         cursor = self.cnx.cursor()
-        keys = rows[0].keys()
-        cols = ",".join(keys)
+        col_names = rows[0].keys()
+        cols = ",".join(col_names)
         for row in rows:
-            vals = ",".join([extract_value(row[k]) for k in keys])
-            sql = "INSERT INTO {} ({}) VALUES ({})".format(
-                table_name, cols, vals)
-            try:
-                cursor.execute(sql)
-            except IntegrityError as e:
-                if e.errno == 1062:
-                    # Already in table, can just skip over for now
-                    continue
-                print(e)
-                exit(1)
+            inserts = ",".join([prepare_string(row[c]) for c in col_names])
+            updates = ",".join([c + " = " + prepare_string(row[c]) for c in col_names])
+            cmd = "INSERT INTO {} ({}) VALUES ({}) ON DUPLICATE KEY UPDATE {}".format(
+                table_name, cols, inserts, updates)
+            cursor.execute(cmd)
         self.cnx.commit()
 
-    def read_table(self, table_name : str, sort_by : Optional[str]):
-        cursor = self.cnx.cursor()
-        query = "SELECT * FROM {}".format(table_name)
-        if sort_by is not None:
-            query += " ORDER BY {}".format(sort_by)
-        cursor.execute(query)
-        return cursor.fetchall()  
-
-    def query(self, query):
+    def exec_query(self, query):
         cursor = self.cnx.cursor()
         cursor.execute(query)
-        return cursor.fetchall()      
+        self.cnx.commit()
 
-    def get_fixtures(self, gameweeks):
+    def get_fixtures(self, gameweeks = None):
         cursor = self.cnx.cursor()
         query = "SELECT * FROM fixtures"
         if isinstance(gameweeks, tuple):
