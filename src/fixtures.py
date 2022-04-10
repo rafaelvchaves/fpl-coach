@@ -47,6 +47,8 @@ def create_team_gw_row(fixture, home):
     return {
         "gameweek": fixture["gameweek"],
         "fixture_id": fixture["fpl_id"],
+        "kickoff_date": fixture["kickoff_date"],
+        "completed": fixture["completed"],
         "team": fixture["home_team"] if home else fixture["away_team"],
         "opponent": fixture["away_team"] if home else fixture["home_team"],
         "home": home,
@@ -83,6 +85,6 @@ def get_fixtures():
 if __name__ == "__main__":
     db = MySQLManager()
     fixtures = get_fixtures()
-    db.writerows(fixtures, "fixtures")
+    db.insert_rows("fixtures", fixtures)
     team_gws = get_team_gws(fixtures)
-    db.writerows(team_gws, "team_gws")
+    db.insert_rows("team_gws", team_gws)

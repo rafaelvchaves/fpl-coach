@@ -1,6 +1,5 @@
 USE fplcoachdb;
 
-
 DROP TABLE IF EXISTS player_gws;
 DROP TABLE IF EXISTS team_gws;
 DROP TABLE IF EXISTS manager_gws;
@@ -8,8 +7,6 @@ DROP TABLE IF EXISTS players;
 DROP TABLE IF EXISTS managers;
 DROP TABLE IF EXISTS fixtures;
 DROP TABLE IF EXISTS teams;
-
-
 
 CREATE TABLE IF NOT EXISTS teams(
   fpl_id INT NOT NULL,
@@ -36,6 +33,7 @@ CREATE TABLE IF NOT EXISTS fixtures(
   understat_id INT NOT NULL,
   gameweek INT,
   kickoff_date DATE,
+  completed BOOLEAN,
   home_team VARCHAR(255) NOT NULL,
   home_score INT,
   away_score INT,
@@ -48,7 +46,9 @@ CREATE TABLE IF NOT EXISTS fixtures(
 
 CREATE TABLE IF NOT EXISTS team_gws(
   gameweek INT,
+  kickoff_date DATE,
   fixture_id INT NOT NULL,
+  completed BOOLEAN,
   team VARCHAR(255) NOT NULL,
   opponent VARCHAR(255) NOT NULL,
   home BOOLEAN NOT NULL,
