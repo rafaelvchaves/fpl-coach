@@ -1,7 +1,7 @@
 import numpy as np
 from preprocess import get_data
 from scipy.stats import poisson
-from utils import from_json
+from utils import *
 from functools import partial
 
 
