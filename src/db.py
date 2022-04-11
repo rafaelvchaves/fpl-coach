@@ -1,8 +1,16 @@
+import math
 import mysql.connector
+import pandas as pd
 from mysql.connector.locales.eng import client_error
 from mysql.connector.errors import IntegrityError
+from sqlalchemy import create_engine
 from typing import Any, Dict, List, Optional, Tuple, Union
 
+def isnan(s : Any) -> bool:
+    try:
+        return math.isnan(float(s))
+    except:
+        return False
 
 def prepare_string(val: Any) -> str:
     """Converts a value into a string to be used in a SQL query.
@@ -16,7 +24,7 @@ def prepare_string(val: Any) -> str:
         also escaped. For example,
         prepare_string("N'Golo Kante") yields "'N''Golo Kante'".
     """
-    if val is None:
+    if val is None or isnan(val):
         return "NULL"
     elif isinstance(val, str):
         return "'{}'".format(val.replace("'", "''"))
@@ -49,6 +57,7 @@ class MySQLManager:
             password="password",
             database="fplcoachdb",
         )
+        self.eng = create_engine("mysql://root:password@localhost/fplcoachdb")
 
     def insert_rows(self, table_name: str, rows: List[Dict[str, Any]]) -> None:
         """Insert rows into specified table.
@@ -91,6 +100,10 @@ class MySQLManager:
         cursor = self.cnx.cursor()
         cursor.execute(query)
         self.cnx.commit()
+
+    def get_df(self, query: str) -> pd.DataFrame:
+        """Returns results of SQL query as a pandas dataframe."""
+        return pd.read_sql(query, self.eng)
 
     def get_fixtures(self, gameweeks: Optional[Union[int, Tuple]] = None) -> list:
         """Retrieves a list of fixtures in given gameweek.
