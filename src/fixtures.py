@@ -1,11 +1,13 @@
 import aiohttp
 import asyncio
+import numpy as np
 import requests
 from constants import CURRENT_SEASON, FPL_FIXTURES_URL
 from teams import id_to_name_map, understat_to_fpl_map
 from understat import Understat
 from utils import *
 from db import MySQLManager
+from teams import get_fpl_teams
 
 id_to_name = id_to_name_map()
 ustat_to_fpl = understat_to_fpl_map()
@@ -82,9 +84,39 @@ def get_fixtures():
     return rows
 
 
+def get_ema(df, team, col):
+    new_col = "ema_" + col
+    ema = df[df["team"] == team][col].ewm(alpha=0.2).mean()
+    ema = ema.to_numpy()
+    ema = np.roll(ema, 1)
+    ema[0] = None
+    ema = np.round(ema, 3)
+    return ema
+
+
+def compute_averages(db):
+    teams = get_fpl_teams()
+    for team in teams:
+        team_name = team["fpl_name"]
+        query = """SELECT * FROM team_gws
+        WHERE gameweek IS NOT NULL
+        ORDER BY kickoff_date"""
+        df = db.get_df(query)
+        xg = get_ema(df, team_name, "team_xG")
+        xga = get_ema(df, team_name, "team_xGA")
+        team_df = df[df["team"] == team_name].reset_index()
+        for i, r in team_df.iterrows():
+            db.update_row(
+                "team_gws",
+                {"fixture_id": r["fixture_id"], "team": team_name},
+                {"avg_team_xG": xg[i], "avg_team_xGA": xga[i]}
+            )
+
+
 if __name__ == "__main__":
     db = MySQLManager()
     fixtures = get_fixtures()
     db.insert_rows("fixtures", fixtures)
     team_gws = get_team_gws(fixtures)
     db.insert_rows("team_gws", team_gws)
+    compute_averages(db)
