@@ -54,6 +54,8 @@ CREATE TABLE IF NOT EXISTS team_gws(
   home BOOLEAN NOT NULL,
   team_xG FLOAT,
   team_xGA FLOAT,
+  avg_team_xG FLOAT,
+  avg_team_xGA FLOAT,
   FOREIGN KEY (team) REFERENCES teams(fpl_name),
   FOREIGN KEY (opponent) REFERENCES teams(fpl_name),
   PRIMARY KEY (fixture_id, team)
