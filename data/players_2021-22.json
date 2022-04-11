@@ -21,13 +21,6 @@
         "position": "M"
     },
     {
-        "fpl_id": 357,
-        "understat_id": 647,
-        "fpl_name": "Harry Kane",
-        "team_name": "Spurs",
-        "position": "F"
-    },
-    {
         "fpl_id": 230,
         "understat_id": 838,
         "fpl_name": "Sadio Mané",
@@ -35,10 +28,10 @@
         "position": "M"
     },
     {
-        "fpl_id": 579,
-        "understat_id": 2371,
-        "fpl_name": "Cristiano Ronaldo dos Santos Aveiro",
-        "team_name": "Man Utd",
+        "fpl_id": 357,
+        "understat_id": 647,
+        "fpl_name": "Harry Kane",
+        "team_name": "Spurs",
         "position": "F"
     },
     {
@@ -46,6 +39,13 @@
         "understat_id": 998,
         "fpl_name": "Ivan Toney",
         "team_name": "Brentford",
+        "position": "F"
+    },
+    {
+        "fpl_id": 579,
+        "understat_id": 2371,
+        "fpl_name": "Cristiano Ronaldo dos Santos Aveiro",
+        "team_name": "Man Utd",
         "position": "F"
     },
     {
@@ -126,6 +126,13 @@
         "position": "M"
     },
     {
+        "fpl_id": 315,
+        "understat_id": 7696,
+        "fpl_name": "Teemu Pukki",
+        "team_name": "Norwich",
+        "position": "F"
+    },
+    {
         "fpl_id": 450,
         "understat_id": 9301,
         "fpl_name": "Emmanuel Dennis",
@@ -152,13 +159,6 @@
         "fpl_name": "James Maddison",
         "team_name": "Leicester",
         "position": "M"
-    },
-    {
-        "fpl_id": 315,
-        "understat_id": 7696,
-        "fpl_name": "Teemu Pukki",
-        "team_name": "Norwich",
-        "position": "F"
     },
     {
         "fpl_id": 40,
@@ -371,6 +371,13 @@
         "position": "F"
     },
     {
+        "fpl_id": 587,
+        "understat_id": 5556,
+        "fpl_name": "Ademola Lookman",
+        "team_name": "Leicester",
+        "position": "M"
+    },
+    {
         "fpl_id": 399,
         "understat_id": 5675,
         "fpl_name": "Ismaila Sarr",
@@ -476,13 +483,6 @@
         "position": "F"
     },
     {
-        "fpl_id": 587,
-        "understat_id": 5556,
-        "fpl_name": "Ademola Lookman",
-        "team_name": "Leicester",
-        "position": "M"
-    },
-    {
         "fpl_id": 287,
         "understat_id": 5595,
         "fpl_name": "Daniel James",
@@ -495,6 +495,13 @@
         "fpl_name": "Jean-Philippe Mateta",
         "team_name": "Crystal Palace",
         "position": "F"
+    },
+    {
+        "fpl_id": 96,
+        "understat_id": 6552,
+        "fpl_name": "Bryan Mbeumo",
+        "team_name": "Brentford",
+        "position": "M"
     },
     {
         "fpl_id": 274,
@@ -644,6 +651,13 @@
         "position": "D"
     },
     {
+        "fpl_id": 263,
+        "understat_id": 5543,
+        "fpl_name": "Gabriel Fernando de Jesus",
+        "team_name": "Man City",
+        "position": "F"
+    },
+    {
         "fpl_id": 177,
         "understat_id": 5555,
         "fpl_name": "Dominic Calvert-Lewin",
@@ -669,13 +683,6 @@
         "understat_id": 6345,
         "fpl_name": "Jadon Sancho",
         "team_name": "Man Utd",
-        "position": "M"
-    },
-    {
-        "fpl_id": 96,
-        "understat_id": 6552,
-        "fpl_name": "Bryan Mbeumo",
-        "team_name": "Brentford",
         "position": "M"
     },
     {
@@ -978,13 +985,6 @@
         "fpl_name": "Naby Keita",
         "team_name": "Liverpool",
         "position": "M"
-    },
-    {
-        "fpl_id": 263,
-        "understat_id": 5543,
-        "fpl_name": "Gabriel Fernando de Jesus",
-        "team_name": "Man City",
-        "position": "F"
     },
     {
         "fpl_id": 367,
@@ -1470,6 +1470,13 @@
         "position": "M"
     },
     {
+        "fpl_id": 471,
+        "understat_id": 5619,
+        "fpl_name": "Pierre Lees-Melou",
+        "team_name": "Norwich",
+        "position": "M"
+    },
+    {
         "fpl_id": 17,
         "understat_id": 5656,
         "fpl_name": "Nicolas Pépé",
@@ -1741,6 +1748,13 @@
         "fpl_name": "Nathan Collins",
         "team_name": "Burnley",
         "position": "D"
+    },
+    {
+        "fpl_id": 505,
+        "understat_id": 9739,
+        "fpl_name": "Kiernan Dewsbury-Hall",
+        "team_name": "Leicester",
+        "position": "M"
     },
     {
         "fpl_id": 331,
@@ -2566,13 +2580,6 @@
         "understat_id": 5609,
         "fpl_name": "Yves Bissouma",
         "team_name": "Brighton",
-        "position": "M"
-    },
-    {
-        "fpl_id": 471,
-        "understat_id": 5619,
-        "fpl_name": "Pierre Lees-Melou",
-        "team_name": "Norwich",
         "position": "M"
     },
     {
@@ -3441,13 +3448,6 @@
         "understat_id": 9735,
         "fpl_name": "Taylor Richards",
         "team_name": "Brighton",
-        "position": "M"
-    },
-    {
-        "fpl_id": 505,
-        "understat_id": 9739,
-        "fpl_name": "Kiernan Dewsbury-Hall",
-        "team_name": "Leicester",
         "position": "M"
     },
     {
