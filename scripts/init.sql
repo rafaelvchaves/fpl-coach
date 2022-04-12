@@ -65,11 +65,12 @@ CREATE TABLE IF NOT EXISTS player_gws(
   player_name VARCHAR(255) NOT NULL,
   fixture_id INT NOT NULL,
   team VARCHAR(255), -- not necessarily the same as team name from players table - players can move between EPL teams --
-  minutes_played INT,
+  minutes INT,
   npxG FLOAT,
   xA FLOAT,
   bonus INT,
   total_points INT,
+  xP FLOAT,
   price FLOAT,
   FOREIGN KEY (fixture_id) REFERENCES fixtures(fpl_id),
   FOREIGN KEY (team) REFERENCES teams(fpl_name),
