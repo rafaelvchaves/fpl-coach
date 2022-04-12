@@ -95,11 +95,11 @@ class MySQLManager:
         cursor.execute(cmd)
         self.cnx.commit()
 
-    def exec_query(self, query) -> None:
+    def exec_query(self, query) -> List[tuple]:
         """Executes a SQL query."""
         cursor = self.cnx.cursor()
         cursor.execute(query)
-        self.cnx.commit()
+        return cursor.fetchall()
 
     def get_df(self, query: str) -> pd.DataFrame:
         """Returns results of SQL query as a pandas dataframe."""
