@@ -15,10 +15,14 @@ WITH Q1 AS (
   WHERE {}
 )
 SELECT player_name,
-  CONCAT(MIN(gameweek), "-", MAX(gameweek)) AS gameweeks,
-  MIN(position) AS position,
-  GROUP_CONCAT(opponent SEPARATOR ', ') AS opponents,
-  ROUND(SUM(xP), 3) AS xP
+  IF (
+    MIN(gameweek) = MAX(gameweek),
+    MIN(gameweek),
+    CONCAT(MIN(gameweek), "-", MAX(gameweek))
+  ) AS gameweeks,
+MIN(position) AS position,
+GROUP_CONCAT(opponent SEPARATOR ', ') AS opponents,
+ROUND(SUM(xP), 3) AS xP
 FROM Q1
 GROUP BY player_name
 ORDER BY xP DESC
