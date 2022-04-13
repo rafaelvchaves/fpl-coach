@@ -4,7 +4,7 @@ import json
 import os
 import requests
 import unidecode
-from constants import CURRENT_SEASON, FPL_BASE_URL, PLAYERS_FILE, DATA_DIR
+from constants import START_YEAR, FPL_BASE_URL, PLAYERS_FILE, DATA_DIR
 from teams import create_map
 from db import MySQLManager
 from understat import Understat
@@ -98,7 +98,7 @@ async def generate_player_list(output_file_path):
         understat = Understat(session)
         ust_players = await understat.get_league_players(
             "epl",
-            CURRENT_SEASON[:-3]
+            START_YEAR
         )
         pmap = get_fpl_players()
         aliases = get_aliases()

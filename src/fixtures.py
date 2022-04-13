@@ -2,7 +2,7 @@ import aiohttp
 import asyncio
 import pandas as pd
 import requests
-from constants import CURRENT_SEASON, FPL_FIXTURES_URL, FTE_MATCHES_URL
+from constants import FPL_FIXTURES_URL, FTE_MATCHES_URL
 from teams import create_map
 from understat import Understat
 from utils import *

@@ -1,6 +1,7 @@
 from os.path import join
 
 CURRENT_SEASON = "2021-22"
+START_YEAR = CURRENT_SEASON[:-3]
 
 FPL_BASE_URL = "https://fantasy.premierleague.com/api/bootstrap-static/"
 FPL_PLAYER_URL = "https://fantasy.premierleague.com/api/element-summary/{}/"

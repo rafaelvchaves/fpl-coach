@@ -2,7 +2,7 @@ import requests
 import json
 import mysql.connector
 import os
-from constants import CURRENT_SEASON, FPL_BASE_URL, TEAMS_FILE
+from constants import FPL_BASE_URL, TEAMS_FILE
 from utils import from_json
 from db import MySQLManager
 

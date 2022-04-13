@@ -1,6 +1,6 @@
 import aiohttp
 import asyncio
-from constants import CURRENT_SEASON
+from constants import START_YEAR
 from db import MySQLManager
 from fixtures import fixture_id_map
 from players import get_player_list
@@ -61,7 +61,7 @@ async def get_player_understat_data() -> MatchData:
             player_ustat_id = player["understat_id"]
             player_name = player["fpl_name"]
             matches = await understat.get_player_matches(
-                player_ustat_id, season=CURRENT_SEASON[:-3]
+                player_ustat_id, season=START_YEAR
             )
             for match in matches:
                 update_player_match_stats(match_data, player_name, match)
