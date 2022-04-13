@@ -1,13 +1,13 @@
 import numpy as np
 import pandas as pd
-from constants import GW_HISTORY_FILE
+from constants import *
 from scipy.stats import poisson
 from db import MySQLManager
 from utils import *
 from typing import *
 
 
-def expected(pmf: Callable[int, float], value: int, max_value: int) -> float:
+def expected(pmf: Callable[[int], float], value: int, max_value: int) -> float:
     """Expected value for a discrete random variable.
 
     Args:
@@ -27,21 +27,21 @@ def expected(pmf: Callable[int, float], value: int, max_value: int) -> float:
 
 
 def predict_points(position, apxG, apxA, amins, abonus, atxG, atxGA, aoxG, aoxGA, proj_score, oproj_score):
-    params = from_json("../data/params.json")
-    alpha = params[position]["alpha"]
-    beta = params[position]["beta"]
-    goal_value = params[position]["goal_value"]
-    assist_value = params[position]["assist_value"]
-    clean_sheet_value = params[position]["clean_sheet_value"]
-    tgcv = params[position]["two_goals_conceded_value"]
-    xp = 0
-
+    position_params = from_json("../data/params.json")[position]
+    # alpha = position_params["alpha"]
+    # beta = position_params["beta"]
+    goal_value = position_params["goal_value"]
+    assist_value = position_params["assist_value"]
+    clean_sheet_value = position_params["cs_value"]
+    tgcv = position_params["concede_value"]
+    xp = []
+    attack_multiplier = proj_score / atxG
     # def goal_pmf(x): return alpha * poisson(apxG).pmf(x) + \
     #     (1 - alpha) * poisson(aoxGA).pmf(x)
-    def goal_pmf(x): return poisson(apxG).pmf(x)
+    def goal_pmf(x): return poisson(attack_multiplier * apxG).pmf(x)
     # def assist_pmf(x): return alpha * poisson(apxA).pmf(x) + \
     #     (1 - alpha) * poisson(aoxGA).pmf(x)
-    def assist_pmf(x): return poisson(apxA).pmf(x)
+    def assist_pmf(x): return poisson(attack_multiplier * apxA).pmf(x)
 
     def bonus_pmf(x): return poisson(abonus).pmf(x)
     # def cs_pmf(x): return beta * poisson(atxGA).pmf(0) + \
@@ -51,15 +51,16 @@ def predict_points(position, apxG, apxA, amins, abonus, atxG, atxGA, aoxG, aoxGA
     def concede_pmf(x): return poisson(atxGA).pmf(2 * x)
 
     # can cap goals/assists at 4 since probability beyond that should be negligible anyway
-    xp += expected(goal_pmf, goal_value, 4)
-    xp += expected(assist_pmf, assist_value, 4)
-    xp += expected(bonus_pmf, 1, 3)
-    xp += expected(cs_pmf, clean_sheet_value, 1)
-    xp += expected(concede_pmf, tgcv, 4)
-    xp += int(amins > 0)  # Probably change this to a multiplier as well
-    xp += int(amins > 59)
-    multiplier = proj_score / atxG
-    return np.round(multiplier * xp, 3)
+
+    xp.append(expected(goal_pmf, goal_value, 4))
+    xp.append(expected(assist_pmf, assist_value, 4))
+    xp.append(expected(bonus_pmf, 1, 3))
+    xp.append(expected(cs_pmf, clean_sheet_value, 1))
+    xp.append(expected(concede_pmf, tgcv, 4))
+    # Probably change this to a multiplier as well
+    xp.append(int(amins > 0) + int(amins > 59))
+    xp.append(np.sum(xp))
+    return np.round(xp, 3)
 
 
 def predict(row):
@@ -86,9 +87,13 @@ def predict(row):
 
 if __name__ == "__main__":
     df = pd.read_csv(GW_HISTORY_FILE)
-    # rows = df[~df["completed"]].copy()
+    stats = ["goal", "assist", "bonus", "cs", "concede", "minutes"]
+    true_cols = [stat + "_points" for stat in stats]
+    true_cols.append("total_points")
+    predicted_cols = [stat + "_xP" for stat in stats]
+    predicted_cols.append("xP")
     rows = df.copy()
-    rows["xP"] = rows.apply(predict, axis=1)
+    rows[predicted_cols] = rows.apply(predict, axis=1, result_type="expand")
     db = MySQLManager()
     for _, r in rows.iterrows():
         db.update_row(
@@ -96,3 +101,9 @@ if __name__ == "__main__":
             {"player_name": r["player_name"], "fixture_id": r["fixture_id"]},
             {"xP": r["xP"]}
         )
+        db.update_row(
+            "player_gws_extra",
+            {"player_name": r["player_name"], "fixture_id": r["fixture_id"]},
+            {col: r[col] for col in predicted_cols + true_cols}
+        )
+    rows.to_csv("../data/predicted_final.csv", index=False)
