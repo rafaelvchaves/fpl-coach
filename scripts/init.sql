@@ -50,8 +50,7 @@ CREATE TABLE IF NOT EXISTS fixtures(
 CREATE TABLE IF NOT EXISTS team_gws(
   gameweek INT,
   kickoff_date DATE,
-  fixture_fpl_id INT NOT NULL,
-  fixture_understat_id INT NOT NULL,
+  fixture_id INT NOT NULL,
   completed BOOLEAN,
   team VARCHAR(255) NOT NULL,
   opponent VARCHAR(255) NOT NULL,
@@ -64,7 +63,7 @@ CREATE TABLE IF NOT EXISTS team_gws(
   avg_team_xGA FLOAT,
   FOREIGN KEY (team) REFERENCES teams(fpl_name),
   FOREIGN KEY (opponent) REFERENCES teams(fpl_name),
-  PRIMARY KEY (fixture_fpl_id, team)
+  PRIMARY KEY (fixture_id, team)
 );
 
 CREATE TABLE IF NOT EXISTS player_gws(

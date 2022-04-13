@@ -14,11 +14,12 @@ id_to_name = create_map("fpl_id", "fpl_name")
 ustat_to_fpl = create_map("understat_name", "fpl_name")
 fpl_to_fte = create_map("fpl_name", "fte_name")
 
-Rows = List[Dict[str, Any]]
+Row = Dict[str, Any]
+Rows = List[Row]
 
 
 def get_fte_df() -> pd.DataFrame:
-    """Retrieves data from FiveThirtyEight's SPI csv as a pandas DataFrame."""
+    """Returns data from FiveThirtyEight's SPI csv as a pandas DataFrame."""
     df = pd.read_csv(FTE_MATCHES_URL)
     df = df[(df["league"] == "Barclays Premier League")
             & (df["season"] == 2021)]
@@ -30,15 +31,15 @@ def get_fte_df() -> pd.DataFrame:
 df_fte = get_fte_df()
 
 
-def find_col(fixture: Dict[str, Any], col: str, home: bool) -> Any:
+def find_col(fixture: Row, col: str, home: bool) -> Any:
     return fixture["home_" + col if home else "away_" + col]
 
 
-def create_team_gw_row(fixture: Dict[str, Any], home: bool) -> Dict[str, Any]:
+def create_team_gw_row(fixture: Row, home: bool) -> Row:
+    """Prepares a row for the team_gws table, from a row from the fixtures table."""
     return {
         "gameweek": fixture["gameweek"],
-        "fixture_fpl_id": fixture["fpl_id"],
-        "fixture_understat_id": fixture["understat_id"],
+        "fixture_id": fixture["fpl_id"],
         "kickoff_date": fixture["kickoff_date"],
         "completed": fixture["completed"],
         "team": find_col(fixture, "team", home),
@@ -52,6 +53,15 @@ def create_team_gw_row(fixture: Dict[str, Any], home: bool) -> Dict[str, Any]:
 
 
 def get_team_gws(fixtures: Rows) -> Rows:
+    """Gets rows for the team_gws table from rows from the fixtures table.
+
+    Args:
+        fixtures: A list of dictionaries mapping a column name from the fixtures
+          table to its value for that row.
+
+    Returns:
+        A list of rows to be inserted into the team_gws table.
+    """
     rows = []
     for fixture in fixtures:
         rows.append(create_team_gw_row(fixture, True))
@@ -60,6 +70,13 @@ def get_team_gws(fixtures: Rows) -> Rows:
 
 
 def update_fixtures(fixture_ids: Dict[str, Dict[str, int]], fixtures: Rows) -> None:
+    """Updates the fixture_ids map with a list of fixtures.
+
+    Args:
+        fixture_ids: A dictionary mapping a home team and an away team to
+          their understat ID.
+        fixtures: The list of fixtures to be added to fixture_ids.
+    """
     for fixture in fixtures:
         home_team = ustat_to_fpl[fixture["h"]["title"]]
         away_team = ustat_to_fpl[fixture["a"]["title"]]
@@ -69,6 +86,9 @@ def update_fixtures(fixture_ids: Dict[str, Dict[str, int]], fixtures: Rows) -> N
 
 
 async def get_understat_fixtures() -> Dict[str, Dict[str, int]]:
+    """Returns a dictionary of fixture ids from understat.
+
+    Used for matching up FPL fixtures with understat fixtures."""
     fixture_ids = {}
     async with aiohttp.ClientSession() as session:
         understat = Understat(session)
@@ -79,7 +99,12 @@ async def get_understat_fixtures() -> Dict[str, Dict[str, int]]:
     return fixture_ids
 
 
-def get_match_stats(home_team : str, away_team : str) -> pd.DataFrame:
+def get_match_stats(home_team: str, away_team: str) -> pd.DataFrame:
+    """Returns a single row of a pandas DataFrame with match stats.
+
+    Requires:
+        The fixture must be from the current Premier League season.
+    """
     try:
         home = fpl_to_fte[home_team]
         away = fpl_to_fte[away_team]
@@ -93,7 +118,8 @@ def get_match_stats(home_team : str, away_team : str) -> pd.DataFrame:
         exit(1)
 
 
-def get_fixtures() -> List[Dict[str, Any]]:
+def get_fixtures() -> Rows:
+    """Returns all of the rows to be inserted into the fixtures table."""
     fpl_fixtures = requests.get(FPL_FIXTURES_URL).json()
     rows = []
     fixture_id_map = asyncio.run(get_understat_fixtures())
@@ -124,11 +150,7 @@ def get_fixtures() -> List[Dict[str, Any]]:
 def compute_team_xG_averages(db: MySQLManager) -> None:
     """Averages team xG data and writes to the team_gws table.
 
-    Averages are calculated with an exponential moving average (EMA).
-
-    Args:
-        db: An instance of MySQLManager to establish a database connection
-    """
+    Averages are calculated with an exponential moving average (EMA)."""
     teams = get_fpl_teams()
     for team in teams:
         team_name = team["fpl_name"]
@@ -142,7 +164,7 @@ def compute_team_xG_averages(db: MySQLManager) -> None:
         for i, r in team_rows.iterrows():
             db.update_row(
                 "team_gws",
-                {"fixture_fpl_id": r["fixture_fpl_id"], "team": team_name},
+                {"fixture_id": r["fixture_id"], "team": team_name},
                 {"avg_team_xG": xG[i], "avg_team_xGA": xGA[i]}
             )
 
