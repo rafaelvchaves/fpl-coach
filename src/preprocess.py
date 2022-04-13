@@ -5,6 +5,7 @@ from utils import *
 
 
 def compute_emas(df, stats, alpha):
+    """Computes an EMA for each of the specified stats."""
     dfc = df.copy()
     for stat in stats:
         avg_stat = "avg_" + stat
@@ -16,6 +17,9 @@ def compute_emas(df, stats, alpha):
 
 
 def preprocess():
+    """Preprocess data and write to gameweek history file.
+
+    Joins the player_gws table with team_gws table and computes stat averages."""
     db = MySQLManager()
     query = open("../scripts/merge.sql").read()
     df = db.get_df(query)

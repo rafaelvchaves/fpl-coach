@@ -4,9 +4,22 @@ from constants import GW_HISTORY_FILE
 from scipy.stats import poisson
 from db import MySQLManager
 from utils import *
+from typing import *
 
 
-def expected(pmf, value, max_value):
+def expected(pmf: Callable[int, float], value: int, max_value: int) -> float:
+    """Expected value for a discrete random variable.
+
+    Args:
+        pmf: The probability mass function.
+        value: The point value of the random variable (for example, the
+          goal value for a midfielder is 5).
+        max_value: The maximum possible value that the random variable can
+        take.
+
+    Returns:
+        The expected value of the random variable.
+    """
     xp = 0
     for x in range(1, max_value + 1):
         xp += value * x * pmf(x)
@@ -29,19 +42,21 @@ def predict_points(position, apxG, apxA, amins, abonus, atxG, atxGA, aoxG, aoxGA
     # def assist_pmf(x): return alpha * poisson(apxA).pmf(x) + \
     #     (1 - alpha) * poisson(aoxGA).pmf(x)
     def assist_pmf(x): return poisson(apxA).pmf(x)
-    
+
     def bonus_pmf(x): return poisson(abonus).pmf(x)
     # def cs_pmf(x): return beta * poisson(atxGA).pmf(0) + \
     #     (1 - beta) * poisson(aoxG).pmf(0)
     def cs_pmf(x): return poisson(oproj_score).pmf(0)
 
     def concede_pmf(x): return poisson(atxGA).pmf(2 * x)
+
+    # can cap goals/assists at 4 since probability beyond that should be negligible anyway
     xp += expected(goal_pmf, goal_value, 4)
     xp += expected(assist_pmf, assist_value, 4)
     xp += expected(bonus_pmf, 1, 3)
     xp += expected(cs_pmf, clean_sheet_value, 1)
     xp += expected(concede_pmf, tgcv, 4)
-    xp += int(amins > 0)
+    xp += int(amins > 0)  # Probably change this to a multiplier as well
     xp += int(amins > 59)
     multiplier = proj_score / atxG
     return np.round(multiplier * xp, 3)

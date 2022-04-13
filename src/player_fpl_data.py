@@ -6,7 +6,7 @@ from typing import Dict, List, Optional, Tuple, Union
 from utils import *
 
 
-def get_player_gw_json(player: dict, match: dict, price: float):
+def get_player_gw_json(player: dict, match: dict, price: float) -> dict:
     name = player["fpl_name"]
     date = parse_date(match["kickoff_time"])
     return {

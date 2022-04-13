@@ -27,7 +27,7 @@ fte_names = {
 }
 
 
-def make_team_json(team):
+def make_team_json(team : dict) -> dict:
     team_name = team["name"]
     return {
         "fpl_id": team["id"],
@@ -37,7 +37,7 @@ def make_team_json(team):
     }
 
 
-def get_fpl_teams(cache=False):
+def get_fpl_teams():
     """Retrieves a list of current Premier League teams.
 
     Returns:
@@ -48,7 +48,7 @@ def get_fpl_teams(cache=False):
     return teams
 
 
-def create_map(key_col, val_col):
+def create_map(key_col : str, val_col : str):
     teams = get_fpl_teams()
     return {team[key_col]: team[val_col] for team in teams}
 
