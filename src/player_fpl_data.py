@@ -14,12 +14,12 @@ def get_player_gw_json(player: dict, match: dict, price: float):
         "fixture_id": match.get("fixture", match.get("id", None)),
         "team": player["team_name"],
         "minutes": match.get("minutes", None),
-        "npxG": None, # filled in by understat
-        "xA": None, # filled in by understat
+        "npxG": None,  # filled in by understat
+        "xA": None,  # filled in by understat
         "bonus": match.get("bonus", None),
         "total_points": match.get("total_points", None),
         "price": price,
-        "xP": None # filled in by prediction model
+        "xP": None  # filled in by prediction model
     }
 
 

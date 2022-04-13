@@ -10,62 +10,32 @@ from utils import *
 from db import MySQLManager
 
 
-# async def get_player_understat_data(fixtures):
-#     players = get_player_list()
-#     if os.path.exists(UNDERSTAT_PLAYER_FILE):
-#         ujson = from_json(UNDERSTAT_PLAYER_FILE)
-#         player_map = ujson["matches"]
-#         last_updated = ujson["last_updated"]
-#     else:
-#         player_map = {}
-#         last_updated = None
-#     async with aiohttp.ClientSession() as session:
-#         understat = Understat(session)
-#         print("Fetching player Understat data...")
-#         for player in players:
-#             name = player["name"]
-#             matches = await understat.get_player_matches(
-#                 player["understat_id"], season=CURRENT_SEASON[:-3]
-#             )
-#             for match in reversed(matches):
-#                 fixture_id = match["id"]
-#                 if last_updated is not None and last_updated > match["date"]:
-#                     break
-#                 if fixture_id not in player_map:
-#                     player_map[fixture_id] = {}
-#                 if name not in player_map[fixture_id]:
-#                     player_map[fixture_id][name] = {
-#                         "npxG": cast_float_safe(match["npxG"]),
-#                         "xA": cast_float_safe(match["xA"])
-#                     }
-#         print("Done")
-#         today = date.today().strftime("%Y-%m-%d")
-#         j = {"matches": player_map, "last_updated": today}
-#         to_json(UNDERSTAT_PLAYER_FILE, j)
-#         return player_map
+def update_player_match_stats(match_data, player_name, match):
+    fixture_id = match["id"]
+    date = match["date"]
+    if date not in match_data:
+        match_data[date] = {}
+    if player_name not in match_data[date]:
+        match_data[date][player_name] = {
+            "npxG": cast_float_safe(match["npxG"]),
+            "xA": cast_float_safe(match["xA"])
+        }
 
 
-async def get_player_understat_data(fixtures):
+# TODO: take in gameweek or set of dates as argument to filter matches
+async def get_player_understat_data():
+    players = get_player_list()
     match_data = {}
     async with aiohttp.ClientSession() as session:
         understat = Understat(session)
-        for fixture in fixtures:
-            fpl_id = fixture[0]
-            understat_id = fixture[1]
-            try:
-                match_stats = await understat.get_match_players(understat_id)
-            except Exception as e:
-                continue
-            if fpl_id not in match_data:
-                match_data[fpl_id] = {}
-            combined_match_stats = {**match_stats["h"], **match_stats["a"]}
-            for player_match_id in combined_match_stats:
-                player = combined_match_stats[player_match_id]
-                player_id = int(player["player_id"])
-                match_data[fpl_id][player_id] = {
-                    "npxG": cast_float_safe(player["xG"]),
-                    "xA": cast_float_safe(player["xA"])
-                }
+        for player in players:
+            player_ustat_id = player["understat_id"]
+            player_name = player["fpl_name"]
+            matches = await understat.get_player_matches(
+                player_ustat_id, season=CURRENT_SEASON[:-3]
+            )
+            for match in matches:
+                update_player_match_stats(match_data, player_name, match)
         return match_data
 
 
@@ -73,12 +43,16 @@ if __name__ == "__main__":
     db = MySQLManager()
     fixtures = db.get_fixtures()
     id_map = uid_to_fpl_name()
-    match_data = asyncio.run(get_player_understat_data(fixtures))
-    for fixture_id, players in match_data.items():
-        for player_id, stats in players.items():
-            fpl_name = id_map[int(player_id)]
+    match_data = asyncio.run(get_player_understat_data())
+    today = date.today()
+    for fixture in fixtures:
+        fixture_id = fixture[0]
+        date = fixture[2]
+        if date is None or date > today:
+            continue
+        for player_name, stats in match_data[date.strftime("%Y-%m-%d")].items():
             db.update_row(
                 "player_gws",
-                {"fixture_id": fixture_id, "player_name": fpl_name},
+                {"fixture_id": fixture_id, "player_name": player_name},
                 {"npxG": stats["npxG"], "xA": stats["xA"]}
             )

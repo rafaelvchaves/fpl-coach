@@ -1,16 +1,7 @@
 import numpy as np
 from constants import GW_HISTORY_FILE
 from db import MySQLManager
-
-
-def get_player_ema(df, player, stat, alpha):
-    ema = df[df["player_name"] == player][stat].ewm(
-        alpha=alpha, adjust=False).mean()
-    ema = ema.to_numpy()
-    ema = np.roll(ema, 1)
-    ema[0] = None
-    ema = np.round(ema, 3)
-    return ema
+from utils import *
 
 
 def compute_emas(df, stats, alpha):
@@ -18,8 +9,9 @@ def compute_emas(df, stats, alpha):
     for stat in stats:
         avg_stat = "avg_" + stat
         for player in df["player_name"].unique():
-            dfc.loc[df["player_name"] == player, avg_stat] = get_player_ema(
-                df, player, stat, alpha)
+            row = df[df["player_name"] == player]
+            dfc.loc[df["player_name"] == player,
+                    avg_stat] = get_ema(row[stat], alpha)
     return dfc
 
 
