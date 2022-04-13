@@ -5,7 +5,7 @@ import os
 import requests
 import unidecode
 from constants import CURRENT_SEASON, FPL_BASE_URL, PLAYERS_FILE, DATA_DIR
-from teams import id_to_name_map
+from teams import create_map
 from db import MySQLManager
 from understat import Understat
 from utils import *
@@ -35,7 +35,7 @@ def get_fpl_players():
     """
     players_json = requests.get(FPL_BASE_URL).json()["elements"]
     pmap = {}
-    tmap = id_to_name_map()
+    tmap = create_map("fpl_id", "fpl_name")
     for p in players_json:
         player_name = p["first_name"] + " " + p["second_name"]
         candidate_names = [

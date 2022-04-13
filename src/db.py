@@ -6,11 +6,14 @@ from mysql.connector.errors import IntegrityError
 from sqlalchemy import create_engine
 from typing import Any, Dict, List, Optional, Tuple, Union
 
-def isnan(s : Any) -> bool:
+
+def isnan(s: Any) -> bool:
+    """Checks if any value is nan."""
     try:
         return math.isnan(float(s))
     except:
         return False
+
 
 def prepare_string(val: Any) -> str:
     """Converts a value into a string to be used in a SQL query.
@@ -96,7 +99,7 @@ class MySQLManager:
         self.cnx.commit()
 
     def exec_query(self, query) -> List[tuple]:
-        """Executes a SQL query."""
+        """Executes a SQL query and fetches results."""
         cursor = self.cnx.cursor()
         cursor.execute(query)
         return cursor.fetchall()
