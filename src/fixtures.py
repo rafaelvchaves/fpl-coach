@@ -1,61 +1,49 @@
 import aiohttp
 import asyncio
-import numpy as np
+import pandas as pd
 import requests
-from constants import CURRENT_SEASON, FPL_FIXTURES_URL
-from teams import id_to_name_map, understat_to_fpl_map
+from constants import CURRENT_SEASON, FPL_FIXTURES_URL, FTE_MATCHES_URL
+from teams import create_map
 from understat import Understat
 from utils import *
 from db import MySQLManager
 from teams import get_fpl_teams
 
-id_to_name = id_to_name_map()
-ustat_to_fpl = understat_to_fpl_map()
+id_to_name = create_map("fpl_id", "fpl_name")
+ustat_to_fpl = create_map("understat_name", "fpl_name")
+fpl_to_fte = create_map("fpl_name", "fte_name")
 
 
-def add_fixture(fixture_map, fixture):
-    home_team = ustat_to_fpl[fixture["h"]["title"]]
-    away_team = ustat_to_fpl[fixture["a"]["title"]]
-    if not home_team in fixture_map:
-        fixture_map[home_team] = {}
-    fixture_map[home_team][away_team] = {
-        "fpl_id": None,
-        "understat_id": cast_int_safe(fixture["id"]),
-        "gameweek": None,
-        "kickoff_date": None,
-        "completed": None,
-        "home_team": home_team,
-        "home_score": cast_int_safe(fixture["goals"]["h"]),
-        "away_score": cast_int_safe(fixture["goals"]["a"]),
-        "away_team": away_team,
-        "home_xG": cast_float_safe(fixture["xG"]["h"]),
-        "away_xG": cast_float_safe(fixture["xG"]["a"])
-    }
+def get_fte_df():
+    df = pd.read_csv(FTE_MATCHES_URL)
+    df = df[(df["league"] == "Barclays Premier League")
+            & (df["season"] == 2021)]
+    cols = ["date", "team1", "team2", "proj_score1",
+            "proj_score2", "score1", "score2", "xg1", "xg2"]
+    return df[cols]
 
 
-async def get_understat_fixture_data():
-    async with aiohttp.ClientSession() as session:
-        understat = Understat(session)
-        old_fixtures = await understat.get_league_results("epl", CURRENT_SEASON[:-3])
-        new_fixtures = await understat.get_league_fixtures("epl", CURRENT_SEASON[:-3])
-        old_fixtures.extend(new_fixtures)
-        fixture_map = {}
-        for fixture in old_fixtures:
-            add_fixture(fixture_map, fixture)
-        return fixture_map
+df_fte = get_fte_df()
+
+
+def find_col(fixture, col, home):
+    return fixture["home_" + col if home else "away_" + col]
 
 
 def create_team_gw_row(fixture, home):
     return {
         "gameweek": fixture["gameweek"],
-        "fixture_id": fixture["fpl_id"],
+        "fixture_fpl_id": fixture["fpl_id"],
+        "fixture_understat_id": fixture["understat_id"],
         "kickoff_date": fixture["kickoff_date"],
         "completed": fixture["completed"],
-        "team": fixture["home_team"] if home else fixture["away_team"],
-        "opponent": fixture["away_team"] if home else fixture["home_team"],
+        "team": find_col(fixture, "team", home),
+        "opponent": find_col(fixture, "team", not home),
         "home": home,
-        "team_xG": fixture["home_xG"] if home else fixture["away_xG"],
-        "team_xGA": fixture["away_xG"] if home else fixture["home_xG"]
+        "team_xG": find_col(fixture, "xG", home),
+        "team_xGA": find_col(fixture, "xG", not home),
+        "proj_score": find_col(fixture, "proj_score", home),
+        "opponent_proj_score": find_col(fixture, "proj_score", not home),
     }
 
 
@@ -67,31 +55,66 @@ def get_team_gws(fixtures):
     return rows
 
 
+def update_fixtures(fixture_ids, fixtures):
+    for fixture in fixtures:
+        home_team = ustat_to_fpl[fixture["h"]["title"]]
+        away_team = ustat_to_fpl[fixture["a"]["title"]]
+        if home_team not in fixture_ids:
+            fixture_ids[home_team] = {}
+        fixture_ids[home_team][away_team] = fixture["id"]
+
+
+async def get_understat_fixtures():
+    fixture_ids = {}
+    async with aiohttp.ClientSession() as session:
+        understat = Understat(session)
+        old_fixtures = await understat.get_league_results("epl", 2021)
+        update_fixtures(fixture_ids, old_fixtures)
+        upcoming_fixtures = await understat.get_league_fixtures("epl", 2021)
+        update_fixtures(fixture_ids, upcoming_fixtures)
+    return fixture_ids
+
+
+def get_match_stats(home_team, away_team):
+    try:
+        home = fpl_to_fte[home_team]
+        away = fpl_to_fte[away_team]
+        cols = (df_fte["team1"] == home) & (df_fte["team2"] == away)
+        return df_fte[cols].iloc[0]
+    except:
+        print(
+            "Error: fixture {} vs. {} not found in FiveThirtyEight dataset"
+            .format(home_team, away_team)
+        )
+        exit(1)
+
+
 def get_fixtures():
     fpl_fixtures = requests.get(FPL_FIXTURES_URL).json()
-    understat_fixture_data = asyncio.run(get_understat_fixture_data())
     rows = []
+    fixture_id_map = asyncio.run(get_understat_fixtures())
     for fixture in fpl_fixtures:
-        # Fill in data from FPL
         home_team = id_to_name[fixture["team_h"]]
         away_team = id_to_name[fixture["team_a"]]
-        row = understat_fixture_data[home_team][away_team]
-        row["fpl_id"] = fixture["id"]
-        row["gameweek"] = fixture["event"]
-        row["kickoff_date"] = parse_date(fixture["kickoff_time"])
-        row["completed"] = fixture["finished"]
+        date = parse_date(fixture["kickoff_time"])
+        stats = get_match_stats(home_team, away_team)
+        row = {
+            "fpl_id": fixture["id"],
+            "understat_id": int(fixture_id_map[home_team][away_team]),
+            "gameweek": fixture["event"],
+            "kickoff_date": date,
+            "completed": fixture["finished"],
+            "home_team": home_team,
+            "away_team": away_team,
+            "home_score": stats["score1"],
+            "away_score": stats["score2"],
+            "home_xG": stats["xg1"],
+            "away_xG": stats["xg2"],
+            "home_proj_score": stats["proj_score1"],
+            "away_proj_score": stats["proj_score2"]
+        }
         rows.append(row)
     return rows
-
-
-def get_ema(df, team, col):
-    new_col = "ema_" + col
-    ema = df[df["team"] == team][col].ewm(alpha=0.2).mean()
-    ema = ema.to_numpy()
-    ema = np.roll(ema, 1)
-    ema[0] = None
-    ema = np.round(ema, 3)
-    return ema
 
 
 def compute_averages(db):
@@ -102,14 +125,14 @@ def compute_averages(db):
         WHERE gameweek IS NOT NULL
         ORDER BY kickoff_date"""
         df = db.get_df(query)
-        xg = get_ema(df, team_name, "team_xG")
-        xga = get_ema(df, team_name, "team_xGA")
-        team_df = df[df["team"] == team_name].reset_index()
-        for i, r in team_df.iterrows():
+        team_rows = df[df["team"] == team_name].reset_index()
+        xG = get_ema(team_rows["team_xG"])
+        xGA = get_ema(team_rows["team_xGA"])
+        for i, r in team_rows.iterrows():
             db.update_row(
                 "team_gws",
-                {"fixture_id": r["fixture_id"], "team": team_name},
-                {"avg_team_xG": xg[i], "avg_team_xGA": xga[i]}
+                {"fixture_fpl_id": r["fixture_fpl_id"], "team": team_name},
+                {"avg_team_xG": xG[i], "avg_team_xGA": xGA[i]}
             )
 
 

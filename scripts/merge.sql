@@ -15,7 +15,9 @@ SELECT player_name,
   T1.avg_team_xG AS avg_team_xG,
   T2.avg_team_xGA AS avg_team_xGA,
   T2.avg_team_xG AS avg_opponent_xG,
-  T2.avg_team_xGA AS avg_opponent_xGA
+  T2.avg_team_xGA AS avg_opponent_xGA,
+  T1.proj_score AS proj_score,
+  T1.opponent_proj_score AS opponent_proj_score
 FROM player_gws
   INNER JOIN team_gws AS T1 ON player_gws.fixture_id = T1.fixture_id
   AND player_gws.team = T1.team

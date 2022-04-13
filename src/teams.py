@@ -14,12 +14,26 @@ understat_names = {
     "Wolves": "Wolverhampton Wanderers",
 }
 
+fte_names = {
+    "Man City": "Manchester City",
+    "Man Utd": "Manchester United",
+    "Spurs": "Tottenham Hotspur",
+    "Wolves": "Wolverhampton",
+    "Brighton": "Brighton and Hove Albion",
+    "West Ham": "West Ham United",
+    "Leicester": "Leicester City",
+    "Leeds": "Leeds United",
+    "Norwich": "Norwich City"
+}
+
+
 def make_team_json(team):
     team_name = team["name"]
     return {
         "fpl_id": team["id"],
         "fpl_name": team_name,
-        "understat_name": understat_names.get(team_name, team_name)
+        "understat_name": understat_names.get(team_name, team_name),
+        "fte_name": fte_names.get(team_name, team_name)
     }
 
 
@@ -39,16 +53,7 @@ def create_map(key_col, val_col):
     return {team[key_col]: team[val_col] for team in teams}
 
 
-def understat_to_fpl_map():
-    return create_map("understat_name", "fpl_name")
-
-
-def id_to_name_map():
-    return create_map("fpl_id", "fpl_name")
-
-
 if __name__ == "__main__":
     db = MySQLManager()
     teams = get_fpl_teams()
     db.insert_rows("teams", teams)
-

@@ -11,7 +11,8 @@ DROP TABLE IF EXISTS teams;
 CREATE TABLE IF NOT EXISTS teams(
   fpl_id INT NOT NULL,
   fpl_name VARCHAR(255) PRIMARY KEY,
-  understat_name VARCHAR(255) NOT NULL
+  understat_name VARCHAR(255) NOT NULL,
+  fte_name VARCHAR(255) NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS players(
@@ -35,9 +36,11 @@ CREATE TABLE IF NOT EXISTS fixtures(
   kickoff_date DATE,
   completed BOOLEAN,
   home_team VARCHAR(255) NOT NULL,
+  away_team VARCHAR(255) NOT NULL,
   home_score INT,
   away_score INT,
-  away_team VARCHAR(255) NOT NULL,
+  home_proj_score FLOAT,
+  away_proj_score FLOAT,
   home_xG FLOAT,
   away_xG FLOAT,
   FOREIGN KEY (home_team) REFERENCES teams(fpl_name),
@@ -47,18 +50,21 @@ CREATE TABLE IF NOT EXISTS fixtures(
 CREATE TABLE IF NOT EXISTS team_gws(
   gameweek INT,
   kickoff_date DATE,
-  fixture_id INT NOT NULL,
+  fixture_fpl_id INT NOT NULL,
+  fixture_understat_id INT NOT NULL,
   completed BOOLEAN,
   team VARCHAR(255) NOT NULL,
   opponent VARCHAR(255) NOT NULL,
   home BOOLEAN NOT NULL,
   team_xG FLOAT,
   team_xGA FLOAT,
+  proj_score FLOAT,
+  opponent_proj_score FLOAT,
   avg_team_xG FLOAT,
   avg_team_xGA FLOAT,
   FOREIGN KEY (team) REFERENCES teams(fpl_name),
   FOREIGN KEY (opponent) REFERENCES teams(fpl_name),
-  PRIMARY KEY (fixture_id, team)
+  PRIMARY KEY (fixture_fpl_id, team)
 );
 
 CREATE TABLE IF NOT EXISTS player_gws(
