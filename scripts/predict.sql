@@ -12,17 +12,20 @@ WITH Q1 AS (
     INNER JOIN team_gws ON player_gws.fixture_id = team_gws.fixture_id
     AND player_gws.team = team_gws.team
     INNER JOIN players ON player_gws.player_name = players.fpl_name
-  WHERE {}
 )
-SELECT player_name,
+SELECT player_name AS name,
   IF (
     MIN(gameweek) = MAX(gameweek),
     MIN(gameweek),
     CONCAT(MIN(gameweek), "-", MAX(gameweek))
-  ) AS gameweeks,
+  ) AS gws,
 MIN(position) AS position,
-GROUP_CONCAT(opponent SEPARATOR ', ') AS opponents,
-ROUND(SUM(xP), 3) AS xP
+{}
+-- GROUP_CONCAT(opponent SEPARATOR ', ') AS opponents,
+ROUND(SUM(xP), 3) AS xP,
+SUM(total_points) AS points,
+ROUND(ROUND(SUM(xP), 3) - SUM(total_points)) AS delta
 FROM Q1
+WHERE {}
 GROUP BY player_name
 ORDER BY xP DESC

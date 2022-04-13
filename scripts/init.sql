@@ -2,6 +2,7 @@ USE fplcoachdb;
 
 DROP TABLE IF EXISTS player_gws;
 DROP TABLE IF EXISTS team_gws;
+DROP TABLE IF EXISTS team_gws_extra;
 DROP TABLE IF EXISTS manager_gws;
 DROP TABLE IF EXISTS players;
 DROP TABLE IF EXISTS managers;
@@ -79,6 +80,27 @@ CREATE TABLE IF NOT EXISTS player_gws(
   price FLOAT,
   FOREIGN KEY (fixture_id) REFERENCES fixtures(fpl_id),
   FOREIGN KEY (team) REFERENCES teams(fpl_name),
+  PRIMARY KEY (player_name, fixture_id)
+);
+
+CREATE TABLE IF NOT EXISTS player_gws_extra(
+  player_name VARCHAR(255) NOT NULL,
+  fixture_id INT NOT NULL,
+  goal_xP FLOAT,
+  assist_xP FLOAT,
+  bonus_xP FLOAT,
+  cs_xP FLOAT,
+  concede_xP FLOAT,
+  minutes_xP FLOAT,
+  xP FLOAT,
+  goal_points INT,
+  assist_points INT,
+  bonus_points INT,
+  cs_points INT,
+  concede_points INT,
+  minutes_points INT,
+  total_points INT,
+  FOREIGN KEY (fixture_id) REFERENCES fixtures(fpl_id),
   PRIMARY KEY (player_name, fixture_id)
 );
 
