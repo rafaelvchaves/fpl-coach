@@ -125,9 +125,9 @@ async def generate_player_list(output_file_path):
 
 def get_player_list():
     # check cache
-    # if os.path.exists(PLAYERS_FILE):
-    #     return from_json(PLAYERS_FILE)
-    return generate_player_list(PLAYERS_FILE)
+    if os.path.exists(PLAYERS_FILE):
+        return from_json(PLAYERS_FILE)
+    return asyncio.run(generate_player_list(PLAYERS_FILE))
 
 
 def uid_to_fpl_name():

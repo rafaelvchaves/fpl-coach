@@ -25,7 +25,7 @@ def preprocess():
     df = db.get_df(query)
     df = df.sort_values(by="kickoff_date")
     df = compute_emas(df, ["npxG", "xA", "bonus"], 0.3)
-    df = compute_emas(df, ["minutes"], 0.7)
+    df = compute_emas(df, ["minutes"], 0.5)
     df.to_csv(GW_HISTORY_FILE, index=False)
 
 
