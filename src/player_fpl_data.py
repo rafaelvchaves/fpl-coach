@@ -63,6 +63,7 @@ def add_fixtures(rows: List[dict], extra_rows: List[dict], player: dict, fpl_pla
             extra_rows.append(get_player_gw_extra(player, match))
     for match in upcoming_fixtures:
         rows.append(get_player_gw_json(player, match, None))
+        extra_rows.append(get_player_gw_extra(player, match))
 
 
 def fetch_gw_data(gameweeks: Union[int, Tuple[int]], old: bool) -> List[dict]:
