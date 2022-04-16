@@ -39,12 +39,12 @@ def get_player_gw_extra(player: dict, match: dict) -> dict:
     }
 
 
-def get_player_gw_json(player: dict, match: dict, price: float) -> dict:
+def get_player_gw_json(player: dict, match: dict, price: float, finished: bool) -> dict:
     return {
         "player_name": player["fpl_name"],
         "fixture_id": match.get("fixture", match.get("id", None)),
         "team": player["team_name"],
-        "minutes": match.get("minutes", None),
+        "minutes": match["minutes"] if finished else None,
         "npxG": None,  # filled in by understat
         "xA": None,  # filled in by understat
         "bonus": match.get("bonus", None),
@@ -59,10 +59,10 @@ def add_fixtures(rows: List[dict], extra_rows: List[dict], player: dict, fpl_pla
     upcoming_fixtures = fpl_player_data["fixtures"]
     if old:
         for match in old_fixtures:
-            rows.append(get_player_gw_json(player, match, match["value"] / 10))
+            rows.append(get_player_gw_json(player, match, match["value"] / 10, True))
             extra_rows.append(get_player_gw_extra(player, match))
     for match in upcoming_fixtures:
-        rows.append(get_player_gw_json(player, match, None))
+        rows.append(get_player_gw_json(player, match, None, match["finished"]))
         extra_rows.append(get_player_gw_extra(player, match))
 
 
