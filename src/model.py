@@ -28,38 +28,27 @@ def expected(pmf: Callable[[int], float], value: int, max_value: int) -> float:
 
 def predict_points(position, apxG, apxA, amins, abonus, atxG, atxGA, aoxG, aoxGA, proj_score, oproj_score):
     position_params = from_json("../data/params.json")[position]
-    # alpha = position_params["alpha"]
-    # beta = position_params["beta"]
     goal_value = position_params["goal_value"]
     assist_value = position_params["assist_value"]
     clean_sheet_value = position_params["cs_value"]
     tgcv = position_params["concede_value"]
     xp = []
     attack_multiplier = proj_score / atxG
-    # def goal_pmf(x): return alpha * poisson(apxG).pmf(x) + \
-    #     (1 - alpha) * poisson(aoxGA).pmf(x)
     def goal_pmf(x): return poisson(attack_multiplier * apxG).pmf(x)
-    # def assist_pmf(x): return alpha * poisson(apxA).pmf(x) + \
-    #     (1 - alpha) * poisson(aoxGA).pmf(x)
     def assist_pmf(x): return poisson(attack_multiplier * apxA).pmf(x)
-
     def bonus_pmf(x): return poisson(abonus).pmf(x)
-    # def cs_pmf(x): return beta * poisson(atxGA).pmf(0) + \
-    #     (1 - beta) * poisson(aoxG).pmf(0)
     def cs_pmf(x): return poisson(oproj_score).pmf(0)
-
     def concede_pmf(x): return poisson(atxGA).pmf(2 * x)
 
     # can cap goals/assists at 4 since probability beyond that should be negligible anyway
-
     xp.append(expected(goal_pmf, goal_value, 4))
     xp.append(expected(assist_pmf, assist_value, 4))
     xp.append(expected(bonus_pmf, 1, 3))
     xp.append(expected(cs_pmf, clean_sheet_value, 1))
     xp.append(expected(concede_pmf, tgcv, 4))
-    # Probably change this to a multiplier as well
-    xp.append(int(amins > 0) + int(amins > 59))
-    xp.append(np.sum(xp))
+    xp.append(2)
+    mins_multiplier = min(1, round(amins / 60, 1))
+    xp.append(mins_multiplier * np.sum(xp))
     return np.round(xp, 3)
 
 
