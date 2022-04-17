@@ -11,6 +11,7 @@ FTE_MATCHES_URL = "https://projects.fivethirtyeight.com/soccer-api/club/spi_matc
 DATA_DIR = "../data"
 FIXTURES_FILE = join(DATA_DIR, "fixtures.csv")
 GW_HISTORY_FILE = join(DATA_DIR, "gw_history.csv")
+OPTIONS_FILE = join(DATA_DIR, "filter_options.json")
 PLAYERS_FILE = join(DATA_DIR, "players_{}.json".format(CURRENT_SEASON))
 TEAMS_FILE = join(DATA_DIR, "teams_{}.json".format(CURRENT_SEASON))
 UNDERSTAT_PLAYER_FILE = join(DATA_DIR, "understat_player_data.json")
