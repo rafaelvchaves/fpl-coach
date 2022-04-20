@@ -48,7 +48,7 @@ def get_fpl_teams():
     return teams
 
 
-def create_map(key_col : str, val_col : str):
+def create_team_map(key_col : str, val_col : str):
     teams = get_fpl_teams()
     return {team[key_col]: team[val_col] for team in teams}
 

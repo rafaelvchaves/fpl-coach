@@ -81,5 +81,5 @@ if __name__ == "__main__":
             db.update_row(
                 "player_gws",
                 {"fixture_id": fixture_id, "player_name": player_name},
-                **stats
+                stats
             )

@@ -5,6 +5,7 @@ START_YEAR = CURRENT_SEASON[:-3]
 
 FPL_BASE_URL = "https://fantasy.premierleague.com/api/bootstrap-static/"
 FPL_PLAYER_URL = "https://fantasy.premierleague.com/api/element-summary/{}/"
+FPL_GAMEWEEK_URL = "https://fantasy.premierleague.com/api/event/{}/live/"
 FPL_FIXTURES_URL = "https://fantasy.premierleague.com/api/fixtures/"
 FTE_MATCHES_URL = "https://projects.fivethirtyeight.com/soccer-api/club/spi_matches_latest.csv"
 

@@ -3,16 +3,16 @@ import asyncio
 import pandas as pd
 import requests
 from constants import FPL_FIXTURES_URL, FTE_MATCHES_URL
-from teams import create_map
+from teams import create_team_map
 from understat import Understat
 from utils import *
 from db import MySQLManager
 from teams import get_fpl_teams
 from typing import *
 
-id_to_name = create_map("fpl_id", "fpl_name")
-ustat_to_fpl = create_map("understat_name", "fpl_name")
-fpl_to_fte = create_map("fpl_name", "fte_name")
+id_to_name = create_team_map("fpl_id", "fpl_name")
+ustat_to_fpl = create_team_map("understat_name", "fpl_name")
+fpl_to_fte = create_team_map("fpl_name", "fte_name")
 
 Row = Dict[str, Any]
 Rows = List[Row]

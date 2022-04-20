@@ -5,7 +5,7 @@ import os
 import requests
 import unidecode
 from constants import START_YEAR, FPL_BASE_URL, PLAYERS_FILE, DATA_DIR
-from teams import create_map
+from teams import create_team_map
 from db import MySQLManager
 from understat import Understat
 from utils import *
@@ -35,7 +35,7 @@ def get_fpl_players():
     """
     players_json = requests.get(FPL_BASE_URL).json()["elements"]
     pmap = {}
-    tmap = create_map("fpl_id", "fpl_name")
+    get_team = create_team_map("fpl_id", "fpl_name")
     for p in players_json:
         player_name = p["first_name"] + " " + p["second_name"]
         candidate_names = [
@@ -48,7 +48,7 @@ def get_fpl_players():
             pmap[unidecode.unidecode(name)] = {
                 "name": player_name,
                 "fpl_id": p["id"],
-                "team_name": tmap[p["team"]],
+                "team_name": get_team[p["team"]],
                 "position": get_position(p["element_type"])
             }
     return pmap
@@ -127,8 +127,12 @@ def get_player_list():
     # check cache
     if os.path.exists(PLAYERS_FILE):
         return from_json(PLAYERS_FILE)
-    return asyncio.run(generate_player_list(PLAYERS_FILE))
+    players = asyncio.run(generate_player_list(PLAYERS_FILE))
+    return players
 
+def create_player_map(key_col : str, val_col : str):
+    players = get_player_list()
+    return {player[key_col]: player[val_col] for player in players}
 
 def uid_to_fpl_name():
     players = get_player_list()
