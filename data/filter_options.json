@@ -1,0 +1,38 @@
+{
+  "--gws": {
+      "dest": "gws",
+      "default": null,
+      "help": "gw(s) to get data from, can either be a single integer or a range such as 1-38."
+  },
+  "--position": {
+      "dest": "position",
+      "default": null,
+      "help": "position to filter by (G, D, M, F)."
+  },
+  "--name": {
+      "dest": "player",
+      "default": null,
+      "help": "player's name to filter by."
+  },
+  "--limit": {
+      "dest": "limit",
+      "default": 20,
+      "help": "maximum number of players to display."
+  },
+  "--show_opponents": {
+      "dest": "show_opp",
+      "action": "store_true",
+      "default": false,
+      "help": "whether to display opponents."
+  },
+  "--price_limit": {
+      "dest": "price_lim",
+      "default": null,
+      "help": "specify maximum player price."
+  },
+  "--sort_by": {
+      "dest": "sort_key",
+      "default": "xP",
+      "help": "a column to sort by."
+  }
+}
