@@ -1,7 +1,7 @@
 USE fplcoachdb;
 
 DROP TABLE IF EXISTS player_gws;
-DROP TABLE IF EXISTS player_gws_extra;
+DROP TABLE IF EXISTS player_gws_predicted;
 DROP TABLE IF EXISTS team_gws;
 DROP TABLE IF EXISTS manager_gws;
 DROP TABLE IF EXISTS players;
@@ -71,19 +71,23 @@ CREATE TABLE IF NOT EXISTS player_gws(
   player_name VARCHAR(255) NOT NULL,
   fixture_id INT NOT NULL,
   team VARCHAR(255), -- not necessarily the same as team name from players table - players can move between EPL teams --
+  -- price FLOAT(4, 1),
   minutes INT,
+  goals_scored INT,
+  assists INT,
+  clean_sheets INT,
+  goals_conceded INT,
+  bonus INT,
+  saves INT,
+  total_points INT,
   npxG FLOAT(6, 3),
   xA FLOAT(6, 3),
-  bonus INT,
-  total_points INT,
-  xP FLOAT(6, 3),
-  price FLOAT(4, 1),
   FOREIGN KEY (fixture_id) REFERENCES fixtures(fpl_id),
   FOREIGN KEY (team) REFERENCES teams(fpl_name),
   PRIMARY KEY (player_name, fixture_id)
 );
 
-CREATE TABLE IF NOT EXISTS player_gws_extra(
+CREATE TABLE IF NOT EXISTS player_gws_predicted(
   player_name VARCHAR(255) NOT NULL,
   fixture_id INT NOT NULL,
   goal_xP FLOAT(6, 3),
@@ -93,13 +97,6 @@ CREATE TABLE IF NOT EXISTS player_gws_extra(
   concede_xP FLOAT(6, 3),
   minutes_xP FLOAT(6, 3),
   xP FLOAT(6, 3),
-  goal_points INT,
-  assist_points INT,
-  bonus_points INT,
-  cs_points INT,
-  concede_points INT,
-  minutes_points INT,
-  total_points INT,
   FOREIGN KEY (fixture_id) REFERENCES fixtures(fpl_id),
   PRIMARY KEY (player_name, fixture_id)
 );
