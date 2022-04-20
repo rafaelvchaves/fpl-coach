@@ -70,15 +70,13 @@ def predict(row):
 # TODO: add function that evaluates model and prints metrics when this script
 # is run
 
+
 # will need to do hyperparameter tuning for each EMA alpha, probably collecting
 # more data to break up point total into points from goals, clean sheets, etc.
-
-
 if __name__ == "__main__":
     df = pd.read_csv(GW_HISTORY_FILE)
-    stats = ["goal", "assist", "bonus", "cs", "concede", "minutes"]
-    true_cols = [stat + "_points" for stat in stats]
-    true_cols.append("total_points")
+    stats = ["goal", "assist", "bonus",
+             "cs", "concede", "minutes"]
     predicted_cols = [stat + "_xP" for stat in stats]
     predicted_cols.append("xP")
     rows = df.copy()
@@ -86,13 +84,8 @@ if __name__ == "__main__":
     db = MySQLManager()
     for _, r in rows.iterrows():
         db.update_row(
-            "player_gws",
+            "player_gws_predicted",
             {"player_name": r["player_name"], "fixture_id": r["fixture_id"]},
-            {"xP": r["xP"]}
-        )
-        db.update_row(
-            "player_gws_extra",
-            {"player_name": r["player_name"], "fixture_id": r["fixture_id"]},
-            {col: r[col] for col in predicted_cols + true_cols}
+            {col: r[col] for col in predicted_cols}
         )
     rows.to_csv("../data/predicted_final.csv", index=False)

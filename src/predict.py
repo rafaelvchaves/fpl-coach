@@ -42,8 +42,7 @@ def query_database(args):
         "gameweek >= {}".format(start_gw),
         "gameweek <= {}".format(end_gw),
         optional("player_name", args.player),
-        optional("position", args.position),
-        optional("price", args.price_lim, "<=")
+        optional("position", args.position)
     ]
     where_clause = " AND ".join(filters)
     query += " ORDER BY {} DESC".format(args.sort_key)
