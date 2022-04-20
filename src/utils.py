@@ -5,7 +5,11 @@ import requests
 from constants import FPL_BASE_URL
 from datetime import datetime
 from dateutil import parser
-from typing import Optional
+from typing import Any, Callable, Dict, List, Optional, Tuple, Union
+
+# type synonyms for database rows
+Row = Dict[str, Any]
+Rows = List[Row]
 
 
 def cast_float_safe(s: Optional[str]) -> Optional[float]:
@@ -89,3 +93,23 @@ def get_ema(col: pd.Series, alpha: float = 0.3) -> np.array:
     ema[0] = np.nan
     ema = np.round(ema, 3)
     return ema
+
+
+def mapl(f: Callable[[Any], Any], lst: List[Any]) -> List[Any]:
+    """Map helper function to avoid wrapping in list() call each time."""
+    return list(map(f, lst))
+
+
+def get_gw_range(gws: Optional[Union[int, Tuple[int]]]) -> Tuple[int]:
+    """Helper function for parsing a gameweek argument into a range. """
+    current_gw = get_current_gw()
+    if isinstance(gws, int):
+        return gws, gws
+    elif isinstance(gws, tuple):
+        return gws[0], min(gws[1], current_gw)
+    return 1, current_gw
+
+
+def subset_dict(d: Dict[Any, Any], keys: List[Any]) -> Dict[Any, Any]:
+    """Returns a copy of a dictionary with only the specified keys."""
+    return {k: d[k] for k in keys}

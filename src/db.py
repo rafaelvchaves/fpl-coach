@@ -70,6 +70,8 @@ class MySQLManager:
             rows: A list of rows, each of which is represented by a dictionary
               mapping column names to values.
         """
+        if rows == []:
+            return
         cursor = self.cnx.cursor()
         col_names = rows[0].keys()
         cols = ",".join(col_names)
