@@ -1,4 +1,4 @@
-"""A module for loading static player data from FPL and understat. """
+"""A module for loading static player data from FPL and Understat. """
 import asyncio
 import os
 from typing import Optional
@@ -89,8 +89,8 @@ async def get_ustat_players():
         return ustat_player_map
 
 
-def get_player_json(player, ustat_id):
-    """Returns a player json.
+def make_player_json(player, ustat_id):
+    """Creates a player json.
 
     Returns:
         A json containing the following fields:
@@ -131,7 +131,7 @@ def get_player_list(cache=True):
             if name in ustat_player_map:
                 ustat_id = ustat_player_map[name]
                 break
-        players.append(get_player_json(player, ustat_id))
+        players.append(make_player_json(player, ustat_id))
     to_json(PLAYERS_FILE, players)
     return players
 
@@ -150,5 +150,5 @@ def create_player_map(key_col: str, val_col: Optional[str]):
 
 if __name__ == "__main__":
     db = MySQLManager()
-    fpl_players = get_player_list(cache=False)
-    db.insert_rows("players", fpl_players)
+    player_rows = get_player_list(cache=False)
+    db.insert_rows("players", player_rows)
