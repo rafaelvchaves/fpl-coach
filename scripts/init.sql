@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS teams(
 
 CREATE TABLE IF NOT EXISTS players(
   fpl_id INT PRIMARY KEY,
-  understat_id INT NOT NULL,
+  understat_id INT,
   fpl_name VARCHAR(255) NOT NULL,
   position CHAR NOT NULL,
   team_name VARCHAR(255) NOT NULL,

@@ -1,17 +1,20 @@
-import aiohttp
+"""A module for loading static player data from FPL and understat. """
 import asyncio
-import json
 import os
+from typing import Optional
+import aiohttp
 import requests
 import unidecode
+from understat import Understat
+
 from constants import START_YEAR, FPL_BASE_URL, PLAYERS_FILE, DATA_DIR
 from teams import create_team_map
 from db import MySQLManager
-from understat import Understat
-from utils import *
+from utils import from_json, mapl, to_json
 
 
-def get_position(element_type):
+def get_position(element_type: int) -> str:
+    """Converts an FPL position number to a single-character string."""
     return {
         1: "G",
         2: "D",
@@ -20,38 +23,30 @@ def get_position(element_type):
     }[element_type]
 
 
-def get_fpl_players():
-    """Retrieves a dictionary of all FPL players in current season.
-
-    Returns:
-      A dict, mapping a player's name with all accent marks stripped, to another
-      dictionary in the following format:
-      {
-        "name": the name of the player (with accents) as given by FPL.
-        "fpl_id": the player's id for the current season.
-        "team_name": the name of the team that the player plays for.
-        "position": the player's position listed on FPL.
-      }
-    """
+def get_fpl_player_list():
+    """Retrieves a list of all FPL players in current season."""
     players_json = requests.get(FPL_BASE_URL).json()["elements"]
-    pmap = {}
+    player_list = []
     get_team = create_team_map("fpl_id", "fpl_name")
-    for p in players_json:
-        player_name = p["first_name"] + " " + p["second_name"]
+    for player in players_json:
+        first_name = player["first_name"]
+        second_name = player["second_name"]
+        web_name = player["web_name"]
+        player_name = first_name + " " + second_name
         candidate_names = [
             player_name,
-            p["web_name"],
-            p["first_name"] + " " + p["web_name"],
-            p["first_name"].split()[0] + " " + p["second_name"].split()[-1]
+            web_name,
+            first_name + " " + web_name,
+            first_name.split()[0] + " " + second_name.split()[-1]
         ]
-        for name in candidate_names:
-            pmap[unidecode.unidecode(name)] = {
-                "name": player_name,
-                "fpl_id": p["id"],
-                "team_name": get_team[p["team"]],
-                "position": get_position(p["element_type"])
-            }
-    return pmap
+        player_list.append({
+            "candidate_names": mapl(unidecode.unidecode, candidate_names),
+            "name": player_name,
+            "fpl_id": player["id"],
+            "team_name": get_team[player["team"]],
+            "position": get_position(player["element_type"])
+        })
+    return player_list
 
 
 def get_aliases():
@@ -62,11 +57,13 @@ def get_aliases():
     Returns:
       A dict mapping a player's Understat name to their FPL name.
     """
-    with open(os.path.join(DATA_DIR, "aliases.json")) as alias_json:
-        return json.load(alias_json)
+    return from_json(os.path.join(DATA_DIR, "aliases.json"))
 
 
-def clean_name(aliases, name):
+aliases = get_aliases()
+
+
+def clean_name(name):
     """Cleans a player name to be utilized in the players map.
 
     Strips accent marks and gets alias from aliases, if applicable.
@@ -77,69 +74,81 @@ def clean_name(aliases, name):
     return cleaned_name
 
 
-def construct_player_json(pmap, name, uid):
-    try:
-        understat_id = int(uid)
-    except:
-        print("understat id {} cannot be converted to int".format(uid))
-        exit(1)
-    return {
-        "fpl_id": pmap[name]["fpl_id"],
-        "understat_id": understat_id,
-        "fpl_name": pmap[name]["name"],
-        "team_name": pmap[name]["team_name"],
-        "position": pmap[name]["position"]
-    }
-
-
-async def generate_player_list(output_file_path):
-    """Writes a complete list of FPL players to output_file_path. """
+async def get_ustat_players():
+    """Retrieves list of players from understat."""
     async with aiohttp.ClientSession() as session:
         understat = Understat(session)
-        ust_players = await understat.get_league_players(
+        ustat_players = await understat.get_league_players(
             "epl",
             START_YEAR
         )
-        pmap = get_fpl_players()
-        aliases = get_aliases()
-        not_found = []
-        players = []
-        for player in ust_players:
-            understat_name = player["player_name"]
-            player_name = clean_name(aliases, understat_name)
-            uid = player["id"]
-            try:
-                cleaned_name = clean_name(aliases, understat_name)
-                player_json = construct_player_json(pmap, cleaned_name, uid)
-                players.append(player_json)
-            except KeyError:
-                not_found.append(player["player_name"])
-    if not_found != []:
-        err_msg = "Error: matches not found for following players: {}".format(
-            not_found)
-        print(err_msg)
-        exit(1)
-    to_json(output_file_path, players)
-    return players
+        ustat_player_map = {}
+        for player in ustat_players:
+            player_name = clean_name(player["player_name"])
+            ustat_player_map[player_name] = player["id"]
+        return ustat_player_map
 
 
-def get_player_list():
-    # check cache
-    if os.path.exists(PLAYERS_FILE):
+def get_player_json(player, ustat_id):
+    """Returns a player json.
+
+    Returns:
+        A json containing the following fields:
+            fpl_id: The player's FPL ID for the current season.
+            understat_id: The player's ID on understat.com
+            fpl_name: The player's name, as listed in FPL.
+            team_name: The name of the team that the player currently plays on.
+            position: A string representing the player's position.
+    """
+    return {
+        "fpl_id": player["fpl_id"],
+        "understat_id": ustat_id,
+        "fpl_name": player["name"],
+        "team_name": player["team_name"],
+        "position": player["position"]
+    }
+
+
+def get_player_list(cache=True):
+    """Retrieves a list of all players in FPL for the current season.
+
+    Args:
+        cache: Whether to load the data from a file cache rather than calling
+          the FPL API. Defaults to True.
+
+    Returns:
+        A list of dictionaries, with the same keys as specified in
+        get_player_json.
+    """
+    if cache:
         return from_json(PLAYERS_FILE)
-    players = asyncio.run(generate_player_list(PLAYERS_FILE))
+    fpl_player_list = get_fpl_player_list()
+    ustat_player_map = asyncio.run(get_ustat_players())
+    players = []
+    for player in fpl_player_list:
+        ustat_id = None
+        for name in player["candidate_names"]:
+            if name in ustat_player_map:
+                ustat_id = ustat_player_map[name]
+                break
+        players.append(get_player_json(player, ustat_id))
+    to_json(PLAYERS_FILE, players)
     return players
 
-def create_player_map(key_col : str, val_col : str):
-    players = get_player_list()
-    return {player[key_col]: player[val_col] for player in players}
 
-def uid_to_fpl_name():
-    players = get_player_list()
-    return {player["understat_id"]: player["fpl_name"] for player in players}
+def create_player_map(key_col: str, val_col: Optional[str]):
+    """Returns a dictionary from key_col to val_col.
+
+    The options for key_col are 'fpl_id', 'understat_id', 'fpl_name', and the
+    options for val_col are 'fpl_id', 'understat_id', 'fpl_name', 'team_name',
+    'position', and None. If val_col is None, the values of the dictionary
+    are the entire player jsons."""
+    if val_col is None:
+        return {player["fpl_id"]: player for player in get_player_list()}
+    return {player[key_col]: player[val_col] for player in get_player_list()}
 
 
 if __name__ == "__main__":
     db = MySQLManager()
-    players = asyncio.run(generate_player_list(PLAYERS_FILE))
-    db.insert_rows("players", players)
+    fpl_players = get_player_list(cache=False)
+    db.insert_rows("players", fpl_players)
