@@ -1,14 +1,15 @@
-import aiohttp
+"""A module for loading fixture data from FPL. """
+from typing import Any, Dict
 import asyncio
+import sys
+import aiohttp
 import pandas as pd
 import requests
-from constants import FPL_FIXTURES_URL, FTE_MATCHES_URL
-from teams import create_team_map
 from understat import Understat
-from utils import *
+from constants import FPL_FIXTURES_URL, FTE_MATCHES_URL
+from teams import create_team_map, get_fpl_teams
+from utils import get_ema, parse_date, Row, Rows
 from db import MySQLManager
-from teams import get_fpl_teams
-from typing import *
 
 id_to_name = create_team_map("fpl_id", "fpl_name")
 ustat_to_fpl = create_team_map("understat_name", "fpl_name")
@@ -17,18 +18,26 @@ fpl_to_fte = create_team_map("fpl_name", "fte_name")
 
 def get_fte_df() -> pd.DataFrame:
     """Returns data from FiveThirtyEight's SPI csv as a pandas DataFrame."""
-    df = pd.read_csv(FTE_MATCHES_URL)
-    df = df[(df["league"] == "Barclays Premier League")
-            & (df["season"] == 2021)]
+    fte_df = pd.read_csv(FTE_MATCHES_URL)
+    fte_df = fte_df[(fte_df["league"] == "Barclays Premier League")
+                    & (fte_df["season"] == 2021)]
     cols = ["date", "team1", "team2", "proj_score1",
             "proj_score2", "score1", "score2", "xg1", "xg2"]
-    return df[cols]
+    return fte_df[cols]
 
 
 df_fte = get_fte_df()
 
 
 def find_col(fixture: Row, col: str, home: bool) -> Any:
+    """Finds column in fixture.
+
+    Args:
+        fixture: A dictionary that contains keys for col, for both the home
+          and away team.
+        col: The column to get in fixtures.
+        home: Whether to get the home column or not.
+    """
     return fixture["home_" + col if home else "away_" + col]
 
 
@@ -107,12 +116,11 @@ def get_match_stats(home_team: str, away_team: str) -> pd.DataFrame:
         away = fpl_to_fte[away_team]
         cols = (df_fte["team1"] == home) & (df_fte["team2"] == away)
         return df_fte[cols].iloc[0]
-    except:
+    except IndexError:
         print(
-            "Error: fixture {} vs. {} not found in FiveThirtyEight dataset"
-            .format(home_team, away_team)
+            f"Error: fixture {home_team} vs. {away_team} not found in FiveThirtyEight dataset"
         )
-        exit(1)
+        sys.exit(1)
 
 
 def get_fixtures() -> Rows:
@@ -144,7 +152,7 @@ def get_fixtures() -> Rows:
     return rows
 
 
-def compute_team_xG_averages(db: MySQLManager) -> None:
+def compute_team_xg_averages(db: MySQLManager) -> None:
     """Averages team xG data and writes to the team_gws table.
 
     Averages are calculated with an exponential moving average (EMA)."""
@@ -156,27 +164,20 @@ def compute_team_xG_averages(db: MySQLManager) -> None:
         ORDER BY kickoff_date"""
         df = db.get_df(query)
         team_rows = df[df["team"] == team_name].reset_index()
-        xG = get_ema(team_rows["team_xG"])
-        xGA = get_ema(team_rows["team_xGA"])
-        for i, r in team_rows.iterrows():
+        team_xg = get_ema(team_rows["team_xG"])
+        team_xga = get_ema(team_rows["team_xGA"])
+        for i, team_row in team_rows.iterrows():
             db.update_row(
                 "team_gws",
-                {"fixture_id": r["fixture_id"], "team": team_name},
-                {"avg_team_xG": xG[i], "avg_team_xGA": xGA[i]}
+                {"fixture_id": team_row["fixture_id"], "team": team_name},
+                {"avg_team_xG": team_xg[i], "avg_team_xGA": team_xg[i]}
             )
-
-
-def fixture_id_map() -> Dict[int, int]:
-    """Returns a map from understat fixture ids to FPL fixture ids."""
-    db = MySQLManager()
-    ids = db.exec_query("SELECT understat_id, fpl_id FROM fixtures")
-    return dict(ids)
 
 
 if __name__ == "__main__":
     db = MySQLManager()
-    fixtures = get_fixtures()
-    db.insert_rows("fixtures", fixtures)
-    team_gws = get_team_gws(fixtures)
+    fixture_rows = get_fixtures()
+    db.insert_rows("fixtures", fixture_rows)
+    team_gws = get_team_gws(fixture_rows)
     db.insert_rows("team_gws", team_gws)
-    compute_team_xG_averages(db)
+    compute_team_xg_averages(db)
