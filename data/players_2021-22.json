@@ -2759,7 +2759,7 @@
     },
     {
         "fpl_id": 248,
-        "understat_id": "660",
+        "understat_id": null,
         "fpl_name": "Ben Davies",
         "team_name": "Liverpool",
         "position": "D"

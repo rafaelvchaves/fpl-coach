@@ -126,6 +126,10 @@ def get_player_list(cache=True):
     ustat_player_map = asyncio.run(get_ustat_players())
     players = []
     for player in fpl_player_list:
+        # There are two Ben Davies, the one from Liverpool isn't on Understat
+        if player["fpl_id"] == 248:
+            players.append(make_player_json(player, None))
+            continue
         ustat_id = None
         for name in player["candidate_names"]:
             if name in ustat_player_map:
