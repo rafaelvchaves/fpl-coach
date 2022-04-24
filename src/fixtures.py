@@ -104,6 +104,11 @@ async def get_understat_fixtures() -> Dict[str, Dict[str, int]]:
         update_fixtures(fixture_ids, upcoming_fixtures)
     return fixture_ids
 
+def fixture_id_map() -> Dict[int, int]:
+    """Returns a map from understat fixture ids to FPL fixture ids."""
+    db = MySQLManager()
+    ids = db.exec_query("SELECT understat_id, fpl_id FROM fixtures")
+    return dict(ids)
 
 def get_match_stats(home_team: str, away_team: str) -> pd.DataFrame:
     """Returns a single row of a pandas DataFrame with match stats.
