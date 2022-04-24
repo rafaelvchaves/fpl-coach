@@ -10,7 +10,7 @@ from understat import Understat
 from constants import START_YEAR, FPL_BASE_URL, PLAYERS_FILE, DATA_DIR
 from teams import create_team_map
 from db import MySQLManager
-from utils import from_json, mapl, to_json
+from utils import cast_int_safe, from_json, mapl, to_json
 
 
 def get_position(element_type: int) -> str:
@@ -49,27 +49,21 @@ def get_fpl_player_list():
     return player_list
 
 
-def get_aliases():
-    """Gets name conversions between Understat names and FPL names.
+def hardcoded_conversions():
+    """Gets hard-coded conversions from FPL to Understat IDs.
 
-    Aliases are hard-coded and retrieved from "data/aliases.json".
+    Conversions are retrieved from "data/id_conversions.json".
 
     Returns:
-      A dict mapping a player's Understat name to their FPL name.
+      A dictionary mapping a subset of players' FPL ID to their Understat ID.
     """
-    return from_json(os.path.join(DATA_DIR, "aliases.json"))
-
-
-aliases = get_aliases()
+    conv = from_json(os.path.join(DATA_DIR, "id_conversions.json"))
+    return {int(k): v for k, v in conv.items()}
 
 
 def clean_name(name):
-    """Cleans a player name to be utilized in the players map.
-
-    Strips accent marks and gets alias from aliases, if applicable.
-    """
+    """Cleans a player name to be utilized in the players map."""
     cleaned_name = name.replace("&#039;", "'")
-    cleaned_name = aliases.get(cleaned_name, cleaned_name)
     cleaned_name = unidecode.unidecode(cleaned_name)
     return cleaned_name
 
@@ -102,7 +96,7 @@ def make_player_json(player, ustat_id):
     """
     return {
         "fpl_id": player["fpl_id"],
-        "understat_id": ustat_id,
+        "understat_id": cast_int_safe(ustat_id),
         "fpl_name": player["name"],
         "team_name": player["team_name"],
         "position": player["position"]
@@ -124,11 +118,14 @@ def get_player_list(cache=True):
         return from_json(PLAYERS_FILE)
     fpl_player_list = get_fpl_player_list()
     ustat_player_map = asyncio.run(get_ustat_players())
+    hardcoded_ids = hardcoded_conversions()
     players = []
     for player in fpl_player_list:
-        # There are two Ben Davies, the one from Liverpool isn't on Understat
-        if player["fpl_id"] == 248:
-            players.append(make_player_json(player, None))
+        fpl_id = player["fpl_id"]
+        if fpl_id in hardcoded_ids:
+            players.append(
+                make_player_json(player, hardcoded_ids[fpl_id])
+            )
             continue
         ustat_id = None
         for name in player["candidate_names"]:
