@@ -1,0 +1,142 @@
+[
+    {
+        "npxG_alpha": 0.3,
+        "xA_alpha": 0.3,
+        "bonus_alpha": 0.3,
+        "minutes_alpha": 0.3,
+        "rmse": [
+            151.5,
+            87.2,
+            119.6,
+            68.5,
+            49.8,
+            302.5
+        ]
+    },
+    {
+        "npxG_alpha": 0.2,
+        "xA_alpha": 0.3,
+        "bonus_alpha": 0.3,
+        "minutes_alpha": 0.3,
+        "rmse": [
+            151.9,
+            87.2,
+            119.6,
+            68.5,
+            49.8,
+            302.6
+        ]
+    },
+    {
+        "npxG_alpha": 0.3,
+        "xA_alpha": 0.3,
+        "bonus_alpha": 0.3,
+        "minutes_alpha": 0.4,
+        "rmse": [
+            151.4,
+            87.1,
+            119.0,
+            68.5,
+            49.7,
+            301.2
+        ]
+    },
+    {
+        "npxG_alpha": 0.2,
+        "xA_alpha": 0.3,
+        "bonus_alpha": 0.3,
+        "minutes_alpha": 0.3,
+        "rmse": [
+            151.6,
+            87.2,
+            119.6,
+            68.5,
+            49.0,
+            302.6
+        ]
+    },
+    {
+        "npxG_alpha": 0.2,
+        "xA_alpha": 0.2,
+        "bonus_alpha": 0.5,
+        "minutes_alpha": 0.6,
+        "rmse": [
+            150.7,
+            86.6,
+            117.2,
+            70.2,
+            48.6,
+            300.7
+        ]
+    },
+    {
+        "npxG_alpha": 0.2,
+        "xA_alpha": 0.2,
+        "bonus_alpha": 0.7,
+        "minutes_alpha": 0.6,
+        "rmse": [
+            150.7,
+            86.6,
+            117.2,
+            71.5,
+            48.6,
+            300.7
+        ]
+    },
+    {
+        "npxG_alpha": 0.2,
+        "xA_alpha": 0.2,
+        "bonus_alpha": 0.4,
+        "minutes_alpha": 0.6,
+        "rmse": [
+            150.7,
+            86.6,
+            117.2,
+            69.3,
+            48.6,
+            300.6
+        ]
+    },
+    {
+        "npxG_alpha": 0.2,
+        "xA_alpha": 0.2,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.6,
+        "rmse": [
+            150.7,
+            86.6,
+            117.2,
+            67.5,
+            48.6,
+            300.1
+        ]
+    },
+    {
+        "npxG_alpha": 0.2,
+        "xA_alpha": 0.2,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.8,
+        "rmse": [
+            149.4,
+            86.1,
+            114.7,
+            67.4,
+            47.7,
+            300.7
+        ]
+    },
+    {
+        "npxG_alpha": 0.2,
+        "xA_alpha": 0.2,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.5,
+        "rmse": [
+            151.1,
+            86.7,
+            118.1,
+            67.6,
+            48.8,
+            300.2
+        ]
+    }
+]
