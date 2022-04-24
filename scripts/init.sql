@@ -1,5 +1,4 @@
 USE fplcoachdb;
-
 DROP TABLE IF EXISTS player_gws;
 DROP TABLE IF EXISTS player_gws_predicted;
 DROP TABLE IF EXISTS team_gws;
@@ -8,14 +7,12 @@ DROP TABLE IF EXISTS players;
 DROP TABLE IF EXISTS managers;
 DROP TABLE IF EXISTS fixtures;
 DROP TABLE IF EXISTS teams;
-
 CREATE TABLE IF NOT EXISTS teams(
   fpl_id INT NOT NULL,
   fpl_name VARCHAR(255) PRIMARY KEY,
   understat_name VARCHAR(255) NOT NULL,
   fte_name VARCHAR(255) NOT NULL
 );
-
 CREATE TABLE IF NOT EXISTS players(
   fpl_id INT PRIMARY KEY,
   understat_id INT,
@@ -24,12 +21,10 @@ CREATE TABLE IF NOT EXISTS players(
   team_name VARCHAR(255) NOT NULL,
   FOREIGN KEY (team_name) REFERENCES teams(fpl_name)
 );
-
 CREATE TABLE IF NOT EXISTS managers(
   id INT PRIMARY KEY,
   manager_name VARCHAR(255) NOT NULL
 );
-
 CREATE TABLE IF NOT EXISTS fixtures(
   fpl_id INT PRIMARY KEY,
   understat_id INT NOT NULL,
@@ -47,7 +42,6 @@ CREATE TABLE IF NOT EXISTS fixtures(
   FOREIGN KEY (home_team) REFERENCES teams(fpl_name),
   FOREIGN KEY (away_team) REFERENCES teams(fpl_name)
 );
-
 CREATE TABLE IF NOT EXISTS team_gws(
   gameweek INT,
   kickoff_date DATE,
@@ -66,11 +60,11 @@ CREATE TABLE IF NOT EXISTS team_gws(
   FOREIGN KEY (opponent) REFERENCES teams(fpl_name),
   PRIMARY KEY (fixture_id, team)
 );
-
 CREATE TABLE IF NOT EXISTS player_gws(
-  player_name VARCHAR(255) NOT NULL,
+  player_id INT NOT NULL,
   fixture_id INT NOT NULL,
-  team VARCHAR(255), -- not necessarily the same as team name from players table - players can move between EPL teams --
+  team VARCHAR(255),
+  -- not necessarily the same as team name from players table - players can move between EPL teams --
   -- price FLOAT(4, 1),
   minutes INT,
   goals_scored INT,
@@ -84,23 +78,20 @@ CREATE TABLE IF NOT EXISTS player_gws(
   xA FLOAT(6, 3),
   FOREIGN KEY (fixture_id) REFERENCES fixtures(fpl_id),
   FOREIGN KEY (team) REFERENCES teams(fpl_name),
-  PRIMARY KEY (player_name, fixture_id)
+  PRIMARY KEY (player_id, fixture_id)
 );
-
 CREATE TABLE IF NOT EXISTS player_gws_predicted(
-  player_name VARCHAR(255) NOT NULL,
+  player_id INT NOT NULL,
   fixture_id INT NOT NULL,
   goal_xP FLOAT(6, 3),
   assist_xP FLOAT(6, 3),
   bonus_xP FLOAT(6, 3),
   cs_xP FLOAT(6, 3),
   concede_xP FLOAT(6, 3),
-  minutes_xP FLOAT(6, 3),
   xP FLOAT(6, 3),
   FOREIGN KEY (fixture_id) REFERENCES fixtures(fpl_id),
-  PRIMARY KEY (player_name, fixture_id)
+  PRIMARY KEY (player_id, fixture_id)
 );
-
 CREATE TABLE IF NOT EXISTS manager_gws(
   id INT AUTO_INCREMENT PRIMARY KEY,
   gameweek INT NOT NULL,

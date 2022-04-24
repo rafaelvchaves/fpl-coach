@@ -1,6 +1,7 @@
 WITH Q1 AS (
   SELECT 
-    player_gws.player_name AS player_name,
+    fpl_id,
+    players.fpl_name AS player_name,
     position,
     gameweek,
     player_gws.team AS team,
@@ -14,10 +15,13 @@ WITH Q1 AS (
     FROM player_gws
     INNER JOIN team_gws ON player_gws.fixture_id = team_gws.fixture_id
     AND player_gws.team = team_gws.team
-    INNER JOIN players ON player_gws.player_name = players.fpl_name
-    INNER JOIN player_gws_predicted ON player_gws.player_name = player_gws_predicted.player_name
+    INNER JOIN players ON player_gws.player_id = players.fpl_id
+    INNER JOIN player_gws_predicted ON player_gws.player_id = player_gws_predicted.player_id
     AND player_gws.fixture_id = player_gws_predicted.fixture_id
-  GROUP BY player_name,
+    WHERE fpl_id != 248
+  GROUP BY 
+    fpl_id,
+    player_name,
     position,
     gameweek,
     team
