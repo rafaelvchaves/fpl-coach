@@ -1,0 +1,2382 @@
+[
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 376,
+                "name": "Ben Foster"
+            }
+        ],
+        "D": [
+            {
+                "id": 39,
+                "name": "Matt Targett"
+            },
+            {
+                "id": 169,
+                "name": "Michael Keane"
+            },
+            {
+                "id": 245,
+                "name": "Konstantinos Tsimikas"
+            },
+            {
+                "id": 275,
+                "name": "Luke Shaw"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 215,
+                "name": "Harvey Barnes"
+            },
+            {
+                "id": 233,
+                "name": "Mohamed Salah"
+            },
+            {
+                "id": 277,
+                "name": "Bruno Miguel Borges Fernandes"
+            },
+            {
+                "id": 141,
+                "name": "Kai Havertz"
+            },
+            {
+                "id": 17,
+                "name": "Nicolas Pépé"
+            }
+        ],
+        "F": [
+            {
+                "id": 177,
+                "name": "Dominic Calvert-Lewin"
+            },
+            {
+                "id": 78,
+                "name": "Ivan Toney"
+            },
+            {
+                "id": 388,
+                "name": "Stipe Perica"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 376,
+                "name": "Ben Foster"
+            }
+        ],
+        "D": [
+            {
+                "id": 39,
+                "name": "Matt Targett"
+            },
+            {
+                "id": 169,
+                "name": "Michael Keane"
+            },
+            {
+                "id": 245,
+                "name": "Konstantinos Tsimikas"
+            },
+            {
+                "id": 275,
+                "name": "Luke Shaw"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 215,
+                "name": "Harvey Barnes"
+            },
+            {
+                "id": 233,
+                "name": "Mohamed Salah"
+            },
+            {
+                "id": 277,
+                "name": "Bruno Miguel Borges Fernandes"
+            },
+            {
+                "id": 141,
+                "name": "Kai Havertz"
+            },
+            {
+                "id": 17,
+                "name": "Nicolas Pépé"
+            }
+        ],
+        "F": [
+            {
+                "id": 177,
+                "name": "Dominic Calvert-Lewin"
+            },
+            {
+                "id": 78,
+                "name": "Ivan Toney"
+            },
+            {
+                "id": 388,
+                "name": "Stipe Perica"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 376,
+                "name": "Ben Foster"
+            }
+        ],
+        "D": [
+            {
+                "id": 429,
+                "name": "Conor Coady"
+            },
+            {
+                "id": 169,
+                "name": "Michael Keane"
+            },
+            {
+                "id": 245,
+                "name": "Konstantinos Tsimikas"
+            },
+            {
+                "id": 275,
+                "name": "Luke Shaw"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 215,
+                "name": "Harvey Barnes"
+            },
+            {
+                "id": 233,
+                "name": "Mohamed Salah"
+            },
+            {
+                "id": 277,
+                "name": "Bruno Miguel Borges Fernandes"
+            },
+            {
+                "id": 141,
+                "name": "Kai Havertz"
+            },
+            {
+                "id": 17,
+                "name": "Nicolas Pépé"
+            }
+        ],
+        "F": [
+            {
+                "id": 177,
+                "name": "Dominic Calvert-Lewin"
+            },
+            {
+                "id": 413,
+                "name": "Michail Antonio"
+            },
+            {
+                "id": 388,
+                "name": "Stipe Perica"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 389,
+                "name": "Daniel Bachmann"
+            }
+        ],
+        "D": [
+            {
+                "id": 437,
+                "name": "Nélson Cabral Semedo"
+            },
+            {
+                "id": 185,
+                "name": "Luke Ayling"
+            },
+            {
+                "id": 56,
+                "name": "Shane Duffy"
+            },
+            {
+                "id": 237,
+                "name": "Trent Alexander-Arnold"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 22,
+                "name": "Bukayo Saka"
+            },
+            {
+                "id": 233,
+                "name": "Mohamed Salah"
+            },
+            {
+                "id": 435,
+                "name": "Adama Traoré"
+            },
+            {
+                "id": 268,
+                "name": "Ferran Torres"
+            },
+            {
+                "id": 70,
+                "name": "Yves Bissouma"
+            }
+        ],
+        "F": [
+            {
+                "id": 177,
+                "name": "Dominic Calvert-Lewin"
+            },
+            {
+                "id": 413,
+                "name": "Michail Antonio"
+            },
+            {
+                "id": 579,
+                "name": "Cristiano Ronaldo dos Santos Aveiro"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 389,
+                "name": "Daniel Bachmann"
+            }
+        ],
+        "D": [
+            {
+                "id": 437,
+                "name": "Nélson Cabral Semedo"
+            },
+            {
+                "id": 185,
+                "name": "Luke Ayling"
+            },
+            {
+                "id": 56,
+                "name": "Shane Duffy"
+            },
+            {
+                "id": 237,
+                "name": "Trent Alexander-Arnold"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 22,
+                "name": "Bukayo Saka"
+            },
+            {
+                "id": 233,
+                "name": "Mohamed Salah"
+            },
+            {
+                "id": 435,
+                "name": "Adama Traoré"
+            },
+            {
+                "id": 268,
+                "name": "Ferran Torres"
+            },
+            {
+                "id": 70,
+                "name": "Yves Bissouma"
+            }
+        ],
+        "F": [
+            {
+                "id": 430,
+                "name": "Raúl Jiménez"
+            },
+            {
+                "id": 189,
+                "name": "Patrick Bamford"
+            },
+            {
+                "id": 579,
+                "name": "Cristiano Ronaldo dos Santos Aveiro"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 389,
+                "name": "Daniel Bachmann"
+            }
+        ],
+        "D": [
+            {
+                "id": 437,
+                "name": "Nélson Cabral Semedo"
+            },
+            {
+                "id": 185,
+                "name": "Luke Ayling"
+            },
+            {
+                "id": 56,
+                "name": "Shane Duffy"
+            },
+            {
+                "id": 237,
+                "name": "Trent Alexander-Arnold"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 22,
+                "name": "Bukayo Saka"
+            },
+            {
+                "id": 233,
+                "name": "Mohamed Salah"
+            },
+            {
+                "id": 435,
+                "name": "Adama Traoré"
+            },
+            {
+                "id": 268,
+                "name": "Ferran Torres"
+            },
+            {
+                "id": 70,
+                "name": "Yves Bissouma"
+            }
+        ],
+        "F": [
+            {
+                "id": 430,
+                "name": "Raúl Jiménez"
+            },
+            {
+                "id": 413,
+                "name": "Michail Antonio"
+            },
+            {
+                "id": 579,
+                "name": "Cristiano Ronaldo dos Santos Aveiro"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 389,
+                "name": "Daniel Bachmann"
+            }
+        ],
+        "D": [
+            {
+                "id": 437,
+                "name": "Nélson Cabral Semedo"
+            },
+            {
+                "id": 185,
+                "name": "Luke Ayling"
+            },
+            {
+                "id": 56,
+                "name": "Shane Duffy"
+            },
+            {
+                "id": 237,
+                "name": "Trent Alexander-Arnold"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 22,
+                "name": "Bukayo Saka"
+            },
+            {
+                "id": 233,
+                "name": "Mohamed Salah"
+            },
+            {
+                "id": 435,
+                "name": "Adama Traoré"
+            },
+            {
+                "id": 240,
+                "name": "Diogo Jota"
+            },
+            {
+                "id": 70,
+                "name": "Yves Bissouma"
+            }
+        ],
+        "F": [
+            {
+                "id": 430,
+                "name": "Raúl Jiménez"
+            },
+            {
+                "id": 413,
+                "name": "Michail Antonio"
+            },
+            {
+                "id": 579,
+                "name": "Cristiano Ronaldo dos Santos Aveiro"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 389,
+                "name": "Daniel Bachmann"
+            }
+        ],
+        "D": [
+            {
+                "id": 437,
+                "name": "Nélson Cabral Semedo"
+            },
+            {
+                "id": 185,
+                "name": "Luke Ayling"
+            },
+            {
+                "id": 56,
+                "name": "Shane Duffy"
+            },
+            {
+                "id": 237,
+                "name": "Trent Alexander-Arnold"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 22,
+                "name": "Bukayo Saka"
+            },
+            {
+                "id": 233,
+                "name": "Mohamed Salah"
+            },
+            {
+                "id": 196,
+                "name": "Raphael Dias Belloli"
+            },
+            {
+                "id": 240,
+                "name": "Diogo Jota"
+            },
+            {
+                "id": 70,
+                "name": "Yves Bissouma"
+            }
+        ],
+        "F": [
+            {
+                "id": 430,
+                "name": "Raúl Jiménez"
+            },
+            {
+                "id": 413,
+                "name": "Michail Antonio"
+            },
+            {
+                "id": 579,
+                "name": "Cristiano Ronaldo dos Santos Aveiro"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 389,
+                "name": "Daniel Bachmann"
+            }
+        ],
+        "D": [
+            {
+                "id": 437,
+                "name": "Nélson Cabral Semedo"
+            },
+            {
+                "id": 185,
+                "name": "Luke Ayling"
+            },
+            {
+                "id": 56,
+                "name": "Shane Duffy"
+            },
+            {
+                "id": 237,
+                "name": "Trent Alexander-Arnold"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 22,
+                "name": "Bukayo Saka"
+            },
+            {
+                "id": 233,
+                "name": "Mohamed Salah"
+            },
+            {
+                "id": 196,
+                "name": "Raphael Dias Belloli"
+            },
+            {
+                "id": 265,
+                "name": "Phil Foden"
+            },
+            {
+                "id": 70,
+                "name": "Yves Bissouma"
+            }
+        ],
+        "F": [
+            {
+                "id": 430,
+                "name": "Raúl Jiménez"
+            },
+            {
+                "id": 413,
+                "name": "Michail Antonio"
+            },
+            {
+                "id": 529,
+                "name": "Romelu Lukaku"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 556,
+                "name": "Álvaro Fernández"
+            }
+        ],
+        "D": [
+            {
+                "id": 437,
+                "name": "Nélson Cabral Semedo"
+            },
+            {
+                "id": 185,
+                "name": "Luke Ayling"
+            },
+            {
+                "id": 56,
+                "name": "Shane Duffy"
+            },
+            {
+                "id": 237,
+                "name": "Trent Alexander-Arnold"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 22,
+                "name": "Bukayo Saka"
+            },
+            {
+                "id": 233,
+                "name": "Mohamed Salah"
+            },
+            {
+                "id": 196,
+                "name": "Raphael Dias Belloli"
+            },
+            {
+                "id": 265,
+                "name": "Phil Foden"
+            },
+            {
+                "id": 70,
+                "name": "Yves Bissouma"
+            }
+        ],
+        "F": [
+            {
+                "id": 430,
+                "name": "Raúl Jiménez"
+            },
+            {
+                "id": 413,
+                "name": "Michail Antonio"
+            },
+            {
+                "id": 205,
+                "name": "Jamie Vardy"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 556,
+                "name": "Álvaro Fernández"
+            }
+        ],
+        "D": [
+            {
+                "id": 437,
+                "name": "Nélson Cabral Semedo"
+            },
+            {
+                "id": 142,
+                "name": "Reece James"
+            },
+            {
+                "id": 56,
+                "name": "Shane Duffy"
+            },
+            {
+                "id": 237,
+                "name": "Trent Alexander-Arnold"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 22,
+                "name": "Bukayo Saka"
+            },
+            {
+                "id": 233,
+                "name": "Mohamed Salah"
+            },
+            {
+                "id": 196,
+                "name": "Raphael Dias Belloli"
+            },
+            {
+                "id": 265,
+                "name": "Phil Foden"
+            },
+            {
+                "id": 70,
+                "name": "Yves Bissouma"
+            }
+        ],
+        "F": [
+            {
+                "id": 430,
+                "name": "Raúl Jiménez"
+            },
+            {
+                "id": 413,
+                "name": "Michail Antonio"
+            },
+            {
+                "id": 205,
+                "name": "Jamie Vardy"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 556,
+                "name": "Álvaro Fernández"
+            }
+        ],
+        "D": [
+            {
+                "id": 437,
+                "name": "Nélson Cabral Semedo"
+            },
+            {
+                "id": 142,
+                "name": "Reece James"
+            },
+            {
+                "id": 56,
+                "name": "Shane Duffy"
+            },
+            {
+                "id": 237,
+                "name": "Trent Alexander-Arnold"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 144,
+                "name": "Conor Gallagher"
+            },
+            {
+                "id": 233,
+                "name": "Mohamed Salah"
+            },
+            {
+                "id": 196,
+                "name": "Raphael Dias Belloli"
+            },
+            {
+                "id": 265,
+                "name": "Phil Foden"
+            },
+            {
+                "id": 70,
+                "name": "Yves Bissouma"
+            }
+        ],
+        "F": [
+            {
+                "id": 430,
+                "name": "Raúl Jiménez"
+            },
+            {
+                "id": 413,
+                "name": "Michail Antonio"
+            },
+            {
+                "id": 205,
+                "name": "Jamie Vardy"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 556,
+                "name": "Álvaro Fernández"
+            }
+        ],
+        "D": [
+            {
+                "id": 437,
+                "name": "Nélson Cabral Semedo"
+            },
+            {
+                "id": 142,
+                "name": "Reece James"
+            },
+            {
+                "id": 56,
+                "name": "Shane Duffy"
+            },
+            {
+                "id": 237,
+                "name": "Trent Alexander-Arnold"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 144,
+                "name": "Conor Gallagher"
+            },
+            {
+                "id": 233,
+                "name": "Mohamed Salah"
+            },
+            {
+                "id": 196,
+                "name": "Raphael Dias Belloli"
+            },
+            {
+                "id": 359,
+                "name": "Heung-Min Son"
+            },
+            {
+                "id": 70,
+                "name": "Yves Bissouma"
+            }
+        ],
+        "F": [
+            {
+                "id": 430,
+                "name": "Raúl Jiménez"
+            },
+            {
+                "id": 525,
+                "name": "Adam Armstrong"
+            },
+            {
+                "id": 205,
+                "name": "Jamie Vardy"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 556,
+                "name": "Álvaro Fernández"
+            }
+        ],
+        "D": [
+            {
+                "id": 437,
+                "name": "Nélson Cabral Semedo"
+            },
+            {
+                "id": 142,
+                "name": "Reece James"
+            },
+            {
+                "id": 56,
+                "name": "Shane Duffy"
+            },
+            {
+                "id": 237,
+                "name": "Trent Alexander-Arnold"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 144,
+                "name": "Conor Gallagher"
+            },
+            {
+                "id": 233,
+                "name": "Mohamed Salah"
+            },
+            {
+                "id": 196,
+                "name": "Raphael Dias Belloli"
+            },
+            {
+                "id": 359,
+                "name": "Heung-Min Son"
+            },
+            {
+                "id": 70,
+                "name": "Yves Bissouma"
+            }
+        ],
+        "F": [
+            {
+                "id": 430,
+                "name": "Raúl Jiménez"
+            },
+            {
+                "id": 525,
+                "name": "Adam Armstrong"
+            },
+            {
+                "id": 205,
+                "name": "Jamie Vardy"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 556,
+                "name": "Álvaro Fernández"
+            }
+        ],
+        "D": [
+            {
+                "id": 256,
+                "name": "João Pedro Cavaco Cancelo"
+            },
+            {
+                "id": 142,
+                "name": "Reece James"
+            },
+            {
+                "id": 56,
+                "name": "Shane Duffy"
+            },
+            {
+                "id": 237,
+                "name": "Trent Alexander-Arnold"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 240,
+                "name": "Diogo Jota"
+            },
+            {
+                "id": 233,
+                "name": "Mohamed Salah"
+            },
+            {
+                "id": 196,
+                "name": "Raphael Dias Belloli"
+            },
+            {
+                "id": 359,
+                "name": "Heung-Min Son"
+            },
+            {
+                "id": 70,
+                "name": "Yves Bissouma"
+            }
+        ],
+        "F": [
+            {
+                "id": 430,
+                "name": "Raúl Jiménez"
+            },
+            {
+                "id": 525,
+                "name": "Adam Armstrong"
+            },
+            {
+                "id": 78,
+                "name": "Ivan Toney"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 556,
+                "name": "Álvaro Fernández"
+            }
+        ],
+        "D": [
+            {
+                "id": 256,
+                "name": "João Pedro Cavaco Cancelo"
+            },
+            {
+                "id": 142,
+                "name": "Reece James"
+            },
+            {
+                "id": 56,
+                "name": "Shane Duffy"
+            },
+            {
+                "id": 237,
+                "name": "Trent Alexander-Arnold"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 240,
+                "name": "Diogo Jota"
+            },
+            {
+                "id": 233,
+                "name": "Mohamed Salah"
+            },
+            {
+                "id": 261,
+                "name": "Bernardo Mota Veiga de Carvalho e Silva"
+            },
+            {
+                "id": 359,
+                "name": "Heung-Min Son"
+            },
+            {
+                "id": 70,
+                "name": "Yves Bissouma"
+            }
+        ],
+        "F": [
+            {
+                "id": 450,
+                "name": "Emmanuel Dennis"
+            },
+            {
+                "id": 525,
+                "name": "Adam Armstrong"
+            },
+            {
+                "id": 78,
+                "name": "Ivan Toney"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 556,
+                "name": "Álvaro Fernández"
+            }
+        ],
+        "D": [
+            {
+                "id": 256,
+                "name": "João Pedro Cavaco Cancelo"
+            },
+            {
+                "id": 142,
+                "name": "Reece James"
+            },
+            {
+                "id": 56,
+                "name": "Shane Duffy"
+            },
+            {
+                "id": 237,
+                "name": "Trent Alexander-Arnold"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 240,
+                "name": "Diogo Jota"
+            },
+            {
+                "id": 233,
+                "name": "Mohamed Salah"
+            },
+            {
+                "id": 261,
+                "name": "Bernardo Mota Veiga de Carvalho e Silva"
+            },
+            {
+                "id": 154,
+                "name": "Wilfried Zaha"
+            },
+            {
+                "id": 70,
+                "name": "Yves Bissouma"
+            }
+        ],
+        "F": [
+            {
+                "id": 450,
+                "name": "Emmanuel Dennis"
+            },
+            {
+                "id": 413,
+                "name": "Michail Antonio"
+            },
+            {
+                "id": 40,
+                "name": "Ollie Watkins"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 556,
+                "name": "Álvaro Fernández"
+            }
+        ],
+        "D": [
+            {
+                "id": 256,
+                "name": "João Pedro Cavaco Cancelo"
+            },
+            {
+                "id": 142,
+                "name": "Reece James"
+            },
+            {
+                "id": 56,
+                "name": "Shane Duffy"
+            },
+            {
+                "id": 237,
+                "name": "Trent Alexander-Arnold"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 240,
+                "name": "Diogo Jota"
+            },
+            {
+                "id": 233,
+                "name": "Mohamed Salah"
+            },
+            {
+                "id": 261,
+                "name": "Bernardo Mota Veiga de Carvalho e Silva"
+            },
+            {
+                "id": 154,
+                "name": "Wilfried Zaha"
+            },
+            {
+                "id": 70,
+                "name": "Yves Bissouma"
+            }
+        ],
+        "F": [
+            {
+                "id": 450,
+                "name": "Emmanuel Dennis"
+            },
+            {
+                "id": 413,
+                "name": "Michail Antonio"
+            },
+            {
+                "id": 40,
+                "name": "Ollie Watkins"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 556,
+                "name": "Álvaro Fernández"
+            }
+        ],
+        "D": [
+            {
+                "id": 256,
+                "name": "João Pedro Cavaco Cancelo"
+            },
+            {
+                "id": 142,
+                "name": "Reece James"
+            },
+            {
+                "id": 56,
+                "name": "Shane Duffy"
+            },
+            {
+                "id": 237,
+                "name": "Trent Alexander-Arnold"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 240,
+                "name": "Diogo Jota"
+            },
+            {
+                "id": 233,
+                "name": "Mohamed Salah"
+            },
+            {
+                "id": 261,
+                "name": "Bernardo Mota Veiga de Carvalho e Silva"
+            },
+            {
+                "id": 154,
+                "name": "Wilfried Zaha"
+            },
+            {
+                "id": 26,
+                "name": "Gabriel Teodoro Martinelli Silva"
+            }
+        ],
+        "F": [
+            {
+                "id": 450,
+                "name": "Emmanuel Dennis"
+            },
+            {
+                "id": 413,
+                "name": "Michail Antonio"
+            },
+            {
+                "id": 40,
+                "name": "Ollie Watkins"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 556,
+                "name": "Álvaro Fernández"
+            }
+        ],
+        "D": [
+            {
+                "id": 256,
+                "name": "João Pedro Cavaco Cancelo"
+            },
+            {
+                "id": 142,
+                "name": "Reece James"
+            },
+            {
+                "id": 370,
+                "name": "Sergio Reguilón"
+            },
+            {
+                "id": 237,
+                "name": "Trent Alexander-Arnold"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 240,
+                "name": "Diogo Jota"
+            },
+            {
+                "id": 233,
+                "name": "Mohamed Salah"
+            },
+            {
+                "id": 261,
+                "name": "Bernardo Mota Veiga de Carvalho e Silva"
+            },
+            {
+                "id": 420,
+                "name": "Jarrod Bowen"
+            },
+            {
+                "id": 26,
+                "name": "Gabriel Teodoro Martinelli Silva"
+            }
+        ],
+        "F": [
+            {
+                "id": 450,
+                "name": "Emmanuel Dennis"
+            },
+            {
+                "id": 413,
+                "name": "Michail Antonio"
+            },
+            {
+                "id": 40,
+                "name": "Ollie Watkins"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 556,
+                "name": "Álvaro Fernández"
+            }
+        ],
+        "D": [
+            {
+                "id": 256,
+                "name": "João Pedro Cavaco Cancelo"
+            },
+            {
+                "id": 44,
+                "name": "Matthew Cash"
+            },
+            {
+                "id": 370,
+                "name": "Sergio Reguilón"
+            },
+            {
+                "id": 237,
+                "name": "Trent Alexander-Arnold"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 240,
+                "name": "Diogo Jota"
+            },
+            {
+                "id": 359,
+                "name": "Heung-Min Son"
+            },
+            {
+                "id": 261,
+                "name": "Bernardo Mota Veiga de Carvalho e Silva"
+            },
+            {
+                "id": 420,
+                "name": "Jarrod Bowen"
+            },
+            {
+                "id": 26,
+                "name": "Gabriel Teodoro Martinelli Silva"
+            }
+        ],
+        "F": [
+            {
+                "id": 450,
+                "name": "Emmanuel Dennis"
+            },
+            {
+                "id": 413,
+                "name": "Michail Antonio"
+            },
+            {
+                "id": 40,
+                "name": "Ollie Watkins"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 556,
+                "name": "Álvaro Fernández"
+            }
+        ],
+        "D": [
+            {
+                "id": 256,
+                "name": "João Pedro Cavaco Cancelo"
+            },
+            {
+                "id": 44,
+                "name": "Matthew Cash"
+            },
+            {
+                "id": 370,
+                "name": "Sergio Reguilón"
+            },
+            {
+                "id": 237,
+                "name": "Trent Alexander-Arnold"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 240,
+                "name": "Diogo Jota"
+            },
+            {
+                "id": 277,
+                "name": "Bruno Miguel Borges Fernandes"
+            },
+            {
+                "id": 261,
+                "name": "Bernardo Mota Veiga de Carvalho e Silva"
+            },
+            {
+                "id": 420,
+                "name": "Jarrod Bowen"
+            },
+            {
+                "id": 26,
+                "name": "Gabriel Teodoro Martinelli Silva"
+            }
+        ],
+        "F": [
+            {
+                "id": 450,
+                "name": "Emmanuel Dennis"
+            },
+            {
+                "id": 413,
+                "name": "Michail Antonio"
+            },
+            {
+                "id": 40,
+                "name": "Ollie Watkins"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 556,
+                "name": "Álvaro Fernández"
+            }
+        ],
+        "D": [
+            {
+                "id": 256,
+                "name": "João Pedro Cavaco Cancelo"
+            },
+            {
+                "id": 44,
+                "name": "Matthew Cash"
+            },
+            {
+                "id": 370,
+                "name": "Sergio Reguilón"
+            },
+            {
+                "id": 237,
+                "name": "Trent Alexander-Arnold"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 240,
+                "name": "Diogo Jota"
+            },
+            {
+                "id": 277,
+                "name": "Bruno Miguel Borges Fernandes"
+            },
+            {
+                "id": 196,
+                "name": "Raphael Dias Belloli"
+            },
+            {
+                "id": 420,
+                "name": "Jarrod Bowen"
+            },
+            {
+                "id": 26,
+                "name": "Gabriel Teodoro Martinelli Silva"
+            }
+        ],
+        "F": [
+            {
+                "id": 450,
+                "name": "Emmanuel Dennis"
+            },
+            {
+                "id": 413,
+                "name": "Michail Antonio"
+            },
+            {
+                "id": 40,
+                "name": "Ollie Watkins"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 559,
+                "name": "Aaron Ramsdale"
+            }
+        ],
+        "D": [
+            {
+                "id": 256,
+                "name": "João Pedro Cavaco Cancelo"
+            },
+            {
+                "id": 44,
+                "name": "Matthew Cash"
+            },
+            {
+                "id": 370,
+                "name": "Sergio Reguilón"
+            },
+            {
+                "id": 237,
+                "name": "Trent Alexander-Arnold"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 240,
+                "name": "Diogo Jota"
+            },
+            {
+                "id": 277,
+                "name": "Bruno Miguel Borges Fernandes"
+            },
+            {
+                "id": 196,
+                "name": "Raphael Dias Belloli"
+            },
+            {
+                "id": 420,
+                "name": "Jarrod Bowen"
+            },
+            {
+                "id": 26,
+                "name": "Gabriel Teodoro Martinelli Silva"
+            }
+        ],
+        "F": [
+            {
+                "id": 450,
+                "name": "Emmanuel Dennis"
+            },
+            {
+                "id": 413,
+                "name": "Michail Antonio"
+            },
+            {
+                "id": 40,
+                "name": "Ollie Watkins"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 559,
+                "name": "Aaron Ramsdale"
+            }
+        ],
+        "D": [
+            {
+                "id": 256,
+                "name": "João Pedro Cavaco Cancelo"
+            },
+            {
+                "id": 44,
+                "name": "Matthew Cash"
+            },
+            {
+                "id": 370,
+                "name": "Sergio Reguilón"
+            },
+            {
+                "id": 237,
+                "name": "Trent Alexander-Arnold"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 240,
+                "name": "Diogo Jota"
+            },
+            {
+                "id": 277,
+                "name": "Bruno Miguel Borges Fernandes"
+            },
+            {
+                "id": 196,
+                "name": "Raphael Dias Belloli"
+            },
+            {
+                "id": 420,
+                "name": "Jarrod Bowen"
+            },
+            {
+                "id": 51,
+                "name": "Jacob Ramsey"
+            }
+        ],
+        "F": [
+            {
+                "id": 450,
+                "name": "Emmanuel Dennis"
+            },
+            {
+                "id": 413,
+                "name": "Michail Antonio"
+            },
+            {
+                "id": 40,
+                "name": "Ollie Watkins"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 559,
+                "name": "Aaron Ramsdale"
+            }
+        ],
+        "D": [
+            {
+                "id": 256,
+                "name": "João Pedro Cavaco Cancelo"
+            },
+            {
+                "id": 44,
+                "name": "Matthew Cash"
+            },
+            {
+                "id": 370,
+                "name": "Sergio Reguilón"
+            },
+            {
+                "id": 237,
+                "name": "Trent Alexander-Arnold"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 681,
+                "name": "Philippe Coutinho Correia"
+            },
+            {
+                "id": 22,
+                "name": "Bukayo Saka"
+            },
+            {
+                "id": 196,
+                "name": "Raphael Dias Belloli"
+            },
+            {
+                "id": 420,
+                "name": "Jarrod Bowen"
+            },
+            {
+                "id": 233,
+                "name": "Mohamed Salah"
+            }
+        ],
+        "F": [
+            {
+                "id": 450,
+                "name": "Emmanuel Dennis"
+            },
+            {
+                "id": 413,
+                "name": "Michail Antonio"
+            },
+            {
+                "id": 40,
+                "name": "Ollie Watkins"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 112,
+                "name": "Nick Pope"
+            },
+            {
+                "id": 572,
+                "name": "Arthur Okonkwo"
+            }
+        ],
+        "D": [
+            {
+                "id": 256,
+                "name": "João Pedro Cavaco Cancelo"
+            },
+            {
+                "id": 106,
+                "name": "Ben Mee"
+            },
+            {
+                "id": 208,
+                "name": "Daniel Amartey"
+            },
+            {
+                "id": 510,
+                "name": "José Diogo Dalot Teixeira"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 254,
+                "name": "Riyad Mahrez"
+            },
+            {
+                "id": 255,
+                "name": "Raheem Sterling"
+            },
+            {
+                "id": 485,
+                "name": "Jadon Sancho"
+            },
+            {
+                "id": 359,
+                "name": "Heung-Min Son"
+            },
+            {
+                "id": 145,
+                "name": "Billy Gilmour"
+            }
+        ],
+        "F": [
+            {
+                "id": 518,
+                "name": "Armando Broja"
+            },
+            {
+                "id": 357,
+                "name": "Harry Kane"
+            },
+            {
+                "id": 700,
+                "name": "Wout Weghorst"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 559,
+                "name": "Aaron Ramsdale"
+            }
+        ],
+        "D": [
+            {
+                "id": 127,
+                "name": "Antonio Rüdiger"
+            },
+            {
+                "id": 44,
+                "name": "Matthew Cash"
+            },
+            {
+                "id": 439,
+                "name": "Max Kilman"
+            },
+            {
+                "id": 237,
+                "name": "Trent Alexander-Arnold"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 681,
+                "name": "Philippe Coutinho Correia"
+            },
+            {
+                "id": 22,
+                "name": "Bukayo Saka"
+            },
+            {
+                "id": 196,
+                "name": "Raphael Dias Belloli"
+            },
+            {
+                "id": 420,
+                "name": "Jarrod Bowen"
+            },
+            {
+                "id": 233,
+                "name": "Mohamed Salah"
+            }
+        ],
+        "F": [
+            {
+                "id": 450,
+                "name": "Emmanuel Dennis"
+            },
+            {
+                "id": 430,
+                "name": "Raúl Jiménez"
+            },
+            {
+                "id": 40,
+                "name": "Ollie Watkins"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 559,
+                "name": "Aaron Ramsdale"
+            }
+        ],
+        "D": [
+            {
+                "id": 127,
+                "name": "Antonio Rüdiger"
+            },
+            {
+                "id": 44,
+                "name": "Matthew Cash"
+            },
+            {
+                "id": 439,
+                "name": "Max Kilman"
+            },
+            {
+                "id": 237,
+                "name": "Trent Alexander-Arnold"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 681,
+                "name": "Philippe Coutinho Correia"
+            },
+            {
+                "id": 22,
+                "name": "Bukayo Saka"
+            },
+            {
+                "id": 196,
+                "name": "Raphael Dias Belloli"
+            },
+            {
+                "id": 171,
+                "name": "Allan Marques Loureiro"
+            },
+            {
+                "id": 233,
+                "name": "Mohamed Salah"
+            }
+        ],
+        "F": [
+            {
+                "id": 450,
+                "name": "Emmanuel Dennis"
+            },
+            {
+                "id": 430,
+                "name": "Raúl Jiménez"
+            },
+            {
+                "id": 357,
+                "name": "Harry Kane"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 69,
+                "name": "Robert Sánchez"
+            },
+            {
+                "id": 559,
+                "name": "Aaron Ramsdale"
+            }
+        ],
+        "D": [
+            {
+                "id": 127,
+                "name": "Antonio Rüdiger"
+            },
+            {
+                "id": 44,
+                "name": "Matthew Cash"
+            },
+            {
+                "id": 439,
+                "name": "Max Kilman"
+            },
+            {
+                "id": 237,
+                "name": "Trent Alexander-Arnold"
+            },
+            {
+                "id": 491,
+                "name": "Tino Livramento"
+            }
+        ],
+        "M": [
+            {
+                "id": 681,
+                "name": "Philippe Coutinho Correia"
+            },
+            {
+                "id": 22,
+                "name": "Bukayo Saka"
+            },
+            {
+                "id": 196,
+                "name": "Raphael Dias Belloli"
+            },
+            {
+                "id": 215,
+                "name": "Harvey Barnes"
+            },
+            {
+                "id": 359,
+                "name": "Heung-Min Son"
+            }
+        ],
+        "F": [
+            {
+                "id": 450,
+                "name": "Emmanuel Dennis"
+            },
+            {
+                "id": 430,
+                "name": "Raúl Jiménez"
+            },
+            {
+                "id": 357,
+                "name": "Harry Kane"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 112,
+                "name": "Nick Pope"
+            },
+            {
+                "id": 200,
+                "name": "Kasper Schmeichel"
+            }
+        ],
+        "D": [
+            {
+                "id": 142,
+                "name": "Reece James"
+            },
+            {
+                "id": 234,
+                "name": "Andrew Robertson"
+            },
+            {
+                "id": 67,
+                "name": "Ben White"
+            },
+            {
+                "id": 585,
+                "name": "Connor Roberts"
+            },
+            {
+                "id": 256,
+                "name": "João Pedro Cavaco Cancelo"
+            }
+        ],
+        "M": [
+            {
+                "id": 419,
+                "name": "Saïd Benrahma"
+            },
+            {
+                "id": 22,
+                "name": "Bukayo Saka"
+            },
+            {
+                "id": 141,
+                "name": "Kai Havertz"
+            },
+            {
+                "id": 485,
+                "name": "Jadon Sancho"
+            },
+            {
+                "id": 212,
+                "name": "James Maddison"
+            }
+        ],
+        "F": [
+            {
+                "id": 472,
+                "name": "Juan Camilo Hernández Suárez"
+            },
+            {
+                "id": 700,
+                "name": "Wout Weghorst"
+            },
+            {
+                "id": 357,
+                "name": "Harry Kane"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 112,
+                "name": "Nick Pope"
+            },
+            {
+                "id": 200,
+                "name": "Kasper Schmeichel"
+            }
+        ],
+        "D": [
+            {
+                "id": 142,
+                "name": "Reece James"
+            },
+            {
+                "id": 234,
+                "name": "Andrew Robertson"
+            },
+            {
+                "id": 67,
+                "name": "Ben White"
+            },
+            {
+                "id": 585,
+                "name": "Connor Roberts"
+            },
+            {
+                "id": 256,
+                "name": "João Pedro Cavaco Cancelo"
+            }
+        ],
+        "M": [
+            {
+                "id": 419,
+                "name": "Saïd Benrahma"
+            },
+            {
+                "id": 22,
+                "name": "Bukayo Saka"
+            },
+            {
+                "id": 141,
+                "name": "Kai Havertz"
+            },
+            {
+                "id": 485,
+                "name": "Jadon Sancho"
+            },
+            {
+                "id": 212,
+                "name": "James Maddison"
+            }
+        ],
+        "F": [
+            {
+                "id": 472,
+                "name": "Juan Camilo Hernández Suárez"
+            },
+            {
+                "id": 700,
+                "name": "Wout Weghorst"
+            },
+            {
+                "id": 357,
+                "name": "Harry Kane"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 112,
+                "name": "Nick Pope"
+            },
+            {
+                "id": 200,
+                "name": "Kasper Schmeichel"
+            }
+        ],
+        "D": [
+            {
+                "id": 142,
+                "name": "Reece James"
+            },
+            {
+                "id": 234,
+                "name": "Andrew Robertson"
+            },
+            {
+                "id": 67,
+                "name": "Ben White"
+            },
+            {
+                "id": 585,
+                "name": "Connor Roberts"
+            },
+            {
+                "id": 256,
+                "name": "João Pedro Cavaco Cancelo"
+            }
+        ],
+        "M": [
+            {
+                "id": 701,
+                "name": "Dejan Kulusevski"
+            },
+            {
+                "id": 22,
+                "name": "Bukayo Saka"
+            },
+            {
+                "id": 141,
+                "name": "Kai Havertz"
+            },
+            {
+                "id": 485,
+                "name": "Jadon Sancho"
+            },
+            {
+                "id": 212,
+                "name": "James Maddison"
+            }
+        ],
+        "F": [
+            {
+                "id": 472,
+                "name": "Juan Camilo Hernández Suárez"
+            },
+            {
+                "id": 700,
+                "name": "Wout Weghorst"
+            },
+            {
+                "id": 357,
+                "name": "Harry Kane"
+            }
+        ]
+    },
+    {
+        "G": [
+            {
+                "id": 376,
+                "name": "Ben Foster"
+            },
+            {
+                "id": 200,
+                "name": "Kasper Schmeichel"
+            }
+        ],
+        "D": [
+            {
+                "id": 142,
+                "name": "Reece James"
+            },
+            {
+                "id": 234,
+                "name": "Andrew Robertson"
+            },
+            {
+                "id": 67,
+                "name": "Ben White"
+            },
+            {
+                "id": 585,
+                "name": "Connor Roberts"
+            },
+            {
+                "id": 256,
+                "name": "João Pedro Cavaco Cancelo"
+            }
+        ],
+        "M": [
+            {
+                "id": 359,
+                "name": "Heung-Min Son"
+            },
+            {
+                "id": 22,
+                "name": "Bukayo Saka"
+            },
+            {
+                "id": 141,
+                "name": "Kai Havertz"
+            },
+            {
+                "id": 233,
+                "name": "Mohamed Salah"
+            },
+            {
+                "id": 212,
+                "name": "James Maddison"
+            }
+        ],
+        "F": [
+            {
+                "id": 472,
+                "name": "Juan Camilo Hernández Suárez"
+            },
+            {
+                "id": 700,
+                "name": "Wout Weghorst"
+            },
+            {
+                "id": 315,
+                "name": "Teemu Pukki"
+            }
+        ]
+    }
+]
