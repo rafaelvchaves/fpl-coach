@@ -2598,7 +2598,7 @@
     },
     {
         "fpl_id": 225,
-        "understat_id": null,
+        "understat_id": 229,
         "fpl_name": "Thiago Alcántara do Nascimento",
         "team_name": "Liverpool",
         "position": "M"
@@ -4180,7 +4180,7 @@
     },
     {
         "fpl_id": 588,
-        "understat_id": 1245,
+        "understat_id": 7430,
         "fpl_name": "Emerson Aparecido Leite de Souza Junior",
         "team_name": "Spurs",
         "position": "D"
