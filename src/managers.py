@@ -1,14 +1,17 @@
-import os
+"""Loads a FPL manager's complete team history."""
 import requests
+from constants import FPL_SQUAD_URL
+from players import get_player_index
 
-session = requests.session()
+player_idx = get_player_index()
+team_gw1 = requests.get(FPL_SQUAD_URL.format(505657, 1)).json()["picks"]
+team = {}
+for player in team_gw1:
+    player_id = player["element"]
+    position = player_idx[player_id]["position"]
+    if not position in team:
+        team[position] = [[]]
+    name = player_idx[player_id]["fpl_name"]
+    team[position][0].append(name)
 
-url = "https://users.premierleague.com/accounts/login/"
-payload = {
-    "password": os.environ["FPL_PASSWORD"],
-    "login": os.environ["FPL_USERNAME"],
-    "redirect_uri": "https://fantasy.premierleague.com/a/login/",
-    "app": "plfpl-web"
-}
-print(session.post(url, data=payload))
-# response = session.get('https://fantasy.premierleague.com/api/my-team/505657/')
+print(team)
