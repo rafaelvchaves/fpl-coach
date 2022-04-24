@@ -104,11 +104,13 @@ async def get_understat_fixtures() -> Dict[str, Dict[str, int]]:
         update_fixtures(fixture_ids, upcoming_fixtures)
     return fixture_ids
 
+
 def fixture_id_map() -> Dict[int, int]:
     """Returns a map from understat fixture ids to FPL fixture ids."""
     db = MySQLManager()
     ids = db.exec_query("SELECT understat_id, fpl_id FROM fixtures")
     return dict(ids)
+
 
 def get_match_stats(home_team: str, away_team: str) -> pd.DataFrame:
     """Returns a single row of a pandas DataFrame with match stats.
@@ -157,32 +159,9 @@ def get_fixtures() -> Rows:
     return rows
 
 
-def compute_team_xg_averages(db: MySQLManager) -> None:
-    """Averages team xG data and writes to the team_gws table.
-
-    Averages are calculated with an exponential moving average (EMA)."""
-    teams = get_fpl_teams()
-    for team in teams:
-        team_name = team["fpl_name"]
-        query = """SELECT * FROM team_gws
-        WHERE gameweek IS NOT NULL
-        ORDER BY kickoff_date"""
-        df = db.get_df(query)
-        team_rows = df[df["team"] == team_name].reset_index()
-        team_xg = get_ema(team_rows["team_xG"])
-        team_xga = get_ema(team_rows["team_xGA"])
-        for i, team_row in team_rows.iterrows():
-            db.update_row(
-                "team_gws",
-                {"fixture_id": team_row["fixture_id"], "team": team_name},
-                {"avg_team_xG": team_xg[i], "avg_team_xGA": team_xg[i]}
-            )
-
-
 if __name__ == "__main__":
     db = MySQLManager()
     fixture_rows = get_fixtures()
     db.insert_rows("fixtures", fixture_rows)
     team_gws = get_team_gws(fixture_rows)
     db.insert_rows("team_gws", team_gws)
-    compute_team_xg_averages(db)

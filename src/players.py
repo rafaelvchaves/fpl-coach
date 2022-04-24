@@ -69,7 +69,7 @@ def clean_name(name):
 
 
 async def get_ustat_players():
-    """Retrieves list of players from understat."""
+    """Retrieves list of players from Understat."""
     async with aiohttp.ClientSession() as session:
         understat = Understat(session)
         ustat_players = await understat.get_league_players(
@@ -108,7 +108,7 @@ def get_player_list(cache=True):
 
     Args:
         cache: Whether to load the data from a file cache rather than calling
-          the FPL API. Defaults to True.
+          the FPL API. Default is True.
 
     Returns:
         A list of dictionaries, with the same keys as specified in
@@ -140,12 +140,14 @@ def get_player_list(cache=True):
 def create_player_map(key_col: str, val_col: Optional[str]):
     """Returns a dictionary from key_col to val_col.
 
-    The options for key_col are 'fpl_id', 'understat_id', 'fpl_name', and the
-    options for val_col are 'fpl_id', 'understat_id', 'fpl_name', 'team_name',
-    'position', and None. If val_col is None, the values of the dictionary
-    are the entire player jsons."""
+    Args:
+        key_col: A value in ['fpl_id', 'understat_id', 'fpl_name'].
+        value_col: A value in ['fpl_id', 'understat_id', 'fpl_name', 'team_name',
+          'position', None]. If val_col is None, the keys are mapped to the
+          entire player json.
+    """
     if val_col is None:
-        return {player["fpl_id"]: player for player in get_player_list()}
+        return {player[key_col]: player for player in get_player_list()}
     return {player[key_col]: player[val_col] for player in get_player_list()}
 
 
