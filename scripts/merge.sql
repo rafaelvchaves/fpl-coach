@@ -37,3 +37,4 @@ FROM player_gws
   INNER JOIN team_gws AS T2 ON T1.opponent = T2.team
   AND T1.fixture_id = T2.fixture_id
   INNER JOIN players ON player_gws.player_id = players.fpl_id
+ORDER BY T1.kickoff_date, player_name
