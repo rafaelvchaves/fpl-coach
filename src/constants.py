@@ -17,16 +17,18 @@ FPL_TRANSFERS_URL = "https://fantasy.premierleague.com/api/entry/{}/transfers/"
 FTE_MATCHES_URL = "https://projects.fivethirtyeight.com/soccer-api/club/spi_matches_latest.csv"
 
 # Data files
-DATA_DIR = "../data"
-FIXTURES_FILE = join(DATA_DIR, "fixtures.csv")
-GW_HISTORY_FILE = join(DATA_DIR, "gw_history.csv")
-OPTIONS_FILE = join(DATA_DIR, "filter_options.json")
-PLAYERS_FILE = join(DATA_DIR, f"players_{CURRENT_SEASON}.json")
-RUNS_FILE = join(DATA_DIR, "runs.json")
-TEAMS_FILE = join(DATA_DIR, f"teams_{CURRENT_SEASON}.json")
-TEAM_HISTORY_FILE = join(DATA_DIR, "team_history.json")
-TEAM_OPTIONS_FILE = join(DATA_DIR, "team_options.json")
-UNDERSTAT_PLAYER_FILE = join(DATA_DIR, "understat_player_data.json")
+JSON_DIR = "../data/json"
+CSV_DIR = "../data/csv"
+BACKUP_DIR = "../data/backups"
+FIXTURES_FILE = join(CSV_DIR, "fixtures.csv")
+GW_HISTORY_FILE = join(CSV_DIR, "gw_history.csv")
+OPTIONS_FILE = join(JSON_DIR, "filter_options.json")
+PLAYERS_FILE = join(JSON_DIR, f"players_{CURRENT_SEASON}.json")
+RUNS_FILE = join(JSON_DIR, "runs.json")
+TEAMS_FILE = join(JSON_DIR, f"teams_{CURRENT_SEASON}.json")
+TEAM_HISTORY_FILE = join(JSON_DIR, "team_history.json")
+TEAM_OPTIONS_FILE = join(JSON_DIR, "team_options.json")
+UNDERSTAT_PLAYER_FILE = join(JSON_DIR, "understat_player_data.json")
 
 # Scripts
 SCRIPT_DIR = "../scripts"

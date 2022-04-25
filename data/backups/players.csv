@@ -1,0 +1,727 @@
+fpl_id,understat_id,fpl_name,position,team_name
+1,181.0,Bernd Leno,G,Arsenal
+2,,Rúnar Alex Rúnarsson,G,Arsenal
+3,,Willian Borges Da Silva,M,Arsenal
+4,318.0,Pierre-Emerick Aubameyang,F,Arsenal
+5,847.0,Cédric Soares,D,Arsenal
+6,3277.0,Alexandre Lacazette,F,Arsenal
+7,204.0,Granit Xhaka,M,Arsenal
+8,8380.0,Pablo Marí,D,Arsenal
+9,,Héctor Bellerín,D,Arsenal
+10,508.0,Calum Chambers,D,Aston Villa
+11,342.0,Sead Kolasinac,D,Arsenal
+12,496.0,Mohamed Naser El Sayed Elneny,M,Arsenal
+13,1750.0,Ainsley Maitland-Niles,M,Arsenal
+14,1749.0,Rob Holding,D,Arsenal
+15,2328.0,Thomas Partey,M,Arsenal
+16,8089.0,Kieran Tierney,D,Arsenal
+17,5656.0,Nicolas Pépé,M,Arsenal
+18,,Lucas Torreira,M,Arsenal
+19,6630.0,Joseph Willock,M,Newcastle
+20,6482.0,Edward Nketiah,F,Arsenal
+21,7230.0,Emile Smith Rowe,M,Arsenal
+22,7322.0,Bukayo Saka,M,Arsenal
+23,5613.0,Gabriel Magalhães,D,Arsenal
+24,,Konstantinos Mavropanos,D,Arsenal
+25,,Mattéo Guendouzi,M,Arsenal
+26,7752.0,Gabriel Teodoro Martinelli Silva,M,Arsenal
+27,,William Saliba,D,Arsenal
+28,4475.0,Jed Steer,G,Aston Villa
+29,,Conor Hourihane,M,Aston Villa
+30,4401.0,Emiliano Martínez,G,Aston Villa
+31,,Björn Engels,D,Aston Villa
+32,695.0,Bertrand Traoré,M,Aston Villa
+33,675.0,Jack Grealish,M,Man City
+34,3696.0,Morgan Sanson,M,Aston Villa
+35,7723.0,John McGinn,M,Aston Villa
+36,6859.0,Kortney Hause,D,Aston Villa
+37,7722.0,Mahmoud Ahmed Ibrahim Hassan,M,Aston Villa
+38,1024.0,Tyrone Mings,D,Aston Villa
+39,884.0,Matt Targett,D,Newcastle
+40,8865.0,Ollie Watkins,F,Aston Villa
+41,8040.0,Marvelous Nakamba,M,Aston Villa
+42,5612.0,Anwar El Ghazi,M,Everton
+43,2203.0,Emiliano Buendía Stati,M,Aston Villa
+44,8864.0,Matthew Cash,D,Aston Villa
+45,7726.0,Ezri Konsa Ngoyo,D,Aston Villa
+46,,Frédéric Guilbert,D,Aston Villa
+47,7724.0,Wesley Moraes,F,Aston Villa
+48,,Mbwana Ally Samatta,F,Aston Villa
+49,1053.0,Keinan Davis,F,Aston Villa
+50,6122.0,Douglas Luiz Soares de Paulo,M,Aston Villa
+51,8941.0,Jacob Ramsey,M,Aston Villa
+52,631.0,Ashley Young,D,Aston Villa
+53,486.0,Adam Lallana,M,Brighton
+54,7235.0,Jason Steele,G,Brighton
+55,239.0,Pascal Groß,M,Brighton
+56,6047.0,Shane Duffy,D,Brighton
+57,,Davy Pröpper,M,Brighton
+58,7382.0,Dan Burn,D,Newcastle
+59,6048.0,Lewis Dunk,D,Brighton
+60,6049.0,Solomon March,M,Brighton
+61,7699.0,Adam Webster,D,Brighton
+62,8780.0,Joël Veltman,D,Brighton
+63,3621.0,Neal Maupay,F,Brighton
+64,7698.0,Leandro Trossard,M,Brighton
+65,,Mathew Ryan,G,Brighton
+66,,Alireza Jahanbakhsh,M,Brighton
+67,7298.0,Ben White,D,Arsenal
+68,,Bernardo Fernandes Da Silva Junior,D,Brighton
+69,9098.0,Robert Sánchez,G,Brighton
+70,5609.0,Yves Bissouma,M,Brighton
+71,8226.0,Tariq Lamptey,D,Brighton
+72,7991.0,Aaron Connolly,F,Brighton
+73,8020.0,Steven Alzate,M,Brighton
+74,8379.0,Alexis Mac Allister,M,Brighton
+75,9284.0,Jakub Moder,M,Brighton
+76,1801.0,Pontus Jansson,D,Brentford
+77,7083.0,Christian Nørgaard,M,Brentford
+78,998.0,Ivan Toney,F,Brentford
+79,10092.0,Tariqe Fosu-Henry,M,Brentford
+80,9676.0,David Raya Martin,G,Brentford
+81,1078.0,Sergi Canós,M,Brentford
+82,10405.0,Pelenda Joshua Dasilva,M,Brentford
+83,9679.0,Rico Henry,D,Brentford
+84,9680.0,Vitaly Janelt,M,Brentford
+85,7069.0,Saman Ghoddos,M,Brentford
+86,7166.0,Mathias Jensen,M,Brentford
+87,9687.0,Charlie Goode,D,Brentford
+88,9684.0,Marcus Forss,F,Brentford
+89,9685.0,Mads Roerslev Rasmussen,D,Brentford
+90,9683.0,Mads Bech Sørensen,D,Brentford
+91,9678.0,Ethan Pinnock,D,Brentford
+92,,Ellery Balcombe,G,Brentford
+93,,Jan Zamburek,M,Brentford
+94,,Patrik Gunnarsson,G,Brentford
+95,,Halil Dervişoğlu,F,Brentford
+96,6552.0,Bryan Mbeumo,M,Brentford
+97,9682.0,Mads Bidstrup,M,Brentford
+98,1665.0,James Tarkowski,D,Burnley
+99,,Phil Bardsley,D,Burnley
+100,887.0,Erik Pieters,D,Burnley
+101,712.0,Jack Cork,M,Burnley
+102,6051.0,Dale Stephens,M,Burnley
+103,1747.0,Kevin Long,D,Burnley
+104,844.0,Jay Rodriguez,F,Burnley
+105,4422.0,Ashley Barnes,F,Burnley
+106,1654.0,Ben Mee,D,Burnley
+107,669.0,Ashley Westwood,M,Burnley
+108,1663.0,Johann Berg Gudmundsson,M,Burnley
+109,4456.0,Chris Wood,F,Newcastle
+110,1652.0,Matthew Lowton,D,Burnley
+111,1017.0,Matej Vydra,F,Burnley
+112,5552.0,Nick Pope,G,Burnley
+113,6044.0,Charlie Taylor,D,Burnley
+114,,Will Norris,G,Burnley
+115,8323.0,Josh Brownhill,M,Burnley
+116,,Josh Benson,M,Burnley
+117,,Bailey Peacock-Farrell,G,Burnley
+118,6756.0,Dwight McNeil,M,Burnley
+119,681.0,César Azpilicueta,D,Chelsea
+120,,Olivier Giroud,F,Chelsea
+121,3288.0,Thiago Emiliano da Silva,D,Chelsea
+122,1621.0,Marcos Alonso,D,Chelsea
+123,1389.0,Jorge Luiz Frello Filho,M,Chelsea
+124,592.0,Ross Barkley,M,Chelsea
+125,2254.0,Mateo Kovacic,M,Chelsea
+126,,Michy Batshuayi,F,Chelsea
+127,1822.0,Antonio Rüdiger,D,Chelsea
+128,935.0,Kurt Zouma,D,West Ham
+129,5061.0,Kepa Arrizabalaga,G,Chelsea
+130,751.0,N'Golo Kanté,M,Chelsea
+131,8992.0,Hakim Ziyech,M,Chelsea
+132,688.0,Ruben Loftus-Cheek,M,Chelsea
+133,200.0,Andreas Christensen,D,Chelsea
+134,65.0,Timo Werner,F,Chelsea
+135,782.0,Benjamin Chilwell,D,Chelsea
+136,,Tammy Abraham,F,Chelsea
+137,2662.0,Christian Pulisic,M,Chelsea
+138,7768.0,Mason Mount,M,Chelsea
+139,,Ethan Ampadu,D,Chelsea
+140,6456.0,Callum Hudson-Odoi,M,Chelsea
+141,5220.0,Kai Havertz,M,Chelsea
+142,8067.0,Reece James,D,Chelsea
+143,6880.0,Edouard Mendy,G,Chelsea
+144,9040.0,Conor Gallagher,M,Crystal Palace
+145,7988.0,Billy Gilmour,M,Norwich
+146,2190.0,Vicente Guaita,G,Crystal Palace
+147,530.0,James Tomkins,D,Crystal Palace
+148,633.0,James McArthur,M,Crystal Palace
+149,606.0,Christian Benteke,F,Crystal Palace
+150,532.0,Cheikhou Kouyaté,D,Crystal Palace
+151,,Martin Kelly,D,Crystal Palace
+152,5549.0,Luka Milivojevic,M,Crystal Palace
+153,672.0,Jordan Ayew,F,Crystal Palace
+154,522.0,Wilfried Zaha,M,Crystal Palace
+155,757.0,Jeffrey Schlupp,M,Crystal Palace
+156,856.0,Jack Butland,G,Crystal Palace
+157,6027.0,Jairo Riedewald,M,Crystal Palace
+158,,Jarosław Jach,D,Crystal Palace
+159,5735.0,Jean-Philippe Mateta,F,Crystal Palace
+160,8706.0,Eberechi Eze,M,Crystal Palace
+161,6451.0,Nathan Ferguson,D,Crystal Palace
+162,8214.0,Tyrick Mitchell,D,Crystal Palace
+163,876.0,Fabian Delph,M,Everton
+164,,Gylfi Sigurdsson,M,Everton
+165,585.0,Seamus Coleman,D,Everton
+166,,James Rodríguez,M,Everton
+167,,Bernard Anício Caldeira Duarte,M,Everton
+168,1823.0,Lucas Digne,D,Aston Villa
+169,1653.0,Michael Keane,D,Everton
+170,741.0,Jordan Pickford,G,Everton
+171,1379.0,Allan Marques Loureiro,M,Everton
+172,2383.0,André Filipe Tavares Gomes,M,Everton
+173,1726.0,Abdoulaye Doucouré,M,Everton
+174,500.0,Alex Iwobi,M,Everton
+175,6521.0,Yerry Mina,D,Everton
+176,1042.0,Tom Davies,M,Everton
+177,5555.0,Dominic Calvert-Lewin,F,Everton
+178,985.0,Mason Holgate,D,Everton
+179,7689.0,Ben Godfrey,D,Everton
+180,6026.0,Richarlison de Andrade,F,Everton
+181,,João Virgínia,G,Everton
+182,,Pablo Hernández Domínguez,M,Leeds
+183,,Francisco Casilla Cortés,G,Leeds
+184,8816.0,Liam Cooper,D,Leeds
+185,8716.0,Luke Ayling,D,Leeds
+186,4381.0,Mateusz Klich,M,Leeds
+187,2381.0,Rodrigo Moreno,F,Leeds
+188,8718.0,Stuart Dallas,M,Leeds
+189,822.0,Patrick Bamford,F,Leeds
+190,2163.0,Diego Llorente,D,Leeds
+191,8719.0,Kalvin Phillips,M,Leeds
+192,3428.0,Hélder Wander Sousa de Azevedo e Costa,M,Leeds
+193,1014.0,Tyler Roberts,M,Leeds
+194,6273.0,Robin Koch,D,Leeds
+195,,Ian Carlo Poveda-Ocampo,M,Leeds
+196,8026.0,Raphael Dias Belloli,M,Leeds
+197,8721.0,Jamie Shackleton,M,Leeds
+198,8717.0,Pascal Struijk,D,Leeds
+199,8715.0,Illan Meslier,G,Leeds
+200,745.0,Kasper Schmeichel,G,Leicester
+201,807.0,Jonny Evans,D,Leicester
+202,753.0,Marc Albrighton,M,Leicester
+203,1785.0,Nampalys Mendy,M,Leicester
+204,,Danny Ward,G,Leicester
+205,755.0,Jamie Vardy,F,Leicester
+206,,Dennis Praet,M,Leicester
+207,3303.0,Ricardo Domingos Barbosa Pereira,D,Leicester
+208,759.0,Daniel Amartey,D,Leicester
+209,6157.0,Timothy Castagne,D,Leicester
+210,5956.0,Youri Tielemans,M,Leicester
+211,770.0,Ayoze Pérez,M,Leicester
+212,6818.0,James Maddison,M,Leicester
+213,620.0,Kelechi Iheanacho,F,Leicester
+214,6418.0,Hamza Choudhury,M,Leicester
+215,6681.0,Harvey Barnes,M,Leicester
+216,5545.0,Wilfred Ndidi,M,Leicester
+217,5264.0,Çaglar Söyüncü,D,Leicester
+218,7753.0,James Justin,D,Leicester
+219,8562.0,Luke Thomas,D,Leicester
+220,7589.0,Wesley Fofana,D,Leicester
+221,489.0,James Milner,M,Liverpool
+222,605.0,Jordan Henderson,M,Liverpool
+223,,Adrián San Miguel del Castillo,G,Liverpool
+224,332.0,Joel Matip,D,Liverpool
+225,229.0,Thiago Alcántara do Nascimento,M,Liverpool
+226,,Xherdan Shaqiri,M,Liverpool
+227,966.0,Alex Oxlade-Chamberlain,M,Liverpool
+228,482.0,Roberto Firmino,F,Liverpool
+229,833.0,Virgil van Dijk,D,Liverpool
+230,838.0,Sadio Mané,M,Liverpool
+231,1257.0,Alisson Ramses Becker,G,Liverpool
+232,3420.0,Fabio Henrique Tavares,M,Liverpool
+233,1250.0,Mohamed Salah,M,Liverpool
+234,1688.0,Andrew Robertson,D,Liverpool
+235,484.0,Divock Origi,F,Liverpool
+236,8239.0,Takumi Minamino,M,Liverpool
+237,1791.0,Trent Alexander-Arnold,D,Liverpool
+238,987.0,Joseph Gomez,D,Liverpool
+239,5247.0,Naby Keita,M,Liverpool
+240,6854.0,Diogo Jota,M,Liverpool
+241,,Nathaniel Phillips,D,Liverpool
+242,7904.0,Caoimhin Kelleher,G,Liverpool
+243,6326.0,Ibrahima Konaté,D,Liverpool
+244,6665.0,Curtis Jones,M,Liverpool
+245,8852.0,Konstantinos Tsimikas,D,Liverpool
+246,8204.0,Neco Williams,D,Liverpool
+247,,Rhys Williams,D,Liverpool
+248,,Ben Davies,D,Liverpool
+249,638.0,Kyle Walker,D,Man City
+250,314.0,Ilkay Gündogan,M,Man City
+251,447.0,Kevin De Bruyne,M,Man City
+252,586.0,John Stones,D,Man City
+253,3389.0,Benjamin Mendy,D,Man City
+254,750.0,Riyad Mahrez,M,Man City
+255,618.0,Raheem Sterling,M,Man City
+256,2379.0,João Pedro Cavaco Cancelo,D,Man City
+257,6054.0,Ederson Santana de Moraes,G,Man City
+258,579.0,Nathan Aké,D,Man City
+259,2498.0,Aymeric Laporte,D,Man City
+260,7817.0,Zack Steffen,G,Man City
+261,3635.0,Bernardo Mota Veiga de Carvalho e Silva,M,Man City
+262,8961.0,Rúben Santos Gato Alves Dias,D,Man City
+263,5543.0,Gabriel Fernando de Jesus,F,Man City
+264,2958.0,Oleksandr Zinchenko,D,Man City
+265,6055.0,Phil Foden,M,Man City
+266,2496.0,Rodrigo Hernandez,M,Man City
+267,8720.0,Jack Harrison,M,Leeds
+268,6441.0,Ferran Torres,M,Man City
+269,3294.0,Edinson Cavani,F,Man Utd
+270,546.0,David de Gea,G,Man Utd
+271,697.0,Nemanja Matic,M,Man Utd
+272,1740.0,Paul Pogba,M,Man Utd
+273,1687.0,Harry Maguire,D,Man Utd
+274,6817.0,Frederico Rodrigues de Paula Santos,M,Man Utd
+275,1006.0,Luke Shaw,D,Man Utd
+276,558.0,Jesse Lingard,M,Man Utd
+277,1228.0,Bruno Miguel Borges Fernandes,M,Man Utd
+278,553.0,Anthony Martial,F,Man Utd
+279,1828.0,Alex Nicolao Telles,D,Man Utd
+280,,Dean Henderson,G,Man Utd
+281,556.0,Marcus Rashford,M,Man Utd
+282,8821.0,Donny van de Beek,M,Everton
+283,934.0,Axel Tuanzebe,D,Man Utd
+284,6080.0,Victor Lindelöf,D,Man Utd
+285,5560.0,Scott McTominay,M,Man Utd
+286,1739.0,Eric Bailly,D,Man Utd
+287,5595.0,Daniel James,M,Leeds
+288,5584.0,Aaron Wan-Bissaka,D,Man Utd
+289,7490.0,Mason Greenwood,M,Man Utd
+290,8075.0,Brandon Williams,D,Norwich
+291,769.0,Jonjo Shelvey,M,Newcastle
+292,461.0,Matt Ritchie,D,Newcastle
+293,875.0,Ciaran Clark,D,Newcastle
+294,780.0,Karl Darlow,G,Newcastle
+295,6532.0,Martin Dubravka,G,Newcastle
+296,468.0,Callum Wilson,F,Newcastle
+297,1746.0,Jeff Hendrick,M,Newcastle
+298,1683.0,Ryan Fraser,M,Newcastle
+299,766.0,Jamaal Lascelles,D,Newcastle
+300,743.0,Dwight Gayle,F,Newcastle
+301,853.0,Paul Dummett,D,Newcastle
+302,1719.0,Javier Manquillo,D,Newcastle
+303,1545.0,Emil Krafth,D,Newcastle
+304,6063.0,Jacob Murphy,M,Newcastle
+305,76.0,Fabian Schär,D,Newcastle
+306,6062.0,Isaac Hayden,M,Newcastle
+307,101.0,Allan Saint-Maximin,F,Newcastle
+308,7420.0,Miguel Almirón,M,Newcastle
+309,7078.0,Sean Longstaff,M,Newcastle
+310,87.0,Joelinton Cássio Apolinário de Lira,F,Newcastle
+311,7691.0,Jamal Lewis,D,Newcastle
+312,,Matthew Longstaff,M,Newcastle
+313,,Michael McGovern,G,Norwich
+314,982.0,Tim Krul,G,Norwich
+315,7696.0,Teemu Pukki,F,Norwich
+316,,Marco Stiepermann,M,Norwich
+317,62.0,Lukas Rupp,M,Norwich
+318,7693.0,Kenny McLean,M,Norwich
+319,7690.0,Grant Hanley,D,Norwich
+320,,Onel Hernández,M,Norwich
+321,902.0,Sam Byram,D,Norwich
+322,,Jordan Hugill,F,Norwich
+323,1032.0,Kieran Dowell,M,Norwich
+324,7990.0,Christoph Zimmermann,D,Norwich
+325,7695.0,Todd Cantwell,M,Norwich
+326,7688.0,Max Aarons,D,Norwich
+327,9748.0,Jacob Sørensen,D,Norwich
+328,10097.0,Przemyslaw Placheta,M,Norwich
+329,8021.0,Adam Idah,F,Norwich
+330,,Josh Martin,M,Norwich
+331,9833.0,Andrew Omobamidele,D,Norwich
+332,503.0,Theo Walcott,M,Southampton
+333,831.0,Fraser Forster,G,Southampton
+334,635.0,Alex McCarthy,G,Southampton
+335,842.0,Oriol Romeu Vidal,M,Southampton
+336,790.0,Nathan Redmond,M,Southampton
+337,986.0,Danny Ings,F,Aston Villa
+338,1735.0,Jack Stephens,D,Southampton
+339,6893.0,Stuart Armstrong,M,Southampton
+340,111.0,Jannik Vestergaard,D,Leicester
+341,843.0,James Ward-Prowse,M,Southampton
+342,885.0,Kyle Walker-Peters,D,Southampton
+343,6042.0,Jan Bednarek,D,Southampton
+344,,Daniel N'Lundulu,F,Southampton
+345,7700.0,Che Adams,F,Southampton
+346,8456.0,Nathan Tella,M,Southampton
+347,8224.0,William Smallbone,M,Southampton
+348,,Michael Obafemi,F,Southampton
+349,6736.0,Ibrahima Diallo,M,Southampton
+350,7701.0,Moussa Djenepo,M,Southampton
+351,6923.0,Mohammed Salisu,D,Southampton
+352,,Joe Hart,G,Spurs
+353,637.0,Hugo Lloris,G,Spurs
+354,772.0,Moussa Sissoko,M,Watford
+355,,Toby Alderweireld,D,Spurs
+356,,Erik Lamela,M,Spurs
+357,647.0,Harry Kane,F,Spurs
+358,,Serge Aurier,D,Spurs
+359,453.0,Heung-Min Son,M,Spurs
+360,6852.0,Matt Doherty,D,Spurs
+361,643.0,Eric Dier,D,Spurs
+362,3293.0,Lucas Rodrigues Moura da Silva,M,Spurs
+363,645.0,Bamidele Alli,M,Everton
+364,660.0,Ben Davies,D,Spurs
+365,343.0,Pierre-Emile Højbjerg,M,Spurs
+366,971.0,Harry Winks,M,Spurs
+367,6249.0,Davinson Sánchez,D,Spurs
+368,6837.0,Ryan Sessegnon,D,Spurs
+369,8300.0,Steven Bergwijn,M,Spurs
+370,7187.0,Sergio Reguilón,D,Spurs
+371,8222.0,Japhet Tanganga,D,Spurs
+372,5681.0,Giovani Lo Celso,M,Spurs
+373,7198.0,Oliver Skipp,M,Spurs
+374,6377.0,Joe Rodon,D,Spurs
+375,5962.0,Tanguy Ndombele,M,Spurs
+376,803.0,Ben Foster,G,Watford
+377,641.0,Danny Rose,D,Watford
+378,462.0,Dan Gosling,M,Watford
+379,581.0,Craig Cathcart,D,Watford
+380,574.0,Troy Deeney,F,Watford
+381,596.0,Tom Cleverley,M,Watford
+382,5043.0,Francisco Femenía Far,D,Watford
+383,,Andre Gray,F,Watford
+384,1725.0,Christian Kabasele,D,Watford
+385,,Nathaniel Chalobah,M,Watford
+386,6104.0,Will Hughes,M,Crystal Palace
+387,6996.0,William Troost-Ekong,D,Watford
+388,,Stipe Perica,F,Watford
+389,1025.0,Daniel Bachmann,G,Watford
+390,1441.0,Adam Masina,D,Watford
+391,6841.0,Ken Sema,M,Watford
+392,,Philip Zinckernagel,M,Watford
+393,,Isaac Success Ajayi,F,Watford
+394,,Ayotomiwa Dele-Bashiru,M,Watford
+395,1675.0,Ashley Fletcher,F,Watford
+396,7081.0,Francisco Sierralta,D,Watford
+397,,Domingos Quina,M,Watford
+398,,Marc Navarro,D,Watford
+399,5675.0,Ismaila Sarr,M,Watford
+400,8235.0,Jeremy Ngakia,D,Watford
+401,,Ben Wilmot,D,Watford
+402,,Joseph Hungbo,M,Watford
+403,7278.0,Imrân Louza,M,Watford
+404,8272.0,João Pedro Junqueira de Jesus,F,Watford
+405,,Kwadwo Baah,M,Watford
+406,533.0,Mark Noble,M,West Ham
+407,,Darren Randolph,G,West Ham
+408,706.0,Lukasz Fabianski,G,West Ham
+409,528.0,Angelo Ogbonna,D,West Ham
+410,,Winston Reid,D,West Ham
+411,534.0,Aaron Cresswell,D,West Ham
+412,6274.0,Andriy Yarmolenko,M,West Ham
+413,531.0,Michail Antonio,F,West Ham
+414,804.0,Craig Dawson,D,West Ham
+415,6891.0,Ryan Fredericks,D,West Ham
+416,535.0,Manuel Lanzini,M,West Ham
+417,1760.0,Arthur Masuaku,D,West Ham
+418,8965.0,Vladimir Coufal,D,West Ham
+419,3585.0,Saïd Benrahma,M,West Ham
+420,1776.0,Jarrod Bowen,M,West Ham
+421,5553.0,Declan Rice,M,West Ham
+422,8288.0,Tomas Soucek,M,West Ham
+423,2335.0,Pablo Fornals,M,West Ham
+424,3203.0,Issa Diop,D,West Ham
+425,6424.0,Ben Johnson,D,West Ham
+426,3422.0,João Filipe Iria Santos Moutinho,M,Wolves
+427,,Rui Pedro dos Santos Patrício,G,Wolves
+428,6850.0,Willy Boly,D,Wolves
+429,6851.0,Conor Coady,D,Wolves
+430,4105.0,Raúl Jiménez,F,Wolves
+431,3491.0,Romain Saïss,D,Wolves
+432,5708.0,Fernando Marçal,D,Wolves
+433,2280.0,Jonathan Castro Otto,D,Wolves
+434,7236.0,Leander Dendoncker,M,Wolves
+435,900.0,Adama Traoré,M,Wolves
+436,6853.0,Rúben Diogo da Silva Neves,M,Wolves
+437,6163.0,Nélson Cabral Semedo,D,Wolves
+438,8291.0,Daniel Castelo Podence,M,Wolves
+439,7332.0,Max Kilman,D,Wolves
+440,6857.0,Morgan Gibbs-White,M,Wolves
+441,6382.0,Pedro Lomba Neto,M,Wolves
+442,,Owen Otasowie,M,Wolves
+443,8351.0,Ki-Jana Hoever,D,Wolves
+444,,Andreas Söndergaard,G,Wolves
+445,8778.0,Fabio Silva,F,Wolves
+446,,Yerson Mosquera Valdelamar,D,Wolves
+447,501.0,Danny Welbeck,F,Brighton
+448,5544.0,Angus Gunn,G,Norwich
+449,6523.0,Milot Rashica,M,Norwich
+450,9301.0,Emmanuel Dennis,F,Watford
+451,9733.0,Nathan Collins,D,Burnley
+452,,John Ruddy,G,Wolves
+453,614.0,Fernando Luiz Rosa,M,Man City
+454,,Matthew Pollock,D,Watford
+455,9738.0,Patson Daka,F,Leicester
+456,1707.0,Ben Gibson,D,Norwich
+457,9745.0,Dimitris Giannoulis,D,Norwich
+458,6310.0,Boubakary Soumaré,M,Leicester
+459,554.0,Juan Mata,M,Man Utd
+460,6500.0,Romain Perraud,D,Southampton
+461,8934.0,Francisco Machado Mota de Castro Trincão,M,Wolves
+462,9734.0,Enock Mwepu,M,Brighton
+463,6485.0,Héctor Junior Firpo Adames,D,Leeds
+464,9948.0,Michael Olise,M,Crystal Palace
+465,708.0,Federico Fernández,D,Newcastle
+466,9691.0,Nuno Varela Tavares,D,Arsenal
+467,6538.0,Oghenekaro Peter Etebo,M,Watford
+468,465.0,Joshua King,F,Watford
+469,,Adedapo Awokoya-Mebude,F,Watford
+470,6674.0,Rayan Ait Nouri,D,Wolves
+471,5619.0,Pierre Lees-Melou,M,Norwich
+472,6954.0,Juan Camilo Hernández Suárez,F,Watford
+473,835.0,Ryan Bertrand,D,Leicester
+474,510.0,Joel Ward,D,Crystal Palace
+475,9740.0,José Malheiro de Sá,G,Wolves
+476,,Kjell Scherpen,G,Brighton
+477,7603.0,Marc Guéhi,D,Crystal Palace
+478,9689.0,Albert Sambi Lokonga,M,Arsenal
+479,9681.0,Frank Onyeka,M,Brentford
+480,509.0,Wayne Hennessey,G,Burnley
+481,694.0,Asmir Begović,G,Everton
+482,775.0,Andros Townsend,M,Everton
+483,9677.0,Kristoffer Ajer,D,Brentford
+484,762.0,Demarai Gray,M,Everton
+485,6345.0,Jadon Sancho,M,Man Utd
+486,,Pierluigi Gollini,G,Spurs
+487,7338.0,Bryan Gil Salvatierra,M,Spurs
+488,6314.0,Joachim Andersen,D,Crystal Palace
+489,2310.0,Alphonse Areola,G,West Ham
+490,9700.0,Kristoffer Klaesson,G,Leeds
+491,9512.0,Tino Livramento,D,Southampton
+492,5221.0,Leon Bailey,M,Aston Villa
+493,603.0,Nathaniel Clyne,D,Crystal Palace
+494,7218.0,Cristian Romero,D,Spurs
+495,1123.0,Juraj Kucka,M,Watford
+496,,Aaron Ramsey,M,Aston Villa
+497,9415.0,Jaden Philogene-Bidace,M,Aston Villa
+498,9915.0,Dominic Thompson,D,Brentford
+499,9914.0,Shandon Baptiste,M,Brentford
+500,,Florin Andone,F,Brighton
+501,5648.0,Malang Sarr,D,Chelsea
+502,1084.0,Jonjoe Kenny,D,Everton
+503,8150.0,Anthony Gordon,M,Everton
+504,4764.0,Jean-Philippe Gbamin,M,Everton
+505,9739.0,Kiernan Dewsbury-Hall,M,Leicester
+506,7546.0,Harvey Elliott,M,Liverpool
+507,8497.0,Cole Palmer,M,Man City
+508,,Samuel Edozie,M,Man City
+509,,Tom Heaton,G,Man Utd
+510,7281.0,José Diogo Dalot Teixeira,D,Man Utd
+511,,Andreas Pereira,M,Man Utd
+512,9524.0,Anthony Elanga,M,Man Utd
+513,852.0,Freddie Woodman,G,Newcastle
+514,,Mark Gillespie,G,Newcastle
+515,9747.0,Bali Mumba,D,Norwich
+516,7295.0,Joshua Sargent,F,Norwich
+517,6894.0,Mohamed Elyounoussi,M,Southampton
+518,8384.0,Armando Broja,F,Southampton
+519,839.0,Shane Long,F,Southampton
+520,9332.0,Dane Scarlett,F,Spurs
+521,,Frederik Alves,D,West Ham
+522,,Conor Coventry,M,West Ham
+523,,Patrick Cutrone,F,Wolves
+524,5786.0,Yoane Wissa,M,Brentford
+525,4419.0,Adam Armstrong,F,Southampton
+526,9356.0,Carney Chukwuemeka,M,Aston Villa
+527,6615.0,Trevoh Chalobah,D,Chelsea
+528,9746.0,Christos Tzolis,M,Norwich
+529,594.0,Romelu Lukaku,F,Chelsea
+530,9690.0,Folarin Balogun,F,Arsenal
+531,6492.0,Reiss Nelson,M,Arsenal
+532,,Karl Hein,G,Arsenal
+533,,Lewis Richardson,F,Burnley
+534,,Bobby Thomas,D,Burnley
+535,,Andi Zeqiri,F,Brighton
+536,,Michal Karbownik,D,Brighton
+537,9735.0,Taylor Richards,M,Brighton
+538,9453.0,Moisés Caicedo,M,Brighton
+539,1245.0,Emerson Palmieri dos Santos,D,Chelsea
+540,,Reece Hannam,D,Crystal Palace
+541,9461.0,Jesurun Rak-Sakyi,M,Crystal Palace
+542,,Robert Street,F,Crystal Palace
+543,,Scott Banks,M,Crystal Palace
+544,8476.0,Jarrad Branthwaite,D,Everton
+545,,Nathan Broadhead,F,Everton
+546,7280.0,Yan Valery,D,Southampton
+547,8179.0,Luke Cundle,M,Wolves
+548,9741.0,Chem Campbell,M,Wolves
+549,,Christian Marques,D,Wolves
+550,9493.0,Sam Greenwood,F,Leeds
+551,9492.0,Crysencio Summerville,M,Leeds
+552,1711.0,Adam Forshaw,M,Leeds
+553,,Ben Woodburn,M,Liverpool
+554,,Jamal Baptiste,D,West Ham
+555,2245.0,Raphaël Varane,D,Man Utd
+556,5191.0,Álvaro Fernández,G,Brentford
+557,9957.0,Ozan Tufan,M,Watford
+558,2517.0,Martin Ødegaard,M,Arsenal
+559,5603.0,Aaron Ramsdale,G,Arsenal
+560,,Haydon Roberts,D,Brighton
+561,,Remi Matthews,G,Crystal Palace
+562,9499.0,Cody Drameh,D,Leeds
+563,9220.0,Charlie Cresswell,D,Leeds
+564,1304.0,Moise Kean,F,Everton
+565,,Owen Dodgson,D,Burnley
+566,,Tommy Doyle,M,Man City
+567,6252.0,Lyanco Evangelista Silveira Neves Vojnovic,D,Southampton
+568,9912.0,Cameron Archer,F,Aston Villa
+569,9916.0,Finley Stevens,D,Brentford
+570,,Niels Nkounkou,D,Everton
+571,,Andy Lonergan,G,Everton
+572,,Arthur Okonkwo,G,Arsenal
+573,,Eldin Jakupovic,G,Leicester
+574,,Robert Elliot,G,Watford
+575,593.0,Aaron Lennon,M,Burnley
+576,9933.0,Liam McCarron,M,Leeds
+577,9339.0,Joe Gelhardt,F,Leeds
+578,3278.0,Maxwel Cornet,M,Burnley
+579,2371.0,Cristiano Ronaldo dos Santos Aveiro,F,Man Utd
+580,7376.0,Ozan Kabak,D,Norwich
+581,7470.0,Mathias Normann,M,Norwich
+582,6276.0,Nikola Vlasic,M,West Ham
+583,8845.0,Hee-Chan Hwang,F,Wolves
+584,7134.0,Marc Cucurella,D,Brighton
+585,5568.0,Connor Roberts,D,Burnley
+586,3697.0,Odsonne Edouard,F,Crystal Palace
+587,5556.0,Ademola Lookman,M,Leicester
+588,7430.0,Emerson Aparecido Leite de Souza Junior,D,Spurs
+589,8017.0,Alex Kral,M,West Ham
+590,7931.0,Takehiro Tomiyasu,D,Arsenal
+591,813.0,Salomón Rondón,F,Everton
+592,2266.0,Saúl Ñíguez,M,Chelsea
+593,,Scott Carson,G,Man City
+594,6030.0,Mathias Jorgensen,D,Brentford
+595,6542.0,Jürgen Locadia,F,Brighton
+596,,Viljami Sinisalo,G,Aston Villa
+597,,Dilan Markanday,M,Spurs
+598,,Tobi Omole,D,Spurs
+599,,Joe White,M,Newcastle
+600,,Nohan Kenneh,M,Leeds
+601,10001.0,Stuart McKinstry,M,Leeds
+602,8582.0,Ellis Simms,F,Everton
+603,,Luke Mbete,D,Man City
+604,,Joshua Wilson-Esbrand,D,Man City
+605,,Romeo Lavia,M,Man City
+606,,Marcus Bettinelli,G,Chelsea
+607,10027.0,Lewis Dobbin,F,Everton
+608,10028.0,Leo Fuhr Hjelde,D,Leeds
+609,,Elliot Anderson,M,Newcastle
+610,,Lamare Bogarde,D,Aston Villa
+611,,Louie Moulden,G,Wolves
+612,10036.0,Jeremy Sarmiento,M,Brighton
+613,,Charlie Whitaker,M,Everton
+614,,Paris Maghoma,M,Brentford
+615,,Cieran Slicker,G,Man City
+616,,Harry Tyrer,G,Everton
+617,10061.0,Harrison Ashby,D,West Ham
+618,3387.0,Nicolas Nkoulou,D,Watford
+619,,Matthew Cox,G,Brentford
+620,10091.0,Tyler Morton,M,Liverpool
+621,,James Storer,G,Wolves
+622,6477.0,Cenk Tosun,F,Everton
+623,,Reece Welch,D,Everton
+624,8544.0,Lewis Bate,M,Leeds
+625,10118.0,Kaide Gordon,M,Liverpool
+626,,Conor Bradley,D,Liverpool
+627,,Owen Beck,D,Liverpool
+628,,Maxwell Haygarth,M,Brentford
+629,10126.0,James McAtee,M,Man City
+630,9287.0,Tyler Onyango,M,Everton
+631,,Jack Jenkins,M,Leeds
+632,951.0,Phil Jones,D,Man Utd
+633,,James Morris,D,Watford
+634,10141.0,Sonny Perkins,M,West Ham
+635,,Hugo Bueno,D,Wolves
+636,,Amad Diallo,M,Man Utd
+637,,Harry Lewis,G,Southampton
+638,9554.0,Tim Iroegbunam,M,Aston Villa
+639,,Vontae Daley-Campbell,D,Leicester
+640,,Nathan Young-Coombes,F,Brentford
+641,624.0,Willy Caballero,G,Southampton
+642,,Vincent Angelini,G,Watford
+643,,Jonathan Tomkinson,D,Norwich
+644,,Ajibola Alese,D,West Ham
+645,,Ben Nelson,D,Leicester
+646,,Lewis Brunt,M,Leicester
+647,10166.0,Kasey McAteer,M,Leicester
+648,10172.0,Jonathan Rowe,M,Norwich
+649,,Thomas Dickson-Peters,F,Norwich
+650,,Filip Marschall,G,Aston Villa
+651,,Conrad Egan-Riley,D,Man City
+652,,Armstrong Oko-Flex,M,West Ham
+653,,Ed Turns,D,Brighton
+654,,Marc Leonard,M,Brighton
+655,10177.0,Evan Ferguson,F,Brighton
+656,,Marcelo de Araújo Pitaluga Filho,G,Liverpool
+657,,Kris Moore,D,Leeds
+658,,Archie Gray,M,Leeds
+659,,Brandon Austin,G,Spurs
+660,,Jarell Quansah,D,Liverpool
+661,,Bruno André Cavaco Jordão,M,Wolves
+662,,Myles Peart-Harris,M,Brentford
+663,10203.0,Kayky da Silva Chagas,F,Man City
+664,,Charlie Patino,M,Arsenal
+665,,Dynel Simeu,D,Southampton
+666,,Jon McCracken,G,Norwich
+667,,Thierry Small,D,Southampton
+668,,Harvey White,M,Spurs
+669,,Kamil Conteh,M,Watford
+670,,Josh Feeney,D,Aston Villa
+671,,Lewis Hall,M,Chelsea
+672,,Harvey Vale,M,Chelsea
+673,3468.0,Jonas Lössl,G,Brentford
+674,,Nathan Patterson,D,Everton
+675,10291.0,Vitalii Mykolenko,D,Everton
+676,3729.0,Hassane Kamara,D,Watford
+677,1142.0,Samir Caetano de Souza Santos,D,Watford
+678,652.0,Kieran Trippier,D,Newcastle
+679,10290.0,Edo Kayembe,M,Watford
+680,,Kgaogelo Chauke,M,Southampton
+681,488.0,Philippe Coutinho Correia,M,Aston Villa
+682,,Pierre Ekwah,D,West Ham
+683,,Liam Gibbs,M,Norwich
+684,,Kaine Hayden,D,Aston Villa
+685,10293.0,Toti António Gomes,D,Wolves
+686,,Dion Sanderson,D,Wolves
+687,,Ryan Giles,M,Wolves
+688,,Thomas McGill,G,Brighton
+689,10327.0,Francisco Jorge Tomás Oliveira,M,Wolves
+690,,Robert Kenedy Nunes do Nascimento,D,Chelsea
+691,,Robin Olsen,G,Aston Villa
+692,,Omari Hutchinson,M,Arsenal
+693,,Salah-Eddine Oulad M'hand,M,Arsenal
+694,,Mika Biereth,F,Arsenal
+695,,Ryan Alebiosu,D,Arsenal
+696,10408.0,Luis Díaz,M,Liverpool
+697,8327.0,Bruno Guimarães Rodriguez Moura,M,Newcastle
+698,6947.0,Samuel Kalu,M,Watford
+699,646.0,Christian Eriksen,M,Brentford
+700,7052.0,Wout Weghorst,F,Burnley
+701,6691.0,Dejan Kulusevski,M,Spurs
+702,6108.0,Rodrigo Bentancur,M,Spurs
+703,,Benjamin Chrisene,M,Aston Villa
+704,8868.0,Liam Delap,F,Man City
+705,,Zach Awe,D,Arsenal
+706,9558.0,Hannibal Mejbri,M,Man Utd
+707,,Lucas De Bolle,M,Newcastle
+708,,Sam Waller,G,Burnley
+709,,Tayo Adaramola,D,Crystal Palace
+710,10424.0,Daniel Chesters,M,West Ham
+711,,Zak Swanson,D,Arsenal
+712,,Odeluga Offiah,D,Brighton
+713,,Tommi O'Reilly,M,Aston Villa
+714,,Alfie Devine,M,Spurs
+715,,Abu Kamara,F,Norwich
+716,,Tony Springett,M,Norwich
+717,,Jamie Bowden,M,Spurs
+718,,Isaac Price,M,Everton
+719,,Mazeed Ogungbo,D,Arsenal
+720,,Marcelo Flores,M,Arsenal
+721,,Miguel Azeez,M,Arsenal
+722,,Julian Jeanvier,D,Brentford
+723,,Alejandro Garnacho Ferreyra,M,Man Utd
+724,,Marcel Lavinier,D,Spurs
+725,,Shaqai Forde,F,Watford
+726,,Dara Costelloe,M,Burnley
