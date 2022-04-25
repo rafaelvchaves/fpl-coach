@@ -21,10 +21,6 @@ CREATE TABLE IF NOT EXISTS players(
   team_name VARCHAR(255) NOT NULL,
   FOREIGN KEY (team_name) REFERENCES teams(fpl_name)
 );
-CREATE TABLE IF NOT EXISTS managers(
-  id INT PRIMARY KEY,
-  manager_name VARCHAR(255) NOT NULL
-);
 CREATE TABLE IF NOT EXISTS fixtures(
   fpl_id INT PRIMARY KEY,
   understat_id INT NOT NULL,
@@ -92,11 +88,15 @@ CREATE TABLE IF NOT EXISTS player_gws_predicted(
   FOREIGN KEY (fixture_id) REFERENCES fixtures(fpl_id),
   PRIMARY KEY (player_id, fixture_id)
 );
+CREATE TABLE IF NOT EXISTS managers(
+  id INT PRIMARY KEY,
+  manager_name VARCHAR(255) NOT NULL
+);
 CREATE TABLE IF NOT EXISTS manager_gws(
-  id INT AUTO_INCREMENT PRIMARY KEY,
   gameweek INT NOT NULL,
   manager_id INT,
   player_id INT,
   FOREIGN KEY (manager_id) REFERENCES managers(id),
-  FOREIGN KEY (player_id) REFERENCES players(fpl_id)
+  FOREIGN KEY (player_id) REFERENCES players(fpl_id),
+  PRIMARY KEY (gameweek, manager_id, player_id)
 );

@@ -1,0 +1,7 @@
+{
+  "--gws": {
+      "dest": "gws",
+      "default": null,
+      "help": "gw(s) to get data from, can either be a single integer or a range such as 1-38."
+  }
+}

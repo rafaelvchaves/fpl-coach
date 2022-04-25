@@ -24,10 +24,11 @@ PLAYERS_FILE = join(DATA_DIR, "players_{}.json".format(CURRENT_SEASON))
 RUNS_FILE = join(DATA_DIR, "runs.json")
 TEAMS_FILE = join(DATA_DIR, "teams_{}.json".format(CURRENT_SEASON))
 TEAM_HISTORY_FILE = join(DATA_DIR, "team_history.json")
+TEAM_OPTIONS_FILE = join(DATA_DIR, "team_options.json")
 UNDERSTAT_PLAYER_FILE = join(DATA_DIR, "understat_player_data.json")
 
 # Model parameters
 NPXG_ALPHA = 0.2
 XA_ALPHA = 0.2
 BONUS_ALPHA = 0.2
-MINUTES_ALPHA = 0.5
+MINUTES_ALPHA = 0.3
