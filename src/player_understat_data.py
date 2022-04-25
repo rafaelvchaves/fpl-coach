@@ -1,7 +1,6 @@
 """A module for loading player match data from Understat. """
 import asyncio
 from typing import Any, Dict
-import sys
 import aiohttp
 from understat import Understat
 from constants import START_YEAR
@@ -54,7 +53,8 @@ async def get_player_understat_data() -> MatchData:
         return match_data
 
 
-if __name__ == "__main__":
+def main():
+    """Updates database with Understat data from each match. """
     db = MySQLManager()
     fixtures = db.get_fixtures()
     match_data = asyncio.run(get_player_understat_data())
@@ -69,3 +69,7 @@ if __name__ == "__main__":
                 {"fixture_id": fixture_id, "player_id": player_id},
                 stats
             )
+
+
+if __name__ == "__main__":
+    main()

@@ -7,6 +7,7 @@ from utils import from_json, get_current_gw
 
 current_gw = get_current_gw()
 
+# Horrific code duplication
 
 def parse_args():
     """Parse command line arguments."""
@@ -19,20 +20,21 @@ def parse_args():
 
 
 def query_database(args):
+    """Constructs a query based on cli arguments and returns results."""
     db = MySQLManager()
     try:
         start_gw, end_gw = [int(gw) for gw in args.gws.split("-")]
-    except:
+    except (ValueError, AttributeError):
         start_gw = end_gw = int(args.gws)
     with open(MY_TEAM_SCRIPT, encoding="utf-8") as sql_script:
         query = sql_script.read()
     query = query.format(start_gw, end_gw)
     cols, players = db.exec_query(query, get_col_names=True)
-    f.close()
     return cols, players
 
 
 def main():
+    """Parses command line arguments and queries database."""
     args = parse_args()
     cols, players = query_database(args)
     player_table = PrettyTable()

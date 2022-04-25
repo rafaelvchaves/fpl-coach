@@ -15,6 +15,19 @@ from db import MySQLManager
 from preprocess import preprocess
 from utils import from_json, to_json, get_current_gw
 
+params_json = from_json("../data/params.json")
+predicted_cols = [
+    "goal_xP", "assist_xP", "cs_xP", "bonus_xP", "concede_xP", "xP"
+]
+
+point_cols = [
+    "goal_points", "assist_points", "cs_points", "bonus", "concede_points"
+]
+
+stat_cols = [
+    "goals_scored", "assists", "clean_sheets", "bonus", "goals_conceded"
+]
+
 
 def expected(pmf: Callable[[int], float], value: int, max_value: int) -> float:
     """Expected value for a discrete random variable.
@@ -35,9 +48,6 @@ def expected(pmf: Callable[[int], float], value: int, max_value: int) -> float:
     return value * xp
 
 
-params_json = from_json("../data/params.json")
-
-
 def predict(row: pd.Series) -> np.ndarray:
     """Make predictions on a single gameweek.
 
@@ -54,11 +64,21 @@ def predict(row: pd.Series) -> np.ndarray:
     xp = []
     stat_values = params_json[row["position"]]["stat_values"]
     attack_multiplier = row["proj_score"] / row["avg_team_xG"]
-    def goal_pmf(x): return poisson(attack_multiplier * row["avg_npxG"]).pmf(x)
-    def assist_pmf(x): return poisson(attack_multiplier * row["avg_xA"]).pmf(x)
-    def bonus_pmf(x): return poisson(row["avg_bonus"]).pmf(x)
-    def cs_pmf(_): return poisson(row["opponent_proj_score"]).pmf(0)
-    def concede_pmf(x): return poisson(row["opponent_proj_score"]).pmf(2 * x)
+
+    def goal_pmf(x):
+        return poisson(attack_multiplier * row["avg_npxG"]).pmf(x)
+
+    def assist_pmf(x):
+        return poisson(attack_multiplier * row["avg_xA"]).pmf(x)
+
+    def bonus_pmf(x):
+        return poisson(row["avg_bonus"]).pmf(x)
+
+    def cs_pmf(_):
+        return poisson(row["opponent_proj_score"]).pmf(0)
+
+    def concede_pmf(x):
+        return poisson(row["opponent_proj_score"]).pmf(2 * x)
 
     # can cap goals/assists at 4 since probability beyond that should be negligible anyway
     xp.append(expected(goal_pmf, stat_values[0], 4))
@@ -72,22 +92,10 @@ def predict(row: pd.Series) -> np.ndarray:
     return np.round(xp, 3)
 
 
-predicted_cols = [
-    "goal_xP", "assist_xP", "cs_xP", "bonus_xP", "concede_xP", "xP"
-]
-
-point_cols = [
-    "goal_points", "assist_points", "cs_points", "bonus", "concede_points"
-]
-
-stat_cols = [
-    "goals_scored", "assists", "clean_sheets", "bonus", "goals_conceded"
-]
-
-
 def calculate_points(row: pd.Series) -> pd.Series:
-    stat_values = params_json[row["position"]]["stat_values"]
-    return row[stat_cols] * stat_values
+    """Returns inner product of the stat columns and their point values."""
+    point_values = params_json[row["position"]]["stat_values"]
+    return row[stat_cols] * point_values
 
 
 def evaluate(rows: pd.Series) -> None:

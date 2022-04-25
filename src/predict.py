@@ -3,7 +3,7 @@ import argparse
 from prettytable import PrettyTable
 from constants import OPTIONS_FILE, PREDICT_SCRIPT
 from db import MySQLManager
-from utils import from_json, get_current_gw
+from utils import from_json, get_current_gw, prepare_string
 
 current_gw = get_current_gw()
 
@@ -57,7 +57,8 @@ def query_database(args):
     return cols, players
 
 
-if __name__ == "__main__":
+def main():
+    """Parses command line arguments and queries database."""
     args = parse_args()
     cols, players = query_database(args)
     player_table = PrettyTable()
@@ -65,3 +66,7 @@ if __name__ == "__main__":
     for player in players:
         player_table.add_row(player)
     print(player_table)
+
+
+if __name__ == "__main__":
+    main()

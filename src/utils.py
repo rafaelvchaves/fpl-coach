@@ -1,12 +1,13 @@
 """A module for utility functions."""
 import json
+import math
 from datetime import datetime
+from typing import Any, Callable, Dict, List, Optional, Tuple, Union
 import pandas as pd
 import requests
 from dateutil import parser
-from constants import FPL_BASE_URL
-from typing import Any, Callable, Dict, List, Optional, Tuple, Union
 import numpy as np
+from constants import FPL_BASE_URL
 
 # type synonyms for database rows
 Row = Dict[str, Any]
@@ -44,7 +45,7 @@ def from_json(path: str) -> dict:
 
 def to_json(path: str, json_dict: dict) -> None:
     """Writes dictionary to specified json file."""
-    with open(path, "w") as json_file:
+    with open(path, "w", encoding="utf-8") as json_file:
         json.dump(json_dict, json_file, indent=4, ensure_ascii=False)
 
 
@@ -113,6 +114,34 @@ def get_gw_range(gws: Optional[Union[int, Tuple[int]]]) -> Tuple[int]:
     return 1, current_gw
 
 
-def subset_dict(dict: Dict[Any, Any], keys: List[Any]) -> Dict[Any, Any]:
+def subset_dict(d: Dict[Any, Any], keys: List[Any]) -> Dict[Any, Any]:
     """Returns a copy of a dictionary with only the specified keys."""
-    return {k: dict[k] for k in keys}
+    return {k: d[k] for k in keys}
+
+
+def isnan(val: Any) -> bool:
+    """Checks if any value is nan."""
+    try:
+        return math.isnan(float(val))
+    except ValueError:
+        return False
+
+
+def prepare_string(val: Any) -> str:
+    """Converts a value into a string to be used in a SQL query.
+
+    Args:
+        val: The value to convert to a string.
+
+    Returns:
+        A string conversion of the value. For None values, the string "NULL" is
+        retruned. Strings are wrapped in single quotes, and apostrophes are
+        also escaped. For example,
+        prepare_string("N'Golo Kante") yields "'N''Golo Kante'".
+    """
+    if val is None or isnan(val):
+        return "NULL"
+    if isinstance(val, str):
+        val_escaped = val.replace("'", "''")
+        return f"'{val_escaped}'"
+    return str(val)

@@ -94,7 +94,8 @@ def update_fixtures(fixture_ids: Dict[str, Dict[str, int]], fixtures: Rows) -> N
 async def get_understat_fixtures() -> Dict[str, Dict[str, int]]:
     """Returns a dictionary of fixture ids from understat.
 
-    Used for matching up FPL fixtures with understat fixtures."""
+    Used for matching up FPL fixtures with Understat fixtures. The dictionary
+    maps from a home team and away team to an Understat fixture id."""
     fixture_ids = {}
     async with aiohttp.ClientSession() as session:
         understat = Understat(session)
@@ -134,7 +135,7 @@ def get_fixtures() -> Rows:
     """Returns all of the rows to be inserted into the fixtures table."""
     fpl_fixtures = requests.get(FPL_FIXTURES_URL).json()
     rows = []
-    fixture_id_map = asyncio.run(get_understat_fixtures())
+    understat_fixtures = asyncio.run(get_understat_fixtures())
     for fixture in fpl_fixtures:
         home_team = id_to_name[fixture["team_h"]]
         away_team = id_to_name[fixture["team_a"]]
@@ -142,7 +143,7 @@ def get_fixtures() -> Rows:
         stats = get_match_stats(home_team, away_team)
         row = {
             "fpl_id": fixture["id"],
-            "understat_id": int(fixture_id_map[home_team][away_team]),
+            "understat_id": int(understat_fixtures[home_team][away_team]),
             "gameweek": fixture["event"],
             "kickoff_date": date,
             "completed": fixture["finished"],
@@ -159,9 +160,14 @@ def get_fixtures() -> Rows:
     return rows
 
 
-if __name__ == "__main__":
+def main():
+    """Retrieves fixture data from FPL API."""
     db = MySQLManager()
     fixture_rows = get_fixtures()
     db.insert_rows("fixtures", fixture_rows)
     team_gws = get_team_gws(fixture_rows)
     db.insert_rows("team_gws", team_gws)
+
+
+if __name__ == "__main__":
+    main()

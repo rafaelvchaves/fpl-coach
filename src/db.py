@@ -1,37 +1,9 @@
 """A module for managing a connection to a MySQL database."""
-import math
 from typing import Any, Dict, List, Optional, Tuple, Union
 import mysql.connector
 import pandas as pd
 from sqlalchemy import create_engine
-
-
-def isnan(val: Any) -> bool:
-    """Checks if any value is nan."""
-    try:
-        return math.isnan(float(val))
-    except ValueError:
-        return False
-
-
-def prepare_string(val: Any) -> str:
-    """Converts a value into a string to be used in a SQL query.
-
-    Args:
-        val: The value to convert to a string.
-
-    Returns:
-        A string conversion of the value. For None values, the string "NULL" is
-        retruned. Strings are wrapped in single quotes, and apostrophes are
-        also escaped. For example,
-        prepare_string("N'Golo Kante") yields "'N''Golo Kante'".
-    """
-    if val is None or isnan(val):
-        return "NULL"
-    if isinstance(val, str):
-        val_escaped = val.replace("'", "''")
-        return f"'{val_escaped}'"
-    return str(val)
+from utils import prepare_string
 
 
 def get_update_sequence(row: Dict[str, Any], sep: str) -> str:

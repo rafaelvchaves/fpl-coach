@@ -116,6 +116,11 @@ def write_gw_data(db: MySQLManager, gws: Optional[Union[int, Tuple[int]]] = None
             db.insert_rows("player_gws_predicted", info)
 
 
-if __name__ == "__main__":
+def main():
+    """Updates player FPL data for all gameweeks."""
     db = MySQLManager()
     write_gw_data(db)
+
+
+if __name__ == "__main__":
+    main()
