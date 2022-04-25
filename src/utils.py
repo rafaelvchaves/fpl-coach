@@ -1,48 +1,51 @@
+"""A module for utility functions."""
 import json
-import numpy as np
+from datetime import datetime
 import pandas as pd
 import requests
-from constants import FPL_BASE_URL
-from datetime import datetime
 from dateutil import parser
+from constants import FPL_BASE_URL
 from typing import Any, Callable, Dict, List, Optional, Tuple, Union
+import numpy as np
 
 # type synonyms for database rows
 Row = Dict[str, Any]
 Rows = List[Row]
 
 
-def cast_float_safe(s: Optional[str]) -> Optional[float]:
-    if s is None:
+def cast_float_safe(str_opt: Optional[str]) -> Optional[float]:
+    """Cast optional string to float, returning None if str_opt is None."""
+    if str_opt is None:
         return None
-    return round(float(s), 3)
+    return round(float(str_opt), 3)
 
 
-def cast_int_safe(s: Optional[str]) -> Optional[int]:
-    return None if s is None else int(s)
+def cast_int_safe(str_opt: Optional[str]) -> Optional[int]:
+    """Cast optional string to int, returning None if str_opt is None."""
+    return None if str_opt is None else int(str_opt)
 
 
-def parse_date(s: Optional[str]) -> Optional[str]:
+def parse_date(str_opt: Optional[str]) -> Optional[str]:
     """Converts a string to a string in the form YYYY-MM-DD.
 
     Returns:
       None if s is None, otherwise a string in the form YYYY-MM-DD.""
     """
-    if s is None:
+    if str_opt is None:
         return None
-    return parser.parse(s).strftime("%Y-%m-%d")
+    return parser.parse(str_opt).strftime("%Y-%m-%d")
 
 
 def from_json(path: str) -> dict:
     """Returns a dictionary loaded from the json file given by path."""
-    with open(path) as f:
-        return json.load(f)
+    with open(path, encoding="utf-8") as json_file:
+        return json.load(json_file)
 
 
-def to_json(path: str, j: dict) -> None:
+def to_json(path: str, json_dict: dict) -> None:
     """Writes dictionary to specified json file."""
-    with open(path, "w") as f:
-        json.dump(j, f, indent=4, ensure_ascii=False)
+    with open(path, "w") as json_file:
+        json.dump(json_dict, json_file, indent=4, ensure_ascii=False)
 
 
 def get_current_gw() -> int:
@@ -85,7 +88,7 @@ def get_ema(col: pd.Series, alpha: float = 0.3) -> np.array:
         }
         Typically, col will be a vector of match stats ordered by time, and so
         before gameweek i, we only know the match stats and the average from
-        gameweek i-1. 
+        gameweek i-1.
     """
     ema = col.ewm(alpha=alpha, ignore_na=True, adjust=False).mean()
     ema = ema.to_numpy()
@@ -105,11 +108,11 @@ def get_gw_range(gws: Optional[Union[int, Tuple[int]]]) -> Tuple[int]:
     current_gw = get_current_gw()
     if isinstance(gws, int):
         return gws, gws
-    elif isinstance(gws, tuple):
+    if isinstance(gws, tuple):
         return gws[0], min(gws[1], current_gw)
     return 1, current_gw
 
 
-def subset_dict(d: Dict[Any, Any], keys: List[Any]) -> Dict[Any, Any]:
+def subset_dict(dict: Dict[Any, Any], keys: List[Any]) -> Dict[Any, Any]:
     """Returns a copy of a dictionary with only the specified keys."""
-    return {k: d[k] for k in keys}
+    return {k: dict[k] for k in keys}

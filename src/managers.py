@@ -13,7 +13,7 @@ def find_player_index(players, player_id):
     return -1
 
 
-def get_freehit_weeks(manager_id : int):
+def get_freehit_weeks(manager_id: int):
     fh_weeks = []
     chips = requests.get(
         FPL_MANAGER_HISTORY_URL.format(manager_id)).json()["chips"]
@@ -60,7 +60,7 @@ def get_team_history(manager_id: int):
             "name": player_idx[in_player_id]["fpl_name"]
         }
     # Copy team over until last gameweek
-    while (gameweek <= 38):
+    while gameweek <= 38:
         copy_from = gameweek - 2 if gameweek in fh_weeks else gameweek - 1
         team.append(team[copy_from].copy())
         gameweek += 1
@@ -72,7 +72,8 @@ if __name__ == "__main__":
     manager_id = 505657
     team_history = get_team_history(manager_id)
     db = MySQLManager()
-    db.insert_rows("managers", [{"id": manager_id, "manager_name": "Rafael Chaves"}])
+    db.insert_rows(
+        "managers", [{"id": manager_id, "manager_name": "Rafael Chaves"}])
     rows = []
     for i, team in enumerate(team_history):
         gw = i + 1
@@ -83,5 +84,4 @@ if __name__ == "__main__":
                 "player_id": player["id"]
             })
     db.insert_rows("manager_gws", rows)
-
-    # to_json(TEAM_HISTORY_FILE, team)
+    to_json(TEAM_HISTORY_FILE, team)

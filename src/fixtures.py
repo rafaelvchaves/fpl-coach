@@ -7,8 +7,8 @@ import pandas as pd
 import requests
 from understat import Understat
 from constants import FPL_FIXTURES_URL, FTE_MATCHES_URL
-from teams import create_team_map, get_fpl_teams
-from utils import get_ema, parse_date, Row, Rows
+from teams import create_team_map
+from utils import parse_date, Row, Rows
 from db import MySQLManager
 
 id_to_name = create_team_map("fpl_id", "fpl_name")

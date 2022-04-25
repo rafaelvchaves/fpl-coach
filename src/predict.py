@@ -1,13 +1,15 @@
+"""A module for displaying point predictions."""
 import argparse
-from constants import OPTIONS_FILE, PREDICT_SCRIPT
-from db import *
-from utils import from_json, get_current_gw
 from prettytable import PrettyTable
+from constants import OPTIONS_FILE, PREDICT_SCRIPT
+from db import MySQLManager
+from utils import from_json, get_current_gw
 
 current_gw = get_current_gw()
 
 
 def parse_args():
+    """Parses command line arguments, specified in the options file."""
     parser = argparse.ArgumentParser(description="Get FPL point projections")
     options = from_json(OPTIONS_FILE)
     options["--gws"]["default"] = current_gw + 1
@@ -17,17 +19,19 @@ def parse_args():
 
 
 def optional(name, val, cmp="="):
+    """Helper function for producing SQL clauses."""
     return f"{name} {cmp} {prepare_string(val)}" if val is not None else "TRUE"
 
 
 def query_database(args):
+    """Constructs a query based on cli arguments and returns results."""
     db = MySQLManager()
     try:
         start_gw, end_gw = [int(gw) for gw in args.gws.split("-")]
-    except:
+    except (ValueError, AttributeError):
         start_gw = end_gw = int(args.gws)
-    f = open(PREDICT_SCRIPT)
-    query = f.read()
+    with open(PREDICT_SCRIPT, encoding="utf-8") as sql_script:
+        query = sql_script.read()
     selected_cols = []
     group_cols = ["player_name", "position"]
     if args.show_opp:
@@ -50,11 +54,10 @@ def query_database(args):
     query += f" LIMIT {args.limit}"
     query = query.format(select_clause, where_clause, group_by_clause)
     cols, players = db.exec_query(query, get_col_names=True)
-    f.close()
     return cols, players
 
 
-def main():
+if __name__ == "__main__":
     args = parse_args()
     cols, players = query_database(args)
     player_table = PrettyTable()
@@ -62,7 +65,3 @@ def main():
     for player in players:
         player_table.add_row(player)
     print(player_table)
-
-
-if __name__ == "__main__":
-    main()

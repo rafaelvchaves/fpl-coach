@@ -31,6 +31,7 @@ UNDERSTAT_PLAYER_FILE = join(DATA_DIR, "understat_player_data.json")
 # Scripts
 SCRIPT_DIR = "../scripts"
 MERGE_SCRIPT = join(SCRIPT_DIR, "merge.sql")
+MY_TEAM_SCRIPT = join(SCRIPT_DIR, "my_team.sql")
 PREDICT_SCRIPT = join(SCRIPT_DIR, "predict.sql")
 
 # Model parameters

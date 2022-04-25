@@ -10,7 +10,7 @@ def isnan(val: Any) -> bool:
     """Checks if any value is nan."""
     try:
         return math.isnan(float(val))
-    except:
+    except ValueError:
         return False
 
 
@@ -78,7 +78,8 @@ class MySQLManager:
         for row in rows:
             inserts = ",".join([prepare_string(val) for _, val in row.items()])
             updates = get_update_sequence(row, ",")
-            cmd = f"INSERT INTO {table_name} ({cols}) VALUES ({inserts}) ON DUPLICATE KEY UPDATE {updates}"
+            cmd = f"INSERT INTO {table_name} ({cols}) VALUES ({inserts})"
+            cmd += f" ON DUPLICATE KEY UPDATE {updates}"
             cursor.execute(cmd)
         self.cnx.commit()
 
