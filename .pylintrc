@@ -1,0 +1,5 @@
+[MASTER]
+init-hook='import sys; sys.path.append(".")'
+
+[BASIC]
+good-names=d, f, i, j, k, x, df, db, xg, xga, xp, gw
