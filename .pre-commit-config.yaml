@@ -1,8 +1,8 @@
 repos:
   - repo: local
     hooks:
-      - id: lint
-        name: lint
+      - id: pylint
+        name: pylint
         entry: ./scripts/lint.sh
         language: system
         types: [file, python]
