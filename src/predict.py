@@ -1,10 +1,11 @@
 import argparse
-from constants import OPTIONS_FILE
+from constants import OPTIONS_FILE, PREDICT_SCRIPT
 from db import *
 from utils import from_json, get_current_gw
 from prettytable import PrettyTable
 
 current_gw = get_current_gw()
+
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Get FPL point projections")
@@ -16,7 +17,7 @@ def parse_args():
 
 
 def optional(name, val, cmp="="):
-    return "{} {} {}".format(name, cmp, prepare_string(val)) if val is not None else "TRUE"
+    return f"{name} {cmp} {prepare_string(val)}" if val is not None else "TRUE"
 
 
 def query_database(args):
@@ -25,7 +26,7 @@ def query_database(args):
         start_gw, end_gw = [int(gw) for gw in args.gws.split("-")]
     except:
         start_gw = end_gw = int(args.gws)
-    f = open("../scripts/predict.sql")
+    f = open(PREDICT_SCRIPT)
     query = f.read()
     selected_cols = []
     group_cols = ["player_name", "position"]
@@ -39,14 +40,14 @@ def query_database(args):
     select_clause = ",".join(selected_cols)
     group_by_clause = ",".join(group_cols)
     filters = [
-        "gameweek >= {}".format(start_gw),
-        "gameweek <= {}".format(end_gw),
+        f"gameweek >= {start_gw}",
+        f"gameweek <= {end_gw}",
         optional("player_name", args.player),
         optional("position", args.position)
     ]
     where_clause = " AND ".join(filters)
-    query += " ORDER BY {} DESC".format(args.sort_key)
-    query += " LIMIT {}".format(args.limit)
+    query += f" ORDER BY {args.sort_key} DESC"
+    query += f" LIMIT {args.limit}"
     query = query.format(select_clause, where_clause, group_by_clause)
     cols, players = db.exec_query(query, get_col_names=True)
     f.close()

@@ -1,3 +1,4 @@
+"""A module for the constants used throughout the system."""
 from os.path import join
 
 CURRENT_SEASON = "2021-22"
@@ -20,12 +21,17 @@ DATA_DIR = "../data"
 FIXTURES_FILE = join(DATA_DIR, "fixtures.csv")
 GW_HISTORY_FILE = join(DATA_DIR, "gw_history.csv")
 OPTIONS_FILE = join(DATA_DIR, "filter_options.json")
-PLAYERS_FILE = join(DATA_DIR, "players_{}.json".format(CURRENT_SEASON))
+PLAYERS_FILE = join(DATA_DIR, f"players_{CURRENT_SEASON}.json")
 RUNS_FILE = join(DATA_DIR, "runs.json")
-TEAMS_FILE = join(DATA_DIR, "teams_{}.json".format(CURRENT_SEASON))
+TEAMS_FILE = join(DATA_DIR, f"teams_{CURRENT_SEASON}.json")
 TEAM_HISTORY_FILE = join(DATA_DIR, "team_history.json")
 TEAM_OPTIONS_FILE = join(DATA_DIR, "team_options.json")
 UNDERSTAT_PLAYER_FILE = join(DATA_DIR, "understat_player_data.json")
+
+# Scripts
+SCRIPT_DIR = "../scripts"
+MERGE_SCRIPT = join(SCRIPT_DIR, "merge.sql")
+PREDICT_SCRIPT = join(SCRIPT_DIR, "predict.sql")
 
 # Model parameters
 NPXG_ALPHA = 0.2

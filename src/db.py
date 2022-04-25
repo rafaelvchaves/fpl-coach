@@ -1,16 +1,15 @@
+"""A module for managing a connection to a MySQL database."""
 import math
+from typing import Any, Dict, List, Optional, Tuple, Union
 import mysql.connector
 import pandas as pd
-from mysql.connector.locales.eng import client_error
-from mysql.connector.errors import IntegrityError
 from sqlalchemy import create_engine
-from typing import Any, Dict, List, Optional, Tuple, Union
 
 
-def isnan(s: Any) -> bool:
+def isnan(val: Any) -> bool:
     """Checks if any value is nan."""
     try:
-        return math.isnan(float(s))
+        return math.isnan(float(val))
     except:
         return False
 
@@ -29,10 +28,10 @@ def prepare_string(val: Any) -> str:
     """
     if val is None or isnan(val):
         return "NULL"
-    elif isinstance(val, str):
-        return "'{}'".format(val.replace("'", "''"))
-    else:
-        return str(val)
+    if isinstance(val, str):
+        val_escaped = val.replace("'", "''")
+        return f"'{val_escaped}'"
+    return str(val)
 
 
 def get_update_sequence(row: Dict[str, Any], sep: str) -> str:
@@ -52,6 +51,7 @@ def get_update_sequence(row: Dict[str, Any], sep: str) -> str:
 
 
 class MySQLManager:
+    """A class for inserting and querying the fplcoach database."""
 
     def __init__(self):
         self.cnx = mysql.connector.connect(
@@ -78,8 +78,7 @@ class MySQLManager:
         for row in rows:
             inserts = ",".join([prepare_string(val) for _, val in row.items()])
             updates = get_update_sequence(row, ",")
-            cmd = "INSERT INTO {} ({}) VALUES ({}) ON DUPLICATE KEY UPDATE {}".format(
-                table_name, cols, inserts, updates)
+            cmd = f"INSERT INTO {table_name} ({cols}) VALUES ({inserts}) ON DUPLICATE KEY UPDATE {updates}"
             cursor.execute(cmd)
         self.cnx.commit()
 
@@ -95,8 +94,7 @@ class MySQLManager:
         cursor = self.cnx.cursor()
         updated_vals = get_update_sequence(set_clause, ",")
         rows_affected = get_update_sequence(where_clause, " AND ")
-        cmd = "UPDATE {} SET {} WHERE {}".format(
-            table_name, updated_vals, rows_affected)
+        cmd = f"UPDATE {table_name} SET {updated_vals} WHERE {rows_affected}"
         cursor.execute(cmd)
         self.cnx.commit()
 
@@ -106,8 +104,7 @@ class MySQLManager:
         cursor.execute(query)
         if not get_col_names:
             return cursor.fetchall()
-        else:
-            return cursor.column_names, cursor.fetchall()
+        return cursor.column_names, cursor.fetchall()
 
     def get_df(self, query: str) -> pd.DataFrame:
         """Returns results of SQL query as a pandas dataframe."""
@@ -127,10 +124,9 @@ class MySQLManager:
         if isinstance(gameweeks, tuple):
             lower = gameweeks[0] if gameweeks[0] is not None else 1
             upper = gameweeks[1] if gameweeks[1] is not None else 38
-            query += " WHERE gameweek >= {} AND gameweek <= {}".format(
-                lower, upper)
+            query += f" WHERE gameweek >= {lower} AND gameweek <= {upper}"
         elif isinstance(gameweeks, int):
-            query += " WHERE gameweek = {}".format(gameweeks)
+            query += f" WHERE gameweek = {gameweeks}"
         query += " ORDER BY gameweek"
         cursor.execute(query)
         return cursor.fetchall()

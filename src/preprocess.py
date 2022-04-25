@@ -1,7 +1,6 @@
-import numpy as np
-from constants import GW_HISTORY_FILE, NPXG_ALPHA, XA_ALPHA, BONUS_ALPHA, MINUTES_ALPHA
+"""A module for preprocessing gameweek data to be fed into model."""
+from constants import GW_HISTORY_FILE, MERGE_SCRIPT, NPXG_ALPHA, XA_ALPHA, BONUS_ALPHA, MINUTES_ALPHA
 from db import MySQLManager
-from utils import *
 from teams import get_fpl_teams
 
 
@@ -15,6 +14,7 @@ def compute_emas(df, stats, alpha):
             row = df[is_player]
             dfc.loc[is_player, avg_stat] = get_ema(row[stat], alpha)
     return dfc
+
 
 def compute_team_xg_averages(db: MySQLManager) -> None:
     """Averages team xG data and writes to the team_gws table.
@@ -34,7 +34,7 @@ def compute_team_xg_averages(db: MySQLManager) -> None:
             db.update_row(
                 "team_gws",
                 {"fixture_id": team_row["fixture_id"], "team": team_name},
-                {"avg_team_xG": team_xg[i], "avg_team_xGA": team_xg[i]}
+                {"avg_team_xG": team_xg[i], "avg_team_xGA": team_xga[i]}
             )
 
 
@@ -44,8 +44,8 @@ def preprocess():
     Joins the player_gws table with team_gws table and computes stat averages."""
     db = MySQLManager()
     compute_team_xg_averages(db)
-    with open("../scripts/merge.sql") as f:
-        query = f.read()
+    with open(MERGE_SCRIPT) as sql_file:
+        query = sql_file.read()
     df = db.get_df(query)
     df = df.sort_values(by="kickoff_date")
     df = compute_emas(df, ["npxG"], NPXG_ALPHA)
