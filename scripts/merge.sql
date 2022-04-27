@@ -18,7 +18,7 @@ SELECT
   minutes,
   player_gws.total_points as total_points,
   T1.avg_team_xG AS avg_team_xG,
-  T2.avg_team_xGA AS avg_team_xGA,
+  T1.avg_team_xGA AS avg_team_xGA,
   T2.avg_team_xG AS avg_opponent_xG,
   T2.avg_team_xGA AS avg_opponent_xGA,
   T1.proj_score AS proj_score,
