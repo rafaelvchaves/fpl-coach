@@ -19,7 +19,7 @@
       "default": 20,
       "help": "maximum number of players to display."
   },
-  "--show_opponents": {
+  "--opponents": {
       "dest": "show_opp",
       "action": "store_true",
       "default": false,
@@ -30,7 +30,7 @@
       "default": null,
       "help": "specify maximum player price."
   },
-  "--sort_by": {
+  "--sort": {
       "dest": "sort_key",
       "default": "xP",
       "help": "a column to sort by."
