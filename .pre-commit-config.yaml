@@ -8,8 +8,8 @@ repos:
         types: [file, python]
         fail_fast: true
         pass_filenames: false
-  - repo: https://github.com/psf/black
-    rev: 21.12b0
-    hooks:
-      - id: black
+  # - repo: https://github.com/psf/black
+  #   rev: 21.12b0
+  #   hooks:
+  #     - id: black
 

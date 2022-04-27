@@ -22,6 +22,8 @@ CSV_DIR = "../data/csv"
 BACKUP_DIR = "../data/backups"
 FIXTURES_FILE = join(CSV_DIR, "fixtures.csv")
 GW_HISTORY_FILE = join(CSV_DIR, "gw_history.csv")
+ID_CONVERSIONS_FILE = join(JSON_DIR, "id_conversions.json")
+MODEL_PARAMS_FILE = join(JSON_DIR, "model_params.json")
 OPTIONS_FILE = join(JSON_DIR, "filter_options.json")
 PLAYERS_FILE = join(JSON_DIR, f"players_{CURRENT_SEASON}.json")
 RUNS_FILE = join(JSON_DIR, "runs.json")
@@ -37,7 +39,7 @@ MY_TEAM_SCRIPT = join(SCRIPT_DIR, "my_team.sql")
 PREDICT_SCRIPT = join(SCRIPT_DIR, "predict.sql")
 
 # Model parameters
-NPXG_ALPHA = 0.2
-XA_ALPHA = 0.2
+NPXG_ALPHA = 0.15
+XA_ALPHA = 0.15
 BONUS_ALPHA = 0.2
 MINUTES_ALPHA = 0.3

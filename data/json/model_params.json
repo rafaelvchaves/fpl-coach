@@ -1,0 +1,42 @@
+{
+  "G" : {
+    "alpha": 1,
+    "beta": 0.3,
+    "goal_value": 6,
+    "assist_value": 3,
+    "cs_value": 4,
+    "bonus_value": 1,
+    "concede_value": -1,
+    "stat_values": [6, 3, 4, 1, -1]
+  },
+  "D": {
+    "alpha": 1,
+    "beta": 0.3,
+    "goal_value": 6,
+    "assist_value": 3,
+    "cs_value": 4,
+    "bonus_value": 1,
+    "concede_value": -1,
+    "stat_values": [6, 3, 4, 1, -1]
+  },
+  "M": {
+    "alpha": 1,
+    "beta": 0.3,
+    "goal_value": 5,
+    "assist_value": 3,
+    "cs_value": 1,
+    "bonus_value": 1,
+    "concede_value": 0,
+    "stat_values": [5, 3, 1, 1, 0]
+  },
+  "F": {
+    "alpha": 1,
+    "beta": 0.3,
+    "goal_value": 4,
+    "assist_value": 3,
+    "cs_value": 0,
+    "bonus_value": 1,
+    "concede_value": 0,
+    "stat_values": [4, 3, 0, 1, 0]
+  }
+}

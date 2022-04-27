@@ -7,7 +7,7 @@ import requests
 import unidecode
 from understat import Understat
 
-from constants import START_YEAR, FPL_BASE_URL, PLAYERS_FILE, DATA_DIR
+from constants import START_YEAR, FPL_BASE_URL, ID_CONVERSIONS_FILE, PLAYERS_FILE
 from teams import create_team_map
 from db import MySQLManager
 from utils import cast_int_safe, from_json, mapl, to_json
@@ -57,7 +57,7 @@ def hardcoded_conversions():
     Returns:
       A dictionary mapping a subset of players' FPL ID to their Understat ID.
     """
-    conv = from_json(os.path.join(DATA_DIR, "id_conversions.json"))
+    conv = from_json(ID_CONVERSIONS_FILE)
     return {int(k): v for k, v in conv.items()}
 
 

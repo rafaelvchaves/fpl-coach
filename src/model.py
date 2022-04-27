@@ -5,6 +5,7 @@ import pandas as pd
 from scipy.stats import poisson
 from constants import (
     GW_HISTORY_FILE,
+    MODEL_PARAMS_FILE,
     RUNS_FILE,
     NPXG_ALPHA,
     XA_ALPHA,
@@ -15,7 +16,7 @@ from db import MySQLManager
 from preprocess import preprocess
 from utils import from_json, to_json, get_current_gw
 
-params_json = from_json("../data/params.json")
+params_json = from_json(MODEL_PARAMS_FILE)
 predicted_cols = [
     "goal_xP", "assist_xP", "cs_xP", "bonus_xP", "concede_xP", "xP"
 ]

@@ -22,6 +22,8 @@ def optional(name, val, cmp="="):
     """Helper function for producing SQL clauses."""
     return f"{name} {cmp} {prepare_string(val)}" if val is not None else "TRUE"
 
+def query(base_query, cols, filters, group_by):
+    pass
 
 def query_database(args):
     """Constructs a query based on cli arguments and returns results."""
