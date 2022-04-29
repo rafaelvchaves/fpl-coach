@@ -34,5 +34,11 @@
       "dest": "sort_key",
       "default": "xP",
       "help": "a column to sort by."
+  },
+  "--my_team": {
+      "dest": "my_team",
+      "action": "store_true",
+      "default": false,
+      "help": "show players on my team."
   }
 }
