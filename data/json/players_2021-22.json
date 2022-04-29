@@ -3270,10 +3270,24 @@
     },
     {
         "fpl_id": 723,
-        "understat_id": null,
+        "understat_id": 10552,
         "fpl_name": "Alejandro Garnacho Ferreyra",
         "team_name": "Man Utd",
         "position": "M"
+    },
+    {
+        "fpl_id": 727,
+        "understat_id": null,
+        "fpl_name": "Shola Shoretire",
+        "team_name": "Man Utd",
+        "position": "M"
+    },
+    {
+        "fpl_id": 728,
+        "understat_id": 5191,
+        "fpl_name": "Álvaro Fernández",
+        "team_name": "Man Utd",
+        "position": "D"
     },
     {
         "fpl_id": 19,
