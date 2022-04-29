@@ -1,7 +1,7 @@
 """A module for displaying point predictions."""
 import argparse
 from prettytable import PrettyTable
-from constants import OPTIONS_FILE, PREDICT_SCRIPT
+from constants import OPTIONS_FILE, MY_TEAM_SCRIPT, PREDICT_SCRIPT
 from db import MySQLManager
 from utils import from_json, get_current_gw, prepare_string
 
@@ -22,8 +22,6 @@ def optional(name, val, cmp="="):
     """Helper function for producing SQL clauses."""
     return f"{name} {cmp} {prepare_string(val)}" if val is not None else "TRUE"
 
-def query(base_query, cols, filters, group_by):
-    pass
 
 def query_database(args):
     """Constructs a query based on cli arguments and returns results."""
@@ -52,6 +50,14 @@ def query_database(args):
         optional("position", args.position)
     ]
     where_clause = " AND ".join(filters)
+    if args.my_team:
+        with open(MY_TEAM_SCRIPT, encoding="utf-8") as sql_script:
+            team_query = sql_script.read().format(get_current_gw())
+            team_players = db.exec_query(team_query)
+            where_clause += " AND ("
+            where_clause += " OR ".join([optional("player_name", player[0])
+                                         for player in team_players])
+            where_clause += ")"
     query += f" ORDER BY {args.sort_key} DESC"
     query += f" LIMIT {args.limit}"
     query = query.format(select_clause, where_clause, group_by_clause)
