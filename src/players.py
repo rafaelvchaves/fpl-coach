@@ -147,11 +147,16 @@ def create_player_map(key_col: str, val_col: Optional[str]):
           entire player json.
     """
     if val_col is None:
-        return {player[key_col]: player for player in get_player_list()}
-    return {player[key_col]: player[val_col] for player in get_player_list()}
+        return {player[key_col]: player for player in get_player_list(cache=False)}
+    return {player[key_col]: player[val_col] for player in get_player_list(cache=False)}
+
+
+def fetch_players(cache=True):
+    """Fetches list of FPL players"""
+    db = MySQLManager()
+    player_rows = get_player_list(cache=cache)
+    db.insert_rows("players", player_rows)
 
 
 if __name__ == "__main__":
-    db = MySQLManager()
-    player_rows = get_player_list(cache=False)
-    db.insert_rows("players", player_rows)
+    fetch_players()

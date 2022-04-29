@@ -4,7 +4,7 @@ from functools import partial
 import requests
 from constants import FPL_GAMEWEEK_URL
 from db import MySQLManager
-from players import create_player_map
+from players import create_player_map, fetch_players
 from utils import get_current_gw, get_gw_range, mapl, subset_dict, Rows
 
 desired_stats = {
