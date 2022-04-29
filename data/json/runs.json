@@ -1,198 +1,242 @@
 [
     {
-        "npxG_alpha": 0.3,
+        "date": "04/27/2022 13:22:20",
+        "position": "M",
+        "npxG_alpha": 0.15,
+        "xA_alpha": 0.15,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.3,
+        "mse": [
+            2.2,
+            0.7,
+            0.1,
+            0.3,
+            0.0,
+            6.1
+        ]
+    },
+    {
+        "date": "04/27/2022 13:25:51",
+        "position": "M",
+        "npxG_alpha": 0.25,
+        "xA_alpha": 0.15,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.3,
+        "mse": [
+            2.2,
+            0.7,
+            0.1,
+            0.3,
+            0.0,
+            6.1
+        ]
+    },
+    {
+        "date": "04/27/2022 13:28:06",
+        "position": "M",
+        "npxG_alpha": 0.45,
+        "xA_alpha": 0.15,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.3,
+        "mse": [
+            2.3,
+            0.7,
+            0.1,
+            0.3,
+            0.0,
+            6.1
+        ]
+    },
+    {
+        "date": "04/27/2022 13:39:42",
+        "position": "M",
+        "npxG_alpha": 0.15,
         "xA_alpha": 0.3,
-        "bonus_alpha": 0.3,
-        "minutes_alpha": 0.3,
-        "rmse": [
-            151.5,
-            87.2,
-            119.6,
-            68.5,
-            49.8,
-            302.5
-        ]
-    },
-    {
-        "npxG_alpha": 0.2,
-        "xA_alpha": 0.3,
-        "bonus_alpha": 0.3,
-        "minutes_alpha": 0.3,
-        "rmse": [
-            151.9,
-            87.2,
-            119.6,
-            68.5,
-            49.8,
-            302.6
-        ]
-    },
-    {
-        "npxG_alpha": 0.3,
-        "xA_alpha": 0.3,
-        "bonus_alpha": 0.3,
-        "minutes_alpha": 0.4,
-        "rmse": [
-            151.4,
-            87.1,
-            119.0,
-            68.5,
-            49.7,
-            301.2
-        ]
-    },
-    {
-        "npxG_alpha": 0.2,
-        "xA_alpha": 0.3,
-        "bonus_alpha": 0.3,
-        "minutes_alpha": 0.3,
-        "rmse": [
-            151.6,
-            87.2,
-            119.6,
-            68.5,
-            49.0,
-            302.6
-        ]
-    },
-    {
-        "npxG_alpha": 0.2,
-        "xA_alpha": 0.2,
-        "bonus_alpha": 0.5,
-        "minutes_alpha": 0.6,
-        "rmse": [
-            150.7,
-            86.6,
-            117.2,
-            70.2,
-            48.6,
-            300.7
-        ]
-    },
-    {
-        "npxG_alpha": 0.2,
-        "xA_alpha": 0.2,
-        "bonus_alpha": 0.7,
-        "minutes_alpha": 0.6,
-        "rmse": [
-            150.7,
-            86.6,
-            117.2,
-            71.5,
-            48.6,
-            300.7
-        ]
-    },
-    {
-        "npxG_alpha": 0.2,
-        "xA_alpha": 0.2,
-        "bonus_alpha": 0.4,
-        "minutes_alpha": 0.6,
-        "rmse": [
-            150.7,
-            86.6,
-            117.2,
-            69.3,
-            48.6,
-            300.6
-        ]
-    },
-    {
-        "npxG_alpha": 0.2,
-        "xA_alpha": 0.2,
-        "bonus_alpha": 0.2,
-        "minutes_alpha": 0.6,
-        "rmse": [
-            150.7,
-            86.6,
-            117.2,
-            67.5,
-            48.6,
-            300.1
-        ]
-    },
-    {
-        "npxG_alpha": 0.2,
-        "xA_alpha": 0.2,
-        "bonus_alpha": 0.2,
-        "minutes_alpha": 0.8,
-        "rmse": [
-            149.4,
-            86.1,
-            114.7,
-            67.4,
-            47.7,
-            300.7
-        ]
-    },
-    {
-        "npxG_alpha": 0.2,
-        "xA_alpha": 0.2,
-        "bonus_alpha": 0.2,
-        "minutes_alpha": 0.5,
-        "rmse": [
-            151.1,
-            86.7,
-            118.1,
-            67.6,
-            48.8,
-            300.2
-        ]
-    },
-    {
-        "npxG_alpha": 0.2,
-        "xA_alpha": 0.2,
-        "bonus_alpha": 0.2,
-        "minutes_alpha": 0.5,
-        "rmse": [
-            151.1,
-            86.7,
-            118.1,
-            67.6,
-            48.8,
-            300.2
-        ]
-    },
-    {
-        "npxG_alpha": 0.2,
-        "xA_alpha": 0.2,
         "bonus_alpha": 0.2,
         "minutes_alpha": 0.3,
-        "rmse": [
-            151.6,
-            87.0,
-            119.6,
-            67.6,
-            49.0,
-            302.4
+        "mse": [
+            2.2,
+            0.7,
+            0.1,
+            0.3,
+            0.0,
+            6.1
         ]
     },
     {
-        "npxG_alpha": 0.2,
-        "xA_alpha": 0.2,
+        "date": "04/27/2022 13:50:41",
+        "position": "M",
+        "npxG_alpha": 0.15,
+        "xA_alpha": 0.15,
         "bonus_alpha": 0.2,
         "minutes_alpha": 0.3,
-        "rmse": [
-            151.6,
-            87.0,
-            119.6,
-            67.6,
-            49.0,
-            302.4
+        "mse": [
+            2.2,
+            0.7,
+            0.1,
+            0.3,
+            0.0,
+            6.1
         ]
     },
     {
-        "npxG_alpha": 0.1,
-        "xA_alpha": 0.1,
+        "date": "04/27/2022 13:53:14",
+        "position": "M",
+        "npxG_alpha": 0.15,
+        "xA_alpha": 0.15,
         "bonus_alpha": 0.2,
         "minutes_alpha": 0.3,
-        "rmse": [
-            154.7,
-            87.6,
-            119.6,
-            67.6,
-            49.0,
-            303.8
+        "mse": [
+            3.4,
+            0.7,
+            0.1,
+            0.3,
+            0.0,
+            6.9
+        ]
+    },
+    {
+        "date": "04/27/2022 13:54:56",
+        "position": "M",
+        "npxG_alpha": 0.15,
+        "xA_alpha": 0.15,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.3,
+        "mse": [
+            2.3,
+            0.7,
+            0.1,
+            0.3,
+            0.0,
+            6.0
+        ]
+    },
+    {
+        "date": "04/27/2022 13:56:52",
+        "position": "M",
+        "npxG_alpha": 0.15,
+        "xA_alpha": 0.15,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.3,
+        "mse": [
+            2.4,
+            0.7,
+            0.1,
+            0.3,
+            0.0,
+            6.2
+        ]
+    },
+    {
+        "date": "04/27/2022 13:59:20",
+        "position": "M",
+        "npxG_alpha": 0.15,
+        "xA_alpha": 0.15,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.3,
+        "mse": [
+            2.1,
+            0.6,
+            0.1,
+            0.3,
+            0.0,
+            6.0
+        ]
+    },
+    {
+        "date": "04/27/2022 14:03:30",
+        "position": "M",
+        "npxG_alpha": 0.15,
+        "xA_alpha": 0.15,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.3,
+        "mse": [
+            2.1,
+            0.6,
+            0.1,
+            0.3,
+            0.0,
+            5.9
+        ]
+    },
+    {
+        "date": "04/27/2022 14:05:28",
+        "position": "M",
+        "npxG_alpha": 0.15,
+        "xA_alpha": 0.15,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.3,
+        "mse": [
+            2.2,
+            0.7,
+            0.1,
+            0.3,
+            0.0,
+            6.0
+        ]
+    },
+    {
+        "date": "04/27/2022 14:07:32",
+        "position": "M",
+        "npxG_alpha": 0.15,
+        "xA_alpha": 0.15,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.3,
+        "mse": [
+            2.1,
+            0.6,
+            0.1,
+            0.3,
+            0.0,
+            5.9
+        ]
+    },
+    {
+        "date": "04/27/2022 14:35:33",
+        "position": "M",
+        "npxG_alpha": 0.15,
+        "xA_alpha": 0.15,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.3,
+        "mse": [
+            2.2,
+            0.7,
+            0.1,
+            0.3,
+            0.0,
+            6.1
+        ]
+    },
+    {
+        "date": "04/27/2022 14:51:54",
+        "position": "M",
+        "npxG_alpha": 0.15,
+        "xA_alpha": 0.15,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.3,
+        "mse": [
+            1.7,
+            0.5,
+            1.0,
+            0.3,
+            0.2,
+            6.5
+        ]
+    },
+    {
+        "date": "04/28/2022 20:52:45",
+        "position": "M",
+        "npxG_alpha": 0.15,
+        "xA_alpha": 0.15,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.3,
+        "mse": [
+            1.7,
+            0.5,
+            1.0,
+            0.3,
+            0.2,
+            6.5
         ]
     }
 ]

@@ -15,6 +15,7 @@ from constants import (
 from db import MySQLManager
 from preprocess import preprocess
 from utils import from_json, to_json, get_current_gw
+from datetime import datetime
 
 params_json = from_json(MODEL_PARAMS_FILE)
 predicted_cols = [
@@ -110,37 +111,41 @@ def evaluate(rows: pd.Series) -> None:
     actual_points = known_point_totals[all_point_cols].to_numpy()
     predicted_points = known_point_totals[predicted_cols].to_numpy()
     diff_sq = np.power(actual_points - predicted_points, 2)
-    rmse = np.round(np.sqrt(np.sum(diff_sq, axis=0)), 1)
-    print("RMSE: ", rmse)
-    runs = from_json(RUNS_FILE)
-    runs.append({
-        "npxG_alpha": NPXG_ALPHA,
-        "xA_alpha": XA_ALPHA,
-        "bonus_alpha": BONUS_ALPHA,
-        "minutes_alpha": MINUTES_ALPHA,
-        "rmse": rmse.tolist()
-    })
-    to_json(RUNS_FILE, runs)
-
+    n = len(known_point_totals)
+    mse = np.round(np.sum(diff_sq, axis=0) / n, 1)
+    print("MSE: ", mse)
+    return mse.tolist()
 
 if __name__ == "__main__":
     preprocess()
     df = pd.read_csv(GW_HISTORY_FILE)
-    gws = df[df["avg_minutes"] > 0].copy()
-    gws[predicted_cols] = gws.apply(
-        predict, axis=1, result_type="expand")
+    position = "M"
+    rows_to_predict = (df["avg_minutes"] > 0)
+    gws = df[rows_to_predict].copy()
+    gws[predicted_cols] = gws.apply(predict, axis=1, result_type="expand")
     gws_zero_mins = df[df["avg_minutes"] == 0].copy()
     gws_zero_mins[predicted_cols] = 0
-    # gws.to_csv("../data/predictions.csv", index=False)
-    evaluate(gws)
-    all_gw_data = pd.concat([gws, gws_zero_mins])
-    db = MySQLManager()
-    for _, entry in all_gw_data.iterrows():
-        db.update_row(
-            "player_gws_predicted",
-            {
-                "player_id": entry["player_id"],
-                "fixture_id": entry["fixture_id"]
-            },
-            {col: entry[col] for col in predicted_cols}
-        )
+    mse = evaluate(gws)
+    now = datetime.now()
+    runs = from_json(RUNS_FILE)
+    runs.append({
+        "date": now.strftime("%m/%d/%Y %H:%M:%S"),
+        "position": position,
+        "npxG_alpha": NPXG_ALPHA,
+        "xA_alpha": XA_ALPHA,
+        "bonus_alpha": BONUS_ALPHA,
+        "minutes_alpha": MINUTES_ALPHA,
+        "mse": mse
+    })
+    to_json(RUNS_FILE, runs)
+    # all_gw_data = pd.concat([gws, gws_zero_mins])
+    # db = MySQLManager()
+    # for _, entry in all_gw_data.iterrows():
+    #     db.update_row(
+    #         "player_gws_predicted",
+    #         {
+    #             "player_id": entry["player_id"],
+    #             "fixture_id": entry["fixture_id"]
+    #         },
+    #         {col: entry[col] for col in predicted_cols}
+    #     )
