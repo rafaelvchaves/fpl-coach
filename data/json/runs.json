@@ -238,5 +238,37 @@
             0.2,
             6.5
         ]
+    },
+    {
+        "date": "05/01/2022 10:24:01",
+        "position": "M",
+        "npxG_alpha": 0.15,
+        "xA_alpha": 0.15,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.3,
+        "mse": [
+            1.7,
+            0.5,
+            1.0,
+            0.3,
+            0.2,
+            6.5
+        ]
+    },
+    {
+        "date": "05/01/2022 20:37:13",
+        "position": "M",
+        "npxG_alpha": 0.15,
+        "xA_alpha": 0.15,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.3,
+        "mse": [
+            1.7,
+            0.5,
+            1.0,
+            0.3,
+            0.2,
+            6.5
+        ]
     }
 ]

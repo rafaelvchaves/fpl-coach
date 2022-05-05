@@ -315,6 +315,13 @@
         "position": "M"
     },
     {
+        "fpl_id": 730,
+        "understat_id": null,
+        "fpl_name": "Alex Kirk",
+        "team_name": "Arsenal",
+        "position": "D"
+    },
+    {
         "fpl_id": 10,
         "understat_id": 508,
         "fpl_name": "Calum Chambers",
@@ -2304,7 +2311,7 @@
     },
     {
         "fpl_id": 646,
-        "understat_id": null,
+        "understat_id": 10168,
         "fpl_name": "Lewis Brunt",
         "team_name": "Leicester",
         "position": "M"
@@ -4261,6 +4268,13 @@
         "fpl_name": "Marcel Lavinier",
         "team_name": "Spurs",
         "position": "D"
+    },
+    {
+        "fpl_id": 729,
+        "understat_id": null,
+        "fpl_name": "Matthew Craig",
+        "team_name": "Spurs",
+        "position": "M"
     },
     {
         "fpl_id": 354,
