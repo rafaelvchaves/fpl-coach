@@ -40,6 +40,6 @@ PREDICT_SCRIPT = join(SCRIPT_DIR, "predict.sql")
 
 # Model parameters
 NPXG_ALPHA = 0.15
-XA_ALPHA = 0.15
+XA_ALPHA = 0.2
 BONUS_ALPHA = 0.2
-MINUTES_ALPHA = 0.3
+MINUTES_ALPHA = 0.4
