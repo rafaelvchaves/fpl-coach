@@ -834,7 +834,7 @@
     },
     {
         "fpl_id": 640,
-        "understat_id": null,
+        "understat_id": 10150,
         "fpl_name": "Nathan Young-Coombes",
         "team_name": "Brentford",
         "position": "F"
@@ -3795,7 +3795,7 @@
     },
     {
         "fpl_id": 716,
-        "understat_id": null,
+        "understat_id": 10525,
         "fpl_name": "Tony Springett",
         "team_name": "Norwich",
         "position": "M"
@@ -4014,6 +4014,13 @@
         "fpl_id": 680,
         "understat_id": null,
         "fpl_name": "Kgaogelo Chauke",
+        "team_name": "Southampton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 731,
+        "understat_id": null,
+        "fpl_name": "Tyler Dibling",
         "team_name": "Southampton",
         "position": "M"
     },
@@ -4609,6 +4616,27 @@
         "fpl_id": 725,
         "understat_id": null,
         "fpl_name": "Shaqai Forde",
+        "team_name": "Watford",
+        "position": "F"
+    },
+    {
+        "fpl_id": 732,
+        "understat_id": null,
+        "fpl_name": "Tiago Çukur",
+        "team_name": "Watford",
+        "position": "F"
+    },
+    {
+        "fpl_id": 733,
+        "understat_id": null,
+        "fpl_name": "Adrian Blake",
+        "team_name": "Watford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 734,
+        "understat_id": null,
+        "fpl_name": "Jack Grieves",
         "team_name": "Watford",
         "position": "F"
     },

@@ -286,5 +286,117 @@
             0.2,
             6.5
         ]
+    },
+    {
+        "date": "05/08/2022 13:17:21",
+        "position": "M",
+        "npxG_alpha": 0.15,
+        "xA_alpha": 0.15,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.3,
+        "mse": [
+            1.6,
+            0.5,
+            1.0,
+            0.3,
+            0.2,
+            6.5
+        ]
+    },
+    {
+        "date": "05/09/2022 12:23:25",
+        "position": "M",
+        "npxG_alpha": 0.25,
+        "xA_alpha": 0.25,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.3,
+        "mse": [
+            1.6,
+            0.5,
+            1.0,
+            0.3,
+            0.2,
+            6.5
+        ]
+    },
+    {
+        "date": "05/09/2022 12:36:09",
+        "position": "M",
+        "npxG_alpha": 0.25,
+        "xA_alpha": 0.25,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.3,
+        "mse": [
+            1.6,
+            0.5,
+            1.0,
+            0.3,
+            0.2,
+            6.5
+        ]
+    },
+    {
+        "date": "05/11/2022 21:22:21",
+        "position": "M",
+        "npxG_alpha": 0.25,
+        "xA_alpha": 0.25,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.3,
+        "mse": [
+            1.6,
+            0.5,
+            1.0,
+            0.3,
+            0.2,
+            6.5
+        ]
+    },
+    {
+        "date": "05/11/2022 21:51:09",
+        "position": "M",
+        "npxG_alpha": 0.15,
+        "xA_alpha": 0.2,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.4,
+        "mse": [
+            1.7,
+            0.5,
+            1.0,
+            0.3,
+            0.2,
+            6.5
+        ]
+    },
+    {
+        "date": "05/12/2022 23:23:32",
+        "position": "M",
+        "npxG_alpha": 0.15,
+        "xA_alpha": 0.2,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.4,
+        "mse": [
+            1.7,
+            0.5,
+            1.0,
+            0.3,
+            0.2,
+            6.5
+        ]
+    },
+    {
+        "date": "05/13/2022 22:33:53",
+        "position": "M",
+        "npxG_alpha": 0.15,
+        "xA_alpha": 0.2,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.4,
+        "mse": [
+            1.7,
+            0.5,
+            1.0,
+            0.3,
+            0.2,
+            6.5
+        ]
     }
 ]
