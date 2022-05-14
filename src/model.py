@@ -138,14 +138,14 @@ if __name__ == "__main__":
         "mse": mse
     })
     to_json(RUNS_FILE, runs)
-    # all_gw_data = pd.concat([gws, gws_zero_mins])
-    # db = MySQLManager()
-    # for _, entry in all_gw_data.iterrows():
-    #     db.update_row(
-    #         "player_gws_predicted",
-    #         {
-    #             "player_id": entry["player_id"],
-    #             "fixture_id": entry["fixture_id"]
-    #         },
-    #         {col: entry[col] for col in predicted_cols}
-    #     )
+    all_gw_data = pd.concat([gws, gws_zero_mins])
+    db = MySQLManager()
+    for _, entry in all_gw_data.iterrows():
+        db.update_row(
+            "player_gws_predicted",
+            {
+                "player_id": entry["player_id"],
+                "fixture_id": entry["fixture_id"]
+            },
+            {col: entry[col] for col in predicted_cols}
+        )
