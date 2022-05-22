@@ -2129,7 +2129,7 @@
     },
     {
         "fpl_id": 204,
-        "understat_id": null,
+        "understat_id": 473,
         "fpl_name": "Danny Ward",
         "team_name": "Leicester",
         "position": "G"
@@ -5020,7 +5020,7 @@
     },
     {
         "fpl_id": 452,
-        "understat_id": null,
+        "understat_id": 785,
         "fpl_name": "John Ruddy",
         "team_name": "Wolves",
         "position": "G"

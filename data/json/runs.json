@@ -398,5 +398,21 @@
             0.2,
             6.5
         ]
+    },
+    {
+        "date": "05/15/2022 13:17:37",
+        "position": "M",
+        "npxG_alpha": 0.15,
+        "xA_alpha": 0.15,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.4,
+        "mse": [
+            NaN,
+            NaN,
+            1.0,
+            0.3,
+            0.2,
+            NaN
+        ]
     }
 ]
