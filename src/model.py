@@ -108,6 +108,7 @@ def evaluate(rows: pd.Series) -> None:
     all_point_cols = point_cols + ["total_points"]
     known_point_totals["concede_points"] = - \
         known_point_totals["goals_conceded"] // 2
+    known_point_totals = known_point_totals[~known_point_totals["xP"].isna()]
     actual_points = known_point_totals[all_point_cols].to_numpy()
     predicted_points = known_point_totals[predicted_cols].to_numpy()
     diff_sq = np.power(actual_points - predicted_points, 2)

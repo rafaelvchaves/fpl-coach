@@ -510,5 +510,53 @@
             0.2,
             6.5
         ]
+    },
+    {
+        "date": "05/30/2022 17:25:11",
+        "position": "M",
+        "npxG_alpha": 0.15,
+        "xA_alpha": 0.15,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.4,
+        "mse": [
+            1.8,
+            0.6,
+            1.0,
+            0.3,
+            0.2,
+            6.6
+        ]
+    },
+    {
+        "date": "05/30/2022 17:29:32",
+        "position": "M",
+        "npxG_alpha": 0.15,
+        "xA_alpha": 0.15,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.4,
+        "mse": [
+            1.7,
+            0.5,
+            1.0,
+            0.3,
+            0.2,
+            6.5
+        ]
+    },
+    {
+        "date": "05/30/2022 17:34:05",
+        "position": "M",
+        "npxG_alpha": 0.15,
+        "xA_alpha": 0.15,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.4,
+        "mse": [
+            1.7,
+            0.5,
+            1.0,
+            0.3,
+            0.2,
+            6.5
+        ]
     }
 ]
