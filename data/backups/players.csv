@@ -202,7 +202,7 @@ fpl_id,understat_id,fpl_name,position,team_name
 201,807.0,Jonny Evans,D,Leicester
 202,753.0,Marc Albrighton,M,Leicester
 203,1785.0,Nampalys Mendy,M,Leicester
-204,,Danny Ward,G,Leicester
+204,473.0,Danny Ward,G,Leicester
 205,755.0,Jamie Vardy,F,Leicester
 206,,Dennis Praet,M,Leicester
 207,3303.0,Ricardo Domingos Barbosa Pereira,D,Leicester
@@ -450,7 +450,7 @@ fpl_id,understat_id,fpl_name,position,team_name
 449,6523.0,Milot Rashica,M,Norwich
 450,9301.0,Emmanuel Dennis,F,Watford
 451,9733.0,Nathan Collins,D,Burnley
-452,,John Ruddy,G,Wolves
+452,785.0,John Ruddy,G,Wolves
 453,614.0,Fernando Luiz Rosa,M,Man City
 454,,Matthew Pollock,D,Watford
 455,9738.0,Patson Daka,F,Leicester
@@ -638,13 +638,13 @@ fpl_id,understat_id,fpl_name,position,team_name
 637,,Harry Lewis,G,Southampton
 638,9554.0,Tim Iroegbunam,M,Aston Villa
 639,,Vontae Daley-Campbell,D,Leicester
-640,,Nathan Young-Coombes,F,Brentford
+640,10150.0,Nathan Young-Coombes,F,Brentford
 641,624.0,Willy Caballero,G,Southampton
 642,,Vincent Angelini,G,Watford
 643,,Jonathan Tomkinson,D,Norwich
 644,,Ajibola Alese,D,West Ham
 645,,Ben Nelson,D,Leicester
-646,,Lewis Brunt,M,Leicester
+646,10168.0,Lewis Brunt,M,Leicester
 647,10166.0,Kasey McAteer,M,Leicester
 648,10172.0,Jonathan Rowe,M,Norwich
 649,,Thomas Dickson-Peters,F,Norwich
@@ -688,8 +688,8 @@ fpl_id,understat_id,fpl_name,position,team_name
 687,,Ryan Giles,M,Wolves
 688,,Thomas McGill,G,Brighton
 689,10327.0,Francisco Jorge Tomás Oliveira,M,Wolves
-690,,Robert Kenedy Nunes do Nascimento,D,Chelsea
-691,,Robin Olsen,G,Aston Villa
+690,689.0,Robert Kenedy Nunes do Nascimento,D,Chelsea
+691,6962.0,Robin Olsen,G,Aston Villa
 692,,Omari Hutchinson,M,Arsenal
 693,,Salah-Eddine Oulad M'hand,M,Arsenal
 694,,Mika Biereth,F,Arsenal
@@ -714,14 +714,25 @@ fpl_id,understat_id,fpl_name,position,team_name
 713,,Tommi O'Reilly,M,Aston Villa
 714,,Alfie Devine,M,Spurs
 715,,Abu Kamara,F,Norwich
-716,,Tony Springett,M,Norwich
+716,10525.0,Tony Springett,M,Norwich
 717,,Jamie Bowden,M,Spurs
-718,,Isaac Price,M,Everton
+718,9470.0,Isaac Price,M,Everton
 719,,Mazeed Ogungbo,D,Arsenal
 720,,Marcelo Flores,M,Arsenal
 721,,Miguel Azeez,M,Arsenal
 722,,Julian Jeanvier,D,Brentford
-723,,Alejandro Garnacho Ferreyra,M,Man Utd
+723,10552.0,Alejandro Garnacho Ferreyra,M,Man Utd
 724,,Marcel Lavinier,D,Spurs
 725,,Shaqai Forde,F,Watford
 726,,Dara Costelloe,M,Burnley
+727,9359.0,Shola Shoretire,M,Man Utd
+728,5191.0,Álvaro Fernández,D,Man Utd
+729,,Matthew Craig,M,Spurs
+730,,Alex Kirk,D,Arsenal
+731,,Tyler Dibling,M,Southampton
+732,,Tiago Çukur,F,Watford
+733,,Adrian Blake,M,Watford
+734,,Jack Grieves,F,Watford
+735,,Joseph McGlynn,F,Burnley
+736,,Anthony Mancini,M,Burnley
+737,,Charlie Savage,M,Man Utd
