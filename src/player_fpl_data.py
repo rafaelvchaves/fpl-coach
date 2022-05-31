@@ -87,10 +87,11 @@ def get_player_gw_data(player: dict, remaining_fixtures: Dict[str, List[int]]) -
             player_match_data = get_match_data(
                 player_id, team, fixture_id, stat_lookup)
         gw_data.append(player_match_data)
-    # also add empty entries for upcoming games
-    for fixture_id in remaining_fixtures[team]:
-        gw_data.append(get_match_data(
-            player_id, team, fixture_id, lambda s: None))
+    # also add empty entries for upcoming games, if any.
+    if team in remaining_fixtures:
+        for fixture_id in remaining_fixtures[team]:
+            gw_data.append(get_match_data(
+                player_id, team, fixture_id, lambda s: None))
     extract_info = partial(subset_dict, keys=["player_id", "fixture_id"])
     basic_info = mapl(extract_info, gw_data)
     return basic_info, gw_data

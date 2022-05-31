@@ -151,7 +151,7 @@ def create_player_map(key_col: str, val_col: Optional[str]):
     return {player[key_col]: player[val_col] for player in get_player_list(cache=False)}
 
 
-def fetch_players(cache=True):
+def fetch_players(cache=False):
     """Fetches list of FPL players"""
     db = MySQLManager()
     player_rows = get_player_list(cache=cache)

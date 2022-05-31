@@ -56,7 +56,7 @@ def get_current_gw() -> int:
     recently passed.
 
     Returns:
-      -1 if no such gameweek exists
+      39 if no such gameweek exists
     """
     gws = requests.get(FPL_BASE_URL).json()["events"]
     now = datetime.utcnow()
@@ -65,7 +65,7 @@ def get_current_gw() -> int:
             gw['deadline_time'], '%Y-%m-%dT%H:%M:%SZ')
         if gw_deadline > now:
             return gw["id"] - 1
-    return -1
+    return 39
 
 
 def get_ema(col: pd.Series, alpha: float = 0.3) -> np.array:
@@ -111,7 +111,7 @@ def get_gw_range(gws: Optional[Union[int, Tuple[int]]]) -> Tuple[int]:
         return gws, gws
     if isinstance(gws, tuple):
         return gws[0], min(gws[1], current_gw)
-    return 1, current_gw
+    return 1, min(current_gw, 38)
 
 
 def subset_dict(d: Dict[Any, Any], keys: List[Any]) -> Dict[Any, Any]:
