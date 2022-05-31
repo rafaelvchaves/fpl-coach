@@ -414,5 +414,101 @@
             0.2,
             NaN
         ]
+    },
+    {
+        "date": "05/22/2022 12:22:49",
+        "position": "M",
+        "npxG_alpha": 0.15,
+        "xA_alpha": 0.15,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.4,
+        "mse": [
+            NaN,
+            NaN,
+            1.0,
+            0.3,
+            0.2,
+            NaN
+        ]
+    },
+    {
+        "date": "05/30/2022 16:20:41",
+        "position": "M",
+        "npxG_alpha": 0.15,
+        "xA_alpha": 0.15,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.4,
+        "mse": [
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN,
+            NaN
+        ]
+    },
+    {
+        "date": "05/30/2022 16:36:47",
+        "position": "M",
+        "npxG_alpha": 0.15,
+        "xA_alpha": 0.15,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.4,
+        "mse": [
+            NaN,
+            NaN,
+            1.0,
+            0.3,
+            0.2,
+            NaN
+        ]
+    },
+    {
+        "date": "05/30/2022 16:50:18",
+        "position": "M",
+        "npxG_alpha": 0.15,
+        "xA_alpha": 0.15,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.4,
+        "mse": [
+            NaN,
+            NaN,
+            1.0,
+            0.3,
+            0.2,
+            NaN
+        ]
+    },
+    {
+        "date": "05/30/2022 17:06:28",
+        "position": "M",
+        "npxG_alpha": 0.15,
+        "xA_alpha": 0.15,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.4,
+        "mse": [
+            NaN,
+            NaN,
+            1.0,
+            0.3,
+            0.2,
+            NaN
+        ]
+    },
+    {
+        "date": "05/30/2022 17:18:04",
+        "position": "M",
+        "npxG_alpha": 0.15,
+        "xA_alpha": 0.15,
+        "bonus_alpha": 0.2,
+        "minutes_alpha": 0.4,
+        "mse": [
+            1.7,
+            0.5,
+            1.0,
+            0.3,
+            0.2,
+            6.5
+        ]
     }
 ]

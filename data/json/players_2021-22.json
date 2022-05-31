@@ -582,7 +582,7 @@
     },
     {
         "fpl_id": 691,
-        "understat_id": null,
+        "understat_id": 6962,
         "fpl_name": "Robin Olsen",
         "team_name": "Aston Villa",
         "position": "G"
@@ -1351,6 +1351,20 @@
         "position": "M"
     },
     {
+        "fpl_id": 735,
+        "understat_id": null,
+        "fpl_name": "Joseph McGlynn",
+        "team_name": "Burnley",
+        "position": "F"
+    },
+    {
+        "fpl_id": 736,
+        "understat_id": null,
+        "fpl_name": "Anthony Mancini",
+        "team_name": "Burnley",
+        "position": "M"
+    },
+    {
         "fpl_id": 119,
         "understat_id": 681,
         "fpl_name": "César Azpilicueta",
@@ -1576,7 +1590,7 @@
     },
     {
         "fpl_id": 690,
-        "understat_id": null,
+        "understat_id": 689,
         "fpl_name": "Robert Kenedy Nunes do Nascimento",
         "team_name": "Chelsea",
         "position": "D"
@@ -2094,7 +2108,7 @@
     },
     {
         "fpl_id": 718,
-        "understat_id": null,
+        "understat_id": 9470,
         "fpl_name": "Isaac Price",
         "team_name": "Everton",
         "position": "M"
@@ -3284,7 +3298,7 @@
     },
     {
         "fpl_id": 727,
-        "understat_id": null,
+        "understat_id": 9359,
         "fpl_name": "Shola Shoretire",
         "team_name": "Man Utd",
         "position": "M"
@@ -3295,6 +3309,13 @@
         "fpl_name": "Álvaro Fernández",
         "team_name": "Man Utd",
         "position": "D"
+    },
+    {
+        "fpl_id": 737,
+        "understat_id": null,
+        "fpl_name": "Charlie Savage",
+        "team_name": "Man Utd",
+        "position": "M"
     },
     {
         "fpl_id": 19,
