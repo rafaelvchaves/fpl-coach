@@ -2,7 +2,7 @@
 from os.path import join
 
 CURRENT_SEASON = "2022-23"
-LAST_SEASON = "2021-22"
+LAST_SEASON = "2021-2022"
 
 # FPL API endpoints
 FPL_BASE_URL = "https://fantasy.premierleague.com/api/bootstrap-static/"
