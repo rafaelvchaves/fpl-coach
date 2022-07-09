@@ -1,12 +1,14 @@
 from pymongo import MongoClient
 import player
+import os
 
 
 class Handler:
 
     def __init__(self):
+        password = os.environ.get("FPLCOACH_PASSWORD")
         self.client = MongoClient(
-            "mongodb+srv://fplcoach-admin:K93kfU7fhOTE7I1a@cluster0.z88di.mongodb.net/?retryWrites=true&w=majority")
+            f"mongodb+srv://fplcoach-admin:{password}@cluster0.z88di.mongodb.net/?retryWrites=true&w=majority")
         self.players_collection = self.client.fplcoachdb.players
         self.matches_collection = self.client.fplcoachdb.matches
 
