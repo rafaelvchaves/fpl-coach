@@ -1,4 +1,3 @@
-USE fplcoachdb;
 DROP TABLE IF EXISTS player_gws;
 DROP TABLE IF EXISTS player_gws_predicted;
 DROP TABLE IF EXISTS team_gws;

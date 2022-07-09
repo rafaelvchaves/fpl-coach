@@ -99,10 +99,21 @@ def get_ema(col: pd.Series, alpha: float = 0.3) -> np.array:
     return ema
 
 
-def mapl(f: Callable[[Any], Any], lst: List[Any]) -> List[Any]:
+def map_list(f: Callable[[Any], Any], lst: List[Any]) -> List[Any]:
     """Map helper function to avoid wrapping in list() call each time."""
     return list(map(f, lst))
 
+def keep_and_rename(keys):
+    return lambda d : {new : d[old] for old, new in keys.items()}
+
+def retain_keys(d, keys):
+    return {key: d[key] for key in keys}
+
+def rename_keys(d, renamings):
+    d_new = d
+    for old, new in renamings.items():
+        d_new[new] = d[old]
+    return d_new
 
 def get_gw_range(gws: Optional[Union[int, Tuple[int]]]) -> Tuple[int]:
     """Helper function for parsing a gameweek argument into a range. """

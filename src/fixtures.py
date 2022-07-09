@@ -6,7 +6,7 @@ import aiohttp
 import pandas as pd
 import requests
 from understat import Understat
-from constants import FPL_FIXTURES_URL, FTE_MATCHES_URL
+from constants import FPL_FIXTURES_URL, FTE_MATCHES_URL, START_YEAR
 from teams import create_team_map
 from utils import parse_date, Row, Rows
 from db import MySQLManager
@@ -20,7 +20,7 @@ def get_fte_df() -> pd.DataFrame:
     """Returns data from FiveThirtyEight's SPI csv as a pandas DataFrame."""
     fte_df = pd.read_csv(FTE_MATCHES_URL)
     fte_df = fte_df[(fte_df["league"] == "Barclays Premier League")
-                    & (fte_df["season"] == 2021)]
+                    & (fte_df["season"] == START_YEAR)]
     cols = ["date", "team1", "team2", "proj_score1",
             "proj_score2", "score1", "score2", "xg1", "xg2"]
     return fte_df[cols]
@@ -99,9 +99,9 @@ async def get_understat_fixtures() -> Dict[str, Dict[str, int]]:
     fixture_ids = {}
     async with aiohttp.ClientSession() as session:
         understat = Understat(session)
-        old_fixtures = await understat.get_league_results("epl", 2021)
+        old_fixtures = await understat.get_league_results("epl", START_YEAR)
         update_fixtures(fixture_ids, old_fixtures)
-        upcoming_fixtures = await understat.get_league_fixtures("epl", 2021)
+        upcoming_fixtures = await understat.get_league_fixtures("epl", START_YEAR)
         update_fixtures(fixture_ids, upcoming_fixtures)
     return fixture_ids
 

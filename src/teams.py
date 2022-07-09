@@ -1,5 +1,6 @@
 """A module for loading static team data from FPL, Understat, and
 FiveThirtyEight. """
+import os
 import requests
 from constants import FPL_BASE_URL, TEAMS_FILE
 from utils import from_json, to_json
@@ -57,7 +58,7 @@ def get_fpl_teams(cache=True):
     Returns:
       A list of dictionaries, with fields specified in make_team_json.
     """
-    if cache:
+    if cache and os.path.exists(TEAMS_FILE):
         return from_json(TEAMS_FILE)
     teams_json = requests.get(FPL_BASE_URL).json()["teams"]
     teams = [make_team_json(team) for team in teams_json]

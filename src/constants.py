@@ -1,8 +1,8 @@
 """A module for the constants used throughout the system."""
 from os.path import join
 
-CURRENT_SEASON = "2021-22"
-START_YEAR = CURRENT_SEASON[:-3]
+CURRENT_SEASON = "2022-23"
+LAST_SEASON = "2021-22"
 
 # FPL API endpoints
 FPL_BASE_URL = "https://fantasy.premierleague.com/api/bootstrap-static/"
