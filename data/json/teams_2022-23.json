@@ -1,0 +1,122 @@
+[
+    {
+        "fpl_id": 1,
+        "fpl_name": "Arsenal",
+        "understat_name": "Arsenal",
+        "fte_name": "Arsenal"
+    },
+    {
+        "fpl_id": 2,
+        "fpl_name": "Aston Villa",
+        "understat_name": "Aston Villa",
+        "fte_name": "Aston Villa"
+    },
+    {
+        "fpl_id": 3,
+        "fpl_name": "Bournemouth",
+        "understat_name": "Bournemouth",
+        "fte_name": "Bournemouth"
+    },
+    {
+        "fpl_id": 4,
+        "fpl_name": "Brentford",
+        "understat_name": "Brentford",
+        "fte_name": "Brentford"
+    },
+    {
+        "fpl_id": 5,
+        "fpl_name": "Brighton",
+        "understat_name": "Brighton",
+        "fte_name": "Brighton and Hove Albion"
+    },
+    {
+        "fpl_id": 6,
+        "fpl_name": "Chelsea",
+        "understat_name": "Chelsea",
+        "fte_name": "Chelsea"
+    },
+    {
+        "fpl_id": 7,
+        "fpl_name": "Crystal Palace",
+        "understat_name": "Crystal Palace",
+        "fte_name": "Crystal Palace"
+    },
+    {
+        "fpl_id": 8,
+        "fpl_name": "Everton",
+        "understat_name": "Everton",
+        "fte_name": "Everton"
+    },
+    {
+        "fpl_id": 9,
+        "fpl_name": "Fulham",
+        "understat_name": "Fulham",
+        "fte_name": "Fulham"
+    },
+    {
+        "fpl_id": 10,
+        "fpl_name": "Leicester",
+        "understat_name": "Leicester",
+        "fte_name": "Leicester City"
+    },
+    {
+        "fpl_id": 11,
+        "fpl_name": "Leeds",
+        "understat_name": "Leeds",
+        "fte_name": "Leeds United"
+    },
+    {
+        "fpl_id": 12,
+        "fpl_name": "Liverpool",
+        "understat_name": "Liverpool",
+        "fte_name": "Liverpool"
+    },
+    {
+        "fpl_id": 13,
+        "fpl_name": "Man City",
+        "understat_name": "Manchester City",
+        "fte_name": "Manchester City"
+    },
+    {
+        "fpl_id": 14,
+        "fpl_name": "Man Utd",
+        "understat_name": "Manchester United",
+        "fte_name": "Manchester United"
+    },
+    {
+        "fpl_id": 15,
+        "fpl_name": "Newcastle",
+        "understat_name": "Newcastle United",
+        "fte_name": "Newcastle"
+    },
+    {
+        "fpl_id": 16,
+        "fpl_name": "Nott'm Forest",
+        "understat_name": "Nott'm Forest",
+        "fte_name": "Nott'm Forest"
+    },
+    {
+        "fpl_id": 17,
+        "fpl_name": "Southampton",
+        "understat_name": "Southampton",
+        "fte_name": "Southampton"
+    },
+    {
+        "fpl_id": 18,
+        "fpl_name": "Spurs",
+        "understat_name": "Tottenham",
+        "fte_name": "Tottenham Hotspur"
+    },
+    {
+        "fpl_id": 19,
+        "fpl_name": "West Ham",
+        "understat_name": "West Ham",
+        "fte_name": "West Ham United"
+    },
+    {
+        "fpl_id": 20,
+        "fpl_name": "Wolves",
+        "understat_name": "Wolverhampton Wanderers",
+        "fte_name": "Wolverhampton"
+    }
+]

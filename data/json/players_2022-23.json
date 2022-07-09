@@ -1,0 +1,3523 @@
+[
+    {
+        "fpl_id": 1,
+        "understat_id": 847,
+        "fpl_name": "Cédric Alves Soares",
+        "team_name": "Arsenal",
+        "position": "D"
+    },
+    {
+        "fpl_id": 2,
+        "understat_id": 181,
+        "fpl_name": "Bernd Leno",
+        "team_name": "Arsenal",
+        "position": "G"
+    },
+    {
+        "fpl_id": 3,
+        "understat_id": 204,
+        "fpl_name": "Granit Xhaka",
+        "team_name": "Arsenal",
+        "position": "M"
+    },
+    {
+        "fpl_id": 4,
+        "understat_id": 496,
+        "fpl_name": "Mohamed Elneny",
+        "team_name": "Arsenal",
+        "position": "M"
+    },
+    {
+        "fpl_id": 5,
+        "understat_id": 1749,
+        "fpl_name": "Rob Holding",
+        "team_name": "Arsenal",
+        "position": "D"
+    },
+    {
+        "fpl_id": 6,
+        "understat_id": 2328,
+        "fpl_name": "Thomas Partey",
+        "team_name": "Arsenal",
+        "position": "M"
+    },
+    {
+        "fpl_id": 7,
+        "understat_id": 2517,
+        "fpl_name": "Martin Ødegaard",
+        "team_name": "Arsenal",
+        "position": "M"
+    },
+    {
+        "fpl_id": 8,
+        "understat_id": 8089,
+        "fpl_name": "Kieran Tierney",
+        "team_name": "Arsenal",
+        "position": "D"
+    },
+    {
+        "fpl_id": 9,
+        "understat_id": 5656,
+        "fpl_name": "Nicolas Pépé",
+        "team_name": "Arsenal",
+        "position": "M"
+    },
+    {
+        "fpl_id": 10,
+        "understat_id": null,
+        "fpl_name": "Benjamin White",
+        "team_name": "Arsenal",
+        "position": "D"
+    },
+    {
+        "fpl_id": 11,
+        "understat_id": 6482,
+        "fpl_name": "Eddie Nketiah",
+        "team_name": "Arsenal",
+        "position": "F"
+    },
+    {
+        "fpl_id": 12,
+        "understat_id": null,
+        "fpl_name": "Emile Smith Rowe",
+        "team_name": "Arsenal",
+        "position": "M"
+    },
+    {
+        "fpl_id": 13,
+        "understat_id": 7322,
+        "fpl_name": "Bukayo Saka",
+        "team_name": "Arsenal",
+        "position": "M"
+    },
+    {
+        "fpl_id": 14,
+        "understat_id": 7931,
+        "fpl_name": "Takehiro Tomiyasu",
+        "team_name": "Arsenal",
+        "position": "D"
+    },
+    {
+        "fpl_id": 15,
+        "understat_id": 5603,
+        "fpl_name": "Aaron Ramsdale",
+        "team_name": "Arsenal",
+        "position": "G"
+    },
+    {
+        "fpl_id": 16,
+        "understat_id": 5613,
+        "fpl_name": "Gabriel dos Santos Magalhães",
+        "team_name": "Arsenal",
+        "position": "D"
+    },
+    {
+        "fpl_id": 17,
+        "understat_id": 9691,
+        "fpl_name": "Nuno Varela Tavares",
+        "team_name": "Arsenal",
+        "position": "D"
+    },
+    {
+        "fpl_id": 18,
+        "understat_id": 9689,
+        "fpl_name": "Albert Sambi Lokonga",
+        "team_name": "Arsenal",
+        "position": "M"
+    },
+    {
+        "fpl_id": 19,
+        "understat_id": 6630,
+        "fpl_name": "Gabriel Martinelli Silva",
+        "team_name": "Arsenal",
+        "position": "M"
+    },
+    {
+        "fpl_id": 20,
+        "understat_id": 6482,
+        "fpl_name": "Pablo Marí Villar",
+        "team_name": "Arsenal",
+        "position": "D"
+    },
+    {
+        "fpl_id": 21,
+        "understat_id": 7230,
+        "fpl_name": "Ainsley Maitland-Niles",
+        "team_name": "Arsenal",
+        "position": "M"
+    },
+    {
+        "fpl_id": 22,
+        "understat_id": null,
+        "fpl_name": "Lucas Torreira di Pascua",
+        "team_name": "Arsenal",
+        "position": "M"
+    },
+    {
+        "fpl_id": 23,
+        "understat_id": 6492,
+        "fpl_name": "Reiss Nelson",
+        "team_name": "Arsenal",
+        "position": "M"
+    },
+    {
+        "fpl_id": 24,
+        "understat_id": null,
+        "fpl_name": "Matt Turner",
+        "team_name": "Arsenal",
+        "position": "G"
+    },
+    {
+        "fpl_id": 25,
+        "understat_id": null,
+        "fpl_name": "Fábio Ferreira Vieira",
+        "team_name": "Arsenal",
+        "position": "M"
+    },
+    {
+        "fpl_id": 26,
+        "understat_id": 7752,
+        "fpl_name": "William Saliba",
+        "team_name": "Arsenal",
+        "position": "D"
+    },
+    {
+        "fpl_id": 27,
+        "understat_id": null,
+        "fpl_name": "Marcus Oliveira Alencar",
+        "team_name": "Arsenal",
+        "position": "M"
+    },
+    {
+        "fpl_id": 28,
+        "understat_id": 5543,
+        "fpl_name": "Gabriel Fernando de Jesus",
+        "team_name": "Arsenal",
+        "position": "F"
+    },
+    {
+        "fpl_id": 29,
+        "understat_id": 488,
+        "fpl_name": "Philippe Coutinho Correia",
+        "team_name": "Aston Villa",
+        "position": "M"
+    },
+    {
+        "fpl_id": 30,
+        "understat_id": 986,
+        "fpl_name": "Danny Ings",
+        "team_name": "Aston Villa",
+        "position": "F"
+    },
+    {
+        "fpl_id": 31,
+        "understat_id": 4401,
+        "fpl_name": "Emiliano Martínez Romero",
+        "team_name": "Aston Villa",
+        "position": "G"
+    },
+    {
+        "fpl_id": 32,
+        "understat_id": 508,
+        "fpl_name": "Calum Chambers",
+        "team_name": "Aston Villa",
+        "position": "D"
+    },
+    {
+        "fpl_id": 33,
+        "understat_id": 1823,
+        "fpl_name": "Lucas Digne",
+        "team_name": "Aston Villa",
+        "position": "D"
+    },
+    {
+        "fpl_id": 34,
+        "understat_id": 695,
+        "fpl_name": "Bertrand Traoré",
+        "team_name": "Aston Villa",
+        "position": "M"
+    },
+    {
+        "fpl_id": 35,
+        "understat_id": 6962,
+        "fpl_name": "Robin Olsen",
+        "team_name": "Aston Villa",
+        "position": "G"
+    },
+    {
+        "fpl_id": 36,
+        "understat_id": 3696,
+        "fpl_name": "Morgan Sanson",
+        "team_name": "Aston Villa",
+        "position": "M"
+    },
+    {
+        "fpl_id": 37,
+        "understat_id": 7723,
+        "fpl_name": "John McGinn",
+        "team_name": "Aston Villa",
+        "position": "M"
+    },
+    {
+        "fpl_id": 38,
+        "understat_id": 6859,
+        "fpl_name": "Kortney Hause",
+        "team_name": "Aston Villa",
+        "position": "D"
+    },
+    {
+        "fpl_id": 39,
+        "understat_id": 1024,
+        "fpl_name": "Tyrone Mings",
+        "team_name": "Aston Villa",
+        "position": "D"
+    },
+    {
+        "fpl_id": 40,
+        "understat_id": 8865,
+        "fpl_name": "Ollie Watkins",
+        "team_name": "Aston Villa",
+        "position": "F"
+    },
+    {
+        "fpl_id": 41,
+        "understat_id": 8040,
+        "fpl_name": "Marvelous Nakamba",
+        "team_name": "Aston Villa",
+        "position": "M"
+    },
+    {
+        "fpl_id": 42,
+        "understat_id": 2203,
+        "fpl_name": "Emiliano Buendía Stati",
+        "team_name": "Aston Villa",
+        "position": "M"
+    },
+    {
+        "fpl_id": 43,
+        "understat_id": null,
+        "fpl_name": "Matty Cash",
+        "team_name": "Aston Villa",
+        "position": "D"
+    },
+    {
+        "fpl_id": 44,
+        "understat_id": 7726,
+        "fpl_name": "Ezri Konsa Ngoyo",
+        "team_name": "Aston Villa",
+        "position": "D"
+    },
+    {
+        "fpl_id": 45,
+        "understat_id": 5221,
+        "fpl_name": "Leon Bailey",
+        "team_name": "Aston Villa",
+        "position": "M"
+    },
+    {
+        "fpl_id": 46,
+        "understat_id": 6122,
+        "fpl_name": "Douglas Luiz Soares de Paulo",
+        "team_name": "Aston Villa",
+        "position": "M"
+    },
+    {
+        "fpl_id": 47,
+        "understat_id": 8941,
+        "fpl_name": "Jacob Ramsey",
+        "team_name": "Aston Villa",
+        "position": "M"
+    },
+    {
+        "fpl_id": 48,
+        "understat_id": 9356,
+        "fpl_name": "Carney Chukwuemeka",
+        "team_name": "Aston Villa",
+        "position": "M"
+    },
+    {
+        "fpl_id": 49,
+        "understat_id": 9554,
+        "fpl_name": "Tim Iroegbunam",
+        "team_name": "Aston Villa",
+        "position": "M"
+    },
+    {
+        "fpl_id": 50,
+        "understat_id": null,
+        "fpl_name": "Diego Carlos Santos Silva",
+        "team_name": "Aston Villa",
+        "position": "D"
+    },
+    {
+        "fpl_id": 51,
+        "understat_id": 5612,
+        "fpl_name": "Anwar El Ghazi",
+        "team_name": "Aston Villa",
+        "position": "M"
+    },
+    {
+        "fpl_id": 52,
+        "understat_id": 1053,
+        "fpl_name": "Keinan Davis",
+        "team_name": "Aston Villa",
+        "position": "F"
+    },
+    {
+        "fpl_id": 53,
+        "understat_id": null,
+        "fpl_name": "Boubacar Kamara",
+        "team_name": "Aston Villa",
+        "position": "M"
+    },
+    {
+        "fpl_id": 54,
+        "understat_id": 9912,
+        "fpl_name": "Cameron Archer",
+        "team_name": "Aston Villa",
+        "position": "F"
+    },
+    {
+        "fpl_id": 55,
+        "understat_id": 9415,
+        "fpl_name": "Jaden Philogene-Bidace",
+        "team_name": "Aston Villa",
+        "position": "M"
+    },
+    {
+        "fpl_id": 56,
+        "understat_id": null,
+        "fpl_name": "Frédéric Guilbert",
+        "team_name": "Aston Villa",
+        "position": "D"
+    },
+    {
+        "fpl_id": 57,
+        "understat_id": null,
+        "fpl_name": "Adam Smith",
+        "team_name": "Bournemouth",
+        "position": "D"
+    },
+    {
+        "fpl_id": 58,
+        "understat_id": null,
+        "fpl_name": "Junior Stanislas",
+        "team_name": "Bournemouth",
+        "position": "M"
+    },
+    {
+        "fpl_id": 59,
+        "understat_id": 6891,
+        "fpl_name": "Ryan Fredericks",
+        "team_name": "Bournemouth",
+        "position": "D"
+    },
+    {
+        "fpl_id": 60,
+        "understat_id": 6049,
+        "fpl_name": "David Brooks",
+        "team_name": "Bournemouth",
+        "position": "M"
+    },
+    {
+        "fpl_id": 61,
+        "understat_id": null,
+        "fpl_name": "Jamal Lowe",
+        "team_name": "Bournemouth",
+        "position": "M"
+    },
+    {
+        "fpl_id": 62,
+        "understat_id": null,
+        "fpl_name": "Kieffer Moore",
+        "team_name": "Bournemouth",
+        "position": "F"
+    },
+    {
+        "fpl_id": 63,
+        "understat_id": null,
+        "fpl_name": "Emiliano Marcondes",
+        "team_name": "Bournemouth",
+        "position": "M"
+    },
+    {
+        "fpl_id": 64,
+        "understat_id": null,
+        "fpl_name": "Jefferson Lerma Solís",
+        "team_name": "Bournemouth",
+        "position": "M"
+    },
+    {
+        "fpl_id": 65,
+        "understat_id": null,
+        "fpl_name": "Jack Stacey",
+        "team_name": "Bournemouth",
+        "position": "D"
+    },
+    {
+        "fpl_id": 66,
+        "understat_id": null,
+        "fpl_name": "Dominic Solanke",
+        "team_name": "Bournemouth",
+        "position": "F"
+    },
+    {
+        "fpl_id": 67,
+        "understat_id": null,
+        "fpl_name": "Lewis Cook",
+        "team_name": "Bournemouth",
+        "position": "M"
+    },
+    {
+        "fpl_id": 68,
+        "understat_id": null,
+        "fpl_name": "Ben Pearson",
+        "team_name": "Bournemouth",
+        "position": "M"
+    },
+    {
+        "fpl_id": 69,
+        "understat_id": null,
+        "fpl_name": "Ryan Christie",
+        "team_name": "Bournemouth",
+        "position": "M"
+    },
+    {
+        "fpl_id": 70,
+        "understat_id": null,
+        "fpl_name": "Philip Billing",
+        "team_name": "Bournemouth",
+        "position": "M"
+    },
+    {
+        "fpl_id": 71,
+        "understat_id": null,
+        "fpl_name": "Chris Mepham",
+        "team_name": "Bournemouth",
+        "position": "D"
+    },
+    {
+        "fpl_id": 72,
+        "understat_id": null,
+        "fpl_name": "Mark Travers",
+        "team_name": "Bournemouth",
+        "position": "G"
+    },
+    {
+        "fpl_id": 73,
+        "understat_id": null,
+        "fpl_name": "Lloyd Kelly",
+        "team_name": "Bournemouth",
+        "position": "D"
+    },
+    {
+        "fpl_id": 74,
+        "understat_id": null,
+        "fpl_name": "Siriki Dembélé",
+        "team_name": "Bournemouth",
+        "position": "M"
+    },
+    {
+        "fpl_id": 75,
+        "understat_id": null,
+        "fpl_name": "Jaidon Anthony",
+        "team_name": "Bournemouth",
+        "position": "M"
+    },
+    {
+        "fpl_id": 76,
+        "understat_id": null,
+        "fpl_name": "Jordan Zemura",
+        "team_name": "Bournemouth",
+        "position": "D"
+    },
+    {
+        "fpl_id": 77,
+        "understat_id": null,
+        "fpl_name": "Will Dennis",
+        "team_name": "Bournemouth",
+        "position": "G"
+    },
+    {
+        "fpl_id": 78,
+        "understat_id": 1801,
+        "fpl_name": "Pontus Jansson",
+        "team_name": "Brentford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 79,
+        "understat_id": 7083,
+        "fpl_name": "Christian Nørgaard",
+        "team_name": "Brentford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 80,
+        "understat_id": 998,
+        "fpl_name": "Ivan Toney",
+        "team_name": "Brentford",
+        "position": "F"
+    },
+    {
+        "fpl_id": 81,
+        "understat_id": 9676,
+        "fpl_name": "David Raya Martin",
+        "team_name": "Brentford",
+        "position": "G"
+    },
+    {
+        "fpl_id": 82,
+        "understat_id": 10405,
+        "fpl_name": "Sergi Canós Tenés",
+        "team_name": "Brentford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 83,
+        "understat_id": 10405,
+        "fpl_name": "Josh Dasilva",
+        "team_name": "Brentford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 84,
+        "understat_id": 9677,
+        "fpl_name": "Kristoffer Ajer",
+        "team_name": "Brentford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 85,
+        "understat_id": 9679,
+        "fpl_name": "Rico Henry",
+        "team_name": "Brentford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 86,
+        "understat_id": 9680,
+        "fpl_name": "Vitaly Janelt",
+        "team_name": "Brentford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 87,
+        "understat_id": 7069,
+        "fpl_name": "Saman Ghoddos",
+        "team_name": "Brentford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 88,
+        "understat_id": 7166,
+        "fpl_name": "Mathias Jensen",
+        "team_name": "Brentford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 89,
+        "understat_id": 5786,
+        "fpl_name": "Yoane Wissa",
+        "team_name": "Brentford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 90,
+        "understat_id": 9685,
+        "fpl_name": "Mads Roerslev Rasmussen",
+        "team_name": "Brentford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 91,
+        "understat_id": 9683,
+        "fpl_name": "Mads Bech Sørensen",
+        "team_name": "Brentford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 92,
+        "understat_id": 9678,
+        "fpl_name": "Ethan Pinnock",
+        "team_name": "Brentford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 93,
+        "understat_id": 9681,
+        "fpl_name": "Frank Onyeka",
+        "team_name": "Brentford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 94,
+        "understat_id": 9914,
+        "fpl_name": "Shandon Baptiste",
+        "team_name": "Brentford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 95,
+        "understat_id": 6552,
+        "fpl_name": "Bryan Mbeumo",
+        "team_name": "Brentford",
+        "position": "F"
+    },
+    {
+        "fpl_id": 96,
+        "understat_id": 9687,
+        "fpl_name": "Charlie Goode",
+        "team_name": "Brentford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 97,
+        "understat_id": 9684,
+        "fpl_name": "Marcus Forss",
+        "team_name": "Brentford",
+        "position": "F"
+    },
+    {
+        "fpl_id": 98,
+        "understat_id": 9915,
+        "fpl_name": "Dominic Thompson",
+        "team_name": "Brentford",
+        "position": "D"
+    },
+    {
+        "fpl_id": 99,
+        "understat_id": 9682,
+        "fpl_name": "Mads Bidstrup",
+        "team_name": "Brentford",
+        "position": "M"
+    },
+    {
+        "fpl_id": 100,
+        "understat_id": null,
+        "fpl_name": "Ellery Balcombe",
+        "team_name": "Brentford",
+        "position": "G"
+    },
+    {
+        "fpl_id": 101,
+        "understat_id": 486,
+        "fpl_name": "Adam Lallana",
+        "team_name": "Brighton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 102,
+        "understat_id": 7235,
+        "fpl_name": "Jason Steele",
+        "team_name": "Brighton",
+        "position": "G"
+    },
+    {
+        "fpl_id": 103,
+        "understat_id": 501,
+        "fpl_name": "Danny Welbeck",
+        "team_name": "Brighton",
+        "position": "F"
+    },
+    {
+        "fpl_id": 104,
+        "understat_id": 239,
+        "fpl_name": "Pascal Groß",
+        "team_name": "Brighton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 105,
+        "understat_id": 6047,
+        "fpl_name": "Shane Duffy",
+        "team_name": "Brighton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 106,
+        "understat_id": 6048,
+        "fpl_name": "Lewis Dunk",
+        "team_name": "Brighton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 107,
+        "understat_id": 6049,
+        "fpl_name": "Solly March",
+        "team_name": "Brighton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 108,
+        "understat_id": 7699,
+        "fpl_name": "Adam Webster",
+        "team_name": "Brighton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 109,
+        "understat_id": 8780,
+        "fpl_name": "Joël Veltman",
+        "team_name": "Brighton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 110,
+        "understat_id": 3621,
+        "fpl_name": "Neal Maupay",
+        "team_name": "Brighton",
+        "position": "F"
+    },
+    {
+        "fpl_id": 111,
+        "understat_id": 7698,
+        "fpl_name": "Leandro Trossard",
+        "team_name": "Brighton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 112,
+        "understat_id": 7134,
+        "fpl_name": "Marc Cucurella Saseta",
+        "team_name": "Brighton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 113,
+        "understat_id": 9098,
+        "fpl_name": "Robert Sánchez",
+        "team_name": "Brighton",
+        "position": "G"
+    },
+    {
+        "fpl_id": 114,
+        "understat_id": 8226,
+        "fpl_name": "Tariq Lamptey",
+        "team_name": "Brighton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 115,
+        "understat_id": 8020,
+        "fpl_name": "Steven Alzate",
+        "team_name": "Brighton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 116,
+        "understat_id": 8379,
+        "fpl_name": "Alexis Mac Allister",
+        "team_name": "Brighton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 117,
+        "understat_id": 9284,
+        "fpl_name": "Jakub Moder",
+        "team_name": "Brighton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 118,
+        "understat_id": 9734,
+        "fpl_name": "Enock Mwepu",
+        "team_name": "Brighton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 119,
+        "understat_id": 10036,
+        "fpl_name": "Jeremy Sarmiento Morante",
+        "team_name": "Brighton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 120,
+        "understat_id": 9453,
+        "fpl_name": "Moisés Caicedo Corozo",
+        "team_name": "Brighton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 121,
+        "understat_id": 9735,
+        "fpl_name": "Taylor Richards",
+        "team_name": "Brighton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 122,
+        "understat_id": null,
+        "fpl_name": "Haydon Roberts",
+        "team_name": "Brighton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 123,
+        "understat_id": null,
+        "fpl_name": "Deniz Undav",
+        "team_name": "Brighton",
+        "position": "F"
+    },
+    {
+        "fpl_id": 124,
+        "understat_id": null,
+        "fpl_name": "Kaoru Mitoma",
+        "team_name": "Brighton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 125,
+        "understat_id": null,
+        "fpl_name": "Julio Enciso",
+        "team_name": "Brighton",
+        "position": "F"
+    },
+    {
+        "fpl_id": 126,
+        "understat_id": null,
+        "fpl_name": "Kacper Kozłowski",
+        "team_name": "Brighton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 127,
+        "understat_id": 681,
+        "fpl_name": "César Azpilicueta",
+        "team_name": "Chelsea",
+        "position": "D"
+    },
+    {
+        "fpl_id": 128,
+        "understat_id": 3288,
+        "fpl_name": "Thiago Emiliano da Silva",
+        "team_name": "Chelsea",
+        "position": "D"
+    },
+    {
+        "fpl_id": 129,
+        "understat_id": 5061,
+        "fpl_name": "Marcos Alonso",
+        "team_name": "Chelsea",
+        "position": "D"
+    },
+    {
+        "fpl_id": 130,
+        "understat_id": 1389,
+        "fpl_name": "Jorge Luiz Frello Filho",
+        "team_name": "Chelsea",
+        "position": "M"
+    },
+    {
+        "fpl_id": 131,
+        "understat_id": 592,
+        "fpl_name": "Ross Barkley",
+        "team_name": "Chelsea",
+        "position": "M"
+    },
+    {
+        "fpl_id": 132,
+        "understat_id": 2254,
+        "fpl_name": "Mateo Kovacic",
+        "team_name": "Chelsea",
+        "position": "M"
+    },
+    {
+        "fpl_id": 133,
+        "understat_id": null,
+        "fpl_name": "Kepa Arrizabalaga",
+        "team_name": "Chelsea",
+        "position": "G"
+    },
+    {
+        "fpl_id": 134,
+        "understat_id": 751,
+        "fpl_name": "N'Golo Kanté",
+        "team_name": "Chelsea",
+        "position": "M"
+    },
+    {
+        "fpl_id": 135,
+        "understat_id": 782,
+        "fpl_name": "Hakim Ziyech",
+        "team_name": "Chelsea",
+        "position": "M"
+    },
+    {
+        "fpl_id": 136,
+        "understat_id": 688,
+        "fpl_name": "Ruben Loftus-Cheek",
+        "team_name": "Chelsea",
+        "position": "M"
+    },
+    {
+        "fpl_id": 137,
+        "understat_id": 65,
+        "fpl_name": "Timo Werner",
+        "team_name": "Chelsea",
+        "position": "F"
+    },
+    {
+        "fpl_id": 138,
+        "understat_id": 689,
+        "fpl_name": "Robert Kenedy Nunes do Nascimento",
+        "team_name": "Chelsea",
+        "position": "D"
+    },
+    {
+        "fpl_id": 139,
+        "understat_id": 782,
+        "fpl_name": "Ben Chilwell",
+        "team_name": "Chelsea",
+        "position": "D"
+    },
+    {
+        "fpl_id": 140,
+        "understat_id": 2662,
+        "fpl_name": "Christian Pulisic",
+        "team_name": "Chelsea",
+        "position": "M"
+    },
+    {
+        "fpl_id": 141,
+        "understat_id": 6615,
+        "fpl_name": "Trevoh Chalobah",
+        "team_name": "Chelsea",
+        "position": "D"
+    },
+    {
+        "fpl_id": 142,
+        "understat_id": 7768,
+        "fpl_name": "Mason Mount",
+        "team_name": "Chelsea",
+        "position": "M"
+    },
+    {
+        "fpl_id": 143,
+        "understat_id": 5648,
+        "fpl_name": "Malang Sarr",
+        "team_name": "Chelsea",
+        "position": "D"
+    },
+    {
+        "fpl_id": 144,
+        "understat_id": 6456,
+        "fpl_name": "Callum Hudson-Odoi",
+        "team_name": "Chelsea",
+        "position": "M"
+    },
+    {
+        "fpl_id": 145,
+        "understat_id": 5220,
+        "fpl_name": "Kai Havertz",
+        "team_name": "Chelsea",
+        "position": "F"
+    },
+    {
+        "fpl_id": 146,
+        "understat_id": 8067,
+        "fpl_name": "Reece James",
+        "team_name": "Chelsea",
+        "position": "D"
+    },
+    {
+        "fpl_id": 147,
+        "understat_id": 6880,
+        "fpl_name": "Edouard Mendy",
+        "team_name": "Chelsea",
+        "position": "G"
+    },
+    {
+        "fpl_id": 148,
+        "understat_id": 9040,
+        "fpl_name": "Conor Gallagher",
+        "team_name": "Chelsea",
+        "position": "M"
+    },
+    {
+        "fpl_id": 149,
+        "understat_id": 7988,
+        "fpl_name": "Billy Gilmour",
+        "team_name": "Chelsea",
+        "position": "M"
+    },
+    {
+        "fpl_id": 150,
+        "understat_id": 8384,
+        "fpl_name": "Armando Broja",
+        "team_name": "Chelsea",
+        "position": "F"
+    },
+    {
+        "fpl_id": 151,
+        "understat_id": null,
+        "fpl_name": "Ethan Ampadu",
+        "team_name": "Chelsea",
+        "position": "D"
+    },
+    {
+        "fpl_id": 152,
+        "understat_id": 2190,
+        "fpl_name": "Vicente Guaita",
+        "team_name": "Crystal Palace",
+        "position": "G"
+    },
+    {
+        "fpl_id": 153,
+        "understat_id": 530,
+        "fpl_name": "James Tomkins",
+        "team_name": "Crystal Palace",
+        "position": "D"
+    },
+    {
+        "fpl_id": 154,
+        "understat_id": 633,
+        "fpl_name": "James McArthur",
+        "team_name": "Crystal Palace",
+        "position": "M"
+    },
+    {
+        "fpl_id": 155,
+        "understat_id": 606,
+        "fpl_name": "Christian Benteke",
+        "team_name": "Crystal Palace",
+        "position": "F"
+    },
+    {
+        "fpl_id": 156,
+        "understat_id": 510,
+        "fpl_name": "Joel Ward",
+        "team_name": "Crystal Palace",
+        "position": "D"
+    },
+    {
+        "fpl_id": 157,
+        "understat_id": 603,
+        "fpl_name": "Nathaniel Clyne",
+        "team_name": "Crystal Palace",
+        "position": "D"
+    },
+    {
+        "fpl_id": 158,
+        "understat_id": 5549,
+        "fpl_name": "Luka Milivojevic",
+        "team_name": "Crystal Palace",
+        "position": "M"
+    },
+    {
+        "fpl_id": 159,
+        "understat_id": 672,
+        "fpl_name": "Jordan Ayew",
+        "team_name": "Crystal Palace",
+        "position": "M"
+    },
+    {
+        "fpl_id": 160,
+        "understat_id": 522,
+        "fpl_name": "Wilfried Zaha",
+        "team_name": "Crystal Palace",
+        "position": "M"
+    },
+    {
+        "fpl_id": 161,
+        "understat_id": 757,
+        "fpl_name": "Jeffrey Schlupp",
+        "team_name": "Crystal Palace",
+        "position": "M"
+    },
+    {
+        "fpl_id": 162,
+        "understat_id": 856,
+        "fpl_name": "Jack Butland",
+        "team_name": "Crystal Palace",
+        "position": "G"
+    },
+    {
+        "fpl_id": 163,
+        "understat_id": 6104,
+        "fpl_name": "Will Hughes",
+        "team_name": "Crystal Palace",
+        "position": "M"
+    },
+    {
+        "fpl_id": 164,
+        "understat_id": 6027,
+        "fpl_name": "Jairo Riedewald",
+        "team_name": "Crystal Palace",
+        "position": "M"
+    },
+    {
+        "fpl_id": 165,
+        "understat_id": 6314,
+        "fpl_name": "Joachim Andersen",
+        "team_name": "Crystal Palace",
+        "position": "D"
+    },
+    {
+        "fpl_id": 166,
+        "understat_id": 3697,
+        "fpl_name": "Odsonne Edouard",
+        "team_name": "Crystal Palace",
+        "position": "F"
+    },
+    {
+        "fpl_id": 167,
+        "understat_id": 7603,
+        "fpl_name": "Marc Guéhi",
+        "team_name": "Crystal Palace",
+        "position": "D"
+    },
+    {
+        "fpl_id": 168,
+        "understat_id": 5735,
+        "fpl_name": "Jean-Philippe Mateta",
+        "team_name": "Crystal Palace",
+        "position": "F"
+    },
+    {
+        "fpl_id": 169,
+        "understat_id": 8706,
+        "fpl_name": "Eberechi Eze",
+        "team_name": "Crystal Palace",
+        "position": "M"
+    },
+    {
+        "fpl_id": 170,
+        "understat_id": 8214,
+        "fpl_name": "Tyrick Mitchell",
+        "team_name": "Crystal Palace",
+        "position": "D"
+    },
+    {
+        "fpl_id": 171,
+        "understat_id": 9948,
+        "fpl_name": "Michael Olise",
+        "team_name": "Crystal Palace",
+        "position": "M"
+    },
+    {
+        "fpl_id": 172,
+        "understat_id": 9461,
+        "fpl_name": "Jesurun Rak-Sakyi",
+        "team_name": "Crystal Palace",
+        "position": "M"
+    },
+    {
+        "fpl_id": 173,
+        "understat_id": null,
+        "fpl_name": "Malcolm Ebiowei",
+        "team_name": "Crystal Palace",
+        "position": "M"
+    },
+    {
+        "fpl_id": 174,
+        "understat_id": 6451,
+        "fpl_name": "Nathan Ferguson",
+        "team_name": "Crystal Palace",
+        "position": "D"
+    },
+    {
+        "fpl_id": 175,
+        "understat_id": null,
+        "fpl_name": "Sam Johnstone",
+        "team_name": "Crystal Palace",
+        "position": "G"
+    },
+    {
+        "fpl_id": 495,
+        "understat_id": null,
+        "fpl_name": "Remi Matthews",
+        "team_name": "Crystal Palace",
+        "position": "G"
+    },
+    {
+        "fpl_id": 496,
+        "understat_id": null,
+        "fpl_name": "Luke Plange",
+        "team_name": "Crystal Palace",
+        "position": "F"
+    },
+    {
+        "fpl_id": 176,
+        "understat_id": 694,
+        "fpl_name": "Asmir Begović",
+        "team_name": "Everton",
+        "position": "G"
+    },
+    {
+        "fpl_id": 177,
+        "understat_id": 813,
+        "fpl_name": "Salomón Rondón",
+        "team_name": "Everton",
+        "position": "F"
+    },
+    {
+        "fpl_id": 178,
+        "understat_id": 585,
+        "fpl_name": "Seamus Coleman",
+        "team_name": "Everton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 179,
+        "understat_id": 775,
+        "fpl_name": "Andros Townsend",
+        "team_name": "Everton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 180,
+        "understat_id": 1653,
+        "fpl_name": "Michael Keane",
+        "team_name": "Everton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 181,
+        "understat_id": 645,
+        "fpl_name": "Dele Alli",
+        "team_name": "Everton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 182,
+        "understat_id": 741,
+        "fpl_name": "Jordan Pickford",
+        "team_name": "Everton",
+        "position": "G"
+    },
+    {
+        "fpl_id": 183,
+        "understat_id": 1379,
+        "fpl_name": "Allan Marques Loureiro",
+        "team_name": "Everton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 184,
+        "understat_id": 2383,
+        "fpl_name": "André Tavares Gomes",
+        "team_name": "Everton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 185,
+        "understat_id": 1726,
+        "fpl_name": "Abdoulaye Doucouré",
+        "team_name": "Everton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 186,
+        "understat_id": 500,
+        "fpl_name": "Alex Iwobi",
+        "team_name": "Everton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 187,
+        "understat_id": 4764,
+        "fpl_name": "Jean-Philippe Gbamin",
+        "team_name": "Everton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 188,
+        "understat_id": 6521,
+        "fpl_name": "Yerry Mina",
+        "team_name": "Everton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 189,
+        "understat_id": 762,
+        "fpl_name": "Demarai Gray",
+        "team_name": "Everton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 190,
+        "understat_id": 1042,
+        "fpl_name": "Tom Davies",
+        "team_name": "Everton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 191,
+        "understat_id": 5555,
+        "fpl_name": "Dominic Calvert-Lewin",
+        "team_name": "Everton",
+        "position": "F"
+    },
+    {
+        "fpl_id": 192,
+        "understat_id": 985,
+        "fpl_name": "Mason Holgate",
+        "team_name": "Everton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 193,
+        "understat_id": 7689,
+        "fpl_name": "Ben Godfrey",
+        "team_name": "Everton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 194,
+        "understat_id": 10291,
+        "fpl_name": "Vitalii Mykolenko",
+        "team_name": "Everton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 195,
+        "understat_id": 8150,
+        "fpl_name": "Anthony Gordon",
+        "team_name": "Everton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 196,
+        "understat_id": 8476,
+        "fpl_name": "Jarrad Branthwaite",
+        "team_name": "Everton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 197,
+        "understat_id": null,
+        "fpl_name": "Nathan Patterson",
+        "team_name": "Everton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 198,
+        "understat_id": null,
+        "fpl_name": "Niels Nkounkou",
+        "team_name": "Everton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 199,
+        "understat_id": 1665,
+        "fpl_name": "James Tarkowski",
+        "team_name": "Everton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 200,
+        "understat_id": null,
+        "fpl_name": "Tom Cairney",
+        "team_name": "Fulham",
+        "position": "M"
+    },
+    {
+        "fpl_id": 201,
+        "understat_id": null,
+        "fpl_name": "Tim Ream",
+        "team_name": "Fulham",
+        "position": "D"
+    },
+    {
+        "fpl_id": 202,
+        "understat_id": null,
+        "fpl_name": "Anthony Knockaert",
+        "team_name": "Fulham",
+        "position": "M"
+    },
+    {
+        "fpl_id": 203,
+        "understat_id": null,
+        "fpl_name": "Nathaniel Chalobah",
+        "team_name": "Fulham",
+        "position": "M"
+    },
+    {
+        "fpl_id": 204,
+        "understat_id": null,
+        "fpl_name": "Neeskens Kebano",
+        "team_name": "Fulham",
+        "position": "M"
+    },
+    {
+        "fpl_id": 205,
+        "understat_id": null,
+        "fpl_name": "Bobby De Cordova-Reid",
+        "team_name": "Fulham",
+        "position": "M"
+    },
+    {
+        "fpl_id": 206,
+        "understat_id": null,
+        "fpl_name": "Joe Bryan",
+        "team_name": "Fulham",
+        "position": "D"
+    },
+    {
+        "fpl_id": 207,
+        "understat_id": null,
+        "fpl_name": "Paulo Gazzaniga Farias",
+        "team_name": "Fulham",
+        "position": "G"
+    },
+    {
+        "fpl_id": 208,
+        "understat_id": null,
+        "fpl_name": "Terence Kongolo",
+        "team_name": "Fulham",
+        "position": "D"
+    },
+    {
+        "fpl_id": 209,
+        "understat_id": null,
+        "fpl_name": "Tosin Adarabioyo",
+        "team_name": "Fulham",
+        "position": "D"
+    },
+    {
+        "fpl_id": 210,
+        "understat_id": null,
+        "fpl_name": "Aleksandar Mitrović",
+        "team_name": "Fulham",
+        "position": "F"
+    },
+    {
+        "fpl_id": 211,
+        "understat_id": null,
+        "fpl_name": "Harrison Reed",
+        "team_name": "Fulham",
+        "position": "M"
+    },
+    {
+        "fpl_id": 212,
+        "understat_id": null,
+        "fpl_name": "Harry Wilson",
+        "team_name": "Fulham",
+        "position": "M"
+    },
+    {
+        "fpl_id": 213,
+        "understat_id": null,
+        "fpl_name": "Marek Rodák",
+        "team_name": "Fulham",
+        "position": "G"
+    },
+    {
+        "fpl_id": 214,
+        "understat_id": null,
+        "fpl_name": "Ivan Neves Abreu Cavaleiro",
+        "team_name": "Fulham",
+        "position": "M"
+    },
+    {
+        "fpl_id": 215,
+        "understat_id": null,
+        "fpl_name": "Kenny Tete",
+        "team_name": "Fulham",
+        "position": "D"
+    },
+    {
+        "fpl_id": 216,
+        "understat_id": null,
+        "fpl_name": "Josh Onomah",
+        "team_name": "Fulham",
+        "position": "M"
+    },
+    {
+        "fpl_id": 217,
+        "understat_id": null,
+        "fpl_name": "Antonee Robinson",
+        "team_name": "Fulham",
+        "position": "D"
+    },
+    {
+        "fpl_id": 218,
+        "understat_id": null,
+        "fpl_name": "Rodrigo Muniz Carvalho",
+        "team_name": "Fulham",
+        "position": "F"
+    },
+    {
+        "fpl_id": 219,
+        "understat_id": null,
+        "fpl_name": "Jay Stansfield",
+        "team_name": "Fulham",
+        "position": "F"
+    },
+    {
+        "fpl_id": 220,
+        "understat_id": null,
+        "fpl_name": "João Palhinha Gonçalves",
+        "team_name": "Fulham",
+        "position": "M"
+    },
+    {
+        "fpl_id": 248,
+        "understat_id": null,
+        "fpl_name": "Kasper Schmeichel",
+        "team_name": "Leicester",
+        "position": "G"
+    },
+    {
+        "fpl_id": 249,
+        "understat_id": 807,
+        "fpl_name": "Jonny Evans",
+        "team_name": "Leicester",
+        "position": "D"
+    },
+    {
+        "fpl_id": 250,
+        "understat_id": 835,
+        "fpl_name": "Ryan Bertrand",
+        "team_name": "Leicester",
+        "position": "D"
+    },
+    {
+        "fpl_id": 251,
+        "understat_id": 753,
+        "fpl_name": "Marc Albrighton",
+        "team_name": "Leicester",
+        "position": "M"
+    },
+    {
+        "fpl_id": 252,
+        "understat_id": 1785,
+        "fpl_name": "Nampalys Mendy",
+        "team_name": "Leicester",
+        "position": "M"
+    },
+    {
+        "fpl_id": 253,
+        "understat_id": 111,
+        "fpl_name": "Jannik Vestergaard",
+        "team_name": "Leicester",
+        "position": "D"
+    },
+    {
+        "fpl_id": 254,
+        "understat_id": 473,
+        "fpl_name": "Danny Ward",
+        "team_name": "Leicester",
+        "position": "G"
+    },
+    {
+        "fpl_id": 255,
+        "understat_id": 755,
+        "fpl_name": "Jamie Vardy",
+        "team_name": "Leicester",
+        "position": "F"
+    },
+    {
+        "fpl_id": 256,
+        "understat_id": 3303,
+        "fpl_name": "Ricardo Barbosa Pereira",
+        "team_name": "Leicester",
+        "position": "D"
+    },
+    {
+        "fpl_id": 257,
+        "understat_id": 759,
+        "fpl_name": "Daniel Amartey",
+        "team_name": "Leicester",
+        "position": "D"
+    },
+    {
+        "fpl_id": 258,
+        "understat_id": 6157,
+        "fpl_name": "Timothy Castagne",
+        "team_name": "Leicester",
+        "position": "D"
+    },
+    {
+        "fpl_id": 259,
+        "understat_id": 5956,
+        "fpl_name": "Youri Tielemans",
+        "team_name": "Leicester",
+        "position": "M"
+    },
+    {
+        "fpl_id": 260,
+        "understat_id": 770,
+        "fpl_name": "Ayoze Pérez",
+        "team_name": "Leicester",
+        "position": "M"
+    },
+    {
+        "fpl_id": 261,
+        "understat_id": 6818,
+        "fpl_name": "James Maddison",
+        "team_name": "Leicester",
+        "position": "M"
+    },
+    {
+        "fpl_id": 262,
+        "understat_id": 620,
+        "fpl_name": "Kelechi Iheanacho",
+        "team_name": "Leicester",
+        "position": "F"
+    },
+    {
+        "fpl_id": 263,
+        "understat_id": 6418,
+        "fpl_name": "Hamza Choudhury",
+        "team_name": "Leicester",
+        "position": "M"
+    },
+    {
+        "fpl_id": 264,
+        "understat_id": 6681,
+        "fpl_name": "Harvey Barnes",
+        "team_name": "Leicester",
+        "position": "M"
+    },
+    {
+        "fpl_id": 265,
+        "understat_id": 5545,
+        "fpl_name": "Wilfred Ndidi",
+        "team_name": "Leicester",
+        "position": "M"
+    },
+    {
+        "fpl_id": 266,
+        "understat_id": 2496,
+        "fpl_name": "Kiernan Dewsbury-Hall",
+        "team_name": "Leicester",
+        "position": "M"
+    },
+    {
+        "fpl_id": 267,
+        "understat_id": 5264,
+        "fpl_name": "Çaglar Söyüncü",
+        "team_name": "Leicester",
+        "position": "D"
+    },
+    {
+        "fpl_id": 268,
+        "understat_id": 7753,
+        "fpl_name": "James Justin",
+        "team_name": "Leicester",
+        "position": "D"
+    },
+    {
+        "fpl_id": 269,
+        "understat_id": 6310,
+        "fpl_name": "Boubakary Soumaré",
+        "team_name": "Leicester",
+        "position": "M"
+    },
+    {
+        "fpl_id": 270,
+        "understat_id": 8562,
+        "fpl_name": "Luke Thomas",
+        "team_name": "Leicester",
+        "position": "D"
+    },
+    {
+        "fpl_id": 271,
+        "understat_id": 9738,
+        "fpl_name": "Patson Daka",
+        "team_name": "Leicester",
+        "position": "F"
+    },
+    {
+        "fpl_id": 272,
+        "understat_id": 7589,
+        "fpl_name": "Wesley Fofana",
+        "team_name": "Leicester",
+        "position": "D"
+    },
+    {
+        "fpl_id": 273,
+        "understat_id": 10168,
+        "fpl_name": "Lewis Brunt",
+        "team_name": "Leicester",
+        "position": "D"
+    },
+    {
+        "fpl_id": 221,
+        "understat_id": 8816,
+        "fpl_name": "Liam Cooper",
+        "team_name": "Leeds",
+        "position": "D"
+    },
+    {
+        "fpl_id": 222,
+        "understat_id": 8716,
+        "fpl_name": "Luke Ayling",
+        "team_name": "Leeds",
+        "position": "D"
+    },
+    {
+        "fpl_id": 223,
+        "understat_id": 4381,
+        "fpl_name": "Mateusz Klich",
+        "team_name": "Leeds",
+        "position": "M"
+    },
+    {
+        "fpl_id": 224,
+        "understat_id": 1711,
+        "fpl_name": "Adam Forshaw",
+        "team_name": "Leeds",
+        "position": "M"
+    },
+    {
+        "fpl_id": 225,
+        "understat_id": 229,
+        "fpl_name": "Rodrigo Moreno",
+        "team_name": "Leeds",
+        "position": "M"
+    },
+    {
+        "fpl_id": 226,
+        "understat_id": 8718,
+        "fpl_name": "Stuart Dallas",
+        "team_name": "Leeds",
+        "position": "D"
+    },
+    {
+        "fpl_id": 227,
+        "understat_id": 822,
+        "fpl_name": "Patrick Bamford",
+        "team_name": "Leeds",
+        "position": "F"
+    },
+    {
+        "fpl_id": 228,
+        "understat_id": 2163,
+        "fpl_name": "Diego Llorente",
+        "team_name": "Leeds",
+        "position": "D"
+    },
+    {
+        "fpl_id": 229,
+        "understat_id": 1014,
+        "fpl_name": "Tyler Roberts",
+        "team_name": "Leeds",
+        "position": "M"
+    },
+    {
+        "fpl_id": 230,
+        "understat_id": 6273,
+        "fpl_name": "Robin Koch",
+        "team_name": "Leeds",
+        "position": "D"
+    },
+    {
+        "fpl_id": 231,
+        "understat_id": 5595,
+        "fpl_name": "Daniel James",
+        "team_name": "Leeds",
+        "position": "M"
+    },
+    {
+        "fpl_id": 232,
+        "understat_id": 8026,
+        "fpl_name": "Raphael Dias Belloli",
+        "team_name": "Leeds",
+        "position": "M"
+    },
+    {
+        "fpl_id": 233,
+        "understat_id": 8720,
+        "fpl_name": "Jack Harrison",
+        "team_name": "Leeds",
+        "position": "M"
+    },
+    {
+        "fpl_id": 234,
+        "understat_id": 8721,
+        "fpl_name": "Jamie Shackleton",
+        "team_name": "Leeds",
+        "position": "M"
+    },
+    {
+        "fpl_id": 235,
+        "understat_id": 8717,
+        "fpl_name": "Pascal Struijk",
+        "team_name": "Leeds",
+        "position": "D"
+    },
+    {
+        "fpl_id": 236,
+        "understat_id": 9700,
+        "fpl_name": "Kristoffer Klaesson",
+        "team_name": "Leeds",
+        "position": "G"
+    },
+    {
+        "fpl_id": 237,
+        "understat_id": 9493,
+        "fpl_name": "Sam Greenwood",
+        "team_name": "Leeds",
+        "position": "F"
+    },
+    {
+        "fpl_id": 238,
+        "understat_id": 8715,
+        "fpl_name": "Illan Meslier",
+        "team_name": "Leeds",
+        "position": "G"
+    },
+    {
+        "fpl_id": 239,
+        "understat_id": 6485,
+        "fpl_name": "Junior Firpo Adames",
+        "team_name": "Leeds",
+        "position": "D"
+    },
+    {
+        "fpl_id": 240,
+        "understat_id": 9492,
+        "fpl_name": "Crysencio Summerville",
+        "team_name": "Leeds",
+        "position": "M"
+    },
+    {
+        "fpl_id": 241,
+        "understat_id": 8544,
+        "fpl_name": "Lewis Bate",
+        "team_name": "Leeds",
+        "position": "M"
+    },
+    {
+        "fpl_id": 242,
+        "understat_id": 9339,
+        "fpl_name": "Joe Gelhardt",
+        "team_name": "Leeds",
+        "position": "F"
+    },
+    {
+        "fpl_id": 243,
+        "understat_id": 10028,
+        "fpl_name": "Leo Fuhr Hjelde",
+        "team_name": "Leeds",
+        "position": "D"
+    },
+    {
+        "fpl_id": 244,
+        "understat_id": null,
+        "fpl_name": "Rasmus Kristensen",
+        "team_name": "Leeds",
+        "position": "D"
+    },
+    {
+        "fpl_id": 245,
+        "understat_id": null,
+        "fpl_name": "Marc Roca Junqué",
+        "team_name": "Leeds",
+        "position": "M"
+    },
+    {
+        "fpl_id": 246,
+        "understat_id": null,
+        "fpl_name": "Brenden Aaronson",
+        "team_name": "Leeds",
+        "position": "M"
+    },
+    {
+        "fpl_id": 247,
+        "understat_id": null,
+        "fpl_name": "Darko Gyabi",
+        "team_name": "Leeds",
+        "position": "M"
+    },
+    {
+        "fpl_id": 274,
+        "understat_id": 489,
+        "fpl_name": "James Milner",
+        "team_name": "Liverpool",
+        "position": "M"
+    },
+    {
+        "fpl_id": 275,
+        "understat_id": 605,
+        "fpl_name": "Jordan Henderson",
+        "team_name": "Liverpool",
+        "position": "M"
+    },
+    {
+        "fpl_id": 276,
+        "understat_id": 332,
+        "fpl_name": "Joel Matip",
+        "team_name": "Liverpool",
+        "position": "D"
+    },
+    {
+        "fpl_id": 277,
+        "understat_id": null,
+        "fpl_name": "Thiago Alcántara do Nascimento",
+        "team_name": "Liverpool",
+        "position": "M"
+    },
+    {
+        "fpl_id": 278,
+        "understat_id": 966,
+        "fpl_name": "Alex Oxlade-Chamberlain",
+        "team_name": "Liverpool",
+        "position": "M"
+    },
+    {
+        "fpl_id": 279,
+        "understat_id": 482,
+        "fpl_name": "Roberto Firmino",
+        "team_name": "Liverpool",
+        "position": "F"
+    },
+    {
+        "fpl_id": 280,
+        "understat_id": 833,
+        "fpl_name": "Virgil van Dijk",
+        "team_name": "Liverpool",
+        "position": "D"
+    },
+    {
+        "fpl_id": 281,
+        "understat_id": 1257,
+        "fpl_name": "Alisson Ramses Becker",
+        "team_name": "Liverpool",
+        "position": "G"
+    },
+    {
+        "fpl_id": 282,
+        "understat_id": 3420,
+        "fpl_name": "Fabio Henrique Tavares",
+        "team_name": "Liverpool",
+        "position": "M"
+    },
+    {
+        "fpl_id": 283,
+        "understat_id": 1250,
+        "fpl_name": "Mohamed Salah",
+        "team_name": "Liverpool",
+        "position": "M"
+    },
+    {
+        "fpl_id": 284,
+        "understat_id": 1688,
+        "fpl_name": "Andrew Robertson",
+        "team_name": "Liverpool",
+        "position": "D"
+    },
+    {
+        "fpl_id": 285,
+        "understat_id": 1791,
+        "fpl_name": "Trent Alexander-Arnold",
+        "team_name": "Liverpool",
+        "position": "D"
+    },
+    {
+        "fpl_id": 286,
+        "understat_id": 987,
+        "fpl_name": "Joseph Gomez",
+        "team_name": "Liverpool",
+        "position": "D"
+    },
+    {
+        "fpl_id": 287,
+        "understat_id": 5247,
+        "fpl_name": "Naby Keita",
+        "team_name": "Liverpool",
+        "position": "M"
+    },
+    {
+        "fpl_id": 288,
+        "understat_id": 6854,
+        "fpl_name": "Diogo Teixeira da Silva",
+        "team_name": "Liverpool",
+        "position": "F"
+    },
+    {
+        "fpl_id": 289,
+        "understat_id": 7904,
+        "fpl_name": "Caoimhin Kelleher",
+        "team_name": "Liverpool",
+        "position": "G"
+    },
+    {
+        "fpl_id": 290,
+        "understat_id": 6326,
+        "fpl_name": "Ibrahima Konaté",
+        "team_name": "Liverpool",
+        "position": "D"
+    },
+    {
+        "fpl_id": 291,
+        "understat_id": 6665,
+        "fpl_name": "Curtis Jones",
+        "team_name": "Liverpool",
+        "position": "M"
+    },
+    {
+        "fpl_id": 292,
+        "understat_id": 8852,
+        "fpl_name": "Konstantinos Tsimikas",
+        "team_name": "Liverpool",
+        "position": "D"
+    },
+    {
+        "fpl_id": 293,
+        "understat_id": 10408,
+        "fpl_name": "Luis Díaz",
+        "team_name": "Liverpool",
+        "position": "M"
+    },
+    {
+        "fpl_id": 294,
+        "understat_id": 7546,
+        "fpl_name": "Harvey Elliott",
+        "team_name": "Liverpool",
+        "position": "M"
+    },
+    {
+        "fpl_id": 295,
+        "understat_id": 8204,
+        "fpl_name": "Neco Williams",
+        "team_name": "Liverpool",
+        "position": "D"
+    },
+    {
+        "fpl_id": 296,
+        "understat_id": null,
+        "fpl_name": "Fábio Freitas Gouveia Carvalho",
+        "team_name": "Liverpool",
+        "position": "M"
+    },
+    {
+        "fpl_id": 297,
+        "understat_id": null,
+        "fpl_name": "Darwin Núñez Ribeiro",
+        "team_name": "Liverpool",
+        "position": "F"
+    },
+    {
+        "fpl_id": 298,
+        "understat_id": null,
+        "fpl_name": "Calvin Ramsay",
+        "team_name": "Liverpool",
+        "position": "D"
+    },
+    {
+        "fpl_id": 497,
+        "understat_id": null,
+        "fpl_name": "Adrián San Miguel del Castillo",
+        "team_name": "Liverpool",
+        "position": "G"
+    },
+    {
+        "fpl_id": 498,
+        "understat_id": null,
+        "fpl_name": "Rhys Williams",
+        "team_name": "Liverpool",
+        "position": "D"
+    },
+    {
+        "fpl_id": 499,
+        "understat_id": 660,
+        "fpl_name": "Ben Davies",
+        "team_name": "Liverpool",
+        "position": "D"
+    },
+    {
+        "fpl_id": 500,
+        "understat_id": null,
+        "fpl_name": "Sepp van den Berg",
+        "team_name": "Liverpool",
+        "position": "D"
+    },
+    {
+        "fpl_id": 501,
+        "understat_id": null,
+        "fpl_name": "Nathaniel Phillips",
+        "team_name": "Liverpool",
+        "position": "D"
+    },
+    {
+        "fpl_id": 299,
+        "understat_id": 638,
+        "fpl_name": "Kyle Walker",
+        "team_name": "Man City",
+        "position": "D"
+    },
+    {
+        "fpl_id": 300,
+        "understat_id": 314,
+        "fpl_name": "Ilkay Gündogan",
+        "team_name": "Man City",
+        "position": "M"
+    },
+    {
+        "fpl_id": 301,
+        "understat_id": 447,
+        "fpl_name": "Kevin De Bruyne",
+        "team_name": "Man City",
+        "position": "M"
+    },
+    {
+        "fpl_id": 302,
+        "understat_id": 586,
+        "fpl_name": "John Stones",
+        "team_name": "Man City",
+        "position": "D"
+    },
+    {
+        "fpl_id": 303,
+        "understat_id": 750,
+        "fpl_name": "Riyad Mahrez",
+        "team_name": "Man City",
+        "position": "M"
+    },
+    {
+        "fpl_id": 304,
+        "understat_id": 618,
+        "fpl_name": "Raheem Sterling",
+        "team_name": "Man City",
+        "position": "M"
+    },
+    {
+        "fpl_id": 305,
+        "understat_id": 675,
+        "fpl_name": "Jack Grealish",
+        "team_name": "Man City",
+        "position": "M"
+    },
+    {
+        "fpl_id": 306,
+        "understat_id": 2379,
+        "fpl_name": "João Cancelo",
+        "team_name": "Man City",
+        "position": "D"
+    },
+    {
+        "fpl_id": 307,
+        "understat_id": 6054,
+        "fpl_name": "Ederson Santana de Moraes",
+        "team_name": "Man City",
+        "position": "G"
+    },
+    {
+        "fpl_id": 308,
+        "understat_id": 579,
+        "fpl_name": "Nathan Aké",
+        "team_name": "Man City",
+        "position": "D"
+    },
+    {
+        "fpl_id": 309,
+        "understat_id": 2498,
+        "fpl_name": "Aymeric Laporte",
+        "team_name": "Man City",
+        "position": "D"
+    },
+    {
+        "fpl_id": 310,
+        "understat_id": 7817,
+        "fpl_name": "Zack Steffen",
+        "team_name": "Man City",
+        "position": "G"
+    },
+    {
+        "fpl_id": 311,
+        "understat_id": 3635,
+        "fpl_name": "Bernardo Veiga de Carvalho e Silva",
+        "team_name": "Man City",
+        "position": "M"
+    },
+    {
+        "fpl_id": 312,
+        "understat_id": 8961,
+        "fpl_name": "Rúben Gato Alves Dias",
+        "team_name": "Man City",
+        "position": "D"
+    },
+    {
+        "fpl_id": 313,
+        "understat_id": 2958,
+        "fpl_name": "Oleksandr Zinchenko",
+        "team_name": "Man City",
+        "position": "D"
+    },
+    {
+        "fpl_id": 314,
+        "understat_id": 6055,
+        "fpl_name": "Phil Foden",
+        "team_name": "Man City",
+        "position": "M"
+    },
+    {
+        "fpl_id": 315,
+        "understat_id": 2496,
+        "fpl_name": "Rodrigo Hernandez",
+        "team_name": "Man City",
+        "position": "M"
+    },
+    {
+        "fpl_id": 316,
+        "understat_id": 8497,
+        "fpl_name": "Cole Palmer",
+        "team_name": "Man City",
+        "position": "M"
+    },
+    {
+        "fpl_id": 317,
+        "understat_id": 10126,
+        "fpl_name": "James McAtee",
+        "team_name": "Man City",
+        "position": "M"
+    },
+    {
+        "fpl_id": 318,
+        "understat_id": null,
+        "fpl_name": "Erling Håland",
+        "team_name": "Man City",
+        "position": "F"
+    },
+    {
+        "fpl_id": 319,
+        "understat_id": null,
+        "fpl_name": "Julián Álvarez",
+        "team_name": "Man City",
+        "position": "F"
+    },
+    {
+        "fpl_id": 320,
+        "understat_id": null,
+        "fpl_name": "Luke Mbete-Tabu",
+        "team_name": "Man City",
+        "position": "D"
+    },
+    {
+        "fpl_id": 321,
+        "understat_id": null,
+        "fpl_name": "Roméo Lavia",
+        "team_name": "Man City",
+        "position": "M"
+    },
+    {
+        "fpl_id": 322,
+        "understat_id": null,
+        "fpl_name": "Josh Wilson-Esbrand",
+        "team_name": "Man City",
+        "position": "D"
+    },
+    {
+        "fpl_id": 323,
+        "understat_id": 8868,
+        "fpl_name": "Liam Delap",
+        "team_name": "Man City",
+        "position": "F"
+    },
+    {
+        "fpl_id": 324,
+        "understat_id": null,
+        "fpl_name": "Stefan Ortega Moreno",
+        "team_name": "Man City",
+        "position": "G"
+    },
+    {
+        "fpl_id": 325,
+        "understat_id": 8719,
+        "fpl_name": "Kalvin Phillips",
+        "team_name": "Man City",
+        "position": "M"
+    },
+    {
+        "fpl_id": 502,
+        "understat_id": null,
+        "fpl_name": "Scott Carson",
+        "team_name": "Man City",
+        "position": "G"
+    },
+    {
+        "fpl_id": 326,
+        "understat_id": null,
+        "fpl_name": "Cristiano Ronaldo dos Santos Aveiro",
+        "team_name": "Man Utd",
+        "position": "F"
+    },
+    {
+        "fpl_id": 327,
+        "understat_id": null,
+        "fpl_name": "David De Gea Quintana",
+        "team_name": "Man Utd",
+        "position": "G"
+    },
+    {
+        "fpl_id": 328,
+        "understat_id": 951,
+        "fpl_name": "Phil Jones",
+        "team_name": "Man Utd",
+        "position": "D"
+    },
+    {
+        "fpl_id": 329,
+        "understat_id": 2245,
+        "fpl_name": "Raphaël Varane",
+        "team_name": "Man Utd",
+        "position": "D"
+    },
+    {
+        "fpl_id": 330,
+        "understat_id": 1687,
+        "fpl_name": "Harry Maguire",
+        "team_name": "Man Utd",
+        "position": "D"
+    },
+    {
+        "fpl_id": 331,
+        "understat_id": 6817,
+        "fpl_name": "Frederico Rodrigues de Paula Santos",
+        "team_name": "Man Utd",
+        "position": "M"
+    },
+    {
+        "fpl_id": 332,
+        "understat_id": 1006,
+        "fpl_name": "Luke Shaw",
+        "team_name": "Man Utd",
+        "position": "D"
+    },
+    {
+        "fpl_id": 333,
+        "understat_id": 1228,
+        "fpl_name": "Bruno Borges Fernandes",
+        "team_name": "Man Utd",
+        "position": "M"
+    },
+    {
+        "fpl_id": 334,
+        "understat_id": 1828,
+        "fpl_name": "Alex Telles",
+        "team_name": "Man Utd",
+        "position": "D"
+    },
+    {
+        "fpl_id": 335,
+        "understat_id": 556,
+        "fpl_name": "Marcus Rashford",
+        "team_name": "Man Utd",
+        "position": "M"
+    },
+    {
+        "fpl_id": 336,
+        "understat_id": 8821,
+        "fpl_name": "Donny van de Beek",
+        "team_name": "Man Utd",
+        "position": "M"
+    },
+    {
+        "fpl_id": 337,
+        "understat_id": 6080,
+        "fpl_name": "Victor Lindelöf",
+        "team_name": "Man Utd",
+        "position": "D"
+    },
+    {
+        "fpl_id": 338,
+        "understat_id": 5560,
+        "fpl_name": "Scott McTominay",
+        "team_name": "Man Utd",
+        "position": "M"
+    },
+    {
+        "fpl_id": 339,
+        "understat_id": 1739,
+        "fpl_name": "Eric Bailly",
+        "team_name": "Man Utd",
+        "position": "D"
+    },
+    {
+        "fpl_id": 340,
+        "understat_id": 6345,
+        "fpl_name": "Jadon Sancho",
+        "team_name": "Man Utd",
+        "position": "M"
+    },
+    {
+        "fpl_id": 341,
+        "understat_id": 5584,
+        "fpl_name": "Aaron Wan-Bissaka",
+        "team_name": "Man Utd",
+        "position": "D"
+    },
+    {
+        "fpl_id": 342,
+        "understat_id": 7281,
+        "fpl_name": "Diogo Dalot Teixeira",
+        "team_name": "Man Utd",
+        "position": "D"
+    },
+    {
+        "fpl_id": 343,
+        "understat_id": 8075,
+        "fpl_name": "Brandon Williams",
+        "team_name": "Man Utd",
+        "position": "D"
+    },
+    {
+        "fpl_id": 344,
+        "understat_id": 9524,
+        "fpl_name": "Anthony Elanga",
+        "team_name": "Man Utd",
+        "position": "M"
+    },
+    {
+        "fpl_id": 345,
+        "understat_id": 553,
+        "fpl_name": "Anthony Martial",
+        "team_name": "Man Utd",
+        "position": "F"
+    },
+    {
+        "fpl_id": 346,
+        "understat_id": null,
+        "fpl_name": "Andreas Hoelgebaum Pereira",
+        "team_name": "Man Utd",
+        "position": "M"
+    },
+    {
+        "fpl_id": 347,
+        "understat_id": null,
+        "fpl_name": "Facundo Pellistri Rebollo",
+        "team_name": "Man Utd",
+        "position": "M"
+    },
+    {
+        "fpl_id": 348,
+        "understat_id": null,
+        "fpl_name": "Tom Heaton",
+        "team_name": "Man Utd",
+        "position": "G"
+    },
+    {
+        "fpl_id": 349,
+        "understat_id": 769,
+        "fpl_name": "Jonjo Shelvey",
+        "team_name": "Newcastle",
+        "position": "M"
+    },
+    {
+        "fpl_id": 350,
+        "understat_id": 461,
+        "fpl_name": "Matt Ritchie",
+        "team_name": "Newcastle",
+        "position": "D"
+    },
+    {
+        "fpl_id": 351,
+        "understat_id": 708,
+        "fpl_name": "Federico Fernández",
+        "team_name": "Newcastle",
+        "position": "D"
+    },
+    {
+        "fpl_id": 352,
+        "understat_id": 875,
+        "fpl_name": "Ciaran Clark",
+        "team_name": "Newcastle",
+        "position": "D"
+    },
+    {
+        "fpl_id": 353,
+        "understat_id": 780,
+        "fpl_name": "Karl Darlow",
+        "team_name": "Newcastle",
+        "position": "G"
+    },
+    {
+        "fpl_id": 354,
+        "understat_id": 4456,
+        "fpl_name": "Chris Wood",
+        "team_name": "Newcastle",
+        "position": "F"
+    },
+    {
+        "fpl_id": 355,
+        "understat_id": 6532,
+        "fpl_name": "Martin Dubravka",
+        "team_name": "Newcastle",
+        "position": "G"
+    },
+    {
+        "fpl_id": 356,
+        "understat_id": 468,
+        "fpl_name": "Callum Wilson",
+        "team_name": "Newcastle",
+        "position": "F"
+    },
+    {
+        "fpl_id": 357,
+        "understat_id": 652,
+        "fpl_name": "Kieran Trippier",
+        "team_name": "Newcastle",
+        "position": "D"
+    },
+    {
+        "fpl_id": 358,
+        "understat_id": 7382,
+        "fpl_name": "Dan Burn",
+        "team_name": "Newcastle",
+        "position": "D"
+    },
+    {
+        "fpl_id": 359,
+        "understat_id": 453,
+        "fpl_name": "Ryan Fraser",
+        "team_name": "Newcastle",
+        "position": "M"
+    },
+    {
+        "fpl_id": 360,
+        "understat_id": 766,
+        "fpl_name": "Jamaal Lascelles",
+        "team_name": "Newcastle",
+        "position": "D"
+    },
+    {
+        "fpl_id": 361,
+        "understat_id": 743,
+        "fpl_name": "Dwight Gayle",
+        "team_name": "Newcastle",
+        "position": "F"
+    },
+    {
+        "fpl_id": 362,
+        "understat_id": 853,
+        "fpl_name": "Paul Dummett",
+        "team_name": "Newcastle",
+        "position": "D"
+    },
+    {
+        "fpl_id": 363,
+        "understat_id": 645,
+        "fpl_name": "Javier Manquillo Gaitán",
+        "team_name": "Newcastle",
+        "position": "D"
+    },
+    {
+        "fpl_id": 364,
+        "understat_id": 660,
+        "fpl_name": "Emil Krafth",
+        "team_name": "Newcastle",
+        "position": "D"
+    },
+    {
+        "fpl_id": 365,
+        "understat_id": 6063,
+        "fpl_name": "Jacob Murphy",
+        "team_name": "Newcastle",
+        "position": "M"
+    },
+    {
+        "fpl_id": 366,
+        "understat_id": 76,
+        "fpl_name": "Fabian Schär",
+        "team_name": "Newcastle",
+        "position": "D"
+    },
+    {
+        "fpl_id": 367,
+        "understat_id": 884,
+        "fpl_name": "Matt Targett",
+        "team_name": "Newcastle",
+        "position": "D"
+    },
+    {
+        "fpl_id": 368,
+        "understat_id": 101,
+        "fpl_name": "Allan Saint-Maximin",
+        "team_name": "Newcastle",
+        "position": "M"
+    },
+    {
+        "fpl_id": 369,
+        "understat_id": 7420,
+        "fpl_name": "Miguel Almirón Rejala",
+        "team_name": "Newcastle",
+        "position": "M"
+    },
+    {
+        "fpl_id": 370,
+        "understat_id": 7078,
+        "fpl_name": "Sean Longstaff",
+        "team_name": "Newcastle",
+        "position": "M"
+    },
+    {
+        "fpl_id": 371,
+        "understat_id": 87,
+        "fpl_name": "Joelinton Cássio Apolinário de Lira",
+        "team_name": "Newcastle",
+        "position": "M"
+    },
+    {
+        "fpl_id": 372,
+        "understat_id": 7691,
+        "fpl_name": "Jamal Lewis",
+        "team_name": "Newcastle",
+        "position": "D"
+    },
+    {
+        "fpl_id": 373,
+        "understat_id": 6630,
+        "fpl_name": "Joe Willock",
+        "team_name": "Newcastle",
+        "position": "M"
+    },
+    {
+        "fpl_id": 374,
+        "understat_id": 8327,
+        "fpl_name": "Bruno Guimarães Rodriguez Moura",
+        "team_name": "Newcastle",
+        "position": "M"
+    },
+    {
+        "fpl_id": 375,
+        "understat_id": 5962,
+        "fpl_name": "Jeff Hendrick",
+        "team_name": "Newcastle",
+        "position": "M"
+    },
+    {
+        "fpl_id": 376,
+        "understat_id": 5552,
+        "fpl_name": "Nick Pope",
+        "team_name": "Newcastle",
+        "position": "G"
+    },
+    {
+        "fpl_id": 377,
+        "understat_id": null,
+        "fpl_name": "Sven Botman",
+        "team_name": "Newcastle",
+        "position": "D"
+    },
+    {
+        "fpl_id": 378,
+        "understat_id": null,
+        "fpl_name": "Harry Arter",
+        "team_name": "Nott'm Forest",
+        "position": "M"
+    },
+    {
+        "fpl_id": 379,
+        "understat_id": null,
+        "fpl_name": "Steve Cook",
+        "team_name": "Nott'm Forest",
+        "position": "D"
+    },
+    {
+        "fpl_id": 380,
+        "understat_id": null,
+        "fpl_name": "Lyle Taylor",
+        "team_name": "Nott'm Forest",
+        "position": "F"
+    },
+    {
+        "fpl_id": 381,
+        "understat_id": null,
+        "fpl_name": "Jack Colback",
+        "team_name": "Nott'm Forest",
+        "position": "M"
+    },
+    {
+        "fpl_id": 382,
+        "understat_id": 5043,
+        "fpl_name": "Brice Samba",
+        "team_name": "Nott'm Forest",
+        "position": "G"
+    },
+    {
+        "fpl_id": 383,
+        "understat_id": null,
+        "fpl_name": "Carlos Ribeiro Dias",
+        "team_name": "Nott'm Forest",
+        "position": "M"
+    },
+    {
+        "fpl_id": 384,
+        "understat_id": null,
+        "fpl_name": "Joe Lolley",
+        "team_name": "Nott'm Forest",
+        "position": "M"
+    },
+    {
+        "fpl_id": 385,
+        "understat_id": null,
+        "fpl_name": "Scott McKenna",
+        "team_name": "Nott'm Forest",
+        "position": "D"
+    },
+    {
+        "fpl_id": 386,
+        "understat_id": null,
+        "fpl_name": "Mohamed Dräger",
+        "team_name": "Nott'm Forest",
+        "position": "D"
+    },
+    {
+        "fpl_id": 387,
+        "understat_id": null,
+        "fpl_name": "Ryan Yates",
+        "team_name": "Nott'm Forest",
+        "position": "M"
+    },
+    {
+        "fpl_id": 388,
+        "understat_id": null,
+        "fpl_name": "Joe Worrall",
+        "team_name": "Nott'm Forest",
+        "position": "D"
+    },
+    {
+        "fpl_id": 389,
+        "understat_id": null,
+        "fpl_name": "Jonathan Panzo",
+        "team_name": "Nott'm Forest",
+        "position": "D"
+    },
+    {
+        "fpl_id": 390,
+        "understat_id": null,
+        "fpl_name": "Xande Nascimento da Costa Silva",
+        "team_name": "Nott'm Forest",
+        "position": "M"
+    },
+    {
+        "fpl_id": 391,
+        "understat_id": null,
+        "fpl_name": "Sam Surridge",
+        "team_name": "Nott'm Forest",
+        "position": "F"
+    },
+    {
+        "fpl_id": 392,
+        "understat_id": null,
+        "fpl_name": "Richie Laryea",
+        "team_name": "Nott'm Forest",
+        "position": "D"
+    },
+    {
+        "fpl_id": 393,
+        "understat_id": null,
+        "fpl_name": "Loïc Mbe Soh",
+        "team_name": "Nott'm Forest",
+        "position": "D"
+    },
+    {
+        "fpl_id": 394,
+        "understat_id": null,
+        "fpl_name": "Brennan Johnson",
+        "team_name": "Nott'm Forest",
+        "position": "F"
+    },
+    {
+        "fpl_id": 395,
+        "understat_id": null,
+        "fpl_name": "Alex Mighten",
+        "team_name": "Nott'm Forest",
+        "position": "M"
+    },
+    {
+        "fpl_id": 396,
+        "understat_id": null,
+        "fpl_name": "Braian Ojeda Rodríguez",
+        "team_name": "Nott'm Forest",
+        "position": "M"
+    },
+    {
+        "fpl_id": 397,
+        "understat_id": null,
+        "fpl_name": "Taiwo Awoniyi",
+        "team_name": "Nott'm Forest",
+        "position": "F"
+    },
+    {
+        "fpl_id": 398,
+        "understat_id": null,
+        "fpl_name": "Dean Henderson",
+        "team_name": "Nott'm Forest",
+        "position": "G"
+    },
+    {
+        "fpl_id": 399,
+        "understat_id": null,
+        "fpl_name": "Giulian Biancone",
+        "team_name": "Nott'm Forest",
+        "position": "D"
+    },
+    {
+        "fpl_id": 400,
+        "understat_id": 503,
+        "fpl_name": "Theo Walcott",
+        "team_name": "Southampton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 401,
+        "understat_id": 635,
+        "fpl_name": "Alex McCarthy",
+        "team_name": "Southampton",
+        "position": "G"
+    },
+    {
+        "fpl_id": 402,
+        "understat_id": 842,
+        "fpl_name": "Oriol Romeu Vidal",
+        "team_name": "Southampton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 403,
+        "understat_id": 790,
+        "fpl_name": "Nathan Redmond",
+        "team_name": "Southampton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 404,
+        "understat_id": 1735,
+        "fpl_name": "Jack Stephens",
+        "team_name": "Southampton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 405,
+        "understat_id": 6893,
+        "fpl_name": "Stuart Armstrong",
+        "team_name": "Southampton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 406,
+        "understat_id": 6894,
+        "fpl_name": "Mohamed Elyounoussi",
+        "team_name": "Southampton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 407,
+        "understat_id": 843,
+        "fpl_name": "James Ward-Prowse",
+        "team_name": "Southampton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 408,
+        "understat_id": 4419,
+        "fpl_name": "Adam Armstrong",
+        "team_name": "Southampton",
+        "position": "F"
+    },
+    {
+        "fpl_id": 409,
+        "understat_id": 885,
+        "fpl_name": "Kyle Walker-Peters",
+        "team_name": "Southampton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 410,
+        "understat_id": 6042,
+        "fpl_name": "Jan Bednarek",
+        "team_name": "Southampton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 411,
+        "understat_id": 7700,
+        "fpl_name": "Che Adams",
+        "team_name": "Southampton",
+        "position": "F"
+    },
+    {
+        "fpl_id": 412,
+        "understat_id": 8456,
+        "fpl_name": "Nathan Tella",
+        "team_name": "Southampton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 413,
+        "understat_id": 6252,
+        "fpl_name": "Lyanco Silveira Neves Vojnovic",
+        "team_name": "Southampton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 414,
+        "understat_id": 7280,
+        "fpl_name": "Yan Valery",
+        "team_name": "Southampton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 415,
+        "understat_id": null,
+        "fpl_name": "Will Smallbone",
+        "team_name": "Southampton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 416,
+        "understat_id": 6736,
+        "fpl_name": "Ibrahima Diallo",
+        "team_name": "Southampton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 417,
+        "understat_id": 6500,
+        "fpl_name": "Romain Perraud",
+        "team_name": "Southampton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 418,
+        "understat_id": 7701,
+        "fpl_name": "Moussa Djenepo",
+        "team_name": "Southampton",
+        "position": "M"
+    },
+    {
+        "fpl_id": 419,
+        "understat_id": null,
+        "fpl_name": "Tino Livramento",
+        "team_name": "Southampton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 420,
+        "understat_id": 6923,
+        "fpl_name": "Mohammed Salisu",
+        "team_name": "Southampton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 421,
+        "understat_id": null,
+        "fpl_name": "Mateusz Lis",
+        "team_name": "Southampton",
+        "position": "G"
+    },
+    {
+        "fpl_id": 422,
+        "understat_id": null,
+        "fpl_name": "Gavin Bazunu",
+        "team_name": "Southampton",
+        "position": "G"
+    },
+    {
+        "fpl_id": 423,
+        "understat_id": null,
+        "fpl_name": "Armel Bella-Kotchap",
+        "team_name": "Southampton",
+        "position": "D"
+    },
+    {
+        "fpl_id": 424,
+        "understat_id": 624,
+        "fpl_name": "Willy Caballero",
+        "team_name": "Southampton",
+        "position": "G"
+    },
+    {
+        "fpl_id": 425,
+        "understat_id": 637,
+        "fpl_name": "Hugo Lloris",
+        "team_name": "Spurs",
+        "position": "G"
+    },
+    {
+        "fpl_id": 426,
+        "understat_id": 831,
+        "fpl_name": "Fraser Forster",
+        "team_name": "Spurs",
+        "position": "G"
+    },
+    {
+        "fpl_id": 427,
+        "understat_id": 647,
+        "fpl_name": "Harry Kane",
+        "team_name": "Spurs",
+        "position": "F"
+    },
+    {
+        "fpl_id": 428,
+        "understat_id": null,
+        "fpl_name": "Son Heung-min",
+        "team_name": "Spurs",
+        "position": "M"
+    },
+    {
+        "fpl_id": 429,
+        "understat_id": 6852,
+        "fpl_name": "Matt Doherty",
+        "team_name": "Spurs",
+        "position": "D"
+    },
+    {
+        "fpl_id": 430,
+        "understat_id": 643,
+        "fpl_name": "Eric Dier",
+        "team_name": "Spurs",
+        "position": "D"
+    },
+    {
+        "fpl_id": 431,
+        "understat_id": 3293,
+        "fpl_name": "Lucas Rodrigues Moura da Silva",
+        "team_name": "Spurs",
+        "position": "M"
+    },
+    {
+        "fpl_id": 432,
+        "understat_id": 660,
+        "fpl_name": "Ben Davies",
+        "team_name": "Spurs",
+        "position": "D"
+    },
+    {
+        "fpl_id": 433,
+        "understat_id": 343,
+        "fpl_name": "Pierre-Emile Højbjerg",
+        "team_name": "Spurs",
+        "position": "M"
+    },
+    {
+        "fpl_id": 434,
+        "understat_id": 971,
+        "fpl_name": "Harry Winks",
+        "team_name": "Spurs",
+        "position": "M"
+    },
+    {
+        "fpl_id": 435,
+        "understat_id": 6249,
+        "fpl_name": "Davinson Sánchez",
+        "team_name": "Spurs",
+        "position": "D"
+    },
+    {
+        "fpl_id": 436,
+        "understat_id": 6837,
+        "fpl_name": "Ryan Sessegnon",
+        "team_name": "Spurs",
+        "position": "D"
+    },
+    {
+        "fpl_id": 437,
+        "understat_id": 8300,
+        "fpl_name": "Steven Bergwijn",
+        "team_name": "Spurs",
+        "position": "M"
+    },
+    {
+        "fpl_id": 438,
+        "understat_id": 7187,
+        "fpl_name": "Sergio Reguilón",
+        "team_name": "Spurs",
+        "position": "D"
+    },
+    {
+        "fpl_id": 439,
+        "understat_id": 8222,
+        "fpl_name": "Japhet Tanganga",
+        "team_name": "Spurs",
+        "position": "D"
+    },
+    {
+        "fpl_id": 440,
+        "understat_id": 6108,
+        "fpl_name": "Rodrigo Bentancur",
+        "team_name": "Spurs",
+        "position": "M"
+    },
+    {
+        "fpl_id": 441,
+        "understat_id": 7198,
+        "fpl_name": "Oliver Skipp",
+        "team_name": "Spurs",
+        "position": "M"
+    },
+    {
+        "fpl_id": 442,
+        "understat_id": 6377,
+        "fpl_name": "Joe Rodon",
+        "team_name": "Spurs",
+        "position": "D"
+    },
+    {
+        "fpl_id": 443,
+        "understat_id": 7218,
+        "fpl_name": "Cristian Romero",
+        "team_name": "Spurs",
+        "position": "D"
+    },
+    {
+        "fpl_id": 444,
+        "understat_id": 5609,
+        "fpl_name": "Yves Bissouma",
+        "team_name": "Spurs",
+        "position": "M"
+    },
+    {
+        "fpl_id": 445,
+        "understat_id": null,
+        "fpl_name": "Emerson Leite de Souza Junior",
+        "team_name": "Spurs",
+        "position": "D"
+    },
+    {
+        "fpl_id": 446,
+        "understat_id": 6691,
+        "fpl_name": "Dejan Kulusevski",
+        "team_name": "Spurs",
+        "position": "M"
+    },
+    {
+        "fpl_id": 447,
+        "understat_id": 9332,
+        "fpl_name": "Dane Scarlett",
+        "team_name": "Spurs",
+        "position": "F"
+    },
+    {
+        "fpl_id": 448,
+        "understat_id": null,
+        "fpl_name": "Ivan Perišić",
+        "team_name": "Spurs",
+        "position": "D"
+    },
+    {
+        "fpl_id": 449,
+        "understat_id": null,
+        "fpl_name": "Harvey White",
+        "team_name": "Spurs",
+        "position": "M"
+    },
+    {
+        "fpl_id": 450,
+        "understat_id": null,
+        "fpl_name": "Pape Matar Sarr",
+        "team_name": "Spurs",
+        "position": "M"
+    },
+    {
+        "fpl_id": 451,
+        "understat_id": null,
+        "fpl_name": "Brandon Austin",
+        "team_name": "Spurs",
+        "position": "G"
+    },
+    {
+        "fpl_id": 452,
+        "understat_id": null,
+        "fpl_name": "Alfie Devine",
+        "team_name": "Spurs",
+        "position": "M"
+    },
+    {
+        "fpl_id": 453,
+        "understat_id": null,
+        "fpl_name": "Troy Parrott",
+        "team_name": "Spurs",
+        "position": "F"
+    },
+    {
+        "fpl_id": 454,
+        "understat_id": 6026,
+        "fpl_name": "Richarlison de Andrade",
+        "team_name": "Spurs",
+        "position": "F"
+    },
+    {
+        "fpl_id": 455,
+        "understat_id": 706,
+        "fpl_name": "Lukasz Fabianski",
+        "team_name": "West Ham",
+        "position": "G"
+    },
+    {
+        "fpl_id": 456,
+        "understat_id": 528,
+        "fpl_name": "Angelo Ogbonna",
+        "team_name": "West Ham",
+        "position": "D"
+    },
+    {
+        "fpl_id": 457,
+        "understat_id": 534,
+        "fpl_name": "Aaron Cresswell",
+        "team_name": "West Ham",
+        "position": "D"
+    },
+    {
+        "fpl_id": 458,
+        "understat_id": 531,
+        "fpl_name": "Michail Antonio",
+        "team_name": "West Ham",
+        "position": "F"
+    },
+    {
+        "fpl_id": 459,
+        "understat_id": 804,
+        "fpl_name": "Craig Dawson",
+        "team_name": "West Ham",
+        "position": "D"
+    },
+    {
+        "fpl_id": 460,
+        "understat_id": 535,
+        "fpl_name": "Manuel Lanzini",
+        "team_name": "West Ham",
+        "position": "M"
+    },
+    {
+        "fpl_id": 461,
+        "understat_id": 935,
+        "fpl_name": "Kurt Zouma",
+        "team_name": "West Ham",
+        "position": "D"
+    },
+    {
+        "fpl_id": 462,
+        "understat_id": 1760,
+        "fpl_name": "Arthur Masuaku",
+        "team_name": "West Ham",
+        "position": "D"
+    },
+    {
+        "fpl_id": 463,
+        "understat_id": 6485,
+        "fpl_name": "Vladimir Coufal",
+        "team_name": "West Ham",
+        "position": "D"
+    },
+    {
+        "fpl_id": 464,
+        "understat_id": 3585,
+        "fpl_name": "Saïd Benrahma",
+        "team_name": "West Ham",
+        "position": "M"
+    },
+    {
+        "fpl_id": 465,
+        "understat_id": 1776,
+        "fpl_name": "Jarrod Bowen",
+        "team_name": "West Ham",
+        "position": "M"
+    },
+    {
+        "fpl_id": 466,
+        "understat_id": 6276,
+        "fpl_name": "Nikola Vlasic",
+        "team_name": "West Ham",
+        "position": "M"
+    },
+    {
+        "fpl_id": 467,
+        "understat_id": 5553,
+        "fpl_name": "Declan Rice",
+        "team_name": "West Ham",
+        "position": "M"
+    },
+    {
+        "fpl_id": 468,
+        "understat_id": 8288,
+        "fpl_name": "Tomas Soucek",
+        "team_name": "West Ham",
+        "position": "M"
+    },
+    {
+        "fpl_id": 469,
+        "understat_id": 2335,
+        "fpl_name": "Pablo Fornals Malla",
+        "team_name": "West Ham",
+        "position": "M"
+    },
+    {
+        "fpl_id": 470,
+        "understat_id": 3203,
+        "fpl_name": "Issa Diop",
+        "team_name": "West Ham",
+        "position": "D"
+    },
+    {
+        "fpl_id": 471,
+        "understat_id": 6424,
+        "fpl_name": "Ben Johnson",
+        "team_name": "West Ham",
+        "position": "D"
+    },
+    {
+        "fpl_id": 472,
+        "understat_id": 6954,
+        "fpl_name": "Nayef Aguerd",
+        "team_name": "West Ham",
+        "position": "D"
+    },
+    {
+        "fpl_id": 473,
+        "understat_id": 2310,
+        "fpl_name": "Alphonse Areola",
+        "team_name": "West Ham",
+        "position": "G"
+    },
+    {
+        "fpl_id": 474,
+        "understat_id": 6850,
+        "fpl_name": "Willy Boly",
+        "team_name": "Wolves",
+        "position": "D"
+    },
+    {
+        "fpl_id": 475,
+        "understat_id": 6851,
+        "fpl_name": "Conor Coady",
+        "team_name": "Wolves",
+        "position": "D"
+    },
+    {
+        "fpl_id": 476,
+        "understat_id": 4105,
+        "fpl_name": "Raúl Jiménez",
+        "team_name": "Wolves",
+        "position": "F"
+    },
+    {
+        "fpl_id": 477,
+        "understat_id": 2280,
+        "fpl_name": "Jonathan Castro Otto",
+        "team_name": "Wolves",
+        "position": "D"
+    },
+    {
+        "fpl_id": 478,
+        "understat_id": 9740,
+        "fpl_name": "José Malheiro de Sá",
+        "team_name": "Wolves",
+        "position": "G"
+    },
+    {
+        "fpl_id": 479,
+        "understat_id": 7236,
+        "fpl_name": "Leander Dendoncker",
+        "team_name": "Wolves",
+        "position": "M"
+    },
+    {
+        "fpl_id": 480,
+        "understat_id": 6853,
+        "fpl_name": "Rúben da Silva Neves",
+        "team_name": "Wolves",
+        "position": "M"
+    },
+    {
+        "fpl_id": 481,
+        "understat_id": null,
+        "fpl_name": "Hwang Hee-chan",
+        "team_name": "Wolves",
+        "position": "M"
+    },
+    {
+        "fpl_id": 482,
+        "understat_id": 6163,
+        "fpl_name": "Nélson Cabral Semedo",
+        "team_name": "Wolves",
+        "position": "D"
+    },
+    {
+        "fpl_id": 483,
+        "understat_id": 8291,
+        "fpl_name": "Daniel Castelo Podence",
+        "team_name": "Wolves",
+        "position": "M"
+    },
+    {
+        "fpl_id": 484,
+        "understat_id": 7332,
+        "fpl_name": "Max Kilman",
+        "team_name": "Wolves",
+        "position": "D"
+    },
+    {
+        "fpl_id": 485,
+        "understat_id": 8179,
+        "fpl_name": "Luke Cundle",
+        "team_name": "Wolves",
+        "position": "M"
+    },
+    {
+        "fpl_id": 486,
+        "understat_id": 6382,
+        "fpl_name": "Pedro Lomba Neto",
+        "team_name": "Wolves",
+        "position": "M"
+    },
+    {
+        "fpl_id": 487,
+        "understat_id": null,
+        "fpl_name": "Rayan Aït-Nouri",
+        "team_name": "Wolves",
+        "position": "D"
+    },
+    {
+        "fpl_id": 488,
+        "understat_id": 8778,
+        "fpl_name": "Fabio Silva",
+        "team_name": "Wolves",
+        "position": "F"
+    },
+    {
+        "fpl_id": 489,
+        "understat_id": 10293,
+        "fpl_name": "Toti António Gomes",
+        "team_name": "Wolves",
+        "position": "D"
+    },
+    {
+        "fpl_id": 490,
+        "understat_id": 10327,
+        "fpl_name": "Francisco Jorge Tomás Oliveira",
+        "team_name": "Wolves",
+        "position": "M"
+    },
+    {
+        "fpl_id": 491,
+        "understat_id": 9512,
+        "fpl_name": "Adama Traoré Diarra",
+        "team_name": "Wolves",
+        "position": "M"
+    },
+    {
+        "fpl_id": 492,
+        "understat_id": null,
+        "fpl_name": "Matija Šarkić",
+        "team_name": "Wolves",
+        "position": "G"
+    },
+    {
+        "fpl_id": 493,
+        "understat_id": 6857,
+        "fpl_name": "Morgan Gibbs-White",
+        "team_name": "Wolves",
+        "position": "M"
+    },
+    {
+        "fpl_id": 494,
+        "understat_id": null,
+        "fpl_name": "Yerson Mosquera Valdelamar",
+        "team_name": "Wolves",
+        "position": "D"
+    },
+    {
+        "fpl_id": 503,
+        "understat_id": 3422,
+        "fpl_name": "João Filipe Iria Santos Moutinho",
+        "team_name": "Wolves",
+        "position": "M"
+    }
+]

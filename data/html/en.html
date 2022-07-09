@@ -1,0 +1,1257 @@
+    
+      
+<!DOCTYPE html>
+<html data-version="klecko-" data-root="/home/fb/deploy/www/base" lang="en" class="no-js" >
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0" />
+    <link rel="dns-prefetch" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241" />
+    <!-- Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+<script type="text/javascript" async=true>
+    (function() {
+	var host = window.location.hostname;
+	var element = document.createElement('script');
+	var firstScript = document.getElementsByTagName('script')[0];
+	var url = 'https://quantcast.mgr.consensu.org'
+	    .concat('/choice/', 'XwNYEpNeFfhfr', '/', host, '/choice.js')
+	var uspTries = 0;
+	var uspTriesLimit = 3;
+	element.async = true;
+	element.type = 'text/javascript';
+	element.src = url;
+	
+	firstScript.parentNode.insertBefore(element, firstScript);
+	
+	function makeStub() {
+	    var TCF_LOCATOR_NAME = '__tcfapiLocator';
+	    var queue = [];
+	    var win = window;
+	    var cmpFrame;
+	    
+	    function addFrame() {
+		var doc = win.document;
+		var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
+		
+		if (!otherCMP) {
+		    if (doc.body) {
+			var iframe = doc.createElement('iframe');
+			
+			iframe.style.cssText = 'display:none';
+			iframe.name = TCF_LOCATOR_NAME;
+			doc.body.appendChild(iframe);
+		    } else {
+			setTimeout(addFrame, 5);
+		    }
+		}
+		return !otherCMP;
+	    }
+	    
+	    function tcfAPIHandler() {
+		var gdprApplies;
+		var args = arguments;
+		
+		if (!args.length) {
+		    return queue;
+		} else if (args[0] === 'setGdprApplies') {
+		    if (
+			args.length > 3 &&
+			    args[2] === 2 &&
+			    typeof args[3] === 'boolean'
+		    ) {
+			gdprApplies = args[3];
+			if (typeof args[2] === 'function') {
+			    args[2]('set', true);
+			}
+		    }
+		} else if (args[0] === 'ping') {
+		    var retr = {
+			gdprApplies: gdprApplies,
+			cmpLoaded: false,
+			cmpStatus: 'stub'
+		    };
+		    
+		    if (typeof args[2] === 'function') {
+			args[2](retr);
+		    }
+		} else {
+		    queue.push(args);
+		}
+	    }
+	    
+	    function postMessageEventHandler(event) {
+		var msgIsString = typeof event.data === 'string';
+		var json = {};
+		
+		try {
+		    if (msgIsString) {
+			json = JSON.parse(event.data);
+		    } else {
+			json = event.data;
+		    }
+		} catch (ignore) {}
+		
+		var payload = json.__tcfapiCall;
+		
+		if (payload) {
+		    window.__tcfapi(
+			payload.command,
+			payload.version,
+			function(retValue, success) {
+			    var returnMsg = {
+				__tcfapiReturn: {
+				    returnValue: retValue,
+				    success: success,
+				    callId: payload.callId
+				}
+			    };
+			    if (msgIsString) {
+				returnMsg = JSON.stringify(returnMsg);
+			    }
+			    event.source.postMessage(returnMsg, '*');
+			},
+			payload.parameter
+		    );
+		}
+	    }
+	    
+	    while (win) {
+		try {
+		    if (win.frames[TCF_LOCATOR_NAME]) {
+			cmpFrame = win;
+			break;
+		    }
+		} catch (ignore) {}
+		
+		if (win === window.top) {
+		    break;
+		}
+		win = win.parent;
+	    }
+	    if (!cmpFrame) {
+		addFrame();
+		win.__tcfapi = tcfAPIHandler;
+		win.addEventListener('message', postMessageEventHandler, false);
+	    }
+	};
+	
+	makeStub();
+	
+	var uspStubFunction = function() {
+	    var arg = arguments;
+	    if (typeof window.__uspapi !== uspStubFunction) {
+		setTimeout(function() {
+		    if (typeof window.__uspapi !== 'undefined') {
+			window.__uspapi.apply(window.__uspapi, arg);
+		    }
+		}, 500);
+	    }
+	};
+	
+	var checkIfUspIsReady = function() {
+	    uspTries++;
+	    if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
+		console.warn('USP is not accessible');
+	    } else {
+		clearInterval(uspInterval);
+	    }
+	};
+	
+	if (typeof window.__uspapi === 'undefined') {
+	    window.__uspapi = uspStubFunction;
+	    var uspInterval = setInterval(checkIfUspIsReady, 6000);
+	}
+    })();
+</script>
+<!-- End Quantcast Choice. Consent Manager Tag v2.0 (for TCF 2.0) -->
+
+    
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayerZypmedia','');</script>
+<!-- End Google Tag Manager -->
+
+    <title>Encyclopedia of World Football Players | FBref.com</title>
+
+    
+    
+    <meta name="Description" content="Check out the list of all of the football players.  Search the index of players by their last name or use the search box on fbref.com.">
+    <link rel="canonical" href="https://fbref.com/en/players/en/" />
+        
+	<link rel="alternate" href="https://fbref.com/en/players/en/" hreflang="x-default" />
+	<link rel="alternate" href="https://fbref.com/pt/jogadores/en/" hreflang="pt-br" />
+	<link rel="alternate" href="https://fbref.com/pt/jogadores/en/" hreflang="pt-pt" />
+	<link rel="alternate" href="https://fbref.com/en/players/en/" hreflang="en" />
+	<link rel="alternate" href="https://fbref.com/fr/joueurs/en/" hreflang="fr-fr" />
+	<link rel="alternate" href="https://fbref.com/fr/joueurs/en/" hreflang="fr-cd" />
+	<link rel="alternate" href="https://fbref.com/fr/joueurs/en/" hreflang="fr-ca" />
+	<link rel="alternate" href="https://fbref.com/fr/joueurs/en/" hreflang="fr-cm" />
+	<link rel="alternate" href="https://fbref.com/fr/joueurs/en/" hreflang="fr-ci" />
+	<link rel="alternate" href="https://fbref.com/fr/joueurs/en/" hreflang="fr-be" />
+	<link rel="alternate" href="https://fbref.com/fr/joueurs/en/" hreflang="fr-ma" />
+	<link rel="alternate" href="https://fbref.com/fr/joueurs/en/" hreflang="fr-gn" />
+	<link rel="alternate" href="https://fbref.com/fr/joueurs/en/" hreflang="fr-dz" />
+	<link rel="alternate" href="https://fbref.com/fr/joueurs/en/" hreflang="fr-ht" />
+	<link rel="alternate" href="https://fbref.com/it/calciatori/en/" hreflang="it-it" />
+	<link rel="alternate" href="https://fbref.com/de/fussballspieler/en/" hreflang="de-de" />
+	<link rel="alternate" href="https://fbref.com/de/fussballspieler/en/" hreflang="de-at" />
+	<link rel="alternate" href="https://fbref.com/de/fussballspieler/en/" hreflang="de-ch" />
+	<link rel="alternate" href="https://fbref.com/es/jugadores/en/" hreflang="es-es" />
+	<link rel="alternate" href="https://fbref.com/es/jugadores/en/" hreflang="es-mx" />
+	<link rel="alternate" href="https://fbref.com/es/jugadores/en/" hreflang="es-co" />
+	<link rel="alternate" href="https://fbref.com/es/jugadores/en/" hreflang="es-ar" />
+	<link rel="alternate" href="https://fbref.com/es/jugadores/en/" hreflang="es-cl" />
+	<link rel="alternate" href="https://fbref.com/es/jugadores/en/" hreflang="es-pe" />
+	<link rel="alternate" href="https://fbref.com/es/jugadores/en/" hreflang="es-us" />
+	<link rel="alternate" href="https://fbref.com/es/jugadores/en/" hreflang="es-py" />
+	<link rel="alternate" href="https://fbref.com/es/jugadores/en/" hreflang="es-ec" />
+	<link rel="alternate" href="https://fbref.com/es/jugadores/en/" hreflang="es-uy" />
+    
+
+<!-- include:start ="/inc/klecko_header_fb.html_f" -->
+<!-- no:cookie fast load the css.           -->
+<script>function gup(n) {n = n.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]'); var r = new RegExp('[\\?&]'+n+'=([^&#]*)'); var re = r.exec(location.search);   return re === null?'':decodeURIComponent(re[1].replace(/\+/g,' '));}; document.srdev = gup('srdev')</script>
+<link rel="preconnect" href="https://d2p3bygnnzw9w3.cloudfront.net" crossorigin>
+<link rel="preload"    href="https://d2p3bygnnzw9w3.cloudfront.net/req/202207051/icons/sr_icons-min.svg?fb" as="fetch" crossorigin>
+<link rel="preload"    href="https://fbref.com/short/inc/main_nav_menu.json" as="fetch" crossorigin>
+<link rel="preload"    href="https://d2p3bygnnzw9w3.cloudfront.net/req/201604190/images/chosen-sprite.png" as="image" crossorigin>
+<link rel="preload"    href="https://d2p3bygnnzw9w3.cloudfront.net/req/202207051/css/fb/sr-min.css" as="style"    crossorigin>
+
+<!-- CSS start -->
+ <style>body{--use:20px;--doNotUse:0;--fsAncillary:var(--doNotUse)}[data-freestar-ad]{display:inline-flex;align-items:center;justify-content:center;width:100%;overflow:hidden;position:relative}[data-freestar-ad*="__fsAncillary"]{--fsAncillary:var(--use)}[data-freestar-ad*="__728x90"],[data-freestar-ad*="__970x90"]{--height:90px;height:90px;height:calc(var(--height)+var(--fsAncillary))!important}[data-freestar-ad*="__300x250"],[data-freestar-ad*="__970x250"]{--height:250px;height:250px;height:calc(var(--height)+var(--fsAncillary))!important}[data-freestar-ad*="__336x280"]{--height:280px;height:280px;height:calc(var(--height)+var(--fsAncillary))!important}[data-freestar-ad*="__160x600"],[data-freestar-ad*="__300x600"]{--height:600px;height:600px;height:calc(var(--height)+var(--fsAncillary))!important}@media only screen and (min-device-width :320px) and (max-device-width :768px){[data-freestar-ad*="__300x50"],[data-freestar-ad*="__320x50"]{--height:50px;height:50px;height:calc(var(--height)+var(--fsAncillary))!important}[data-freestar-ad*="__468x60"]{--height:60px;height:60px;height:calc(var(--height)+var(--fsAncillary))!important}[data-freestar-ad*="__300x100"],[data-freestar-ad*="__320x100"]{--height:100px;height:100px;height:calc(var(--height)+var(--fsAncillary))!important}[data-freestar-ad*="__300x250"]{--height:250px;height:250px;height:calc(var(--height)+var(--fsAncillary))!important}[data-freestar-ad*="__336x280"]{--height:280px;height:280px;height:calc(var(--height)+var(--fsAncillary))!important}}html,body{margin:0;padding:0;font:14px/1.25 "Helvetica Neue",helvetica,arial,sans-serif;color:#000}html:not(.backstop){scroll-behavior:smooth}html:not(.backstop) div,html:not(.backstop) span{scroll-margin:2.5em 0 0 0;scroll-snap-margin:2.5em 0 0 0}body{position:relative;background:#c9cbcd;z-index:0;-webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none}a img{border:0}ul,li,ol{margin:0;padding:0;list-style-type:none}table th,table td{border:0}iframe{max-width:100%}code{background:#eee}a,button,input,select,textarea,label,summary{touch-action:manipulation;-ms-touch-action:manipulation}::selection{background:#ff0;text-shadow:none}html.no-js .hasmore,html.no-js .js,html.js .no-js,html.no-js button,html.is_build .hide_build,html.is_dev .hide_dev,html.is_live .hide_live{display:none!important}.js-select{visibility:hidden}a[href]{color:#34d}a[href]:visited{color:#848}a[href]:hover{color:#5e44b3}a[href]:active{color:#b12}a[href^="tel:"]::before{content:"\260E";display:inline-block;margin-right:0}a[href^="mailto:"]::before{content:"\2709";display:inline-block;margin-right:0}.icon_group a[href^="tel:"]:before,.icon_group a[href^="mailto:"]:before{content:""}.screen_only{display:initial}.user_logged_in .not_logged_in,.logged_in,.sr_cpi_control,.print_only{display:none}#perflog,#modernizr,.user_logged_in .logged_in{display:block}h2{color:#000;margin-bottom:5px;font-size:1.5em}img.right{float:right;margin:0 0 5px 5px}img.left{float:left;margin:0 15px 15px 0}sup{font-size:.75em;position:relative;top:-0.4em;vertical-align:baseline}#wrap{width:100%;background:#fff;position:relative}#wrap>div,#wrap>ul{width:100%;position:relative;clear:both}.hidden-iso,.hidden,#content .hidden,.gutterad,.more,.print_only,#warnings.hide,#nag_devs{display:none}#inner_nav.hidden{visibility:hidden}.float_wrap{overflow:hidden}.grid2{display:grid;grid-column-gap:10px;grid-template-columns:1fr 1fr}.grid2 img{max-width:100%}.grid2.heavyleft{grid-template-columns:2fr 1fr}.grid2.heavyright{grid-template-columns:1fr 2fr}#header{overflow:visible;background:#edefee;border-bottom:3px solid #026937;min-height:50px}#header img{height:25px;float:left;padding:8px 0 8px 2%;max-width:71%;max-width:calc(95% - 80px)}#header #nav_trigger{display:block;cursor:pointer;float:right;padding:7px 2% 7px 1%;height:30px}#header #nav_trigger a{color:#01371a;font-size:20px;font-weight:bold;text-decoration:none;display:inline-block}#header #nav_trigger a:before{color:#01371a;content:"\2630 ";font-weight:normal}#header #nav{display:none;clear:both;width:88%;background:#fff;padding:7px 6% 0;border-bottom:3px solid #01371a;border-top:3px solid #01371a;overflow:hidden;font-size:12px}#header #nav .usertools{font-weight:bold;font-size:12px;margin:0 0 4px;padding:7px 6% 0;border-top:1px solid #c9cbcd}#header #nav .breadcrumbs{font-size:12px;padding:7px 6%;border-top:1px solid #c9cbcd}#header #nav_trigger.open{background:#01371a}#header #nav_trigger.open a{color:#fff}#header #nav_trigger.open a:before{color:#fff}#header #nav.open{display:block}#header .social{margin:15px 0;display:none}#header.open_search{margin-bottom:50px}#header #subnav{display:none}#translations{background-color:#ffa;padding:4px 0;text-align:center;display:none}#translations.show{display:block}#translations .closer{top:4px}#translations .langs{display:inline-block}#translations .links{margin:0 35px 0 0}#translations .links>div{display:inline-block}#translations .links .welcome{font-weight:bold}#header .search{margin-top:10px;clear:both;padding:0 2% 6px}#header .search input,#header .search input:active,#header .search input:focus{height:32px;font-size:20px}.search input[type="search"]{padding:4px 5px;border:#747678 1px solid;width:73%;margin-right:2%}.search input[type="search"].prefilled{background-color:#ffa}.search input[type="submit"]{float:right;background:#01371a;color:white;border:1px solid #747678;padding:0;border-radius:5px;height:24px;width:25%;width:calc(25% - 2px)}.search input[type="submit"]:hover{text-decoration:underline}.search input[type="submit"]:active{background-color:#404542}.search .ac-outline{width:73%;margin-right:2%}.search .ac-outline input[type="search"]{width:100%;margin:0}@media screen and (-webkit-min-device-pixel-ratio:0) and (max-width:400px){#header .search input,#header .search input:active,#header .search input:focus{height:32px;font-size:20px}}#wrap>#info{width:96%;margin:0 auto;padding-bottom:10px}#info .opener,#info .opener:active,#inner_nav div .opener{color:#900;font-weight:bold;clear:both;width:100%;text-align:left;padding:10px 0;border:0;background:transparent}#info button#meta_more_button{border:1px solid #c9cbcd;background-color:#edefee;padding:.5em;margin:.5em 0;text-align:center;width:100%;max-width:400px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;display:none}#info button#meta_more_button.show{display:inline-block}#info #meta>div>p:nth-child(n+6){display:none}#info.open #meta>div>p:nth-child(n+6){display:block}#info #meta .opener{display:none}#info #meta{margin-top:10px;overflow:hidden}#info #meta p{font-size:.93em;margin:3px 0}#info #meta>div.media-item{float:right;margin-left:10px;width:70px}#info #meta>div.media-item.country{width:100px;height:75px}#info #meta>div.media-item.country .flag{width:100%;height:100%;background-size:100%}#info .media-item img{width:100%;height:auto;border:1px solid black;box-sizing:border-box}#info .media-item img.additional{display:none}#info .media-item.logo img,.bbr #info .media-item img,.cbb #info .media-item img{border:0}#info #meta .media-item p{margin:3px 0;font-size:.785em;font-style:italic}#info #meta .media-item.loader p{visibility:hidden}#info h1{margin-top:0;margin-bottom:5px;line-height:1.1em;font-size:1.5em}#info h1+p{margin-top:5px}#info #bling{margin:6px 1% 6px 0;color:#fff;height:24px;overflow:hidden;float:left;width:88%;display:grid;grid-gap:5px 4px;grid-template-columns:repeat(auto-fill,minmax(100px,1fr))}#info.teams #bling{width:100%}#info #bling li{padding:4px 1.25%;text-align:center;position:relative;height:15px;background:#01371a;font-size:.85em;word-spacing:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border-radius:5px;display:inline-block;width:27%;margin-bottom:5px}#info.teams #bling li{width:45%}#bling li a{color:inherit}#info #bling li.bling_hof{background-color:#ffdb1c;color:#000}#info #bling li.bling_all_star{background-color:#c9cbcd;color:#404542}#info #bling li.bling_hof,#info.teams #bling li.bling_all_star,#info.teams #bling li.bling_champ{grid-column-end:span 2}#info #bling li.important{grid-column-end:span 2}#info #bling li.special{background-color:#ffdb1c;color:#000}#info #bling li.all_star{background-color:#c9cbcd;color:#404542}#info.open #bling{height:auto;width:100%;margin-right:0;float:none;overflow:visible}@supports(display:grid){#info #bling li,#info.open #bling li,#info.teams #bling li{width:auto!important;margin-bottom:0!important}}.uni_holder{margin:3px 0;float:none;width:100%;position:relative}#info .uni_holder{float:left}#bling+.uni_holder{width:11%}#info.open #bling+.uni_holder{width:100%;overflow:visible;float:none;margin-bottom:5px}.uni_holder>a{display:inline-block;position:relative;height:auto;width:28px;margin-bottom:3px;margin-right:.3em;text-decoration:none;overflow:hidden}.uni_holder svg{height:28px;width:28px}.uni_holder svg.jersey{height:35px}.uni_holder svg text{font-size:1.8em;font-weight:bold}.uni_holder svg text.string{font-size:1.3em}.uni_holder svg.jersey text{font-size:1.5em}.uni_holder svg.jersey text.string{font-size:.7em}#info #bling+.uni_holder>a{display:none}#info .uni_holder>a.default,#info.open .uni_holder>a,#info #bling+.uni_holder>a.default{display:inline-block}#info .uni_holder .counter{display:none;position:absolute;height:14px;width:18px;border-radius:50%;color:#fff;font-weight:bold;font-size:10px;top:-4px;left:18px;background:black;text-align:center;border:0;padding:4px 0 0;cursor:pointer;text-overflow:inherit}#info .uni_holder .counter:after{content:'';padding:0;font-size:0}#info #bling+.uni_holder .counter{display:block}#info.open #bling+.uni_holder .counter{display:none}#info.open #bling+.uni_holder>a{display:inline-block}#info.open .uni_holder>a{display:inline-block;width:33px}#info.open .uni_holder svg{height:33px;width:33px}#info.open .uni_holder svg.jersey{height:41px}.stats_pullout{overflow:hidden;text-align:center;width:96%;margin:0 auto 15px 0;padding-top:6px}.stats_pullout>div{float:left}.stats_pullout>div:first-child{text-align:left}.stats_pullout>div.p2,.stats_pullout>div.p3{display:none}.stats_pullout>div>div{float:left;margin-left:15px}.stats_pullout>div>div.p2{display:none}.stats_pullout>div:first-child>div{margin-left:0}.stats_pullout span,.stats_pullout h4{color:#900;margin:2px 0;font-size:.785714286em;text-align:center}.stats_pullout p{margin:2px 0;font-size:1.1em}.stats_pullout .caption{clear:both;text-align:left}@media screen and (min-width:520px){.stats_pullout>div.p2{display:block}}@media screen and (min-width:600px){.stats_pullout>div{border-left:1px solid #c9cbcd;margin-left:10px}.stats_pullout>div:first-child{border-left:none;margin-left:0}}@media screen and (min-width:736px){.stats_pullout>div.p2{display:none}}@media screen and (min-width:800px){.stats_pullout>div.p2{display:block}.stats_pullout>div>div.p2{display:block}}.opener{cursor:pointer;position:relative;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.opener:after{content:"\25BC";font-size:.75em;padding-left:5px;display:inline-block;text-decoration:none}.opener.open:after{content:"\25B2"}.note .opener{white-space:normal}.toggleable{display:none}.toggleable.open{display:block}tr.toggleable.open{display:table-row}table.toggleable.open{display:table}span.toggleable.open,em.toggleable.open{display:inline}.hoverer{cursor:pointer}.hoverer:after{content:"\25BC";position:absolute;top:7px;right:0}html.no-touchevents .hoverer:hover:after{content:"\25B2"}ul.news_stories>li{margin:5px 10px 0 0;float:none}ul.news_stories.more{display:none}ul.news_stories.more.open{display:block}.bullets{padding-left:20px}.bullets>li{margin-left:0;margin-bottom:6px}ul.bullets>li{list-style-type:disc}ol.bullets>li{list-style-type:decimal}.bullets-inline>li{display:inline-block;margin-right:9px;margin-bottom:10px}.bullets-inline>li:after{content:"\00B7";margin-left:9px}.bullets-inline>li:last-child:after{content:"";margin-left:0}.bullets-inline>li.logged_in{display:none}.user_logged_in .bullets-inline>li.logged_in{display:inline-block}.desc{font-style:italic;font-size:.93em}.hilite{background-color:#ffa}.modified,.modified *{background-color:#f5f5f5}tr.hilite th,tr.hilite td{background-color:#ffa}.callout{margin:10px 0;padding:10px 15px;border:1px solid #aaa;background:#404542;color:#c9cbcd;font-size:1.1em}.callout a{color:#b3beff}.callout a:visited,.callout a:active{color:#a4adff}.callout a:hover,.callout a:visited:hover,.callout a:active:hover{color:#c4cfff}.callout.light{border-color:#747678;background:#eee;color:#404452}.callout.light a{color:#34d}.callout.light a.button,.callout.light a.button:hover{color:white}.callout.light a:hover{color:#5e44b3}.callout.light h3{background-color:transparent}#content>.notables{background-color:#ffa;border:1px dotted #747678;margin:0 auto;padding:6px;text-align:center;width:auto;max-width:500px;font-size:.93em;display:table}.notables li{margin-top:8px}.notables li:first-child{margin-top:0}.note{color:#444;font-size:.92em}.header{font-weight:bold;font-size:1.16em}.pagelog{width:90%;overflow:scroll}.preformatted-desc{width:90%;overflow:auto}.callout.stathead_player_highlight{background:#fff;border:1px solid #7e3e89;text-align:center}.stathead_player_highlight .cta{font-size:90%}.stathead_player_highlight .button.stathead_button{background-color:#7e3e89;display:none}.stathead_player_highlight img{max-width:300px}.stathead_player_highlight .stathead_player_highlight_content>div:first-child{margin-bottom:.25em}@media screen and (min-width:736px){.callout.stathead_player_highlight{display:grid;grid-template-columns:minmax(205px,1fr) 4fr minmax(175px,1fr);grid-column-gap:10px;align-items:center}.stathead_player_highlight .button.stathead_button{display:block}.stathead_player_highlight img{width:100%}}#info .adblock{display:none}.adblock{overflow:hidden}.adblock>p{font-size:.93em;margin:2px 0}.adblock img{display:block;margin:0 auto}.adblock{background-color:white;text-align:center}.adblock.ad728{display:none}body.hr #srcom .adblock.ad728{display:block}.adblock.ad300{padding:10px}.adblock.grouped{float:left;padding:0}.adblock.ad300.grouped{float:none;padding:10px}.adblock.rails{display:none}#div-gpt-ad-728x90-BTF-1{max-height:340px}@media screen and (min-width:481px){.adblock.ad300{padding:10px 0}}@media screen and (min-width:800px){.adblock.ad728{display:block;float:none;margin-bottom:10px}.adblock.ad300{display:none}.adblock.grouped.ad728{display:none}.adblock.grouped.ad300{float:left;width:320px;background:0;padding:0;display:block}}@media screen and (min-width:1810px){.adblock.rails{display:block;height:600px;width:160px;background-color:transparent;position:absolute;top:96px}.adblock.rails.left{left:0}.adblock.rails.right{right:0}}@media screen and (max-width:330px){.adblock{padding:0}.adblock.grouped{padding:0}.adblock.ad300.grouped{padding:0}}.button{background-color:#01371a;padding:10px 15px;color:white;text-decoration:none;display:inline-block;text-align:center;font-size:1.1em;margin:10px 0;border-radius:5px;cursor:pointer}.button.stathead_button{background-color:#7e3e89}.button:active,.button:visited,a.button,a.button:visited,a.button:hover{color:white}.button.alt{background:#026937;border:#747678 1px solid;display:block}.button.mini{font-size:.8em;padding:4px 8px;cursor:auto}button.tooltip,button.modal{background:transparent;border:0;text-align:left;padding:0;color:#900}.button2{display:inline-block;border:1px solid #c9cbcd;border-radius:3px;background-color:#edefee;font-size:.93em;font-weight:normal;margin:0 8px 0 0;padding:8px 12px;width:auto;text-align:center}#meta .button2{font-size:.785714286em;margin:0 6px 0 0;padding:8px 7px}.button2[href]{text-decoration:none}.button2.next{text-align:right}.button2.prev{text-align:left}.button2.index,.button2.index:hover,.button2.index:active,.button2.index:visited{background-color:#404542;color:#fff}.button2.index:hover{color:#ccc}.button2.current{text-align:left;background-color:#fff;border:0;font-weight:bold;padding-left:0;padding-right:0;margin-left:-8px;margin-right:0}.button2:last-child{margin-right:0}.button2.next:after{content:"\203A\203A";padding-left:6px;color:black}.button2.prev:before{content:"\2039\2039";padding-right:6px;color:black}#info_box div.prevnext{margin-left:1em}.prevnext{margin:10px 0 15px 0}#content .prevnext>*{margin:.25em}#header #main_nav{color:#404542;overflow:hidden}#header #main_nav>li{border-top:1px solid #c9cbcd}#header #main_nav>li:first-child{border-top:0}#header #main_nav>li>a{display:block;padding:8px 0 8px 6%;font-weight:bold;text-decoration:none;font-size:1.4em}html.no-touchevents #header #main_nav>li:active{background-color:#404542}#header #main_nav>li:active>a{color:#edefee}#header #main_nav li.current{background-color:#01371a}#header #main_nav li.current>a{color:#edefee}#header #main_nav h4{margin:4px 0}#header #main_nav h4:first-child{margin-top:0}#header #main_nav .nm{display:none}#header #main_nav>li>div{display:none;width:98%;position:absolute;top:100%;left:0;z-index:200;border-top:1px solid #404542;padding:1%;background:#fff;font-size:14px;font-weight:normal;box-shadow:0 6px 12px -3px #404542;color:black}#header #main_nav>li.drophover>div{display:block;line-height:initial}#main_nav td{padding:3px}#main_nav .end_links{clear:both}#main_nav .list{margin:0 0 8px;padding:3px;overflow-x:hidden;text-overflow:ellipsis}#main_nav div.list span{font-weight:bold;display:inline-block}#header_leaders div.list span{min-width:70px}#main_nav .game_summary td{padding:1px}@media screen and (max-width:1019px){#header #main_nav>li>div.mobile_list{display:block;position:relative;top:auto;box-shadow:none;border:0;padding:0 0 0 12%}#header #main_nav>li>div.mobile_list strong.desc{display:none}#header #main_nav>li>div.mobile_list div.list{width:90%;line-height:2em}}.ac-outline{display:inline-block}.ac-wrapper{position:relative}.ac-prompt{position:absolute;font-size:16px;color:#404542;top:0;left:0;overflow:hidden;background:transparent}.ac-input:focus,.ac-input:active,.ac-hint:focus,.ac-input,.ac-hint{font-size:16px;background-color:#fff;width:100%;outline:0;border:0;margin:0;padding:0}.ac-input:focus,.ac-input:active,.ac-input{background-color:transparent}.ac-input{vertical-align:top;position:relative;color:#404542}.ac-hint{position:absolute;top:0;left:0;border-color:transparent;box-shadow:none;color:#747678}.ac-dropdown{position:absolute;visibility:hidden;padding:.5em 0;font-size:16px;background-color:#fff;z-index:100;cursor:default;overflow-x:hidden;overflow-y:scroll;width:calc(100% - 2px);border:#aaa 1px solid;border-top:0}.ac-dropdown>div:first-of-type>.ac-results-header{padding-top:0}.ac-results-header{font-size:1em;padding:.35em .5em;font-weight:700}.ac-suggestion{cursor:pointer;padding:.35em 1em;font-size:1em;line-height:1em;border-top:1px solid #fff;border-bottom:1px solid #fff}.ac-suggestion p{margin:0}.ac-suggestion.active,.ac-suggestion.active .search-results-item{color:#b12;font-weight:bold}.search-results-item em{font-style:normal;border-bottom:1px dotted}.ac-suggestion.ac-is-under-cursor,html.no-touchevents .ac-suggestion:hover{border-top:1px solid #aaa!important;border-bottom:1px solid #aaa!important;background-color:#ffa!important}.ac-suggestion .subhead{margin-left:.5em;padding-top:.25em;display:block;font-size:.75em}.ac-suggestion-other-search{font-size:1em;line-height:1.2em;padding-left:.5em;color:#34d}.player_select_name{font-size:16px}.player_select_name button{font-size:2em;margin-left:10px;vertical-align:middle}.player_select_name strong{display:inline-block}.pi_forms .group input[type="search"]{max-width:none;height:auto;font-size:16px;padding-bottom:3px}.pi_forms .ac-outline{width:100%;max-width:520px}@media screen and (max-width:480px){.ac-dropdown{min-width:310px}#desc_container{font-size:12px}}@media screen and (min-width:400px){#info h1 span{display:inline-block}#info h1 span.header_end{display:inline}}@media screen and (min-width:481px){#header #nav_trigger a{font-size:24px}#header img{height:28px}#info #meta>div.media-item{width:92px}#info #meta>div.media-item.logo{width:118px}#info #meta>div.media-item.country{width:140px;height:105px}#info #meta>div>p:nth-child(6){display:block}#info #meta>div>p:nth-child(7){display:block}#info h1{font-size:1.7em}.button2,.button2.current{padding:8px 12px;margin:0 20px 0 0}}@media screen and (min-width:600px){#info #bling{grid-template-columns:repeat(auto-fill,minmax(130px,1fr))}#info.open #bling li{width:19.5%}#meta .button2{font-size:.93em;margin:0 20px 0 0;padding:8px 12px}}@media screen and (max-width:735px){.no_mobile{display:none}}@media screen and (min-width:736px){.mobile_only{display:none}#wrap>#header{width:100%;padding-left:0;padding-right:0;border-bottom:0}#wrap>#srcom{width:99%;margin:0 auto}#wrap>#info{width:65%;width:calc(99% - 322px);margin:0 auto;padding-right:320px;min-height:270px}#info .adblock{display:block;position:absolute;top:0;right:0;height:270px;width:300px;padding:0}h2{font-size:1.8em;line-height:1.2em}#info h1{font-size:2em;line-height:1.1em}#info #meta{min-height:auto}#info#general #meta{min-height:auto}#info.open #bling li{width:28%}}@media screen and (min-width:800px){#info #meta>div{float:left;width:100%}#info #meta>div.media-item{float:left;margin-left:0;margin-right:10px}#info #meta>div.media-item+div{width:85%;width:calc(100% - 102px)}#info #meta>div.media-item.logo+div{width:calc(100% - 128px)}#info #meta>div.media-item.country+div{width:calc(100% - 160px)}#info #meta>div>p.opener{max-width:75%}#info.open.teams #bling li{width:45%}}@media screen and (min-width:1020px){#header #nav_trigger{display:none}#wrap>#header{border-bottom:2px solid #01371a;overflow:visible;height:126px;background:#fff}#header img{position:absolute;top:22px;height:auto;max-height:55px;max-width:35%}#header #nav{display:block;width:100%;padding:0;margin:0;clear:none;background:#edefee;border-top:1px solid #c9cbcd;border-bottom:0;overflow:visible;height:30px;position:absolute;bottom:0}#header #nav>*{display:none}#header #nav>#main_nav{display:block;color:#404542;text-align:left;margin-bottom:0;border:0;overflow:visible}#header #main_nav ul{border:0;position:relative}#header #main_nav>li{border:0;width:auto;white-space:nowrap;float:left;color:#404542;font-size:1.16666667em;font-weight:bold;height:14px;padding:8px 1.7%;line-height:12px}#header #main_nav>li>a{color:#404542;padding:0;position:relative;font-size:1em}#header #main_nav>li.current>a{color:#fff}#header #main_nav>li.nm{display:block}#header #main_nav>li.m{display:none}#header #main_nav>li.hasmore>a:after{content:"";display:none}#header #main_nav>li.hasmore.drophover>a:after{content:"";display:none}#header #main_nav li:nth-child(even){border:0}#header #main_nav>li.drophover,#header #main_nav>li:not(.hasmore):hover,#inner_nav>ul>li.drophover{background:#404542}#header #main_nav>li.drophover>a,#header #main_nav>li:not(.hasmore):hover>a,#inner_nav>ul>li.drophover>a{color:#fff}#header #main_nav>li.drophover>span,#header #main_nav>li:not(.hasmore):hover>span,#inner_nav>ul>li.drophover>span{color:#fff}#header #main_nav>li>div>ul{overflow:hidden;margin-top:10px;margin-bottom:10px}#header #main_nav>li>div>ul>li{width:18%;margin-right:2%;margin-bottom:8px;float:left}html.no-touchevents .hasmore>div{position:absolute;left:-999em}html.no-touchevents .hasmore.drophover>div{z-index:69;left:0;box-shadow:0 6px 12px -3px #404542}#header #subnav{display:block;color:#c9cbcd;background-color:#404542;width:100%;padding:0;height:22px}#header #subnav>li{font-size:.785714286em;float:left;padding:2px 10px 2px;margin-top:3px;position:relative;border-left:1px solid #747678;height:12px}#header #subnav>li.user .username{display:inline-block;max-width:120px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;line-height:12px;vertical-align:text-bottom;padding-left:3px;margin-top:-7px}#header #subnav>li:first-child{display:block;border-left:none}#header #subnav>li:nth-child(9){display:none}#header #subnav>li:nth-child(n+10){float:right;border-left:none;border-right:1px solid #747678}#header #subnav>li:last-child{display:none}#header #subnav>li:last-child(2){border-right:0}#header #subnav>li.current a{color:#fff}#header #subnav li a{color:#c9cbcd;text-decoration:none}#header #subnav li a:hover{color:#fff;text-decoration:underline}#header #subnav li svg{vertical-align:top;margin-top:-2px}#header .search{position:relative;float:right;padding:0;width:60%;max-width:700px;clear:none;margin-right:12px;margin-top:17px}#wrap #info{overflow:hidden;margin-bottom:8px}#info #meta{margin-top:0;margin-bottom:10px;padding-top:15px;float:left;width:70%;width:calc(100% - 265px)}#info #bling,#info.open #bling,#info.teams #bling{float:right;width:250px;height:auto;margin-top:10px;margin-right:0;grid-template-columns:repeat(auto-fill,minmax(120px,1fr))}#info #bling li,#info.open #bling li{width:45%}#info.teams #bling li,#info.open.teams #bling li{width:92%}#info #meta>div>p.opener{display:none}#info #meta>div>p:nth-child(6){display:none}#info #meta>div>p:nth-child(7){display:none}#info.teams #meta>div>p:nth-child(n+6){display:block}#info.teams #meta>div>p:nth-child(n+11){display:none}#info.teams.open #meta>div>p:nth-child(n+11){display:block}#info.leagues #meta>div>p:nth-child(n+6){display:block}#info.leagues #meta>div>p:nth-child(n+11){display:none}#info.leagues.open #meta>div>p:nth-child(n+11){display:block}#info .adblock>div{margin-top:2px}.uni_holder{float:right;clear:right;width:250px;margin-top:10px}.uni_holder>a{width:42px}.uni_holder svg{height:42px;width:42px}.uni_holder svg.jersey{height:52px}#info .uni_holder{float:right}#info .uni_holder>a,#info #bling+.uni_holder>a{display:inline-block}#bling+.uni_holder,#info.open #bling+.uni_holder{margin-top:0;width:250px;float:right}#info #bling+.uni_holder .counter{display:none}#info.open .uni_holder>a{width:42px}#info.open .uni_holder svg{height:42px;width:42px}#info.open .uni_holder svg.jersey{height:52px}.stats_pullout>div.p3{display:block}#bling li:after{content:"";position:absolute;top:-110%;left:-210%;width:150%;height:200%;opacity:0;transform:rotate(10deg);background:rgba(255,255,255,0.13);background:linear-gradient(to right,rgba(255,255,255,0.13) 0,rgba(255,255,255,0.13) 77%,rgba(255,255,255,0.5) 92%,rgba(255,255,255,0.0) 100%)}#bling li:hover:after{opacity:1;top:-63%;left:-26%;transition-property:left,top,opacity;transition-duration:.7s,0.7s,0.15s;transition-timing-function:ease}#bling li:active:after{opacity:0}.adblock.ad728{display:block;float:left}.adblock.grouped.ad300{display:none}}@media screen and (min-width:1160px){#header #main_nav>li{padding:8px 2.2%}#info #meta>div.media-item{margin-right:20px;width:92px}#info #meta>div.media-item.logo{margin-right:10px;width:125px}#info #meta>div.media-item.country{width:160px;height:120px}#info #meta>div.media-item.logo>img{height:125px;width:125px}#info #meta>div.media-item+div{width:calc(100% - 112px)}#info #meta>div.media-item.logo+div{width:calc(100% - 135px)}#info #meta>div.media-item.country+div{width:calc(100% - 180px)}#info #meta>div.media-item.multiple:hover img.additional{display:block}#info #meta>div.media-item.multiple:hover{position:fixed;z-index:200;width:auto;background-color:rgba(200,200,200,0.8);padding:5px;border:1px solid black}#info #meta>div.media-item.multiple:hover+div{margin-left:112px}#info #meta>div.media-item.multiple:hover img{width:92px;float:left;margin-right:10px}#info #meta>div.media-item.multiple:hover img:last-child{margin-right:0}#info #meta>div.media-item.multiple:hover:after{content:'Order may not be chronological';display:block;background:rgba(200,200,200,1);float:right;clear:left;padding:2px 5px;font-size:.83em}.stats_pullout>div>div{margin-left:21px}.stats_pullout p{font-size:1em}:lang(en) #info #meta>div.media-item.multiple:hover:after{content:"Order may not be chronological"}:lang(es) #info #meta>div.media-item.multiple:hover:after{content:"El orden no puede ser cronológico"}:lang(fr) #info #meta>div.media-item.multiple:hover:after{content:"L'ordre peut ne pas être chronologique"}:lang(pt) #info #meta>div.media-item.multiple:hover:after{content:"A ordem pode não ser cronológica"}:lang(de) #info #meta>div.media-item.multiple:hover:after{content:"Reihenfolge darf nicht chronologisch sein"}#header #subnav>li:nth-child(9){display:block}#header #subnav>li.user .username{max-width:160px}}@media screen and (min-width:1478px){#wrap{width:1450px;border-left:1px solid #747678;border-right:1px solid #747678;box-shadow:0 0 27px #404542;margin:0 auto}.sr_expanded>#wrap{width:100%;border:0;box-shadow:none}#header #subnav>li:last-child{display:block}.user_logged_in #header #subnav>li:last-child.not_logged_in{display:none}#info #meta>div>p:nth-child(6){display:block}#info #meta>div>p:nth-child(7){display:block}}.f-i,#footer,#content,#inner_nav,#srcom{display:none}</style>
+<link rel="stylesheet" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202207051/css/fb/sr-min.css" media="print" crossorigin
+      onload="if (document.srdev) { this.href = 'https://d2p3bygnnzw9w3.cloudfront.net/nocdn/dev/'.concat(document.srdev.substr(0,2),'/css/fb/sr.css'); }; this.media='all'">
+<noscript><link href="https://d2p3bygnnzw9w3.cloudfront.net/req/202207051/css/fb/sr-min.css"  rel="stylesheet" type="text/css" /></noscript>
+<!-- CSS END -->
+
+<!-- JS START -->
+<script class="allowed">var sr_is_production = true;
+function vjs_getUrlParameter(e){e=e.replace(/[\[]/,"\\[").replace(/[\]]/,"\\]");var t=new RegExp("[\\?&]"+e+"=([^&#]*)").exec(location.search);return null===t?"":decodeURIComponent(t[1].replace(/\+/g," "))}document.lang="","/es/"===window.location.pathname.substr(0,4)?document.lang="es":"/pt/"===window.location.pathname.substr(0,4)?document.lang="pt":"/fr/"===window.location.pathname.substr(0,4)?document.lang="fr":"/it/"===window.location.pathname.substr(0,4)?document.lang="it":"/de/"===window.location.pathname.substr(0,4)?document.lang="de":(window.location.pathname.substr(0,4),document.lang="en"),vjs_getUrlParameter("lang")&&(document.lang=vjs_getUrlParameter("lang")),document.srdev=null,vjs_getUrlParameter("srdev")&&(document.srdev=vjs_getUrlParameter("srdev"));var log_performance=!0,is_new_jscss_version=!1,sr_detect_operaMini=-1<navigator.userAgent.indexOf("Opera Mini");sr_detect_operaMini&&((el=document.querySelector("html")).className=el.className.concat(" operamini"));var sr_detect_firefox=-1<navigator.userAgent.indexOf("Firefox");sr_detect_firefox&&((el=document.querySelector("html")).className=el.className.concat(" firefox"));var sr_detect_firefoxMobile=-1<navigator.userAgent.indexOf("Firefox")&&(-1<navigator.userAgent.indexOf("Mobile")||-1<navigator.userAgent.indexOf("Tablet"));sr_detect_firefoxMobile&&((el=document.querySelector("html")).className=el.className.concat(" firefox-mobile"));var el,sr_detect_ie=function(){var e=window.navigator.userAgent;if(0<e.indexOf("Trident/7.0"))return 11;if(0<e.indexOf("Trident/6.0"))return 10;if(0<e.indexOf("Trident/5.0"))return 9;for(var t=3,n=document.createElement("div"),r=n.getElementsByTagName("i");n.innerHTML="\x3c!--[if gt IE "+ ++t+"]><i></i><![endif]--\x3e",r[0];);return 4<t&&t}(),sr_detect_edge=!sr_detect_ie&&!!window.StyleMedia,sr_detect_safari=/Safari/.test(navigator.userAgent)&&/Apple Computer/.test(navigator.vendor),className="no-js";(el=document.querySelector("html")).classList?el.classList.remove(className):el.className=el.className.replace(new RegExp("(^|\\b)"+className.split(" ").join("|")+"(\\b|)","gi")," "),el.className=el.className.concat(" js"),function(a,u,f){function m(e,t){return typeof e===t}function p(e){return"function"!=typeof u.createElement?u.createElement(e):y?u.createElementNS.call(u,"http://www.w3.org/2000/svg",e):u.createElement.apply(u,arguments)}function o(e,t,n,r){var o,i,a,s,l="modernizr",c=p("div"),d=function(){var e=u.body;return e||((e=p(y?"svg":"body")).fake=!0),e}();if(parseInt(n,10))for(;n--;)(a=p("div")).id=r?r[n]:l+(n+1),c.appendChild(a);return(o=p("style")).type="text/css",o.id="s"+l,(d.fake?d:c).appendChild(o),d.appendChild(c),o.styleSheet?o.styleSheet.cssText=e:o.appendChild(u.createTextNode(e)),c.id=l,d.fake&&(d.style.background="",d.style.overflow="hidden",s=_.style.overflow,_.style.overflow="hidden",_.appendChild(d)),i=t(c,e),d.fake?(d.parentNode.removeChild(d),_.style.overflow=s,_.offsetHeight):c.parentNode.removeChild(c),!!i}function h(e){return e.replace(/([a-z])-([a-z])/g,function(e,t,n){return t+n.toUpperCase()}).replace(/^-/,"")}function s(e,t){return function(){return e.apply(t,arguments)}}function i(e){return e.replace(/([A-Z])/g,function(e,t){return"-"+t.toLowerCase()}).replace(/^ms-/,"-ms-")}function v(e,t){var n=e.length;if("CSS"in a&&"supports"in a.CSS){for(;n--;)if(a.CSS.supports(i(e[n]),t))return!0;return!1}if("CSSSupportsRule"in a){for(var r=[];n--;)r.push("("+i(e[n])+":"+t+")");return o("@supports ("+(r=r.join(" or "))+") { #modernizr { position: absolute; } }",function(e){return"absolute"==function(e,t,n){var r;if("getComputedStyle"in a){r=getComputedStyle.call(a,e,t);var o=a.console;if(null!==r)n&&(r=r.getPropertyValue(n));else if(o){o[o.error?"error":"log"].call(o,"getComputedStyle returning null, its possible modernizr test results are inaccurate")}}else r=!t&&e.currentStyle&&e.currentStyle[n];return r}(e,null,"position")})}return f}function r(e,t,n,r,o){var i=e.charAt(0).toUpperCase()+e.slice(1),a=(e+" "+z.join(i+" ")+i).split(" ");return m(t,"string")||m(t,"undefined")?function(e,t,n,r){function o(){a&&(delete T.style,delete T.modElem)}if(r=!m(r,"undefined")&&r,!m(n,"undefined")){var i=v(e,n);if(!m(i,"undefined"))return i}for(var a,s,l,c,d,u=["modernizr","tspan","samp"];!T.style&&u.length;)a=!0,T.modElem=p(u.shift()),T.style=T.modElem.style;for(l=e.length,s=0;s<l;s++)if(c=e[s],d=T.style[c],!~(""+c).indexOf("-")||(c=h(c)),T.style[c]!==f){if(r||m(n,"undefined"))return o(),"pfx"!=t||c;try{T.style[c]=n}catch(e){}if(T.style[c]!=d)return o(),"pfx"!=t||c}return o(),!1}(a,t,r,o):function(e,t,n){var r;for(var o in e)if(e[o]in t)return!1===n?e[o]:m(r=t[e[o]],"function")?s(r,n||t):r;return!1}(a=(e+" "+M.join(i+" ")+i).split(" "),t,n)}function e(e,t,n){return r(e,f,f,t,n)}var l=[],c=[],t={_version:"3.6.0",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,t){var n=this;setTimeout(function(){t(n[e])},0)},addTest:function(e,t,n){c.push({name:e,fn:t,options:n})},addAsyncTest:function(e){c.push({name:null,fn:e})}},d=function(){};d.prototype=t,(d=new d).addTest("cookies",function(){try{u.cookie="cookietest=1";var e=-1!=u.cookie.indexOf("cookietest=");return u.cookie="cookietest=1; expires=Thu, 01-Jan-1970 00:00:01 GMT",e}catch(e){return!1}}),d.addTest("localstorage",function(){var e="modernizr";try{return localStorage.setItem(e,e),localStorage.removeItem(e),!0}catch(e){return!1}}),d.addTest("sessionstorage",function(){var e="modernizr";try{return sessionStorage.setItem(e,e),sessionStorage.removeItem(e),!0}catch(e){return!1}}),d.addTest("cors","XMLHttpRequest"in a&&"withCredentials"in new XMLHttpRequest),d.addTest("history",function(){var e=navigator.userAgent;return(-1===e.indexOf("Android 2.")&&-1===e.indexOf("Android 4.0")||-1===e.indexOf("Mobile Safari")||-1!==e.indexOf("Chrome")||-1!==e.indexOf("Windows Phone")||"file:"===location.protocol)&&(a.history&&"pushState"in a.history)});var g=t._config.usePrefixes?" -webkit- -moz- -o- -ms- ".split(" "):["",""];t._prefixes=g;var _=u.documentElement,y="svg"===_.nodeName.toLowerCase();y||function(e,a){function u(e,t){var n=e.createElement("p"),r=e.getElementsByTagName("head")[0]||e.documentElement;return n.innerHTML="x<style>"+t+"</style>",r.insertBefore(n.lastChild,r.firstChild)}function f(){var e=g.elements;return"string"==typeof e?e.split(" "):e}function m(e){var t=v[e[d]];return t||(t={},h++,e[d]=h,v[h]=t),t}function r(e,t,n){return t=t||a,s?t.createElement(e):!(r=(n=n||m(t)).cache[e]?n.cache[e].cloneNode():c.test(e)?(n.cache[e]=n.createElem(e)).cloneNode():n.createElem(e)).canHaveChildren||l.test(e)||r.tagUrn?r:n.frag.appendChild(r);var r}function o(e){var t=m(e=e||a);return!g.shivCSS||n||t.hasCSS||(t.hasCSS=!!u(e,"article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}mark{background:#FF0;color:#000}template{display:none}")),s||function(t,n){n.cache||(n.cache={},n.createElem=t.createElement,n.createFrag=t.createDocumentFragment,n.frag=n.createFrag()),t.createElement=function(e){return g.shivMethods?r(e,t,n):n.createElem(e)},t.createDocumentFragment=Function("h,f","return function(){var n=f.cloneNode(),c=n.createElement;h.shivMethods&&("+f().join().replace(/[\w\-:]+/g,function(e){return n.createElem(e),n.frag.createElement(e),'c("'+e+'")'})+");return n}")(g,n.frag)}(e,t),e}function p(e){for(var t,n=e.attributes,r=n.length,o=e.ownerDocument.createElement(w+":"+e.nodeName);r--;)(t=n[r]).specified&&o.setAttribute(t.nodeName,t.nodeValue);return o.style.cssText=e.style.cssText,o}function t(s){function l(){clearTimeout(e._removeSheetTimer),c&&c.removeNode(!0),c=null}var c,d,e=m(s),t=s.namespaces,n=s.parentWindow;return!x||s.printShived||(void 0===t[w]&&t.add(w),n.attachEvent("onbeforeprint",function(){l();for(var e,t,n,r=s.styleSheets,o=[],i=r.length,a=Array(i);i--;)a[i]=r[i];for(;n=a.pop();)if(!n.disabled&&y.test(n.media)){try{t=(e=n.imports).length}catch(e){t=0}for(i=0;i<t;i++)a.push(e[i]);try{o.push(n.cssText)}catch(e){}}o=function(e){for(var t,n=e.split("{"),r=n.length,o=RegExp("(^|[\\s,>+~])("+f().join("|")+")(?=[[\\s,>+~#.:]|)","gi"),i="1"+w+"\\:2";r--;)(t=n[r]=n[r].split("}"))[t.length-1]=t[t.length-1].replace(o,i),n[r]=t.join("}");return n.join("{")}(o.reverse().join("")),d=function(e){for(var t,n=e.getElementsByTagName("*"),r=n.length,o=RegExp("^(?:"+f().join("|")+")","i"),i=[];r--;)t=n[r],o.test(t.nodeName)&&i.push(t.applyElement(p(t)));return i}(s),c=u(s,o)}),n.attachEvent("onafterprint",function(){(function(e){for(var t=e.length;t--;)e[t].removeNode()})(d),clearTimeout(e._removeSheetTimer),e._removeSheetTimer=setTimeout(l,500)}),s.printShived=!0),s}var n,s,i=e.html5||{},l=/^<|^(?:button|map|select|textarea|object|iframe|option|optgroup)/i,c=/^(?:a|b|code|div|fieldset|h1|h2|h3|h4|h5|h6|i|label|li|ol|p|q|span|strong|style|table|tbody|td|th|tr|ul)/i,d="_html5shiv",h=0,v={};!function(){try{var e=a.createElement("a");e.innerHTML="<xyz></xyz>",n="hidden"in e,s=1==e.childNodes.length||function(){a.createElement("a");var e=a.createDocumentFragment();return void 0===e.cloneNode||void 0===e.createDocumentFragment||void 0===e.createElement}()}catch(e){s=n=!0}}();var g={elements:i.elements||"abbr article aside audio bdi canvas data datalist details dialog figcaption figure footer header hgroup main mark meter nav output picture progress section summary template time video",version:"3.7.3",shivCSS:!1!==i.shivCSS,supportsUnknownElements:s,shivMethods:!1!==i.shivMethods,type:"default",shivDocument:o,createElement:r,createDocumentFragment:function(e,t){if(e=e||a,s)return e.createDocumentFragment();for(var n=(t=t||m(e)).frag.cloneNode(),r=0,o=f(),i=o.length;r<i;r++)n.createElement(o[r]);return n},addElements:function(e,t){var n=g.elements;"string"!=typeof n&&(n=n.join(" ")),"string"!=typeof e&&(e=e.join(" ")),g.elements=n+" "+e,o(t)}};e.html5=g,o(a);var _,y=/^|\b(?:all|print)\b/,w="html5shiv",x=!(s||(_=a.documentElement,void 0===a.namespaces||void 0===a.parentWindow||void 0===_.applyElement||void 0===_.removeNode||void 0===e.attachEvent));g.type+=" print",(g.shivPrint=t)(a),"object"==typeof module&&module.exports&&(module.exports=g)}(void 0!==a?a:this,u),d.addTest("csspositionsticky",function(){var e="position:",t=p("a").style;return t.cssText=e+g.join("sticky;"+e).slice(0,-e.length),-1!==t.position.indexOf("sticky")});var w,n=(w=!("onblur"in u.documentElement),function(e,t){var n;return!!e&&(t&&"string"!=typeof t||(t=p(t||"div")),!(n=(e="on"+e)in t)&&w&&(t.setAttribute||(t=p("div")),t.setAttribute(e,""),n="function"==typeof t[e],t[e]!==f&&(t[e]=f),t.removeAttribute(e)),n)});t.hasEvent=n;var x=t.testStyles=o;d.addTest("touchevents",function(){var t;if("ontouchstart"in a||a.DocumentTouch&&u instanceof DocumentTouch)t=!0;else{var e=["@media (",g.join("touch-enabled),("),"heartz",")","{#modernizr{top:9px;position:absolute}}"].join("");x(e,function(e){t=9===e.offsetTop})}return t});var b="Moz O ms Webkit",M=t._config.usePrefixes?b.toLowerCase().split(" "):[];t._domPrefixes=M,d.addTest("pointerevents",function(){var e=!1,t=M.length;for(e=d.hasEvent("pointerdown");t--&&!e;)n(M[t]+"pointerdown")&&(e=!0);return e});var z=t._config.usePrefixes?b.split(" "):[];t._cssomPrefixes=z;function S(e){var t,n=g.length,r=a.CSSRule;if(void 0===r)return f;if(!e)return!1;if((t=(e=e.replace(/^@/,"")).replace(/-/g,"_").toUpperCase()+"_RULE")in r)return"@"+e;for(var o=0;o<n;o++){var i=g[o];if(i.toUpperCase()+"_"+t in r)return"@-"+i.toLowerCase()+"-"+e}return!1}t.atRule=S;var E={elem:p("modernizr")};d._q.push(function(){delete E.elem});var T={style:E.elem.style};d._q.unshift(function(){delete T.style}),t.testAllProps=r;var C=t.prefixed=function(e,t,n){return 0===e.indexOf("@")?S(e):(-1!=e.indexOf("-")&&(e=h(e)),t?r(e,t,n):r(e,"pfx"))};d.addTest("matchmedia",!!C("matchMedia",a)),t.testAllProps=e,d.addTest("flexwrap",e("flexWrap","wrap",!0)),function(){var e,t,n,r,o,i;for(var a in c)if(c.hasOwnProperty(a)){if(e=[],(t=c[a]).name&&(e.push(t.name.toLowerCase()),t.options&&t.options.aliases&&t.options.aliases.length))for(n=0;n<t.options.aliases.length;n++)e.push(t.options.aliases[n].toLowerCase());for(r=m(t.fn,"function")?t.fn():t.fn,o=0;o<e.length;o++)1===(i=e[o].split(".")).length?d[i[0]]=r:(!d[i[0]]||d[i[0]]instanceof Boolean||(d[i[0]]=new Boolean(d[i[0]])),d[i[0]][i[1]]=r),l.push((r?"":"no-")+i.join("-"))}}(),function(e){var t=_.className,n=d._config.classPrefix||"";if(y&&(t=t.baseVal),d._config.enableJSClass){var r=new RegExp("(^|\\s)"+n+"no-js(\\s|)");t=t.replace(r,"1"+n+"js2")}d._config.enableClasses&&(t+=" "+n+e.join(" "+n),y?_.className.baseVal=t:_.className=t)}(l),delete t.addTest,delete t.addAsyncTest;for(var N=0;N<d._q.length;N++)d._q[N]();a.Modernizr=d}(window,document),Modernizr.viewport_width=Math.max(document.documentElement.clientWidth,window.innerWidth||0),Modernizr.viewport_height=Math.max(document.documentElement.clientHeight,window.innerHeight||0),Modernizr.narrow=Modernizr.viewport_width<=704,Modernizr.constrained=Modernizr.viewport_width<=1200,Modernizr.site_menu=Modernizr.viewport_width<=1020?"button":"nav_bar",Modernizr.touch=Modernizr.touchevents||Modernizr.pointerevents&&(0<navigator.MaxTouchPoints||0<navigator.msMaxTouchPoints),Modernizr.phone=Modernizr.narrow&&Modernizr.touch,Modernizr.tablet=Modernizr.viewport_width<1075&&Modernizr.touch,Modernizr.desktop=!Modernizr.constrained&&!Modernizr.touch,Modernizr.laptop=!(Modernizr.desktop||Modernizr.tablet||Modernizr.phone);var patt=new RegExp("hideallads");Modernizr.adfree=patt.test(window.location.href);var sr_html=document.querySelector("html"),cn=sr_html.className;Modernizr.phone?sr_html.className=cn.concat(" phone"):Modernizr.tablet?sr_html.className=cn.concat(" tablet"):(Modernizr.desktop||Modernizr.laptop)&&(sr_html.className=cn.concat(" desktop"));var sr_host_parts=window.location.hostname.split(".");cn=sr_html.className;Modernizr.is_build=Modernizr.is_live=Modernizr.is_dev=!1,"www"===sr_host_parts[0]||"fbref"===sr_host_parts[0]?(Modernizr.is_live=!0,sr_html.className=cn.concat(" is_live")):sr_host_parts[0].startsWith("b")?(Modernizr.is_build=!0,sr_html.className=cn.concat(" is_build")):(sr_host_parts[0].startsWith("d")||sr_host_parts[0].startsWith("r"))&&(Modernizr.is_dev=!0,sr_html.className=cn.concat(" is_dev")),Modernizr.is_stathead=!1,("stathead"===sr_host_parts[1]&&"srdevel"===sr_host_parts[2]||"stathead"===sr_host_parts[0]||"www"===sr_host_parts[0]&&"stathead"===sr_host_parts[1])&&(cn=sr_html.className,sr_html.className=cn.concat(" is_stathead"),Modernizr.is_stathead=!0);var sr_logger=function(){var e=null,t={enableLogger:function(){null!=e&&(window.console.log=e)},disableLogger:function(){e=console.log,window.console.log=function(){}}};return t}();!document.srdev&&sr_is_production&&sr_logger.disableLogger(),Modernizr.is_modern=1,Modernizr.lang=document.lang||"",Modernizr.srdev=document.srdev;var sr_utilities_js_loader=[];function vjs_readCookie(e){for(var t=e+"=",n=document.cookie.split(";"),r=0;r<n.length;r++){for(var o=n[r];" "===o.charAt(0);)o=o.substring(1,o.length);if(0===o.indexOf(t))return decodeURIComponent(o.substring(t.length,o.length))}return null}function vjs_createCookie(e,t,n){var r="";if(n){var o=new Date;o.setTime(o.getTime()+24*n*60*60*1e3),r="; expires="+o.toGMTString()}else r="";var i=encodeURIComponent(e)+"="+encodeURIComponent(t)+r+"; path=/";document.cookie=i}!function(o){function e(e,t){"use strict";var n=o.document.getElementsByTagName("script")[0],r=o.document.createElement("script");return r.src=e,r.async=!0,n.parentNode.insertBefore(r,n),t&&"function"==typeof t&&(r.onload=t),r}"undefined"!=typeof module?module.exports=e:o.loadJS=e}("undefined"!=typeof global?global:this),String.prototype.vjs_isMatch=function(e){return null!==this.match(e)};var sr_time_begin=new Date,sr_perf_startTime=new Date,sr_perf_log="<strong>Performance:</strong>",sr_perf_lastTime=new Date;function vjs_ready(e){"loading"!=document.readyState?e():document.addEventListener("DOMContentLoaded",e)}
+</script>
+<script>
+var _sr_modern_url = ''.concat(document.srdev?'https://d2p3bygnnzw9w3.cloudfront.net/nocdn/dev/'.concat(document.srdev.substring(0, 2)):"https://d2p3bygnnzw9w3.cloudfront.net/req/202207051",
+                               "/js/fb", "/sr",document.srdev?"":"-min",Modernizr.lang?'-'.concat(Modernizr.lang):'',   			       ".js");
+loadJS( _sr_modern_url, function() { vjs_ready(sr_fire_js); });
+</script>
+<!-- JS END -->
+
+
+<!-- include:end ="/inc/klecko_header_fb.html_f" -->
+<script>sr_utilities_js_loader.push(function() { vjs_createCookie('srcssfull', 'yes', 0.5 )});</script>
+
+
+
+    <meta name="revised" content="01:13:56 08-Jul-2022" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="generated-by"     content="/home/fb/deploy/www/base_en/players/index.fcgi" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="no" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="4d383b" />
+    <meta name="msapplication-navbutton-color" content="4d383b" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="4d383b" />
+    
+
+
+
+    <!-- HeaderSeoSocial -->
+    <meta name="keywords" content="">
+    <meta itemprop="url"           content="https://fbref.com">
+    <meta itemprop="name"          content="">
+    <meta itemprop="alternateName" content="">
+    <meta property="fb:app_id"     content="">
+    <meta property="og:url"          content="https://fbref.com/en/players/en/">
+    <meta property="og:title"        content="Encyclopedia of World Football Players | FBref.com">
+    <meta property="og:site_name"    content="FBref.com">
+    <meta property="og:type"         content="    Athlete" />
+    <meta property="og:description"  content="Check out the list of all of the football players.  Search the index of players by their last name or use the search box on fbref.com.">
+    <meta property="og:image"        content="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/fb/apple-touch-icon-228x228-precomposed.png">
+    <meta name="twitter:card"         content="summary">
+    <meta name="twitter:site"         content="@FBref">
+    <meta name="twitter:creator"      content="@FBref">
+    <meta property="twitter:image"    content="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/fb/apple-touch-icon-228x228-precomposed.png">
+    <meta name="twitter:domain"       content="FBref.com">
+    <meta name="referrer" content="unsafe-url">
+    <!-- HeaderSeoSocial:END -->
+
+    <!-- tiles, touch, favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/fb/apple-touch-icon-180x180-precomposed.png">
+    <link rel="icon"                         sizes="48x48"   href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/fb/favicon-48.png">
+    <link rel="shortcut icon"                sizes="228x228" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/fb/apple-touch-icon-228x228-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="228x228" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/fb/apple-touch-icon-228x228-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="195x195" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/fb/apple-touch-icon-195x195-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="180x180" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/fb/apple-touch-icon-180x180-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="152x152" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/fb/apple-touch-icon-152x152-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="144x144" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/fb/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="128x128" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/fb/apple-touch-icon-128x128-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="120x120" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/fb/apple-touch-icon-120x120-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="114x114" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/fb/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="76x76"   href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/fb/apple-touch-icon-76x76-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="72x72"   href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/fb/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon"             sizes="57x57"   href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/fb/apple-touch-icon-57x57-precomposed.png">
+    <link rel="icon"                         sizes="32x32"   href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/fb/favicon-32.png">
+    <!--[if IE]>
+    <link rel="shortcut icon"                                href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/fb/favicon.ico"><![endif]-->
+    <meta name="msapplication-TileColor" content="#04376c" />
+    <meta name="msapplication-TileImage" content="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/favicons/fb/ms-tile-144.png" />
+    <link rel=search        type="application/opensearchdescription+xml" href="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/opensearch/opensearch-fb.xml" title=" Player and Team Search">
+    <!-- tiles, touch, favicons:end -->
+
+<!-- ad code: begin -->
+
+
+<script data-ad-client="ca-pub-5319453360923253" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+    var freestar = freestar || {};
+    freestar.config = freestar.config || {};
+    freestar.config.enabled_slots = [ "div-gpt-ad-728x90-GeneralHeader","div-gpt-ad-728x90-Footer" ];
+    if (sr_detect_ie || sr_detect_edge || Modernizr.adfree || document.getElementById('sr_suppress_ads') || Modernizr.viewport_width < 1810) {
+    // do not include the rails
+    }
+    else {
+         freestar.config.enabled_slots.push('div-gpt-ad-160x600-1');
+         freestar.config.enabled_slots.push('div-gpt-ad-160x600-2');
+    } 
+
+</script>
+
+
+<!-- ad code:end -->
+
+
+
+</head>
+<body class="fb">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id="
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div id="wrap">
+  
+  <div id="translations" role="navigation">
+   <div class="links">
+    <div class="welcome">Welcome, football fans from around the world!</div>
+    <div><span class="use">Use FBref in: </span>
+    <div class="langs">
+                       <a class="pt" onclick="sr_set_trans_choice('pt');" href="https://fbref.com/pt/players/en/">Português</a>
+         &#183;                        <a class="en" onclick="sr_set_trans_choice('en');" href="https://fbref.com/en/players/en/">English</a>
+         &#183;                        <a class="fr" onclick="sr_set_trans_choice('fr');" href="https://fbref.com/fr/players/en/">Français</a>
+         &#183;                        <a class="it" onclick="sr_set_trans_choice('it');" href="https://fbref.com/it/players/en/">Italiano</a>
+         &#183;                        <a class="de" onclick="sr_set_trans_choice('de');" href="https://fbref.com/de/players/en/">Deutsch</a>
+         &#183;                        <a class="es" onclick="sr_set_trans_choice('es');" href="https://fbref.com/es/players/en/">Español</a>
+                    </div>
+    </div>
+  </div>
+<div class="closer" onclick="sr_set_trans_choice('en',true, true)"></div>
+</div>
+
+<script>
+
+
+
+var sr_lang_curr   = 'en';
+var sr_lang_cookie = 'sr_lang';
+var sr_lang_confirmed_cookie = 'sr_lang_confirmed';
+var sr_lang_views_cookie = 'sr_lang_views-'.concat(sr_lang_curr);
+var sr_lang_choice = vjs_readCookie(sr_lang_cookie);
+var sr_lang_confirmed = vjs_readCookie(sr_lang_confirmed_cookie);
+var sr_lang_views = vjs_readCookie(sr_lang_views_cookie);
+// set sr_lang_views cookie to a value if null.
+if (sr_lang_views === null) {
+    sr_lang_views = 3.5; // this corresponds to 4 views of the links
+    vjs_createCookie(sr_lang_views_cookie,sr_lang_views,3650);
+}
+var sr_trans_el = document.getElementById('translations');
+var sr_lang_choice_url;
+if (sr_lang_choice) {
+         if ("pt" === sr_lang_choice) {                sr_lang_choice_url = 'https://fbref.com/pt/players/en/';
+         }
+         if ("en" === sr_lang_choice) {                sr_lang_choice_url = 'https://fbref.com/en/players/en/';
+         }
+         if ("fr" === sr_lang_choice) {                sr_lang_choice_url = 'https://fbref.com/fr/players/en/';
+         }
+         if ("it" === sr_lang_choice) {                sr_lang_choice_url = 'https://fbref.com/it/players/en/';
+         }
+         if ("de" === sr_lang_choice) {                sr_lang_choice_url = 'https://fbref.com/de/players/en/';
+         }
+         if ("es" === sr_lang_choice) {                sr_lang_choice_url = 'https://fbref.com/es/players/en/';
+         }
+}
+
+var sr_trans_closer_el = document.querySelector('#translations .closer');
+var sr_trans_welcome_el = document.querySelector('#translations .welcome');
+var sr_trans_use_el = document.querySelector('#translations .use');
+var sr_trans_langs_el = document.querySelector('#translations .langs');
+
+/* *********************************************************************
+   # Usage       :   sr_check_translation();
+   # Purpose     :   the kickoff script for the translation paths users can follow
+   # Returns     :   nothing
+   # Parameters  :   none
+   # Throws      :
+   # See Also    :
+   # Comments    :   called by default in the page, and then we call again later
+                     if that did not work.
+   ********************************************************************** */
+function sr_check_translation() {
+
+   // do not run if we are on the live server.
+   if (!sr_trans_el || sr_lang_views < 0) {
+      console.log('Modernizr.is_live or no sr_trans_el or sr_lang_views < 0 is true, so skipping.');
+      return false;
+   }
+
+   // this is called multiple times, so we do the following to keep us from running it 2x.
+   if (Modernizr.translation_run) {
+      console.log('Modernizr.translation_run is already true, so skipping sr_check_translation');
+      return false;
+   }
+   else {
+      console.log('Modernizr.translation_run is false, so running sr_check_translation');
+      Modernizr.translation_run = true;
+   }
+
+   // no cookies? just return false and they have to use the nav options.
+   if (!Modernizr.cookies) {
+       return false;
+   }
+ 
+   // our current language does not equal the language choice and we always forward
+   if (sr_lang_choice && (sr_lang_choice !== sr_lang_curr)  && (sr_lang_confirmed === 'always_forward')) {
+         window.location.href = sr_lang_choice_url;
+         return true;
+   }
+   // our current language does not equal the language choice, or no choice has been made
+   else if (! sr_lang_choice && sr_lang_confirmed === 'always_forward') {
+         // this should be impossible, so remove the cookies.
+	 vjs_createCookie(sr_lang_confirmed_cookie,"",-1);
+	 vjs_createCookie(sr_lang_cookie,"",-1);
+         return true;
+   }
+   // user told us not to ask them in the future.
+   else if (sr_lang_confirmed === 'never_question') {
+         return 'false';
+   }
+   else if (sr_lang_curr !== sr_lang_choice) {
+         // lang is chosen and confirmed, so we auto-forward them. 
+         if ("pt" === sr_lang_choice) {                sr_lang_choice_url = 'https://fbref.com/pt/players/en/';
+         }
+         if ("en" === sr_lang_choice) {                sr_lang_choice_url = 'https://fbref.com/en/players/en/';
+         }
+         if ("fr" === sr_lang_choice) {                sr_lang_choice_url = 'https://fbref.com/fr/players/en/';
+         }
+         if ("it" === sr_lang_choice) {                sr_lang_choice_url = 'https://fbref.com/it/players/en/';
+         }
+         if ("de" === sr_lang_choice) {                sr_lang_choice_url = 'https://fbref.com/de/players/en/';
+         }
+         if ("es" === sr_lang_choice) {                sr_lang_choice_url = 'https://fbref.com/es/players/en/';
+         }
+         if (sr_lang_choice && sr_lang_confirmed === 'always_forward') {
+              window.location.href = sr_lang_choice_url;
+              return true;
+         }
+
+         // if a choice has been made then we remove the welcome.
+         if (sr_lang_choice) {
+             if (sr_trans_welcome_el)  sr_trans_welcome_el.parentNode.removeChild(sr_trans_welcome_el);   
+
+             if ("pt" === sr_lang_choice) {
+                sr_trans_use_el.innerHTML = "Vá para esta página em português?";
+                var langs_el = ''.concat('&nbsp;&nbsp;<a href="javascript:void(0)" onclick="sr_confirm_trans_choice(',
+		                         "'pt', ","'yes', ", "sr_lang_confirmed || false",
+                	                 ')">', 'SIM', '</a>&nbsp;&nbsp; ');
+                langs_el = langs_el.concat('ou ');
+                langs_el = langs_el.concat('&nbsp;&nbsp;<a href="javascript:void(0)" onclick="sr_confirm_trans_choice(',
+		                         "'pt', ","'no', ", "sr_lang_confirmed || false",
+                	                 ')">', 'NÃO', '</a>&nbsp;&nbsp; ');
+                sr_trans_langs_el.innerHTML = langs_el;
+             }
+
+             if ("en" === sr_lang_choice) {
+                sr_trans_use_el.innerHTML = "Go to this page in English?";
+                var langs_el = ''.concat('&nbsp;&nbsp;<a href="javascript:void(0)" onclick="sr_confirm_trans_choice(',
+		                         "'en', ","'yes', ", "sr_lang_confirmed || false",
+                	                 ')">', 'YES', '</a>&nbsp;&nbsp; ');
+                langs_el = langs_el.concat('or ');
+                langs_el = langs_el.concat('&nbsp;&nbsp;<a href="javascript:void(0)" onclick="sr_confirm_trans_choice(',
+		                         "'en', ","'no', ", "sr_lang_confirmed || false",
+                	                 ')">', 'NO', '</a>&nbsp;&nbsp; ');
+                sr_trans_langs_el.innerHTML = langs_el;
+             }
+
+             if ("fr" === sr_lang_choice) {
+                sr_trans_use_el.innerHTML = "Aller à cette page en anglais?";
+                var langs_el = ''.concat('&nbsp;&nbsp;<a href="javascript:void(0)" onclick="sr_confirm_trans_choice(',
+		                         "'fr', ","'yes', ", "sr_lang_confirmed || false",
+                	                 ')">', 'OUI', '</a>&nbsp;&nbsp; ');
+                langs_el = langs_el.concat('ou ');
+                langs_el = langs_el.concat('&nbsp;&nbsp;<a href="javascript:void(0)" onclick="sr_confirm_trans_choice(',
+		                         "'fr', ","'no', ", "sr_lang_confirmed || false",
+                	                 ')">', 'NON', '</a>&nbsp;&nbsp; ');
+                sr_trans_langs_el.innerHTML = langs_el;
+             }
+
+             if ("it" === sr_lang_choice) {
+                sr_trans_use_el.innerHTML = "Vai a questa pagina in italiano?";
+                var langs_el = ''.concat('&nbsp;&nbsp;<a href="javascript:void(0)" onclick="sr_confirm_trans_choice(',
+		                         "'it', ","'yes', ", "sr_lang_confirmed || false",
+                	                 ')">', 'SÌ', '</a>&nbsp;&nbsp; ');
+                langs_el = langs_el.concat('o ');
+                langs_el = langs_el.concat('&nbsp;&nbsp;<a href="javascript:void(0)" onclick="sr_confirm_trans_choice(',
+		                         "'it', ","'no', ", "sr_lang_confirmed || false",
+                	                 ')">', 'NO', '</a>&nbsp;&nbsp; ');
+                sr_trans_langs_el.innerHTML = langs_el;
+             }
+
+             if ("de" === sr_lang_choice) {
+                sr_trans_use_el.innerHTML = "Gehe zu dieser Seite auf Deutsch?";
+                var langs_el = ''.concat('&nbsp;&nbsp;<a href="javascript:void(0)" onclick="sr_confirm_trans_choice(',
+		                         "'de', ","'yes', ", "sr_lang_confirmed || false",
+                	                 ')">', 'JA', '</a>&nbsp;&nbsp; ');
+                langs_el = langs_el.concat('oder ');
+                langs_el = langs_el.concat('&nbsp;&nbsp;<a href="javascript:void(0)" onclick="sr_confirm_trans_choice(',
+		                         "'de', ","'no', ", "sr_lang_confirmed || false",
+                	                 ')">', 'NEIN', '</a>&nbsp;&nbsp; ');
+                sr_trans_langs_el.innerHTML = langs_el;
+             }
+
+             if ("es" === sr_lang_choice) {
+                sr_trans_use_el.innerHTML = "¿Ir a esta página en español?";
+                var langs_el = ''.concat('&nbsp;&nbsp;<a href="javascript:void(0)" onclick="sr_confirm_trans_choice(',
+		                         "'es', ","'yes', ", "sr_lang_confirmed || false",
+                	                 ')">', 'SI', '</a>&nbsp;&nbsp; ');
+                langs_el = langs_el.concat('o ');
+                langs_el = langs_el.concat('&nbsp;&nbsp;<a href="javascript:void(0)" onclick="sr_confirm_trans_choice(',
+		                         "'es', ","'no', ", "sr_lang_confirmed || false",
+                	                 ')">', 'NO', '</a>&nbsp;&nbsp; ');
+                sr_trans_langs_el.innerHTML = langs_el;
+             }
+
+        }
+        sr_trans_el.className = 'show';
+        vjs_createCookie(sr_lang_views_cookie, sr_lang_views - 1, 3650);
+    }
+}
+sr_check_translation();
+</script>
+
+  <div id="header" role="banner">
+  <ul id="subnav" class="notranslate">
+	<li><a href="https://www.sports-reference.com/"><svg height="15px" width="20px"><use xlink:href="#ic-sr-pennant"></use></svg> Sports Reference</a></li>
+	<li><a href="https://www.baseball-reference.com/">Baseball</a></li>
+	<li><a href="https://www.pro-football-reference.com/">Football</a> <a href="https://www.sports-reference.com/cfb/">(college)</a></li>
+	<li><a href="https://www.basketball-reference.com/">Basketball</a> <a href="https://www.sports-reference.com/cbb/">(college)</a></li>
+	<li><a href="https://www.hockey-reference.com/">Hockey</a></li>
+
+
+	<li class="current"><a href="https://fbref.com/">Soccer</a></li>
+
+	<li><a href="https://www.sports-reference.com/blog/">Blog</a></li>
+
+    <li><a href="https://stathead.com/?utm_source=web&amp;utm_medium=fb&amp;utm_campaign=sr-nav-bar-top-link">Stathead</a></li>
+    <li><a href="https://widgets.sports-reference.com/">Widgets</a></li>
+
+	<li><a href="https://www.sports-reference.com/feedback/">Questions or Comments?</a></li>
+	<li class="user logged_in">Welcome <span class="username"></span>&nbsp;&#183;&nbsp;<a href="https://stathead.com/profile/?utm_source=web&amp;utm_medium=fb&amp;utm_campaign=sr-nav-bar-top-account">Your Account</a></li>
+<li class="user logged_in"><a class="logout" onclick="sr_auth_logout_page_elements();if(!this.href.match('redirect_uri')){this.href += '&redirect_uri='+escape(document.location.href)}" href="https://stathead.com/profile/?do=logout">Logout</a></li>
+<li class="user not_logged_in"><a class="login" onclick="if(!this.href.match('redirect_uri')){this.href += '&redirect_uri='+escape(document.location.href)}" href="https://stathead.com/users/login.cgi?token=1">Login</a></li>
+<li class="user not_logged_in"><a href="https://stathead.com/users/signup.cgi">Create Account</a></li>
+
+</ul>
+
+  <a href="/en/"><img src="https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/logos/fb-logo.svg" onerror="this.src='https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/logos/fb-logo.png'; this.onerror = null;" alt="FBref.com Logo &amp; Link to home page" /></a>
+<div id="nav_trigger" role="button"><a href="#site_menu_link">MENU</a></div>
+<div id="nav" role="navigation" aria-label="FBref.com sections">
+	<ul id="main_nav" class="hoversmooth nohover"><li id="header_players" class="current"><a href="/en/players/">Players</a></li>
+<li id="header_clubs" ><a href="/en/squads/">Clubs</a></li>
+<li id="header_comps" ><a href="/en/comps/">Competitions</a></li>
+<li id="header_countries" ><a href="/en/countries/">Countries</a></li>
+<li id="header_scores" ><a href="/en/matches/">Matches</a></li>
+
+<li id="header_lang"><a>Languages</a>
+  <div class="mobile_list">
+    <div class="list"><strong class="desc">Alternate Languages:</strong>
+      
+                   <a href="https://fbref.com/pt/players/en/">Português</a>
+         &#183; 
+      
+                   <a href="https://fbref.com/en/players/en/">English</a>
+         &#183; 
+      
+                   <a href="https://fbref.com/fr/players/en/">Français</a>
+         &#183; 
+      
+                   <a href="https://fbref.com/it/players/en/">Italiano</a>
+         &#183; 
+      
+                   <a href="https://fbref.com/de/players/en/">Deutsch</a>
+         &#183; 
+      
+                   <a href="https://fbref.com/es/players/en/">Español</a>
+        
+      
+    </div>
+    <div class="list">
+          <a onclick="sr_reset_trans_choice();" href="javascript:void(0)">Reset Language Choice</a>
+	  
+    </div>
+  </div>
+</li>
+
+<li id="header_statsbomb" ><a href="https://statsbomb.com/">StatsBomb</a></li>
+<!--
+<li id="header_email" ><a href="/en/about/email">Newsletter</a></li>
+<li id="header_scores" ><a>Scores/Fixtures</a></li>
+<li id="header_cups" ><a>Cups</a></li>	
+<li id="header_managers" ><a>Managers</a></li>	
+<li id="header_stathead" ><a href="https://stathead.com/">Stathead</a></li>	
+-->
+<li><a data-scroll href="#site_menu_link" class="opener">Full Site Menu Below</a></li>
+	</ul>
+	<div class="breadcrumbs">You are here: <div class="crumbs"><span><a href="/en/"><span>FB Home Page</span></a> </span> &gt; <a href="/players/">Players</a></div></div>
+	<ul class="usertools bullets-inline"><li class="user logged_in">Welcome <span class="username"></span>&nbsp;&#183;&nbsp;<a href="https://stathead.com/profile/?utm_source=web&amp;utm_medium=fb&amp;utm_campaign=sr-nav-bar-top-account">Your Account</a></li>
+<li class="user logged_in"><a class="logout" onclick="sr_auth_logout_page_elements();if(!this.href.match('redirect_uri')){this.href += '&redirect_uri='+escape(document.location.href)}" href="https://stathead.com/profile/?do=logout">Logout</a></li>
+<li class="user not_logged_in"><a class="login" onclick="if(!this.href.match('redirect_uri')){this.href += '&redirect_uri='+escape(document.location.href)}" href="https://stathead.com/users/login.cgi?token=1">Login</a></li>
+<li class="user not_logged_in"><a href="https://stathead.com/users/signup.cgi">Create Account</a></li>
+	</ul><!-- ul.user -->
+</div><!-- div#nav -->
+<script>
+function sr_menus_setupMainNav_button_inline () {
+    if (sr_detect_operaMini || !("classList" in document.createElement("_"))) {
+	return false;
+    }
+    var nav_trigger = document.getElementById('nav_trigger');
+    if(!nav_trigger || nav_trigger.triggered) {
+	return false;
+    }
+    nav_trigger.triggered = true;
+    var nav = document.getElementById('nav');
+    var nav_trigger_a = nav_trigger.querySelector('a');
+    if (nav_trigger_a) {
+	nav_trigger_a.setAttribute('href','javascript:void(0)');
+	nav_trigger.onclick = function (event) {
+	    nav.classList.toggle('open');
+	    var is_open = nav.classList.contains('open');
+	    if (is_open) {
+		nav_trigger.classList.add('open');
+	    }
+	    else {
+		nav_trigger.classList.remove('open');
+	    }
+	    event.preventDefault();
+	    try { sr_record_analytics_event('MainNavButtonClick_inline',sr_record_directory(),sr_record_page());}
+	    catch(err) {}
+	};
+    }
+    return true;
+}
+sr_menus_setupMainNav_button_inline();
+</script><div class="search" role="search" aria-label="Site Search for players, teams and sections">
+<form method="get" name="f_big"  action="/en/search/search.fcgi">
+<div class="ac-outline">
+  <div class="ac-wrapper"><input type="search" tabindex="-1" class="ac-hint" name="hint" placeholder="" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" dir="auto" aria-label="Search suggestions based on user search input">
+
+<input tabindex="1" type="search" class="ac-input completely" name="search" placeholder="Enter Person, Team, Section, etc" aria-label="Enter a player, team or section name" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" dir="auto" />
+    <div class="ac-dropdown"></div>
+  </div>
+</div>
+
+<input type="submit" value="Search" tabindex="2" />
+<input type="hidden" name="pid" value="" data-search-id>
+<input type="hidden" name="idx" value="" data-search-idx>
+
+</form>
+</div><!-- div.search -->
+
+</div><!-- div#header -->
+
+
+
+<div id="srcom">
+
+<!-- fs_general_header -->
+<div class="adblock">
+
+
+</div>
+
+</div>
+
+<div id="inner_nav" role="navigation" aria-label="Sections on this page and/or other pages related to this page" class=" inactive">
+	<ul class="hoversmooth">
+		<li			class="index "><a href="/en/players/">Player Index</a>		</li>
+		<li			class="full "><a href="/en/players/">By Letter</a>		</li>
+		<li			class="full "><a href="/en/players/country/">By Nationality</a>		</li>
+		<li			class="full current "><a href="/en/players/en/">All Players with "en" Names</a>		</li>
+		<li data-fade-selector="#inpage_nav"			class="condensed hasmore "><span>More Player Index Pages</span>
+			<div>
+
+					<ul class=" in_list">
+						<li><a href="/en/players/" >By Letter</a></li>
+						<li><a href="/en/players/country/" >By Nationality</a></li>
+						<li><a href="/en/players/en/" >All Players with "en" Names</a></li>
+					</ul>
+
+			</div>		</li>
+	</ul>
+	    
+    
+        
+        
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+                
+                
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+    
+    
+    
+    
+    
+    
+    
+</div><!-- div#inner_nav -->
+
+<div id="content" role="main" class="index">
+	<h1>Football Players with Names Starting with "En"</h1>
+        
+
+
+          
+      
+      
+      
+      
+      
+         
+            <div class="section_wrapper" id="all_8503066075">
+<div class="section_heading assoc_8503066075" id="8503066075_sh">
+  <span class="section_anchor" id="8503066075_link" data-label="329 Players"></span><h2>329 Players</h2>    <div class="section_heading_text">
+      <ul><li>Years Played &bull; Position &bull; Squad History (Bold text indicates player is active)</li>
+      </ul>
+    </div>
+    		
+</div>    <div class="section_content" id="div_8503066075">
+	    <p><a href="/en/players/f3383d76/Pamela-Kong-Zi-En">Pamela Kong Zi En</a> <span class="f-i f-sg" style="">sg</span>&nbsp;&#183; 2018&nbsp;&#183; GK</p><p><a href="/en/players/04e17fd5/Youssef-En-Nesyri"><strong>Youssef En-Nesyri</strong></a> <span class="f-i f-ma" style="">ma</span>&nbsp;&#183; 2016-2023&nbsp;&#183; FW&nbsp;&#183; Morocco, Sevilla, Leganés, Málaga</p><p><a href="/en/players/9bb553a0/Yassine-En-Neyah"><strong>Yassine En-Neyah</strong></a> <span class="f-i f-ie" style="">ie</span>&nbsp;&#183; 2019-2020&nbsp;&#183; MF</p><p><a href="/en/players/152c9da6/Costel-Enache">Costel Enache</a> <span class="f-i f-ro" style="">ro</span>&nbsp;&#183; 2006-2007&nbsp;&#183; MF&nbsp;&#183; Ceahlăul Piatra Neamț</p><p><a href="/en/players/81fa2f75/Gabriel-Enache"><strong>Gabriel Enache</strong></a> <span class="f-i f-ro" style="">ro</span>&nbsp;&#183; 2011-2021&nbsp;&#183; DF,MF&nbsp;&#183; Astra Giurgiu, Steaua București, Mioveni, Dunărea Călărași, Partizan, Romania, Rubin Kazan</p><p><a href="/en/players/61145ba7/Abdulhameed-Enad">Abdulhameed Enad</a> <span class="f-i f-qa" style="">qa</span>&nbsp;&#183; 2017&nbsp;&#183; DF</p><p><a href="/en/players/3983c3d4/Abdulmajeed-Enad"><strong>Abdulmajeed Enad</strong></a> <span class="f-i f-qa" style="">qa</span>&nbsp;&#183; 2016-2017&nbsp;&#183; MF</p><p><a href="/en/players/a0c7c6fc/Joseph-Enakarhire">Joseph Enakarhire</a> <span class="f-i f-ng" style="">ng</span>&nbsp;&#183; 2001-2008&nbsp;&#183; DF&nbsp;&#183; Sporting CP, Standard Liège, Bordeaux, Dynamo Moscow, Panathinaikos</p><p><a href="/en/players/feeb2352/Alexis-Enam">Alexis Enam</a> <span class="f-i f-cm" style="">cm</span>&nbsp;&#183; 2014-2015&nbsp;&#183; DF,MF&nbsp;&#183; Al-Raed</p><p><a href="/en/players/8e14df82/Henry-Enamorado">Henry Enamorado</a> <span class="f-i f-hn" style="">hn</span>&nbsp;&#183; 2002&nbsp;&#183; GK</p><p><a href="/en/players/5a1ce0cb/Jose-Enamorado">José Enamorado</a> <span class="f-i f-co" style="">co</span>&nbsp;&#183; 2019-2020&nbsp;&#183; MF&nbsp;&#183; Deportivo Cali</p><p><a href="/en/players/8417d0fb/Mohammed-Enamul-Hoque">Mohammed Enamul Hoque</a> <span class="f-i f-bd" style="">bd</span>&nbsp;&#183; 2015-2019&nbsp;&#183; FW&nbsp;&#183; Bangladesh</p><p><a href="/en/players/fdee4e4b/Joseph-Enanga">Joseph Enanga</a> <span class="f-i f-cm" style="">cm</span>&nbsp;&#183; 1982&nbsp;&#183; DF,MF</p><p><a href="/en/players/ae5852fc/Joel-Enarsson">Joel Enarsson</a> <span class="f-i f-se" style="">se</span>&nbsp;&#183; 2014-2016&nbsp;&#183; FW&nbsp;&#183; Norrköping, Mjällby, Sundsvall</p><p><a href="/en/players/83540160/Reza-Enayati">Reza Enayati</a> <span class="f-i f-ir" style="">ir</span>&nbsp;&#183; 2004-2017&nbsp;&#183; FW&nbsp;&#183; Saba Qom, Sepahan, Esteghlal, IR Iran</p><p><a href="/en/players/2e2bbeb1/Mohammed-Salem-Al-Enazi">Mohammed Salem Al-Enazi</a> <span class="f-i f-qa" style="">qa</span>&nbsp;&#183; 2000-2002&nbsp;&#183; FW&nbsp;&#183; Qatar</p><p><a href="/en/players/322314e6/Tove-Enblom"><strong>Tove Enblom</strong></a> <span class="f-i f-se" style="">se</span>&nbsp;&#183; 2018-2022&nbsp;&#183; GK&nbsp;&#183; KIF Örebro, Umeå IK, Kalmar</p><p><a href="/en/players/042c1e55/Jefferson-Encada"><strong>Jefferson Encada</strong></a> <span class="f-i f-gw" style="">gw</span>&nbsp;&#183; 2019-2023&nbsp;&#183; DF&nbsp;&#183; Guinea-Bissau</p><p><a href="/en/players/7afe0cbf/Rui-Encarnacao"><strong>Rui Encarnação</strong></a> <span class="f-i f-pt" style="">pt</span>&nbsp;&#183; 2020-2021&nbsp;&#183; GK</p><p><a href="/en/players/e3597733/Telma-Encarnacao"><strong>Telma Encarnação</strong></a> <span class="f-i f-pt" style="">pt</span>&nbsp;&#183; 2021-2023&nbsp;&#183; FW&nbsp;&#183; Portugal</p><p><a href="/en/players/9f2f81f7/Nelson-Encarnacion">Nelson Encarnación</a> <span class="f-i f-pr" style="">pr</span>&nbsp;&#183; 2002&nbsp;&#183; MF</p><p><a href="/en/players/3a23789f/Ruddy-Encarnacion">Ruddy Encarnación</a> <span class="f-i f-do" style="">do</span>&nbsp;&#183; 2014&nbsp;&#183; FW</p><p><a href="/en/players/f2459d63/Rares-Enceanu">Rareș Enceanu</a> <span class="f-i f-ro" style="">ro</span>&nbsp;&#183; 2011-2017&nbsp;&#183; MF&nbsp;&#183; Brașov, Steaua București, Voluntari</p><p><a href="/en/players/d8938ecc/Miroslav-Enchev"><strong>Miroslav Enchev</strong></a> <span class="f-i f-bg" style="">bg</span>&nbsp;&#183; 2009-2022&nbsp;&#183; DF&nbsp;&#183; Cherno More, Vereya, Beroe</p><p><a href="/en/players/2f633eb8/Hernan-Encina">Hernán Encina</a> <span class="f-i f-ar" style="">ar</span>&nbsp;&#183; 2006-2015&nbsp;&#183; MF&nbsp;&#183; Rosario Central, Gimnasia (LP), Godoy Cruz, Club Olimpo, UAG, Atlas, Colón, Barcelona</p><p><a href="/en/players/ce72e256/Diego-Encinas">Diego Encinas</a> <span class="f-i f-pe" style="">pe</span>&nbsp;&#183; 2015-2020&nbsp;&#183; DF&nbsp;&#183; Alianza Universidad, José Gálvez, Universidad Técnica de Cajamarca</p><p><a href="/en/players/b4d3c56e/Cristian-Enciso">Cristian Enciso</a> <span class="f-i f-py" style="">py</span>&nbsp;&#183; 2015&nbsp;&#183; DF&nbsp;&#183; Sport Loreto</p><p><a href="/en/players/b50e147f/Peter-Enckelman">Peter Enckelman</a> <span class="f-i f-fi" style="">fi</span>&nbsp;&#183; 1999-2013&nbsp;&#183; GK&nbsp;&#183; St Johnstone, Aston Villa, Cardiff City, IFK Mariehamn</p><p><a href="/en/players/f81b5e55/Josh-Endall">Josh Endall</a> 2016-2021&nbsp;&#183; DF</p><p><a href="/en/players/f352e17a/Michael-Endara">Michael Endara</a> <span class="f-i f-ec" style="">ec</span>&nbsp;&#183; 2016-2017&nbsp;&#183; MF&nbsp;&#183; Macará, Mushuc Runa Sporting Club, Fuerza Amarilla Sporting Club, Deportivo Cuenca, Emelec</p><p><a href="/en/players/88012456/Xavier-Endara">Xavier Endara</a> <span class="f-i f-ec" style="">ec</span>&nbsp;&#183; 2015-2019&nbsp;&#183; MF</p><p><a href="/en/players/9d056ef9/Yihun-Endashew"><strong>Yihun Endashew</strong></a> <span class="f-i f-et" style="">et</span>&nbsp;&#183; 2021-2022&nbsp;&#183; MF&nbsp;&#183; Ethiopia</p><p><a href="/en/players/e602c142/Vivien-Endemann"><strong>Vivien Endemann</strong></a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2020-2022&nbsp;&#183; FW&nbsp;&#183; Essen, SV Meppen</p><p><a href="/en/players/d8fb34ca/Francois-Endene">François Endene</a> <span class="f-i f-mx" style="">mx</span>&nbsp;&#183; 2005-2006&nbsp;&#183; FW&nbsp;&#183; Pogoń Szczecin</p><p><a href="/en/players/d3ba9fd7/Anthony-Ender">Anthony Ender</a> <span class="f-i f-gb-eng" style="">eng</span>&nbsp;&#183; 2019-2020&nbsp;&#183; GK</p><p><a href="/en/players/f56e90bf/Lorenz-Ender">Lorenz Ender</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2017-2020&nbsp;&#183; MF&nbsp;&#183; RB Leipzig U17, SSV Ulm 1846 U19, RB Leipzig U19</p><p><a href="/en/players/e4259bc1/Lukas-Ender">Lukas Ender</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2017-2019&nbsp;&#183; DF&nbsp;&#183; 1. FC Heidenheim 1846 U19</p><p><a href="/en/players/9b3862eb/Annika-Enderle"><strong>Annika Enderle</strong></a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2021-2022&nbsp;&#183; DF&nbsp;&#183; Leverkusen</p><p><a href="/en/players/05958e3d/Sebastian-Enderle"><strong>Sebastian Enderle</strong></a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2009-2015&nbsp;&#183; DF&nbsp;&#183; Stuttgart II</p><p><a href="/en/players/daaeeba1/Matteo-Enders">Matteo Enders</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2018-2019&nbsp;&#183; DF&nbsp;&#183; SV Wehen Wiesbaden U17</p><p><a href="/en/players/3219566c/Lukas-Endl"><strong>Lukáš Endl</strong></a> <span class="f-i f-cz" style="">cz</span>&nbsp;&#183; 2020-2021&nbsp;&#183; DF&nbsp;&#183; Zbrojovka Brno</p><p><a href="/en/players/7b232e86/Christian-Endler">Christian Endler</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2009-2010&nbsp;&#183; DF&nbsp;&#183; Heidenheim</p><p><a href="/en/players/ebd3c5f6/Christiane-Endler"><strong>Christiane Endler</strong></a> <span class="f-i f-cl" style="">cl</span>&nbsp;&#183; 2017-2022&nbsp;&#183; GK&nbsp;&#183; Chile, Paris Saint-Germain, Lyon</p><p><a href="/en/players/cccb3bbe/Michael-Endlicher"><strong>Michael Endlicher</strong></a> <span class="f-i f-at" style="">at</span>&nbsp;&#183; 2014-2015&nbsp;&#183; MF</p><p><a href="/en/players/b217bc64/Johannes-Endmann"><strong>Johannes Endmann</strong></a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2020-2022&nbsp;&#183; GK&nbsp;&#183; SG Dynamo Dresden U17</p><p><a href="/en/players/f593cab9/Jun-Endo"><strong>Jun Endō</strong></a> <span class="f-i f-jp" style="">jp</span>&nbsp;&#183; 2019-2022&nbsp;&#183; FW&nbsp;&#183; Japan, Angel City FC, NTV Beleza</p><p><a href="/en/players/56082145/Junki-Endo">Junki Endo</a> <span class="f-i f-jp" style="">jp</span>&nbsp;&#183; 2016-2017&nbsp;&#183; FW&nbsp;&#183; Machida Zelvia</p><p><a href="/en/players/1a83027b/Keita-Endo"><strong>Keita Endo</strong></a> <span class="f-i f-jp" style="">jp</span>&nbsp;&#183; 2016-2022&nbsp;&#183; MF&nbsp;&#183; Japan, Yokohama F. Marinos, Union Berlin, Japan</p><p><a href="/en/players/491222f9/Ryo-Endo"><strong>Ryo Endo</strong></a> <span class="f-i f-jp" style="">jp</span>&nbsp;&#183; 2021&nbsp;&#183; DF</p><p><a href="/en/players/c149016b/Wataru-Endo"><strong>Wataru Endo</strong></a> <span class="f-i f-jp" style="">jp</span>&nbsp;&#183; 2015-2022&nbsp;&#183; DF,MF&nbsp;&#183; Japan, Shonan Bellmare, Stuttgart, Urawa Red Diamonds, Sint-Truiden</p><p><a href="/en/players/5b5420e2/Yasuhito-Endo"><strong>Yasuhito Endō</strong></a> <span class="f-i f-jp" style="">jp</span>&nbsp;&#183; 2003-2022&nbsp;&#183; MF&nbsp;&#183; Gamba Osaka, Júbilo Iwata, Japan</p><p><a href="/en/players/c60cf157/Yasushi-Endo"><strong>Yasushi Endo</strong></a> <span class="f-i f-jp" style="">jp</span>&nbsp;&#183; 2014-2022&nbsp;&#183; MF&nbsp;&#183; Kashima Antlers, Vegalta Sendai</p><p><a href="/en/players/73e0d7c8/Yu-Endo"><strong>Yu Endo</strong></a> <span class="f-i f-jp" style="">jp</span>&nbsp;&#183; 2021-2022&nbsp;&#183; MF&nbsp;&#183; Urawa Reds</p><p><a href="/en/players/46dca6e8/Tsubasa-Endoh"><strong>Tsubasa Endoh</strong></a> <span class="f-i f-jp" style="">jp</span>&nbsp;&#183; 2016-2022&nbsp;&#183; FW,MF&nbsp;&#183; Toronto FC, Toronto FC II, Melbourne City</p><p><a href="/en/players/1a7ed38e/Daniel-Endres"><strong>Daniel Endres</strong></a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2006-2017&nbsp;&#183; GK&nbsp;&#183; Kickers Offenbach</p><p><a href="/en/players/2a8f40a7/Jochen-Endress">Jochen Endreß</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 1992-2002&nbsp;&#183; DF&nbsp;&#183; Stuttgart</p><p><a href="/en/players/a077abf2/Joshua-Endres"><strong>Joshua Endres</strong></a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2018-2021&nbsp;&#183; FW&nbsp;&#183; Rot-Weiss Essen</p><p><a href="/en/players/1f1f3e63/Marc-Endres">Marc Endres</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2012-2020&nbsp;&#183; DF&nbsp;&#183; Chemnitzer FC, Unterhaching, Heidenheim</p><p><a href="/en/players/901d82bc/Andreas-Endresen"><strong>Andreas Endresen</strong></a> <span class="f-i f-no" style="">no</span>&nbsp;&#183; 2020-2021&nbsp;&#183; FW&nbsp;&#183; Haugesund</p><p><a href="/en/players/11175a95/Emma-Endresen"><strong>Emma Endresen</strong></a> <span class="f-i f-no" style="">no</span>&nbsp;&#183; 2021-2022&nbsp;&#183; MF&nbsp;&#183; Avaldsnes</p><p><a href="/en/players/9c35ce75/Christian-Ene">Christian Ene</a> <span class="f-i f-ro" style="">ro</span>&nbsp;&#183; 2017-2018&nbsp;&#183; FW</p><p><a href="/en/players/b572c31e/Cornel-Ene"><strong>Cornel Ene</strong></a> <span class="f-i f-ro" style="">ro</span>&nbsp;&#183; 2014-2022&nbsp;&#183; DF&nbsp;&#183; Kisvárda, Pandurii Târgu Jiu, CFR Cluj, Gyirmót, Juventus București</p><p><a href="/en/players/5b7f3820/Gigel-Ene">Gigel Ene</a> <span class="f-i f-ro" style="">ro</span>&nbsp;&#183; 2006-2011&nbsp;&#183; MF&nbsp;&#183; Gloria Bistrița</p><p><a href="/en/players/aba70908/Albright-Eneghabu"><strong>Albright Eneghabu</strong></a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2021-2022&nbsp;&#183; FW&nbsp;&#183; Fortuna Köln U17</p><p><a href="/en/players/4ef38ecf/Gregory-Eneleda"><strong>Grégory Eneleda</strong></a> <span class="f-i f-mq" style="">mq</span>&nbsp;&#183; 2019-2020&nbsp;&#183; MF</p><p><a href="/en/players/409d8164/Jay-Enem"><strong>Jay Enem</strong></a> <span class="f-i f-nl" style="">nl</span>&nbsp;&#183; 2021-2022&nbsp;&#183; FW</p><p><a href="/en/players/cac5793a/Christian-Enemark">Christian Enemark</a> <span class="f-i f-dk" style="">dk</span>&nbsp;&#183; 2016-2018&nbsp;&#183; DF</p><p><a href="/en/players/da92b0a4/Ulrick-Eneme"><strong>Ulrick Eneme</strong></a> <span class="f-i f-ga" style="">ga</span>&nbsp;&#183; 2019-2023&nbsp;&#183; FW&nbsp;&#183; Gabon, Brighton & Hove Albion U23</p><p><a href="/en/players/7516823a/Michael-Eneramo">Michael Eneramo</a> <span class="f-i f-ng" style="">ng</span>&nbsp;&#183; 2010-2017&nbsp;&#183; FW&nbsp;&#183; Sivasspor, Kardemir Karabükspor, Al-Ettifaq, Beşiktaş, İstanbul Başakşehir</p><p><a href="/en/players/94f8d2b2/Dagfinn-Enerly">Dagfinn Enerly</a> <span class="f-i f-no" style="">no</span>&nbsp;&#183; 2000-2005&nbsp;&#183; MF&nbsp;&#183; Rosenborg, Fredrikstad, Moss</p><p><a href="/en/players/f0b590b7/Muhammed-Enes-Durmus"><strong>Muhammed Enes Durmuş</strong></a> <span class="f-i f-tr" style="">tr</span>&nbsp;&#183; 2016-2018&nbsp;&#183; FW&nbsp;&#183; Göztepe</p><p><a href="/en/players/752dc19c/Kadir-Enes-Kira"><strong>Kadir Enes Kıra</strong></a> <span class="f-i f-tr" style="">tr</span>&nbsp;&#183; 2020-2021&nbsp;&#183; DF</p><p><a href="/en/players/d1276a14/Muhammed-Enes-Salik"><strong>Muhammed Enes Salik</strong></a> <span class="f-i f-tr" style="">tr</span>&nbsp;&#183; 2019-2020&nbsp;&#183; GK</p><p><a href="/en/players/62e465ee/Mehmet-Enes-Sari"><strong>Mehmet Enes Sarı</strong></a> <span class="f-i f-tr" style="">tr</span>&nbsp;&#183; 2018-2021&nbsp;&#183; GK</p><p><a href="/en/players/b7911c79/Kuthan-Enes-Tinaz">Kuthan Enes Tinaz</a> 2018-2019&nbsp;&#183; MF&nbsp;&#183; Tennis Borussia Berlin U17</p><p><a href="/en/players/dabd7fb3/Timur-Enes">Timur Enes</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2017-2019&nbsp;&#183; MF&nbsp;&#183; Düsseldorf U17, Düsseldorf U19</p><p><a href="/en/players/618bcb58/Andrei-Enescu">Andrei Enescu</a> <span class="f-i f-ro" style="">ro</span>&nbsp;&#183; 2012-2018&nbsp;&#183; MF&nbsp;&#183; Studențesc Iași, Gloria Bistrița, Vaslui, Poli Timișoara, Gaz Metan Mediaș</p><p><a href="/en/players/576c2986/Aleksandar-Enev">Aleksandar Enev</a> <span class="f-i f-bg" style="">bg</span>&nbsp;&#183; 2017-2018&nbsp;&#183; MF</p><p><a href="/en/players/92ade855/Thomas-Enevoldsen"><strong>Thomas Enevoldsen</strong></a> <span class="f-i f-dk" style="">dk</span>&nbsp;&#183; 2005-2021&nbsp;&#183; FW,MF&nbsp;&#183; Aalborg, Groningen, Orange County SC, Mechelen, Indy Eleven, Sacramento Republic, NAC Breda, Denmark</p><p><a href="/en/players/e99c2d48/Abdul-Aziz-Al-Enezi">Abdul Aziz Al Enezi</a> <span class="f-i f-kw" style="">kw</span>&nbsp;&#183; 2007&nbsp;&#183; MF</p><p><a href="/en/players/b99aba4f/Abdullah-Al-Enezi">Abdullah Al-Enezi</a> <span class="f-i f-sa" style="">sa</span>&nbsp;&#183; 2014-2018&nbsp;&#183; GK&nbsp;&#183; Al-Nassr, Saudi Arabia</p><p><a href="/en/players/f108a04c/Abdulrahman-Al-Enezi">Abdulrahman Al Enezi</a> <span class="f-i f-kw" style="">kw</span>&nbsp;&#183; 2015-2018&nbsp;&#183; DF</p><p><a href="/en/players/300213b0/Fahad-Al-Enezi">Fahad Al Enezi</a> <span class="f-i f-kw" style="">kw</span>&nbsp;&#183; 2011-2018&nbsp;&#183; MF&nbsp;&#183; Kuwait, Al-Ittihad</p><p><a href="/en/players/a67c5840/Faisal-Al-Enezi">Faisal Al Enezi</a> <span class="f-i f-kw" style="">kw</span>&nbsp;&#183; 2014-2018&nbsp;&#183; DF,FW&nbsp;&#183; Kuwait</p><p><a href="/en/players/751db02a/Hamad-Al-Enezi">Hamad Al-Enezi</a> <span class="f-i f-kw" style="">kw</span>&nbsp;&#183; 2010-2014&nbsp;&#183; FW&nbsp;&#183; Kuwait</p><p><a href="/en/players/4d50bab4/Mashari-Al-Enezi">Mashari Al-Enezi</a> <span class="f-i f-sa" style="">sa</span>&nbsp;&#183; 2014-2017&nbsp;&#183; FW&nbsp;&#183; Al-Orobah, Al-Batin</p><p><a href="/en/players/5378b837/Meeian-Al-Enezi">Meeian Al Enezi</a> <span class="f-i f-kw" style="">kw</span>&nbsp;&#183; 2014&nbsp;&#183; DF</p><p><a href="/en/players/78affecb/Meshal-Al-Enezi">Meshal Al-Enezi</a> <span class="f-i f-sa" style="">sa</span>&nbsp;&#183; 2014-2017&nbsp;&#183; MF&nbsp;&#183; Al-Raed</p><p><a href="/en/players/84ccc9ee/Sultan-Al-Enezi"><strong>Sultan Al Enezi</strong></a> <span class="f-i f-kw" style="">kw</span>&nbsp;&#183; 2014-2022&nbsp;&#183; DF&nbsp;&#183; Kuwait</p><p><a href="/en/players/32f4687b/Waleed-Al-Enezi"><strong>Waleed Al-Enezi</strong></a> <span class="f-i f-sa" style="">sa</span>&nbsp;&#183; 2015-2022&nbsp;&#183; GK&nbsp;&#183; Al-Nassr</p><p><a href="/en/players/f316aa36/Michael-Enfield">Michael Enfield</a> <span class="f-i f-us" style="">us</span>&nbsp;&#183; 2005-2008&nbsp;&#183; FW,MF&nbsp;&#183; LA Galaxy</p><p><a href="/en/players/b8b63e3e/Jacob-Eng"><strong>Jacob Eng</strong></a> <span class="f-i f-no" style="">no</span>&nbsp;&#183; 2021-2022&nbsp;&#183; FW&nbsp;&#183; Vålerenga</p><p><a href="/en/players/e8d98abb/Gaelle-Enganamouit">Gaëlle Enganamouit</a> <span class="f-i f-cm" style="">cm</span>&nbsp;&#183; 2012-2019&nbsp;&#183; FW,MF&nbsp;&#183; Cameroon, Avaldsnes</p><p><a href="/en/players/dabf0cdb/Solveig-Engas"><strong>Solveig Engås</strong></a> <span class="f-i f-no" style="">no</span>&nbsp;&#183; 2022&nbsp;&#183; DF&nbsp;&#183; Røa</p><p><a href="/en/players/62a9a120/Frej-Engberg"><strong>Frej Engberg</strong></a> <span class="f-i f-se" style="">se</span>&nbsp;&#183; 2014-2021&nbsp;&#183; DF&nbsp;&#183; Vasalund</p><p><a href="/en/players/a14786b5/Mark-Engberink">Mark Engberink</a> <span class="f-i f-nl" style="">nl</span>&nbsp;&#183; 2013-2017&nbsp;&#183; DF&nbsp;&#183; RKC Waalwijk, Jong Twente, Heracles Almelo</p><p><a href="/en/players/9a331d0e/Brogan-Engbers">Brogan Engbers</a> <span class="f-i f-ca" style="">ca</span>&nbsp;&#183; 2017-2021&nbsp;&#183; GK</p><p><a href="/en/players/7a4f0ebb/Kjelt-Engbers">Kjelt Engbers</a> <span class="f-i f-nl" style="">nl</span>&nbsp;&#183; 2017-2019&nbsp;&#183; DF</p><p><a href="/en/players/6894e40a/Pontus-Engblom"><strong>Pontus Engblom</strong></a> <span class="f-i f-se" style="">se</span>&nbsp;&#183; 2009-2022&nbsp;&#183; FW&nbsp;&#183; Sundsvall, Haugesund, Sandefjord, AIK Stockholm, Väsby United, Strømsgodset</p><p><a href="/en/players/8713522c/Adrian-Engdahl"><strong>Adrian Engdahl</strong></a> <span class="f-i f-se" style="">se</span>&nbsp;&#183; 2015-2021&nbsp;&#183; GK&nbsp;&#183; Brage</p><p><a href="/en/players/366a125e/Ben-Engdahl">Ben Engdahl</a> <span class="f-i f-se" style="">se</span>&nbsp;&#183; 2021&nbsp;&#183; DF</p><p><a href="/en/players/95a4ca6f/Ben-Engdahl"><strong>Ben Engdahl</strong></a> <span class="f-i f-se" style="">se</span>&nbsp;&#183; 2022&nbsp;&#183; DF&nbsp;&#183; Hammarby</p><p><a href="/en/players/cf35024e/Martin-Engdahl"><strong>Martin Engdahl</strong></a> 2022&nbsp;&#183; FW&nbsp;&#183; Sandefjord</p><p><a href="/en/players/618608c0/Sandy-Enge">Sandy Enge</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 1990-1991&nbsp;&#183; DF</p><p><a href="/en/players/ab692171/Zhang-Enge">Zhang Enge</a> <span class="f-i f-cn" style="">cn</span>&nbsp;&#183; 2018&nbsp;&#183; DF</p><p><a href="/en/players/1eb55155/Marcus-Engebretsen">Marcus Engebretsen</a> <span class="f-i f-no" style="">no</span>&nbsp;&#183; 2014&nbsp;&#183; GK</p><p><a href="/en/players/44b8798b/Mathias-Engebretsen">Mathias Engebretsen</a> <span class="f-i f-no" style="">no</span>&nbsp;&#183; 2011-2013&nbsp;&#183; MF&nbsp;&#183; Sarpsborg 08</p><p><a href="/en/players/56a1deab/Damien-Engel">Damien Engel</a> <span class="f-i f-fr" style="">fr</span>&nbsp;&#183; 2018-2019&nbsp;&#183; MF</p><p><a href="/en/players/9646cf6a/Dennis-Engel"><strong>Dennis Engel</strong></a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2016-2019&nbsp;&#183; DF&nbsp;&#183; Sportfreunde Lotte</p><p><a href="/en/players/13a30bbb/Fritz-Engel"><strong>Fritz Engel</strong></a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2021-2022&nbsp;&#183; DF&nbsp;&#183; 1. FSV Mainz 05 U17</p><p><a href="/en/players/f52946bd/Gregory-van-Engel">Gregory van Engel</a> <span class="f-i f-sr" style="">sr</span>&nbsp;&#183; 2002-2006&nbsp;&#183; FW</p><p><a href="/en/players/19ecbb6b/Jacob-Engel">Jacob Engel</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2017-2020&nbsp;&#183; DF&nbsp;&#183; Eintracht Frankfurt U19, Eintracht Frankfurt U17</p><p><a href="/en/players/df6a938e/Konstantin-Engel"><strong>Konstantin Engel</strong></a> <span class="f-i f-kz" style="">kz</span>&nbsp;&#183; 2008-2021&nbsp;&#183; DF&nbsp;&#183; Osnabrück, Ingolstadt 04, Energie Cottbus, Kazakhstan</p><p><a href="/en/players/aedaf328/Lukas-Engel"><strong>Lukas Engel</strong></a> <span class="f-i f-dk" style="">dk</span>&nbsp;&#183; 2020-2022&nbsp;&#183; MF&nbsp;&#183; Vejle BK, Silkeborg</p><p><a href="/en/players/6e2267d1/Misha-Engel"><strong>Misha Engel</strong></a> <span class="f-i f-nl" style="">nl</span>&nbsp;&#183; 2020-2022&nbsp;&#183; DF&nbsp;&#183; Jong AZ</p><p><a href="/en/players/f02207ec/Nevio-Engel">Nevio Engel</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2016-2017&nbsp;&#183; FW&nbsp;&#183; Eintracht Braunschweig U19</p><p><a href="/en/players/619a2227/Sascha-Engel">Sascha Engel</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2018-2019&nbsp;&#183; FW</p><p><a href="/en/players/1e4129a3/Tim-Engel">Tim Engel</a> 2016-2017&nbsp;&#183; GK</p><p><a href="/en/players/ecfad1b3/Tyler-Engel">Tyler Engel</a> <span class="f-i f-us" style="">us</span>&nbsp;&#183; 2015&nbsp;&#183; FW&nbsp;&#183; Carolina RailHawks</p><p><a href="/en/players/bdf0f5c1/Orlando-Engelaar">Orlando Engelaar</a> <span class="f-i f-nl" style="">nl</span>&nbsp;&#183; 2000-2015&nbsp;&#183; DF,MF&nbsp;&#183; PSV Eindhoven, NAC Breda, Twente, Genk, Schalke 04, Melbourne Heart, Netherlands</p><p><a href="/en/players/b3909c6f/Daniel-Engelbrecht">Daniel Engelbrecht</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2012-2016&nbsp;&#183; FW&nbsp;&#183; Stuttgarter Kickers</p><p><a href="/en/players/4708ed2e/Fabian-Engelbrecht">Fabian Engelbrecht</a> 2020-2021&nbsp;&#183; MF</p><p><a href="/en/players/d7c1b6ca/Florian-Engelbrecht">Florian Engelbrecht</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2014-2015&nbsp;&#183; MF</p><p><a href="/en/players/4a39a0dc/David-Engelbrektsson"><strong>David Engelbrektsson</strong></a> <span class="f-i f-se" style="">se</span>&nbsp;&#183; 2022&nbsp;&#183; GK&nbsp;&#183; Skövde</p><p><a href="/en/players/ef8112e6/Noah-Engelbreth"><strong>Noah Engelbreth</strong></a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2021-2022&nbsp;&#183; MF&nbsp;&#183; 1. FC Union Berlin U17</p><p><a href="/en/players/7154c066/Gilles-Engeldinger">Gilles Engeldinger</a> <span class="f-i f-lu" style="">lu</span>&nbsp;&#183; 2006&nbsp;&#183; DF</p><p><a href="/en/players/be71b269/Hazel-Engelen"><strong>Hazel Engelen</strong></a> <span class="f-i f-be" style="">be</span>&nbsp;&#183; 2020-2022&nbsp;&#183; GK&nbsp;&#183; White Star</p><p><a href="/en/players/4c103422/Yvo-van-Engelen">Yvo van Engelen</a> <span class="f-i f-nl" style="">nl</span>&nbsp;&#183; 2005-2009&nbsp;&#183; DF&nbsp;&#183; Oss, NAC Breda</p><p><a href="/en/players/4d056155/Janik-Engelhard">Janik Engelhard</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2017-2020&nbsp;&#183; GK&nbsp;&#183; SpVgg Greuther Fürth 1903 U19</p><p><a href="/en/players/2514ce3b/Ben-Engelhardt"><strong>Ben Engelhardt</strong></a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2020-2022&nbsp;&#183; MF&nbsp;&#183; 1. FC Magdeburg U19</p><p><a href="/en/players/7294d78a/Elisee-Engelhardt">Elisée Engelhardt</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2016-2018&nbsp;&#183; FW&nbsp;&#183; VfB Stuttgart U17</p><p><a href="/en/players/9056cc65/Erik-Engelhardt"><strong>Erik Engelhardt</strong></a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2016-2021&nbsp;&#183; FW&nbsp;&#183; Nürnberg U19, Hansa Rostock</p><p><a href="/en/players/c85a7a2b/Florian-Engelhardt"><strong>Florian Engelhardt</strong></a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2019-2022&nbsp;&#183; MF&nbsp;&#183; 1. FC Köln U17, FC Viktoria Köln 1904 U19, Fortuna Köln U19</p><p><a href="/en/players/9b5d0904/Marcel-Engelhardt"><strong>Marcel Engelhardt</strong></a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2015-2022&nbsp;&#183; GK&nbsp;&#183; Maritzburg United, Eintracht Braunschweig</p><p><a href="/en/players/1367fb87/Marco-Engelhardt">Marco Engelhardt</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2003-2016&nbsp;&#183; DF,MF&nbsp;&#183; Rot-Weiß Erfurt, Karlsruher, Hallescher, Kaiserslautern, Nürnberg</p><p><a href="/en/players/fac66db3/Yannik-Engelhardt"><strong>Yannik Engelhardt</strong></a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2017-2022&nbsp;&#183; MF&nbsp;&#183; SV Werder Bremen U19, SC Freiburg II, SV Werder Bremen U17</p><p><a href="/en/players/1f3cd906/Sven-Engelke">Sven Engelke</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2015-2016&nbsp;&#183; DF</p><p><a href="/en/players/dfdaf2d0/Torben-Engelking"><strong>Torben Engelking</strong></a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2016-2022&nbsp;&#183; FW&nbsp;&#183; TSV Havelse</p><p><a href="/en/players/74c2938a/Dennis-Engelman">Dennis Engelman</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2014-2017&nbsp;&#183; DF&nbsp;&#183; Fortuna Köln</p><p><a href="/en/players/5085cac6/Hyago-Engelmann">Hyago Engelmann</a> <span class="f-i f-br" style="">br</span>&nbsp;&#183; 2015&nbsp;&#183; MF</p><p><a href="/en/players/7e0f1e5c/Jakob-Engelmann"><strong>Jakob Engelmann</strong></a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2021-2022&nbsp;&#183; DF</p><p><a href="/en/players/b2b6d138/Jorg-Engelmann">Jörg Engelmann</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 1993-1994&nbsp;&#183; Lokomotive Leipzig</p><p><a href="/en/players/c12ecf3c/Kaspar-Engelmann"><strong>Kaspar Engelmann</strong></a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2021-2022&nbsp;&#183; MF&nbsp;&#183; FC Carl Zeiss Jena U17</p><p><a href="/en/players/f8f3107e/Kevin-Engelmann">Kevin Engelmann</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2019-2020&nbsp;&#183; MF&nbsp;&#183; FC Hennef 05 U17</p><p><a href="/en/players/38ad4be8/Simon-Engelmann"><strong>Simon Engelmann</strong></a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2018-2021&nbsp;&#183; FW&nbsp;&#183; Rot-Weiss Essen, SV Rödinghausen</p><p><a href="/en/players/ccbad43e/Vojtech-Engelmann">Vojtěch Engelmann</a> <span class="f-i f-cz" style="">cz</span>&nbsp;&#183; 2011-2016&nbsp;&#183; FW&nbsp;&#183; Dukla Prague, Baník Ostrava, Bohemians 1905</p><p><a href="/en/players/c65cd10b/Bruno-Engelmeier">Bruno Engelmeier</a> <span class="f-i f-at" style="">at</span>&nbsp;&#183; 1958&nbsp;&#183; GK</p><p><a href="/en/players/554bcc91/Arne-Engels"><strong>Arne Engels</strong></a> <span class="f-i f-be" style="">be</span>&nbsp;&#183; 2020-2021&nbsp;&#183; MF&nbsp;&#183; Club NXT</p><p><a href="/en/players/4fdf1fd9/Bjorn-Engels"><strong>Björn Engels</strong></a> <span class="f-i f-be" style="">be</span>&nbsp;&#183; 2012-2022&nbsp;&#183; DF&nbsp;&#183; Club Brugge, Reims, Olympiacos, Aston Villa, Antwerp</p><p><a href="/en/players/599fd37d/Jan-Engels">Jan Engels</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2016-2018&nbsp;&#183; DF&nbsp;&#183; Karlsruher SC U19</p><p><a href="/en/players/123de70e/Mario-Engels"><strong>Mario Engels</strong></a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2014-2022&nbsp;&#183; FW,MF&nbsp;&#183; Sparta Rotterdam, Roda JC Kerkrade, FSV Frankfurt, Sandhausen, Śląsk Wrocław</p><p><a href="/en/players/0d3a106f/Nicholas-Engels">Nicholas Engels</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2020-2021&nbsp;&#183; DF&nbsp;&#183; 1. FSV Mainz 05 U17</p><p><a href="/en/players/98f6e30d/Stephan-Engels">Stephan Engels</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 1982-1989&nbsp;&#183; MF&nbsp;&#183; Köln</p><p><a href="/en/players/e9d32a51/Kim-Engen">Kim Engen</a> <span class="f-i f-no" style="">no</span>&nbsp;&#183; 2004&nbsp;&#183; GK&nbsp;&#183; Odd</p><p><a href="/en/players/c984f467/Whitney-Engen">Whitney Engen</a> <span class="f-i f-us" style="">us</span>&nbsp;&#183; 2014-2016&nbsp;&#183; DF&nbsp;&#183; Boston Breakers, Western New York Flash, Houston Dash, United States</p><p><a href="/en/players/4f9ec139/Asbjorn-Engenes"><strong>Asbjorn Engenes</strong></a> <span class="f-i f-no" style="">no</span>&nbsp;&#183; 2020-2021&nbsp;&#183; GK</p><p><a href="/en/players/81301e5f/Arnfinn-Engerbakk">Arnfinn Engerbakk</a> <span class="f-i f-no" style="">no</span>&nbsp;&#183; 1993-1994&nbsp;&#183; MF&nbsp;&#183; Kongsvinger</p><p><a href="/en/players/790982f5/John-Engerman-II"><strong>John Engerman II</strong></a> <span class="f-i f-vi" style="">vi</span>&nbsp;&#183; 2021-2022&nbsp;&#183; DF&nbsp;&#183; US Virgin Islands</p><p><a href="/en/players/023f63e9/Rakel-Engesvik"><strong>Rakel Engesvik</strong></a> <span class="f-i f-no" style="">no</span>&nbsp;&#183; 2017-2022&nbsp;&#183; MF&nbsp;&#183; Sandviken, Rosenborg</p><p><a href="/en/players/f95dc7a4/Mads-Enggaard"><strong>Mads Enggaard</strong></a> <span class="f-i f-dk" style="">dk</span>&nbsp;&#183; 2020-2022&nbsp;&#183; MF&nbsp;&#183; Randers</p><p><a href="/en/players/25962c13/Viktor-Engh"><strong>Viktor Engh</strong></a> <span class="f-i f-no" style="">no</span>&nbsp;&#183; 2021&nbsp;&#183; GK</p><p><a href="/en/players/97a28b87/Kasper-Enghardt"><strong>Kasper Enghardt</strong></a> <span class="f-i f-dk" style="">dk</span>&nbsp;&#183; 2016-2021&nbsp;&#183; DF,MF&nbsp;&#183; Randers, Lyngby</p><p><a href="/en/players/be2270c4/Nick-Enghardt">Nick Enghardt</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2019-2020&nbsp;&#183; MF</p><p><a href="/en/players/b2f15c18/Alexander-Engholm"><strong>Alexander Engholm</strong></a> <span class="f-i f-se" style="">se</span>&nbsp;&#183; 2017&nbsp;&#183; MF</p><p><a href="/en/players/6e4c3ddf/Engibar-Engibarov">Engibar Engibarov</a> <span class="f-i f-bg" style="">bg</span>&nbsp;&#183; 1993-1997&nbsp;&#183; DF</p><p><a href="/en/players/b66051e5/Ahmet-Engin"><strong>Ahmet Engin</strong></a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2014-2022&nbsp;&#183; MF&nbsp;&#183; MSV Duisburg, Kasımpaşa</p><p><a href="/en/players/d2e654be/Ogulcan-Engin">Oğulcan Engin</a> <span class="f-i f-tr" style="">tr</span>&nbsp;&#183; 2010-2011&nbsp;&#183; MF</p><p><a href="/en/players/ead5470c/Ufukcan-Engin"><strong>Ufukcan Engin</strong></a> <span class="f-i f-tr" style="">tr</span>&nbsp;&#183; 2017-2018&nbsp;&#183; FW&nbsp;&#183; Fortuna Sittard</p><p><a href="/en/players/09eb13fe/Maurice-Engl">Maurice Engl</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2017-2018&nbsp;&#183; MF&nbsp;&#183; 1. FC Magdeburg U17</p><p><a href="/en/players/a94901fd/Max-Engl"><strong>Max Engl</strong></a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2016-2021&nbsp;&#183; GK</p><p><a href="/en/players/ccb1bd8b/Bethany-England"><strong>Bethany England</strong></a> <span class="f-i f-gb-eng" style="">eng</span>&nbsp;&#183; 2016-2023&nbsp;&#183; FW&nbsp;&#183; England, Chelsea, Liverpool</p><p><a href="/en/players/e6bee147/Jamie-England">Jamie England</a> <span class="f-i f-gb-eng" style="">eng</span>&nbsp;&#183; 2006-2007&nbsp;&#183; MF&nbsp;&#183; Crawley Town</p><p><a href="/en/players/3dc74e74/Kurtis-England">Kurtis England</a> <span class="f-i f-gb-eng" style="">eng</span>&nbsp;&#183; 2019-2020&nbsp;&#183; FW</p><p><a href="/en/players/a2cb19c6/Kurtis-England">Kurtis England</a> <span class="f-i f-gb-eng" style="">eng</span>&nbsp;&#183; 2019-2020&nbsp;&#183; GK</p><p><a href="/en/players/d33f772e/Robert-Englaro">Robert Englaro</a> <span class="f-i f-si" style="">si</span>&nbsp;&#183; 1992-1998&nbsp;&#183; DF&nbsp;&#183; Atalanta, NK Olimpija Ljubljana</p><p><a href="/en/players/fc7070f8/Gaetan-Englebert">Gaëtan Englebert</a> <span class="f-i f-be" style="">be</span>&nbsp;&#183; 1999-2011&nbsp;&#183; GK,MF&nbsp;&#183; Club Brugge, Tours, Metz</p><p><a href="/en/players/d83d93ac/Kristoffer-Englen">Kristoffer Englén</a> <span class="f-i f-se" style="">se</span>&nbsp;&#183; 2007-2011&nbsp;&#183; DF&nbsp;&#183; Falkenberg</p><p><a href="/en/players/58447eb8/Jarno-Engler">Jarno Engler</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2017-2018&nbsp;&#183; DF&nbsp;&#183; Eintracht Braunschweig U17, VfL Wolfsburg U17</p><p><a href="/en/players/4f932011/Rico-Engler">Rico Engler</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2010-2011&nbsp;&#183; FW&nbsp;&#183; Babelsberg 03</p><p><a href="/en/players/e4c81533/Tibor-Engler">Tibor Engler</a> 2020-2021&nbsp;&#183; MF</p><p><a href="/en/players/3fba18d3/Nikos-Englezou">Nikos Englezou</a> <span class="f-i f-cy" style="">cy</span>&nbsp;&#183; 2016-2018&nbsp;&#183; DF,MF&nbsp;&#183; Cyprus</p><p><a href="/en/players/ed5cd230/Nikos-Englezou">Nikos Englezou</a> 2011-2012&nbsp;&#183; AEK Athens</p><p><a href="/en/players/70342a10/Gabriella-English">Gabriella English</a> <span class="f-i f-us" style="">us</span>&nbsp;&#183; 2021&nbsp;&#183; GK</p><p><a href="/en/players/8b11605b/Irvino-English">Irvino English</a> <span class="f-i f-jm" style="">jm</span>&nbsp;&#183; 2002&nbsp;&#183; MF</p><p><a href="/en/players/163777e0/Leo-Englund">Leo Englund</a> <span class="f-i f-se" style="">se</span>&nbsp;&#183; 2014-2015&nbsp;&#183; FW&nbsp;&#183; Sundsvall</p><p><a href="/en/players/dd816ce5/Leon-Englund"><strong>Leon Englund</strong></a> <span class="f-i f-se" style="">se</span>&nbsp;&#183; 2021&nbsp;&#183; FW</p><p><a href="/en/players/e60ea29d/Tobias-Englund"><strong>Tobias Englund</strong></a> <span class="f-i f-se" style="">se</span>&nbsp;&#183; 2011-2021&nbsp;&#183; MF&nbsp;&#183; Värnamo, Falkenberg</p><p><a href="/en/players/1cf9eca5/Adelina-Engman"><strong>Adelina Engman</strong></a> <span class="f-i f-fi" style="">fi</span>&nbsp;&#183; 2017-2023&nbsp;&#183; FW&nbsp;&#183; Finland, Hammarby, Kopparbergs/Göteborg, Chelsea, Montpellier, Växjö</p><p><a href="/en/players/d0a9cccf/Panayiotis-Engomitis">Panayiotis Engomitis</a> <span class="f-i f-cy" style="">cy</span>&nbsp;&#183; 1997-2006&nbsp;&#183; MF&nbsp;&#183; PAOK, Anorthosis</p><p><a href="/en/players/f3feb395/Franck-Engonga"><strong>Franck Engonga</strong></a> <span class="f-i f-ga" style="">ga</span>&nbsp;&#183; 2014-2019&nbsp;&#183; DF,MF&nbsp;&#183; Gabon</p><p><a href="/en/players/1fa0b376/Igor-Engonga">Igor Engonga</a> <span class="f-i f-gq" style="">gq</span>&nbsp;&#183; 2015-2021&nbsp;&#183; DF,MF&nbsp;&#183; Equatorial Guinea</p><p><a href="/en/players/0bbaf04e/Oscar-Engonga">Óscar Engonga</a> <span class="f-i f-es" style="">es</span>&nbsp;&#183; 1991-1994&nbsp;&#183; MF</p><p><a href="/en/players/1c3dec1d/Vicente-Engonga">Vicente Engonga</a> <span class="f-i f-es" style="">es</span>&nbsp;&#183; 1991-2003&nbsp;&#183; MF&nbsp;&#183; Mallorca, Valencia, Celta Vigo, Valladolid, Oviedo, Coventry City</p><p><a href="/en/players/bfd2b139/Steevy-Engoulevent">Steevy Engoulevent</a> <span class="f-i f-gp" style="">gp</span>&nbsp;&#183; 2018-2019&nbsp;&#183; MF</p><p><a href="/en/players/d5249c7a/Cyrille-Engozoo-Avebe">Cyrille Engozo'o Avebe</a> <span class="f-i f-ga" style="">ga</span>&nbsp;&#183; 2014-2015&nbsp;&#183; MF</p><p><a href="/en/players/fde057a7/Emil-Engqvist"><strong>Emil Engqvist</strong></a> <span class="f-i f-se" style="">se</span>&nbsp;&#183; 2021-2022&nbsp;&#183; FW&nbsp;&#183; Öster</p><p><a href="/en/players/ee77c547/Leif-Engqvist">Leif Engqvist</a> <span class="f-i f-se" style="">se</span>&nbsp;&#183; 1990-1995&nbsp;&#183; MF&nbsp;&#183; Trelleborg, Malmö</p><p><a href="/en/players/478afc01/Maurice-Engst">Maurice Engst</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2016-2018&nbsp;&#183; FW&nbsp;&#183; SG Dynamo Dresden U19</p><p><a href="/en/players/5460fb14/David-Engstrom"><strong>David Engström</strong></a> <span class="f-i f-se" style="">se</span>&nbsp;&#183; 2014-2022&nbsp;&#183; DF&nbsp;&#183; Västerås, Värnamo, Örgryte, Häcken</p><p><a href="/en/players/1351d387/Emma-Engstrom"><strong>Emma Engström</strong></a> <span class="f-i f-se" style="">se</span>&nbsp;&#183; 2020-2022&nbsp;&#183; FW&nbsp;&#183; Eskilstuna United</p><p><a href="/en/players/91ff6fbe/Jesper-Engstrom"><strong>Jesper Engström</strong></a> <span class="f-i f-fi" style="">fi</span>&nbsp;&#183; 2011-2022&nbsp;&#183; DF&nbsp;&#183; VPS, Inter Turku</p><p><a href="/en/players/8d0fc13e/Joakim-Engstrom">Joakim Engström</a> <span class="f-i f-se" style="">se</span>&nbsp;&#183; 2019&nbsp;&#183; MF</p><p><a href="/en/players/82eae6ad/Martin-Engstrom">Martin Engström</a> <span class="f-i f-se" style="">se</span>&nbsp;&#183; 2014&nbsp;&#183; GK</p><p><a href="/en/players/d6d6e611/Oskar-Engstrom">Oskar Engström</a> <span class="f-i f-se" style="">se</span>&nbsp;&#183; 2014&nbsp;&#183; MF</p><p><a href="/en/players/abbc43dd/Aymeric-Engueleguele"><strong>Aymeric Engueleguele</strong></a> <span class="f-i f-fr" style="">fr</span>&nbsp;&#183; 2017-2018&nbsp;&#183; MF</p><p><a href="/en/players/135c9bca/Lionel-Enguene">Lionel Enguene</a> <span class="f-i f-cm" style="">cm</span>&nbsp;&#183; 2015-2016&nbsp;&#183; MF&nbsp;&#183; Antalyaspor</p><p><a href="/en/players/bb458666/Zacharie-Enguene">Zacharie Enguene</a> <span class="f-i f-cm" style="">cm</span>&nbsp;&#183; 2015-2017&nbsp;&#183; MF</p><p><a href="/en/players/cfadea36/Ximo-Enguix">Ximo Enguix</a> <span class="f-i f-es" style="">es</span>&nbsp;&#183; 2002-2010&nbsp;&#183; MF&nbsp;&#183; Sporting Gijón, Rayo Vallecano, Poli Ejido, Recreativo, Salamanca, Castellón</p><p><a href="/en/players/680227aa/Gustav-Engvall"><strong>Gustav Engvall</strong></a> <span class="f-i f-se" style="">se</span>&nbsp;&#183; 2013-2022&nbsp;&#183; FW&nbsp;&#183; Göteborg, Mechelen, Djurgården, Bristol City</p><p><a href="/en/players/1cfc72a9/Zhang-Enhua">Zhang Enhua</a> <span class="f-i f-cn" style="">cn</span>&nbsp;&#183; 2000-2002&nbsp;&#183; DF&nbsp;&#183; China PR</p><p><a href="/en/players/94da0db1/Henri-Eninful"><strong>Henri Eninful</strong></a> <span class="f-i f-tg" style="">tg</span>&nbsp;&#183; 2016-2022&nbsp;&#183; MF&nbsp;&#183; Togo, Lahti</p><p><a href="/en/players/e58115d7/Henri-Eninful">Henri Eninful</a> <span class="f-i f-tg" style="">tg</span>&nbsp;&#183; 2010-2015&nbsp;&#183; DF&nbsp;&#183; Kecskemét, Újpest, Standard Liège</p><p><a href="/en/players/f8824640/Thelma-Eninger"><strong>Thelma Eninger</strong></a> <span class="f-i f-fr" style="">fr</span>&nbsp;&#183; 2019-2022&nbsp;&#183; MF&nbsp;&#183; Fleury</p><p><a href="/en/players/dcbfba6a/Eninho">Eninho</a> <span class="f-i f-br" style="">br</span>&nbsp;&#183; 2015&nbsp;&#183; FW,MF&nbsp;&#183; Jeonbuk Hyundai Motors FC, Daegu FC, CRB, Changchun Yatai</p><p><a href="/en/players/661b892f/Enio"><strong>Ênio</strong></a> <span class="f-i f-br" style="">br</span>&nbsp;&#183; 2020-2021&nbsp;&#183; MF&nbsp;&#183; Botafogo (RJ)</p><p><a href="/en/players/39006651/Selma-Enkali">Selma Enkali</a> <span class="f-i f-na" style="">na</span>&nbsp;&#183; 2021&nbsp;&#183; DF</p><p><a href="/en/players/b8df03fa/Marc-Enke">Marc Enke</a> 2020-2021&nbsp;&#183; DF&nbsp;&#183; Hertha 03 Zehlendorf U17</p><p><a href="/en/players/02692203/Robert-Enke">Robert Enke</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 1996-2010&nbsp;&#183; GK&nbsp;&#183; Hannover 96, Benfica, Mönchengladbach, Tenerife, Germany, Barcelona</p><p><a href="/en/players/4a4bf23a/Jonas-Enkerud"><strong>Jonas Enkerud</strong></a> <span class="f-i f-no" style="">no</span>&nbsp;&#183; 2022&nbsp;&#183; MF&nbsp;&#183; HamKam</p><p><a href="/en/players/53b2f0fc/Baatsuri-Enkhbaatar">Baatsuri Enkhbaatar</a> <span class="f-i f-mn" style="">mn</span>&nbsp;&#183; 2006&nbsp;&#183; MF</p><p><a href="/en/players/872dcc48/Chinzorig-Enkhbayar">Chinzorig Enkhbayar</a> <span class="f-i f-mn" style="">mn</span>&nbsp;&#183; 2006&nbsp;&#183; FW</p><p><a href="/en/players/f410314f/Jargalsaikhany-Enkhbayar">Jargalsaikhany Enkhbayar</a> <span class="f-i f-mn" style="">mn</span>&nbsp;&#183; 2006&nbsp;&#183; GK</p><p><a href="/en/players/a551c69d/Tserenjavyn-Enkhjargal">Tserenjavyn Enkhjargal</a> <span class="f-i f-mn" style="">mn</span>&nbsp;&#183; 2010-2018&nbsp;&#183; DF&nbsp;&#183; Mongolia</p><p><a href="/en/players/32d7d7fc/Tulgabadrakh-Enkhjin"><strong>Tulgabadrakh Enkhjin</strong></a> <span class="f-i f-mn" style="">mn</span>&nbsp;&#183; 2022&nbsp;&#183; MF&nbsp;&#183; Mongolia</p><p><a href="/en/players/b2328182/Enkhbaatar-Enkhmargad"><strong>Enkhbaatar Enkhmargad</strong></a> <span class="f-i f-mn" style="">mn</span>&nbsp;&#183; 2022&nbsp;&#183; FW&nbsp;&#183; Mongolia</p><p><a href="/en/players/5f3ad493/Monkh-Erdene-Enkhtaivan"><strong>Mönkh-Erdene Enkhtaivan</strong></a> <span class="f-i f-mn" style="">mn</span>&nbsp;&#183; 2017-2023&nbsp;&#183; GK&nbsp;&#183; Mongolia</p><p><a href="/en/players/44072ffc/Marthe-Enlid">Marthe Enlid</a> <span class="f-i f-no" style="">no</span>&nbsp;&#183; 2020-2021&nbsp;&#183; FW&nbsp;&#183; Avaldsnes, Pink Bari</p><p><a href="/en/players/72ffde97/Adam-Ennafati"><strong>Adam Ennafati</strong></a> <span class="f-i f-ma" style="">ma</span>&nbsp;&#183; 2014&nbsp;&#183; FW</p><p><a href="/en/players/f77a051b/Lawrence-Ennali"><strong>Lawrence Ennali</strong></a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2018-2022&nbsp;&#183; FW&nbsp;&#183; FC Schalke 04 U17, Hannover 96, FC Schalke 04 U19, Hannover 96 U19</p><p><a href="/en/players/ca12f717/Thiago-Ennes"><strong>Thiago Ennes</strong></a> <span class="f-i f-br" style="">br</span>&nbsp;&#183; 2016-2022&nbsp;&#183; DF&nbsp;&#183; Sampaio Corrêa, Remo, Confiança</p><p><a href="/en/players/e56d0c86/Richie-Ennin"><strong>Richie Ennin</strong></a> <span class="f-i f-ca" style="">ca</span>&nbsp;&#183; 2016-2022&nbsp;&#183; DF&nbsp;&#183; Nizhny Novgorod, Toronto FC II</p><p><a href="/en/players/31281b22/Jannik-Enning">Jannik Enning</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2016-2017&nbsp;&#183; DF&nbsp;&#183; SC Preußen 06 Münster U19</p><p><a href="/en/players/143c022e/Ethan-Ennis"><strong>Ethan Ennis</strong></a> <span class="f-i f-gb-eng" style="">eng</span>&nbsp;&#183; 2021-2022&nbsp;&#183; MF</p><p><a href="/en/players/6066fb16/Mark-Ennis">Mark Ennis</a> <span class="f-i f-ie" style="">ie</span>&nbsp;&#183; 1990-1993&nbsp;&#183; FW</p><p><a href="/en/players/74cae353/Niall-Ennis"><strong>Niall Ennis</strong></a> <span class="f-i f-gb-eng" style="">eng</span>&nbsp;&#183; 2017-2022&nbsp;&#183; FW&nbsp;&#183; Plymouth Argyle, Doncaster Rovers, Wolverhampton Wanderers U23, Burton Albion</p><p><a href="/en/players/4543cd3e/Paul-Ennis">Paul Ennis</a> <span class="f-i f-gb-eng" style="">eng</span>&nbsp;&#183; 2016-2017</p><p><a href="/en/players/a3ee6f5c/Paul-Ennis">Paul Ennis</a> <span class="f-i f-gb-eng" style="">eng</span>&nbsp;&#183; 2008-2021&nbsp;&#183; MF</p><p><a href="/en/players/dccefdd4/Bright-Enobakhare"><strong>Bright Enobakhare</strong></a> <span class="f-i f-ng" style="">ng</span>&nbsp;&#183; 2015-2022&nbsp;&#183; FW,MF&nbsp;&#183; Wolverhampton Wanderers, Coventry City, East Bengal, Kilmarnock, Wigan Athletic</p><p><a href="/en/players/2d6f18e6/Joe-Enochs">Joe Enochs</a> <span class="f-i f-us" style="">us</span>&nbsp;&#183; 2003-2008&nbsp;&#183; MF&nbsp;&#183; Osnabrück</p><p><a href="/en/players/d595a612/David-Enogela">David Enogela</a> <span class="f-i f-ng" style="">ng</span>&nbsp;&#183; 2018-2019&nbsp;&#183; MF&nbsp;&#183; Nigeria</p><p><a href="/en/players/d3dcab48/Eyong-Enoh">Eyong Enoh</a> <span class="f-i f-cm" style="">cm</span>&nbsp;&#183; 2008-2018&nbsp;&#183; MF&nbsp;&#183; Ajax, Standard Liège, Ajax Cape Town, Cameroon, Jong Ajax, Fulham, Antalyaspor, Willem II</p><p><a href="/en/players/d91e906b/Lewis-Enoh">Lewis Enoh</a> <span class="f-i f-cm" style="">cm</span>&nbsp;&#183; 2015-2019&nbsp;&#183; FW&nbsp;&#183; Lokeren, Politehnica Iași</p><p><a href="/en/players/0452e4d4/Edmond-Enoka">Edmond Enoka</a> <span class="f-i f-cm" style="">cm</span>&nbsp;&#183; 1982&nbsp;&#183; DF</p><p><a href="/en/players/ff1b1803/Daiki-Enomoto"><strong>Daiki Enomoto</strong></a> <span class="f-i f-jp" style="">jp</span>&nbsp;&#183; 2018-2021&nbsp;&#183; FW&nbsp;&#183; Ehime FC, Nagoya Grampus, Tokushima Vortis</p><p><a href="/en/players/c209a28b/Itsuki-Enomoto"><strong>Itsuki Enomoto</strong></a> <span class="f-i f-jp" style="">jp</span>&nbsp;&#183; 2020-2021&nbsp;&#183; FW&nbsp;&#183; Matsumoto Yamaga</p><p><a href="/en/players/4f2c5cf4/Kodai-Enomoto">Kodai Enomoto</a> <span class="f-i f-jp" style="">jp</span>&nbsp;&#183; 2016-2017&nbsp;&#183; DF</p><p><a href="/en/players/6d970a5a/Tatsuya-Enomoto">Tatsuya Enomoto</a> <span class="f-i f-jp" style="">jp</span>&nbsp;&#183; 2015-2016&nbsp;&#183; GK&nbsp;&#183; Yokohama F. Marinos, Vissel Kobe, Tochigi SC, Tokushima Vortis, FC Tokyo</p><p><a href="/en/players/5cbba4c8/Tetsuya-Enomoto">Tetsuya Enomoto</a> <span class="f-i f-jp" style="">jp</span>&nbsp;&#183; 2014-2018&nbsp;&#183; GK&nbsp;&#183; Yokohama F. Marinos</p><p><a href="/en/players/39f9949f/Marc-Enoumba"><strong>Marc Enoumba</strong></a> <span class="f-i f-bo" style="">bo</span>&nbsp;&#183; 2019-2022&nbsp;&#183; FW&nbsp;&#183; Always Ready, Bolivia</p><p><a href="/en/players/7b7ec211/Bin-Enow-Nasir">Bin Enow Nasir</a> <span class="f-i f-cm" style="">cm</span>&nbsp;&#183; 2019&nbsp;&#183; MF</p><p><a href="/en/players/11c82428/Simon-Enqvist">Simon Enqvist</a> <span class="f-i f-fi" style="">fi</span>&nbsp;&#183; 2008&nbsp;&#183; GK&nbsp;&#183; IFK Mariehamn</p><p><a href="/en/players/43b839d8/Ruben-Enri"><strong>Rubén Enri</strong></a> <span class="f-i f-es" style="">es</span>&nbsp;&#183; 2018-2022&nbsp;&#183; FW&nbsp;&#183; Reus</p><p><a href="/en/players/b9a6e4a7/Claudio-Enria">Claudio Enría</a> <span class="f-i f-ar" style="">ar</span>&nbsp;&#183; 2003-2004&nbsp;&#183; FW&nbsp;&#183; Gimnasia (LP), Colón, Leganés, Vélez Sarsfield</p><p><a href="/en/players/bb4b1242/Sergi-Enrich"><strong>Sergi Enrich</strong></a> <span class="f-i f-es" style="">es</span>&nbsp;&#183; 2009-2022&nbsp;&#183; FW,MF&nbsp;&#183; Eibar, Numancia, Ponferradina, Recreativo, Alcorcón, Mallorca</p><p><a href="/en/players/b8eb5d85/Patrick-Enrici"><strong>Patrick Enrici</strong></a> <span class="f-i f-it" style="">it</span>&nbsp;&#183; 2019-2021&nbsp;&#183; DF</p><p><a href="/en/players/a34840ab/Enrico">Enrico</a> <span class="f-i f-br" style="">br</span>&nbsp;&#183; 2006-2008&nbsp;&#183; MF&nbsp;&#183; Djurgården, Coritiba, Vasco da Gama, Atlético Mineiro, Ceará</p><p><a href="/en/players/4e497ec8/Enrique">Enrique</a> <span class="f-i f-es" style="">es</span>&nbsp;&#183; 2018-2019&nbsp;&#183; DF&nbsp;&#183; Ontinyent CF</p><p><a href="/en/players/feb97da2/Enrique">Enrique</a> <span class="f-i f-es" style="">es</span>&nbsp;&#183; 2003-2010&nbsp;&#183; FW,MF&nbsp;&#183; Cádiz</p><p><a href="/en/players/2739d1cd/Jorge-Enrique-Alonso">Jorge Enrique Alonso</a> <span class="f-i f-es" style="">es</span>&nbsp;&#183; 1988-1989&nbsp;&#183; CD Logroñés</p><p><a href="/en/players/f8b0ddb1/Luis-Enrique-Alvarez"><strong>Luis Enrique Álvarez</strong></a> <span class="f-i f-pe" style="">pe</span>&nbsp;&#183; 2015-2022&nbsp;&#183; DF,MF&nbsp;&#183; Atlético Grau, Universidad San Martín, Universidad César Vallejo, Cienciano, Ayacucho, Carlos A. Man</p><p><a href="/en/players/5e4e7cca/Jose-Enrique-Angulo"><strong>José Enrique Angulo</strong></a> <span class="f-i f-ec" style="">ec</span>&nbsp;&#183; 2015-2022&nbsp;&#183; FW&nbsp;&#183; Ecuador, Independiente del Valle, Barcelona, Querétaro, Manta Fútbol Club</p><p><a href="/en/players/6453d7b2/Pablo-Enrique-Anibarro"><strong>Pablo Enrique Anibarro</strong></a> <span class="f-i f-bo" style="">bo</span>&nbsp;&#183; 2019-2021&nbsp;&#183; MF&nbsp;&#183; Aurora</p><p><a href="/en/players/cc3b4444/Jorge-Enrique-Arias"><strong>Jorge Enrique Arias</strong></a> <span class="f-i f-co" style="">co</span>&nbsp;&#183; 2015-2022&nbsp;&#183; DF&nbsp;&#183; Junior, Independiente Medellín, Club Olimpia, Deportivo Cali</p><p><a href="/en/players/b6e57df0/Jose-Enrique-Caraballo">José Enrique Caraballo</a> <span class="f-i f-ve" style="">ve</span>&nbsp;&#183; 2016-2020&nbsp;&#183; FW&nbsp;&#183; Deportivo Lara, Real Santa Cruz, Huachipato</p><p><a href="/en/players/3a7f672c/Christian-Enrique-Cepeda"><strong>Christian Enrique Cepeda</strong></a> <span class="f-i f-ar" style="">ar</span>&nbsp;&#183; 2022&nbsp;&#183; DF&nbsp;&#183; Cumbayá FC</p><p><a href="/en/players/14cd6fc4/Luis-Enrique-Delgado">Luis Enrique Delgado</a> <span class="f-i f-co" style="">co</span>&nbsp;&#183; 2014-2020&nbsp;&#183; GK&nbsp;&#183; Millonarios, Águilas Doradas, Real Cartagena, Deportivo Pasto, Deportes Tolima, Cúcuta Deportivo, Bu</p><p><a href="/en/players/0de7843d/Carlos-Enrique-Fernandez">Carlos Enrique Fernández</a> <span class="f-i f-ve" style="">ve</span>&nbsp;&#183; 2019&nbsp;&#183; MF&nbsp;&#183; Deportivo Anzoátegui</p><p><a href="/en/players/50e5ce4e/Gustavo-Enrique-Garcia">Gustavo Enrique García</a> <span class="f-i f-mx" style="">mx</span>&nbsp;&#183; 2003-2006&nbsp;&#183; DF&nbsp;&#183; San Luis</p><p><a href="/en/players/4cdcd926/Jose-Enrique-Garcia">José Enrique García</a> <span class="f-i f-uy" style="">uy</span>&nbsp;&#183; 2003-2004&nbsp;&#183; MF&nbsp;&#183; San Luis</p><p><a href="/en/players/7c840a7e/Jose-Enrique-Heres">José Enrique Heres</a> 1988-1990&nbsp;&#183; GK</p><p><a href="/en/players/78b1917e/Anibal-Enrique-Hernandez">Aníbal Enrique Hernández</a> <span class="f-i f-ve" style="">ve</span>&nbsp;&#183; 2016-2017&nbsp;&#183; MF&nbsp;&#183; Monagas, Trujillanos</p><p><a href="/en/players/68b01621/Agustin-Enrique-Herrera">Agustín Enrique Herrera</a> <span class="f-i f-mx" style="">mx</span>&nbsp;&#183; 2005-2010&nbsp;&#183; FW&nbsp;&#183; Santos Laguna</p><p><a href="/en/players/b1502ec4/Nelson-Enrique-Miranda">Nelson Enrique Miranda</a> <span class="f-i f-gt" style="">gt</span>&nbsp;&#183; 2015&nbsp;&#183; FW</p><p><a href="/en/players/a192aafe/Manuel-Enrique-Moreno"><strong>Manuel Enrique Moreno</strong></a> <span class="f-i f-gt" style="">gt</span>&nbsp;&#183; 2018-2019&nbsp;&#183; DF</p><p><a href="/en/players/5099566a/Luis-Enrique-Munoz">Luis Enrique Muñóz</a> <span class="f-i f-mx" style="">mx</span>&nbsp;&#183; 2008-2010&nbsp;&#183; DF&nbsp;&#183; Puebla</p><p><a href="/en/players/433cbb27/Luis-Enrique-Ortiz">Luis Enrique Ortíz</a> <span class="f-i f-co" style="">co</span>&nbsp;&#183; 2019&nbsp;&#183; MF&nbsp;&#183; Cúcuta Deportivo</p><p><a href="/en/players/1450f0e3/Daniel-Enrique-Padilla"><strong>Daniel Enrique Padilla</strong></a> <span class="f-i f-co" style="">co</span>&nbsp;&#183; 2018-2022&nbsp;&#183; MF&nbsp;&#183; Jaguares de Córdoba, La Equidad</p><p><a href="/en/players/016cb21b/Luis-Enrique-Palma"><strong>Luis Enrique Palma</strong></a> <span class="f-i f-hn" style="">hn</span>&nbsp;&#183; 2019-2022&nbsp;&#183; MF&nbsp;&#183; Honduras, Real Monarchs, Aris, Honduras</p><p><a href="/en/players/39c52d54/Luis-Enrique-Quinones"><strong>Luis Enrique Quiñones</strong></a> <span class="f-i f-co" style="">co</span>&nbsp;&#183; 2015-2023&nbsp;&#183; FW,MF&nbsp;&#183; UANL, Águilas Doradas, Santa Fe, Toluca, UNAM, Lobos BUAP, Patriotas FC</p><p><a href="/en/players/c5dc1be3/Carlos-Enrique-Renteria"><strong>Carlos Enrique Renteria</strong></a> <span class="f-i f-co" style="">co</span>&nbsp;&#183; 2015-2020&nbsp;&#183; MF&nbsp;&#183; Deportes Tolima, Deportivo Cali, Botafogo (RJ)</p><p><a href="/en/players/0105f4d1/Luis-Enrique-Robles"><strong>Luis Enrique Robles</strong></a> <span class="f-i f-mx" style="">mx</span>&nbsp;&#183; 2003-2019&nbsp;&#183; DF,MF&nbsp;&#183; Atlas, Puebla, Chiapas</p><p><a href="/en/players/4d26ae2d/Guillermo-Enrique"><strong>Guillermo Enrique</strong></a> <span class="f-i f-ar" style="">ar</span>&nbsp;&#183; 2021-2022&nbsp;&#183; DF&nbsp;&#183; Gimnasia (LP)</p><p><a href="/en/players/893440d8/Hector-Enrique">Héctor Enrique</a> <span class="f-i f-ar" style="">ar</span>&nbsp;&#183; 1986&nbsp;&#183; MF&nbsp;&#183; Argentina</p><p><a href="/en/players/d56364d5/Jose-Enrique">José Enrique</a> <span class="f-i f-es" style="">es</span>&nbsp;&#183; 2005-2017&nbsp;&#183; DF&nbsp;&#183; Newcastle United, Liverpool, Zaragoza, Villarreal, Celta Vigo</p><p><a href="/en/players/e80847b7/Jose-Enrique"><strong>Jose Enrique</strong></a> <span class="f-i f-es" style="">es</span>&nbsp;&#183; 2021-2022&nbsp;&#183; FW&nbsp;&#183; Atlético Mancha Real</p><p><a href="/en/players/62d55634/Luis-Enrique"><strong>Luis Enrique</strong></a> <span class="f-i f-gq" style="">gq</span>&nbsp;&#183; 2018-2023&nbsp;&#183; DF&nbsp;&#183; Equatorial Guinea</p><p><a href="/en/players/b9407435/Luis-Enrique">Luis Enrique</a> <span class="f-i f-es" style="">es</span>&nbsp;&#183; 1989-2004&nbsp;&#183; FW,MF&nbsp;&#183; Barcelona, Real Madrid, Sporting Gijón, Spain</p><p><a href="/en/players/ee14ed3a/Luis-Enrique">Luis Enrique</a> <span class="f-i f-es" style="">es</span>&nbsp;&#183; 2020-2021&nbsp;&#183; MF</p><p><a href="/en/players/e7454d25/Marcos-Enrique"><strong>Marcos Enrique</strong></a> <span class="f-i f-ar" style="">ar</span>&nbsp;&#183; 2019-2022&nbsp;&#183; MF&nbsp;&#183; Cerro Largo</p><p><a href="/en/players/35c95bb2/Ramiro-Enrique"><strong>Ramiro Enrique</strong></a> <span class="f-i f-ar" style="">ar</span>&nbsp;&#183; 2021-2022&nbsp;&#183; FW&nbsp;&#183; Banfield</p><p><a href="/en/players/eccc7c57/Christian-Enriquez"><strong>Christian Enriquez</strong></a> <span class="f-i f-us" style="">us</span>&nbsp;&#183; 2018-2022&nbsp;&#183; MF&nbsp;&#183; Forward Madison</p><p><a href="/en/players/47b482e3/Diego-Enriquez"><strong>Diego Enriquez</strong></a> <span class="f-i f-pe" style="">pe</span>&nbsp;&#183; 2020-2022&nbsp;&#183; GK&nbsp;&#183; Binacional, Cusco</p><p><a href="/en/players/fa857eb0/Dubar-Enriquez"><strong>Dubar Enríquez</strong></a> <span class="f-i f-ec" style="">ec</span>&nbsp;&#183; 2014-2021&nbsp;&#183; MF&nbsp;&#183; Macará, LDU Loja</p><p><a href="/en/players/c5266e38/Imanol-Enriquez">Imanol Enríquez</a> <span class="f-i f-ar" style="">ar</span>&nbsp;&#183; 2020-2021&nbsp;&#183; FW&nbsp;&#183; Plaza Colonia</p><p><a href="/en/players/e1d41993/Jesus-Enriquez"><strong>Jesús Enríquez</strong></a> <span class="f-i f-mx" style="">mx</span>&nbsp;&#183; 2018-2022&nbsp;&#183; MF&nbsp;&#183; Oakland Roots SC, Rio Grande Valley Toros, Reno 1868, San Antonio FC</p><p><a href="/en/players/6b4af896/Jorge-Enriquez"><strong>Jorge Enríquez</strong></a> <span class="f-i f-mx" style="">mx</span>&nbsp;&#183; 2009-2018&nbsp;&#183; MF&nbsp;&#183; Guadalajara, Santos Laguna, Puebla, León</p><p><a href="/en/players/06bafad6/Lucas-Enriquez"><strong>Lucas Enriquez</strong></a> <span class="f-i f-ar" style="">ar</span>&nbsp;&#183; 2021-2022&nbsp;&#183; FW</p><p><a href="/en/players/c08a77e5/Mateo-Enriquez">Mateo Enríquez</a> <span class="f-i f-es" style="">es</span>&nbsp;&#183; 2020-2021&nbsp;&#183; MF</p><p><a href="/en/players/9506d4a1/Ramon-Enriquez"><strong>Ramón Enríquez</strong></a> <span class="f-i f-es" style="">es</span>&nbsp;&#183; 2019-2022&nbsp;&#183; MF&nbsp;&#183; Málaga</p><p><a href="/en/players/bce7f0ef/Raul-Enriquez">Raúl Enríquez</a> <span class="f-i f-mx" style="">mx</span>&nbsp;&#183; 2005-2016&nbsp;&#183; FW&nbsp;&#183; Tijuana, Chiapas, Sinaloa</p><p><a href="/en/players/c0044a1b/Tomas-Enriquez">Tomás Enríquez</a> <span class="f-i f-ec" style="">ec</span>&nbsp;&#183; 2015&nbsp;&#183; Universidad Católica del Ecuador</p><p><a href="/en/players/74e8ba7f/Martin-Ens">Martin Ens</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2018-2019&nbsp;&#183; MF&nbsp;&#183; Paderborn 07 U19</p><p><a href="/en/players/6cee059b/Rene-Ensch">René Ensch</a> 1991-1992</p><p><a href="/en/players/20737240/Kevin-Ensslen">Kevin Enßlen</a> <span class="f-i f-de" style="">de</span>&nbsp;&#183; 2016-2017&nbsp;&#183; FW</p><p><a href="/en/players/b8a75a86/Gudbrand-Ensrud">Gudbrand Ensrud</a> <span class="f-i f-no" style="">no</span>&nbsp;&#183; 2001-2005&nbsp;&#183; DF&nbsp;&#183; SW Bregenz, Lyn</p><p><a href="/en/players/3db050d9/Armand-Ente">Armand Ente</a> <span class="f-i f-fr" style="">fr</span>&nbsp;&#183; 2018-2021&nbsp;&#183; DF</p><p><a href="/en/players/ac500259/Nima-Entezari"><strong>Nima Entezari</strong></a> <span class="f-i f-ir" style="">ir</span>&nbsp;&#183; 2018-2022&nbsp;&#183; MF&nbsp;&#183; Pars Jonoubi Jam, SorkhPooshan FC, Naft Masjed Soleyman</p><p><a href="/en/players/e5c526a7/Gladys-Enti">Gladys Enti</a> 1999-2007&nbsp;&#183; GK</p><p><a href="/en/players/5e89c73b/Juanan-Entrena"><strong>Juanan Entrena</strong></a> <span class="f-i f-es" style="">es</span>&nbsp;&#183; 2016-2021&nbsp;&#183; MF&nbsp;&#183; Rudeš, Helsinki IFK, Granada</p><p><a href="/en/players/26319452/Maximilian-Entrup"><strong>Maximilian Entrup</strong></a> <span class="f-i f-at" style="">at</span>&nbsp;&#183; 2016-2018&nbsp;&#183; FW&nbsp;&#183; St. Pölten</p><p><a href="/en/players/0b25a421/Guram-Enukidze"><strong>Guram Enukidze</strong></a> <span class="f-i f-ge" style="">ge</span>&nbsp;&#183; 2017-2021&nbsp;&#183; FW&nbsp;&#183; AF Virois</p><p><a href="/en/players/91d32491/Aiden-Enver">Aiden Enver</a> <span class="f-i f-gb-eng" style="">eng</span>&nbsp;&#183; 2017-2019&nbsp;&#183; DF</p><p><a href="/en/players/ce4d3692/Liam-Enver-Marum">Liam Enver-Marum</a> <span class="f-i f-gb-eng" style="">eng</span>&nbsp;&#183; 2015-2017&nbsp;&#183; FW</p><p><a href="/en/players/39ba5f44/Elimelech-Enyan"><strong>Elimelech Enyan</strong></a> <span class="f-i f-it" style="">it</span>&nbsp;&#183; 2019-2020&nbsp;&#183; DF</p><p><a href="/en/players/62156b6a/Vincent-Enyeama">Vincent Enyeama</a> <span class="f-i f-ng" style="">ng</span>&nbsp;&#183; 2002-2017&nbsp;&#183; GK&nbsp;&#183; Lille, Nigeria, Hapoel Tel Aviv FC</p><p><a href="/en/players/068c5078/Flore-Enyegue"><strong>Flore Enyegue</strong></a> <span class="f-i f-cm" style="">cm</span>&nbsp;&#183; 2015-2022&nbsp;&#183; GK&nbsp;&#183; Cameroon</p><p><a href="/en/players/20ab1f88/Marcell-Enyingi">Marcell Enyingi</a> <span class="f-i f-hu" style="">hu</span>&nbsp;&#183; 2011-2012&nbsp;&#183; DF</p><p><a href="/en/players/ef608111/Hugo-Enyinnaya">Hugo Enyinnaya</a> <span class="f-i f-ng" style="">ng</span>&nbsp;&#183; 1999-2006&nbsp;&#183; FW&nbsp;&#183; Bari, Livorno, Górnik Zabrze</p><p><a href="/en/players/0730a5db/Loveday-Enyinnaya">Loveday Enyinnaya</a> <span class="f-i f-ng" style="">ng</span>&nbsp;&#183; 2015-2020&nbsp;&#183; DF&nbsp;&#183; Real Kashmir, Sporting Goa, Minerva Punjab</p><p><a href="/en/players/94bcdb15/Annina-Enz"><strong>Annina Enz</strong></a> <span class="f-i f-ch" style="">ch</span>&nbsp;&#183; 2018-2022&nbsp;&#183; MF&nbsp;&#183; Zürich</p><p><a href="/en/players/65dfd8d6/Eloge-Enza-Yamissi"><strong>Eloge Enza Yamissi</strong></a> <span class="f-i f-cf" style="">cf</span>&nbsp;&#183; 2005-2021&nbsp;&#183; DF,MF&nbsp;&#183; Troyes, Valenciennes, Central African Republic</p><p><a href="/en/players/19ab9c05/Manasse-Enza-Yamissi"><strong>Manassé Enza-Yamissi</strong></a> <span class="f-i f-cf" style="">cf</span>&nbsp;&#183; 2011-2022&nbsp;&#183; DF&nbsp;&#183; Petrolul Ploiești, Amiens, Gil Vicente, Concordia Chiajna, Central African Republic</p><p><a href="/en/players/77084428/Stefanie-Enzinger"><strong>Stefanie Enzinger</strong></a> <span class="f-i f-at" style="">at</span>&nbsp;&#183; 2016-2023&nbsp;&#183; FW&nbsp;&#183; Austria, St. Pölten</p><p><a href="/en/players/9631650b/Ibon-Enziondo">Ibon Enziondo</a> <span class="f-i f-es" style="">es</span>&nbsp;&#183; 2018-2019&nbsp;&#183; MF</p><p><a href="/en/players/2753e59a/Simon-Enzler"><strong>Simon Enzler</strong></a> <span class="f-i f-ch" style="">ch</span>&nbsp;&#183; 2016-2020&nbsp;&#183; GK</p><p><a href="/en/players/7421d32f/Enzo">Enzo</a> <span class="f-i f-br" style="">br</span>&nbsp;&#183; 2018&nbsp;&#183; MF</p><p><a href="/en/players/b615a401/Enzo">Enzo</a> <span class="f-i f-br" style="">br</span>&nbsp;&#183; 2021&nbsp;&#183; DF</p><p><a href="/en/players/f305747c/Giorgio-Enzo">Giorgio Enzo</a> <span class="f-i f-it" style="">it</span>&nbsp;&#183; 1988-1992&nbsp;&#183; MF&nbsp;&#183; Lecce, Ascoli</p><p><a href="/en/players/662f02ca/Manuel-Enzo"><strong>Manuel Enzo</strong></a> <span class="f-i f-it" style="">it</span>&nbsp;&#183; 2018-2019&nbsp;&#183; GK</p>
+		
+    </div>
+
+</div>
+
+            
+            
+            
+         
+      
+
+<!-- global.nonempty_tables_num: 1, table_count: 1 -->
+   <div id="coverage" style="margin-bottom:60px" data-comment="style is for the inner nav frozen to top of page"></div>
+<div class="callout light" >
+    <h3>About FBref.com</h3>
+    
+    
+    
+
+    
+    
+    <p>
+    FBref.com launched (June 13, 2018) with domestic league coverage for England, France, Germany, Italy, Spain, and United States. Since then we have been steadily expanding our coverage to include domestic leagues from over 40 countries as well as domestic cup, super cup and youth leagues from top European countries. We have also added coverage for major international cups such as the <a href="/en/comps/8/UEFA-Champions-League-Stats">UEFA Champions League</a> and <a href="/en/comps/14/Copa-Libertadores-Stats">Copa Libertadores</a>.
+    </p>
+
+    
+    <p>
+    FBref includes what we believe is one of the most complete sources for women's soccer data on the internet. This includes the entire history of the <a href="/en/comps/106/history/Womens-World-Cup-Seasons">FIFA Women's World Cup</a> as well as recent domestic league seasons from nine countries.
+    </p>
+
+    
+    
+    <p>
+    In collaboration with <a href="https://statsbomb.com">StatsBomb</a>, we are including advanced analytical data such as xG and xA for select competitions. For more information on the expected goals model and which competitions are covered, see our <a href="/en/expected-goals-model-explained/">xG explainer</a>.
+    </p>
+
+    
+
+    <button class="tooltip opener" data-selector="#coverage_additional" data-type="hide_after">View Additional Information</button>
+
+    <div id="coverage_additional" class="toggleable">
+        <p>
+        Note that player records are likely not complete for their careers. Players may come from or move to leagues we don't currently cover. This issue will go down over time, as we add new leagues and seasons. We will never in the future have less data than we do today. <strong>FBref is currently ad-free.</strong> The only payment we will ask for is that you <a href="/feedback/">let us know if you find an issue</a>, so we can get better and better.
+        </p>
+
+        <p>You can sign up to <a href="/en/about/email">receive an e-mail</a> when new countries and features launch.</p>
+
+        <p>For more information, see our <a href="https://www.sports-reference.com/blog/2018/06/fbref-com-launches-today">Launch Blog Post</a>, the overall <a href="/en/comps/">leagues/competition page</a> with details on leagues and seasons we include, or our <a href="/en/about/">About Page</a>.  <a href="/feedback/">Let us know if you find an issue or have a suggestion</a>.</p>
+
+        <p>FBref is one of seven <a href="https://www.sports-reference.com/">Sports-Reference.com</a> sites.</p>
+    </div>
+</div>
+
+<div id="bottom_nav" class="section_wrapper">
+<div class="section_heading"><span data-no-inpage="1" class="section_anchor" id="inner_nav_bottom_link" data-label="More Player Index Pages"></span><h2>More Player Index Pages</h2></div>
+<div class="section_content" id="bottom_nav_container">
+
+  <p><a href="/en/players/">Player Index</a></p>
+  
+        <ul class="">
+          <li><a href="/en/players/">By Letter</a></li>
+          <li><a href="/en/players/country/">By Nationality</a></li>
+          <li><a href="/en/players/en/">All Players with "en" Names</a></li>
+        </ul></div></div>
+
+   
+
+
+<!-- fs_footer -->
+<div class="adblock">
+
+</div>
+
+
+
+
+</div><!-- div#content -->
+
+
+<div id="footer" role="contentinfo">
+	<div id="footer_header">
+		 <ul class="bullets-inline"><li class="user logged_in">Welcome <span class="username"></span>&nbsp;&#183;&nbsp;<a href="https://stathead.com/profile/?utm_source=web&amp;utm_medium=fb&amp;utm_campaign=sr-nav-bar-top-account">Your Account</a></li>
+<li class="user logged_in"><a class="logout" onclick="sr_auth_logout_page_elements();if(!this.href.match('redirect_uri')){this.href += '&redirect_uri='+escape(document.location.href)}" href="https://stathead.com/profile/?do=logout">Logout</a></li>
+<li class="user not_logged_in"><a class="login" onclick="if(!this.href.match('redirect_uri')){this.href += '&redirect_uri='+escape(document.location.href)}" href="https://stathead.com/users/login.cgi?token=1">Login</a></li>
+<li class="user not_logged_in"><a href="https://stathead.com/users/signup.cgi">Create Account</a></li>
+</ul>
+		 <div class="breadcrumbs">You are here: <span><a href="/en/"><span>FB Home Page</span></a> </span> &gt; <a href="/players/">Players</a></div>
+	</div><!-- div#footer_header -->
+
+	<div id="footer_general">
+		<div id="site_menu" role="navigation" aria-label="complete site index">
+			
+			
+<div class="section_heading assoc_site_menu" id="site_menu_sh">
+  <span class="section_anchor" id="site_menu_link" data-label="Full Site Menu"></span><h2>Full Site Menu</h2>    <div class="section_heading_text">
+      <ul><li><a data-scroll href="#header">Return to Top</a></li>
+      </ul>
+    </div>
+    		
+</div>
+			
+				
+				<ul>    <li>
+        <a href="/en/players/">Players</a>
+        <div>
+<a href="/en/players/f61c7c4e/Franck-Ribery">Franck Ribéry</a>, 
+<a href="/en/players/3bb7f478/Edin-Dzeko">Edin Džeko</a>, 
+<a href="/en/players/caeb5442/Steven-Gerrard">Steven Gerrard</a>, 
+<a href="/en/players/832b7d61/Cristiane">Cristiane</a>, 
+<a href="/en/players/45aa5d13/Alberto-Gilardino">Alberto Gilardino</a>, 
+<a href="/en/players/cda50d6b/Mana-Iwabuchi">Mana Iwabuchi</a>, 
+<a href="/en/players/82dbf623/Fernando-Llorente">Fernando Llorente</a>, 
+<a href="/en/players/b400bde0/Raheem-Sterling">Raheem Sterling</a>, 
+<a href="/en/players/7dcf86f6/Iago-Aspas">Iago Aspas</a>, 
+<a href="/en/players/2d298b13/Abby-Wambach">Abby Wambach</a>, 
+<a href="/en/players/019544ff/Caitlin-Foord">Caitlin Foord</a>, 
+<a href="/en/players/f8e35f83/Kerstin-Garefrekes">Kerstin Garefrekes</a>, 
+<a href="/en/players/d70ce98e/Lionel-Messi">Lionel Messi</a>, 
+<a href="/en/players/e8f90dc9/Sophie-Schmidt">Sophie Schmidt</a>, 
+<a href="/en/players/4c5b14d2/Joaquin">Joaquín</a>, 
+<a href="/en/players/">...</a>        </div>
+    </li>
+    <li>
+        <a href="/en/squads/">Clubs</a>
+        <div>
+<a href="/en/squads/b8fd03ef/Manchester-City-Stats">Manchester City (M)</a>, 
+<a href="/en/squads/a6a4e67d/Chelsea-Women-Stats">Chelsea (F)</a>, 
+<a href="/en/squads/53a2f082/Real-Madrid-Stats">Real Madrid (M)</a>, 
+<a href="/en/squads/e2d8892c/Paris-Saint-Germain-Stats">Paris Saint-Germain (M)</a>, 
+<a href="/en/squads/7f2012ad/Lyon-Women-Stats">Lyon (F)</a>, 
+<a href="/en/squads/054efa67/Bayern-Munich-Stats">Bayern Munich (M)</a>, 
+<a href="/en/squads/a1393014/Wolfsburg-Women-Stats">Wolfsburg (F)</a>, 
+<a href="/en/squads/d609edc0/Internazionale-Stats">Internazionale (M)</a>, 
+<a href="/en/squads/613577b8/Juventus-Women-Stats">Juventus (F)</a>, 
+<a href="/en/squads/ef99c78c/River-Plate-Stats">River Plate (M)</a>, 
+<a href="/en/squads/31553c94/Melbourne-City-Stats">Melbourne City (M)</a>, 
+<a href="/en/squads/5903e501/Sydney-FC-Women-Stats">Sydney FC (F)</a>, 
+<a href="/en/squads/50f2a074/Red-Bull-Salzburg-Stats">Red Bull Salzburg (M)</a>, 
+<a href="/en/squads/3d377a8c/St-Polten-Women-Stats">St. Pölten (F)</a>, 
+<a href="/en/squads/f1e6c5f1/Club-Brugge-Stats">Club Brugge (M)</a>, 
+<a href="/en/squads/231a3620/Anderlecht-Women-Stats">Anderlecht (F)</a>, 
+<a href="/en/squads/e69cb5b6/Bolivar-Stats">Bolívar (M)</a>, 
+<a href="/en/squads/639950ae/Flamengo-Stats">Flamengo (M)</a>, 
+<a href="/en/squads/9cdc3b24/Corinthians-Women-Stats">Corinthians (F)</a>, 
+<a href="/en/squads/488c6ba1/Ludogorets-Razgrad-Stats">Ludogorets Razgrad (M)</a>, 
+<a href="/en/squads/b0e76152/Cavalry-FC-Stats">Cavalry FC (M)</a>, 
+<a href="/en/squads/3e3fbf36/Univ-Catolica-Stats">Universidad Católica (M)</a>, 
+<a href="/en/squads/1837b9f6/Guangzhou-Evergrande-Taobao-Stats">Guangzhou Evergrande Taobao (M)</a>, 
+<a href="/en/squads/9c4c0cc1/Tolima-Stats">Deportes Tolima (M)</a>, 
+<a href="/en/squads/edd0d381/Dinamo-Zagreb-Stats">Dinamo Zagreb (M)</a>, 
+<a href="/en/squads/111cbfb1/Slavia-Prague-Stats">Slavia Prague (M)</a>, 
+<a href="/en/squads/3c4fb635/Midtjylland-Stats">Midtjylland (M)</a>, 
+<a href="/en/squads/3c94e2df/Fortuna-Hjorring-Stats">Fortuna Hjørring (F)</a>, 
+<a href="/en/squads/990519b8/Independiente-Stats">Independiente del Valle (M)</a>, 
+<a href="/en/squads/d7319d80/HJK-Helsinki-Stats">HJK Helsinki (M)</a>, 
+<a href="/en/squads/2fdb4aef/Olympiacos-Stats">Olympiacos (M)</a>, 
+<a href="/en/squads/6611f992/Ferencvaros-Stats">Ferencváros (M)</a>, 
+<a href="/en/squads/db891982/Gokulam-Kerala-Stats">Gokulam Kerala (M)</a>, 
+<a href="/en/squads/95f42e44/Persepolis-Stats">Persepolis (M)</a>, 
+<a href="/en/squads/858d58b2/Kawasaki-Frontale-Stats">Kawasaki Frontale (M)</a>, 
+<a href="/en/squads/71dc1b0b/Kobe-Leonessa-Stats">Kobe Leonessa (F)</a>, 
+<a href="/en/squads/ae23a242/Jeonbuk-Stats">Jeonbuk Hyundai Motors FC (M)</a>, 
+<a href="/en/squads/972e2539/Al-Hilal-Stats">Al-Hilal (M)</a>, 
+<a href="/en/squads/18d3c3a3/America-Stats">América (M)</a>, 
+<a href="/en/squads/19c3f8c4/Ajax-Stats">Ajax (M)</a>, 
+<a href="/en/squads/e04b1b89/Twente-Women-Stats">Twente (F)</a>, 
+<a href="/en/squads/174bd5a0/Molde-Stats">Molde (M)</a>, 
+<a href="/en/squads/ea339fbc/Sandviken-Stats">Sandviken (F)</a>, 
+<a href="/en/squads/ae107695/Libertad-Stats">Libertad (M)</a>, 
+<a href="/en/squads/8917b8a9/Sporting-Cristal-Stats">Sporting Cristal (M)</a>, 
+<a href="/en/squads/a73408a7/Legia-Warsaw-Stats">Legia Warsaw (M)</a>, 
+<a href="/en/squads/5e876ee6/Porto-Stats">Porto (M)</a>, 
+<a href="/en/squads/ff04e205/CFR-Cluj-Stats">CFR Cluj (M)</a>, 
+<a href="/en/squads/97d80fef/Mamelodi-Sundowns-Stats">Mamelodi Sundowns (M)</a>, 
+<a href="/en/squads/98ce363d/Zenit-Stats">Zenit (M)</a>, 
+<a href="/en/squads/86b7acd2/Rangers-Stats">Rangers (M)</a>, 
+<a href="/en/squads/099c6eb5/Red-Star-Belgrade-Stats">Red Star (M)</a>, 
+<a href="/en/squads/4b682260/Young-Boys-Stats">Young Boys (M)</a>, 
+<a href="/en/squads/8266975e/Zurich-Women-Stats">Zürich (F)</a>, 
+<a href="/en/squads/f3d8c8b9/Malmo-Stats">Malmö (M)</a>, 
+<a href="/en/squads/a2c4c17a/Rosengard-Stats">Rosengård (F)</a>, 
+<a href="/en/squads/c8ad3091/Trabzonspor-Stats">Trabzonspor (M)</a>, 
+<a href="/en/squads/e89d5a28/Shakhtar-Donetsk-Stats">Shakhtar Donetsk (M)</a>, 
+<a href="/en/squads/26ebba72/Nacional-Stats">Nacional (M)</a>, 
+<a href="/en/squads/6218ebd4/Seattle-Sounders-FC-Stats">Seattle Sounders FC (M)</a>, 
+<a href="/en/squads/df9a10a1/Portland-Thorns-FC-Stats">Portland Thorns FC (F)</a>, 
+<a href="/en/squads/7701ed02/Deportivo-Tachira-Stats">Deportivo Táchira (M)</a>, 
+<a href="/en/squads/">...</a>        </div>
+    </li>
+    <li>
+        <a href="/en/comps/">Seasons</a>
+        <div>
+<a href="/en/comps/season/2020-2021">2020-2021</a>, 
+<a href="/en/comps/season/2021">2021</a>, 
+<a href="/en/comps/season/2021-2022">2021-2022</a>, 
+<a href="/en/comps/season/2022">2022</a>, 
+<a href="/en/comps/season/2022-2023">2022-2023</a>, 
+<a href="/en/comps/season/2023">2023</a>, 
+<a href="/en/comps/">...</a>        </div>
+    </li>
+    <li>
+        <a href="/en/comps/">Competitions</a>
+        <div>
+<a href="/en/comps/8/Champions-League-Stats">UEFA Champions League</a>, 
+<a href="/en/comps/1/FIFA-World-Cup-Stats">FIFA World Cup</a>, 
+<a href="/en/comps/664/Asian-Cup-Stats">AFC Asian Cup</a>, 
+<a href="/en/comps/676/UEFA-Euro-Stats">UEFA European Football Championship</a>, 
+<a href="/en/comps/677/UEFA-Nations-League-Stats">UEFA Nations League</a>, 
+<a href="/en/comps/685/Copa-America-Stats">CONMEBOL Copa América</a>, 
+<a href="/en/comps/681/Gold-Cup-Stats">CONCACAF Gold Cup</a>, 
+<a href="/en/comps/656/Africa-Cup-of-Nations-Stats">Africa Cup of Nations</a>, 
+<a href="/en/comps/181/Champions-League-Stats">UEFA Women's Champions League</a>, 
+<a href="/en/comps/106/Womens-World-Cup-Stats">FIFA Women's World Cup</a>, 
+<a href="/en/comps/180/Olympics-W-Stats">Olympics (W)</a>, 
+<a href="/en/comps/161/AFC-Womens-Asian-Cup-Stats">AFC Women's Asian Cup</a>, 
+<a href="/en/comps/162/UEFA-Womens-Euro-Stats">UEFA Women's Championship</a>, 
+<a href="/en/comps/158/Copa-America-Femenina-Stats">Copa América Femenina</a>, 
+<a href="/en/comps/157/CONCACAF-W-Championship-Stats">CONCACAF W Championship</a>, 
+<a href="/en/comps/156/Africa-Women-Cup-of-Nations-Stats">Africa Women Cup of Nations</a>, 
+<a href="/en/comps/9/Premier-League-Stats">Premier League</a>, 
+<a href="/en/comps/514/FA-Cup-Stats">FA Cup</a>, 
+<a href="/en/comps/690/EFL-Cup-Stats">EFL Cup</a>, 
+<a href="/en/comps/189/Womens-Super-League-Stats">FA Women's Super League</a>, 
+<a href="/en/comps/12/La-Liga-Stats">La Liga</a>, 
+<a href="/en/comps/569/Copa-del-Rey-Stats">Copa del Rey</a>, 
+<a href="/en/comps/13/Ligue-1-Stats">Ligue 1</a>, 
+<a href="/en/comps/518/Coupe-de-France-Stats">Coupe de France</a>, 
+<a href="/en/comps/693/Coupe-de-la-Ligue-Stats">Coupe de la Ligue</a>, 
+<a href="/en/comps/193/Division-1-Feminine-Stats">Championnat de France de Football Féminin</a>, 
+<a href="/en/comps/20/Bundesliga-Stats">Fußball-Bundesliga</a>, 
+<a href="/en/comps/521/DFB-Pokal-Stats">DFB-Pokal</a>, 
+<a href="/en/comps/183/Frauen-Bundesliga-Stats">Frauen-Bundesliga</a>, 
+<a href="/en/comps/520/DFB-Pokal-Frauen-Stats">DFB-Pokal Frauen</a>, 
+<a href="/en/comps/11/Serie-A-Stats">Serie A</a>, 
+<a href="/en/comps/529/Coppa-Italia-Stats">Coppa Italia</a>, 
+<a href="/en/comps/208/Serie-A-Stats">Serie A</a>, 
+<a href="/en/comps/21/Primera-Division-Stats">Argentine Primera División</a>, 
+<a href="/en/comps/65/A-League-Men-Stats">A-League Men</a>, 
+<a href="/en/comps/196/A-League-Women-Stats">A-League Women</a>, 
+<a href="/en/comps/56/Austrian-Bundesliga-Stats">Austrian Football Bundesliga</a>, 
+<a href="/en/comps/286/Frauenliga-Stats">ÖFB Frauen-Bundesliga</a>, 
+<a href="/en/comps/37/Belgian-First-Division-A-Stats">Belgian First Division A</a>, 
+<a href="/en/comps/296/Womens-Super-League-Stats">Belgian Women's Super League</a>, 
+<a href="/en/comps/74/Bolivian-Primera-Division-Stats">División de Fútbol Profesional</a>, 
+<a href="/en/comps/24/Serie-A-Stats">Campeonato Brasileiro Série A</a>, 
+<a href="/en/comps/206/Serie-A1-Stats">Brasileirão Feminino Série A1</a>, 
+<a href="/en/comps/67/Bulgarian-First-League-Stats">First Professional Football League</a>, 
+<a href="/en/comps/211/Canadian-Premier-League-Stats">Canadian Premier League</a>, 
+<a href="/en/comps/35/Primera-Division-Stats">Chilean Primera División</a>, 
+<a href="/en/comps/62/Chinese-Super-League-Stats">Chinese Football Association Super League</a>, 
+<a href="/en/comps/41/Categoria-Primera-A-Stats">Categoría Primera A</a>, 
+<a href="/en/comps/63/1-HNL-Stats">Croatian First Football League</a>, 
+<a href="/en/comps/66/Czech-First-League-Stats">Czech First League</a>, 
+<a href="/en/comps/50/Superliga-Stats">Superliga</a>, 
+<a href="/en/comps/340/Kvindeligaen-Stats">Kvindeligaen</a>, 
+<a href="/en/comps/58/Serie-A-Stats">Liga Profesional Ecuador</a>, 
+<a href="/en/comps/43/Veikkausliiga-Stats">Veikkausliiga</a>, 
+<a href="/en/comps/27/Super-League-Greece-Stats">Super League Greece</a>, 
+<a href="/en/comps/46/NB-I-Stats">Nemzeti Bajnokság I</a>, 
+<a href="/en/comps/82/Indian-Super-League-Stats">Indian Super League</a>, 
+<a href="/en/comps/378/I-League-Stats">Indian I-League</a>, 
+<a href="/en/comps/64/Persian-Gulf-Pro-League-Stats">Persian Gulf Pro League</a>, 
+<a href="/en/comps/25/J1-League-Stats">J1 League</a>, 
+<a href="/en/comps/893/WE-League-Stats">Women Empowerment League</a>, 
+<a href="/en/comps/55/K-League-1-Stats">K League 1</a>, 
+<a href="/en/comps/70/Saudi-Professional-League-Stats">Saudi Professional League</a>, 
+<a href="/en/comps/31/Liga-MX-Stats">Liga MX</a>, 
+<a href="/en/comps/23/Eredivisie-Stats">Eredivisie</a>, 
+<a href="/en/comps/195/Eredivisie-Vrouwen-Stats">Eredivisie Vrouwen</a>, 
+<a href="/en/comps/28/Eliteserien-Stats">Eliteserien</a>, 
+<a href="/en/comps/185/Toppserien-Stats">Toppserien</a>, 
+<a href="/en/comps/61/Primera-Division-Stats">Paraguayan Primera División</a>, 
+<a href="/en/comps/44/Liga-1-Stats">Liga 1 de Fútbol Profesional</a>, 
+<a href="/en/comps/36/Ekstraklasa-Stats">Ekstraklasa</a>, 
+<a href="/en/comps/32/Primeira-Liga-Stats">Primeira Liga</a>, 
+<a href="/en/comps/47/Liga-I-Stats">Liga I</a>, 
+<a href="/en/comps/52/Premier-Division-Stats">South African Premier Division</a>, 
+<a href="/en/comps/30/Russian-Premier-League-Stats">Russian Premier League</a>, 
+<a href="/en/comps/40/Scottish-Premiership-Stats">Scottish Premiership</a>, 
+<a href="/en/comps/54/Serbian-SuperLiga-Stats">Serbian SuperLiga</a>, 
+<a href="/en/comps/57/Swiss-Super-League-Stats">Swiss Super League</a>, 
+<a href="/en/comps/894/Womens-Super-League-Stats">Swiss Women's Super League</a>, 
+<a href="/en/comps/29/Allsvenskan-Stats">Allsvenskan</a>, 
+<a href="/en/comps/187/Damallsvenskan-Stats">Damallsvenskan</a>, 
+<a href="/en/comps/26/Super-Lig-Stats">Süper Lig</a>, 
+<a href="/en/comps/39/Ukrainian-Premier-League-Stats">Ukrainian Premier League</a>, 
+<a href="/en/comps/45/Primera-Division-Stats">Uruguayan Primera División</a>, 
+<a href="/en/comps/22/Major-League-Soccer-Stats">Major League Soccer</a>, 
+<a href="/en/comps/182/NWSL-Stats">National Women's Soccer League</a>, 
+<a href="/en/comps/881/NWSL-Challenge-Cup-Stats">NWSL Challenge Cup</a>, 
+<a href="/en/comps/884/NWSL-Fall-Series-Stats">NWSL Fall Series</a>, 
+<a href="/en/comps/105/Liga-FUTVE-Stats">Venezuelan Primera División</a>, 
+<a href="/en/comps/">...</a>        </div>
+    </li>
+    <li>
+        <a href="/en/matches/">Scores & Fixtures</a>
+        <div>
+<a href="/en/matches/2022-07-06">Wednesday July 6, 2022</a>, 
+<a href="/en/matches/2022-07-07">Thursday July 7, 2022</a>, 
+<a href="/en/matches/2022-07-08">Friday July 8, 2022</a>, 
+<a href="/en/matches/2022-07-09">Saturday July 9, 2022</a>, 
+<a href="/en/matches/2022-07-10">Sunday July 10, 2022</a>        </div>
+    </li>
+    <li>
+        <a href="/en/countries/">Countries</a>
+        <div>
+<a href="/en/country/ENG/England-Football">England</a>, 
+<a href="/en/country/ESP/Spain-Football">Spain</a>, 
+<a href="/en/country/FRA/France-Football">France</a>, 
+<a href="/en/country/GER/Germany-Football">Germany</a>, 
+<a href="/en/country/ITA/Italy-Football">Italy</a>, 
+<a href="/en/country/ARG/Argentina-Football">Argentina</a>, 
+<a href="/en/country/AUS/Australia-Football">Australia</a>, 
+<a href="/en/country/AUT/Austria-Football">Austria</a>, 
+<a href="/en/country/BEL/Belgium-Football">Belgium</a>, 
+<a href="/en/country/BOL/Bolivia-Football">Bolivia</a>, 
+<a href="/en/country/BRA/Brazil-Football">Brazil</a>, 
+<a href="/en/country/BUL/Bulgaria-Football">Bulgaria</a>, 
+<a href="/en/country/CAN/Canada-Football">Canada</a>, 
+<a href="/en/country/CHI/Chile-Football">Chile</a>, 
+<a href="/en/country/CHN/China-PR-Football">China PR</a>, 
+<a href="/en/country/COL/Colombia-Football">Colombia</a>, 
+<a href="/en/country/CRO/Croatia-Football">Croatia</a>, 
+<a href="/en/country/CZE/Czech-Republic-Football">Czech Republic</a>, 
+<a href="/en/country/DEN/Denmark-Football">Denmark</a>, 
+<a href="/en/country/ECU/Ecuador-Football">Ecuador</a>, 
+<a href="/en/country/FIN/Finland-Football">Finland</a>, 
+<a href="/en/country/GRE/Greece-Football">Greece</a>, 
+<a href="/en/country/HUN/Hungary-Football">Hungary</a>, 
+<a href="/en/country/IND/India-Football">India</a>, 
+<a href="/en/country/IRN/Iran-Football">Iran</a>, 
+<a href="/en/country/JPN/Japan-Football">Japan</a>, 
+<a href="/en/country/KOR/Korea-Republic-Football">Korea Republic</a>, 
+<a href="/en/country/KSA/Saudi-Arabia-Football">Saudi Arabia</a>, 
+<a href="/en/country/MEX/Mexico-Football">Mexico</a>, 
+<a href="/en/country/NED/Netherlands-Football">Netherlands</a>, 
+<a href="/en/country/NOR/Norway-Football">Norway</a>, 
+<a href="/en/country/PAR/Paraguay-Football">Paraguay</a>, 
+<a href="/en/country/PER/Peru-Football">Peru</a>, 
+<a href="/en/country/POL/Poland-Football">Poland</a>, 
+<a href="/en/country/POR/Portugal-Football">Portugal</a>, 
+<a href="/en/country/ROU/Romania-Football">Romania</a>, 
+<a href="/en/country/RSA/South-Africa-Football">South Africa</a>, 
+<a href="/en/country/RUS/Russia-Football">Russia</a>, 
+<a href="/en/country/SCO/Scotland-Football">Scotland</a>, 
+<a href="/en/country/SRB/Serbia-Football">Serbia</a>, 
+<a href="/en/country/SUI/Switzerland-Football">Switzerland</a>, 
+<a href="/en/country/SWE/Sweden-Football">Sweden</a>, 
+<a href="/en/country/TUR/Turkey-Football">Turkey</a>, 
+<a href="/en/country/UKR/Ukraine-Football">Ukraine</a>, 
+<a href="/en/country/URU/Uruguay-Football">Uruguay</a>, 
+<a href="/en/country/USA/United-States-Football">United States</a>, 
+<a href="/en/country/VEN/Venezuela-Football">Venezuela</a>, 
+<a href="/en/countries/">...</a>        </div>
+    </li>
+    <li>
+        <a href="/en/about/">About FBref</a>
+        <div>
+<a href="/en/expected-goals-model-explained/">Expected Goals Model Explained</a>, 
+<a href="/en/about/coverage">FBref Coverage</a>, 
+<a href="/en/statsbomb/">StatsBomb</a>, 
+<a href="https://www.sports-reference.com/data_use.html">Data Usage Terms</a>        </div>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+			
+		</div><!-- div#site_menu -->
+		<div>
+			<div id="social" class="icon_group noload">
+	
+<div class="section_heading assoc_" id="_sh">
+  <span class="section_anchor" id="_link" data-label="We're Social...for Statheads" data-no-inpage="1"></span><h2>We're Social...for Statheads</h2>		
+</div>
+	<a href="tel://888-512-8907" data-tip="Call us on Telephone" data-label="Telephone" aria-label="Telephone" class="poptip"><svg class="icon phone"><use xlink:href="#ic-phone"></use></svg></a>
+	<a href="//www.sports-reference.com/blog/" data-tip="The Sports Reference Blog" data-label="Our Blog" aria-label="Our Blog" class="poptip"><svg class="icon wordpress"><use xlink:href="#ic-wordpress"></use></svg></a>
+	<a href="https://www.sports-reference.com/blog/feed/" data-tip="Our Blog's RSS Feed" data-label="RSS Feed" aria-label="RSS Feed" class="poptip"><svg class="icon rss"><use xlink:href="#ic-rss"></use></svg></a>
+	
+		<a href="https://twitter.com/FBref" data-tip="FBref.com at Twitter" data-label="Twitter" aria-label="Twitter" class="poptip"><svg class="icon twitter"><use xlink:href="#ic-twitter"></use></svg></a>
+	
+		<a href="https://www.tiktok.com/@fbref" data-tip="FBref.com at TikTok" data-label="TikTok" aria-label="TikTok" class="poptip"><svg class="icon tiktok"><use xlink:href="#ic-tiktok"></use></svg></a>
+	<a href="https://reddit.com/r/SportsReference" data-tip="Reddit/r/SportsReference" data-label="Reddit/r/SR" aria-label="Reddit/r/SR" class="poptip"><svg class="icon reddit"><use xlink:href="#ic-reddit"></use></svg></a>
+	<a href="https://www.youtube.com/user/sportsreference" data-tip="YouTube/SportsReference" data-label="YouTube" aria-label="YouTube" class="poptip"><svg class="icon youtube"><use xlink:href="#ic-youtube"></use></svg></a>
+	<a href="https://www.linkedin.com/company/sports-reference-llc" data-tip="Follow SR on LinkedIn" data-label="LinkedIn" aria-label="LinkedIn" class="poptip"><svg class="icon linkedin"><use xlink:href="#ic-linkedin"></use></svg></a>
+	<a href="https://www.paypal.me/sportsref" data-tip="Send us money via PayPal" data-label="PayPal" aria-label="PayPal" class="poptip"><svg class="icon paypal"><use xlink:href="#ic-paypal"></use></svg></a>
+
+<p>Every <a href="https://www.sports-reference.com/blog/sports-reference-social-media/">Sports Reference Social Media Account</a></p>
+<p><strong>Site Last Updated:</strong> Thursday, July  7,  8:35PM
+</p>
+<p><a href="https://www.sports-reference.com/feedback/" class="button" style="display: block">Question, Comment, Feedback, or Correction?</a></p>
+
+<p><a style="display: block" href="https://fbref.com/en/about/email" class="button">Subscribe to our Free Email Newsletter</a></p>
+
+<p><a style="background-color:#155ca9; color: #fff;" href="https://www.sports-reference.com/this-month.html?&utm_medium=sr&utm_source=fb&utm_campaign=site-footer-twisr" class="button alt">This Month in Sports Reference<br><em>Find out when we add a feature or make a change</em></a></p>
+
+<p><a href="https://www.sports-reference.com/blog/ways-sports-reference-can-help-your-website/?utm_medium=sr&utm_source=fb&utm_campaign=site-footer-ways-help">Do you have a sports website? Or write about sports? We have tools and resources that can help you use sports data.  Find out more.</a></p>
+
+
+</div><!-- div#social -->
+
+			<div id="tips_tricks">
+   
+<div class="section_heading assoc_tips" id="tips_sh">
+  <span class="section_anchor" id="tips_link" data-label="FAQs, Tip &amp; Tricks" data-no-inpage="1"></span><h2>FAQs, Tip &amp; Tricks</h2>		
+</div>
+   <ul>
+<li><a href="https://www.sports-reference.com/blog/2018/06/fbref-com-launches-today">
+	FBref Launch Post: What we've done, what we have and what's next.
+</a></li>
+           <li><a href="//www.sports-reference.com/blog/category/tips-and-tricks/">Tips and Tricks from our Blog.</a></li>
+           <li><a href="/en/linker/">Do you have a blog? Join our linker program.</a></li>
+	   <li><a href="https://www.sports-reference.com/blog/category/stathead-tutorial-series/">Watch our How-To Videos to Become a Stathead</a></li>
+	   <li><a href="//stathead.com/?ref=fb">Subscribe to Stathead and get access to more data than you can imagine</a></li>
+   </ul>
+</div><!-- div#tips_tricks -->
+
+			<div id="credits">
+				<p>All logos are the trademark &amp; property of their owners and not Sports Reference LLC.  We present them here for purely educational purposes.
+				<a href="https://www.sports-reference.com/blog/2016/06/redesign-team-and-league-logos-courtesy-sportslogos-net/">Our reasoning for presenting offensive logos.</a></p>
+				<p>
+					
+					Logos were compiled by the amazing <a href="http://sportslogos.net/">SportsLogos.net.</a>
+				</p>
+				
+     <p>Copyright &copy; 2000-2022 <a href="//www.sports-reference.com/">Sports Reference LLC</a>. All rights reserved.</p>
+
+<div class="notice">Football data provided by  <a href='http://datasportsgroup.com/' rel='nofollow'><img alt='Data Sports Group' border=0 width=152 src='https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/images/klecko/dsg.png'></a>	
+</div>
+
+<div class="notice">Advanced statistics provided by  <a href='https://statsbomb.com/' rel='nofollow'><img alt='StatsBomb' border=0 width=152 src='https://d2p3bygnnzw9w3.cloudfront.net/req/202206241/images/klecko/statsbomb.png'></a>	
+</div>
+
+			</div><!-- div#credits -->
+		</div>
+	</div>
+
+	<ul id="site_dirs" class="notranslate bullets-inline">
+	<li><a href="https://www.sports-reference.com/"><svg height="15px" width="20px"><use xlink:href="#ic-sr-pennant"></use></svg> Sports Reference</a></li>
+	<li><a href="https://www.baseball-reference.com/">Baseball</a></li>
+	<li><a href="https://www.pro-football-reference.com/">Football</a> <a href="https://www.sports-reference.com/cfb/">(college)</a></li>
+	<li><a href="https://www.basketball-reference.com/">Basketball</a> <a href="https://www.sports-reference.com/cbb/">(college)</a></li>
+	<li><a href="https://www.hockey-reference.com/">Hockey</a></li>
+
+
+	<li class="current"><a href="https://fbref.com/">Soccer</a></li>
+
+	<li><a href="https://www.sports-reference.com/blog/">Blog</a></li>
+
+    <li><a href="https://stathead.com/?utm_source=web&amp;utm_medium=fb&amp;utm_campaign=sr-nav-bar-top-link">Stathead</a></li>
+    <li><a href="https://widgets.sports-reference.com/">Widgets</a></li>
+
+
+</ul>
+
+	<div id="about">
+  <a href="//www.sports-reference.com/about.html">About</a> &bull;
+  <a href="//www.sports-reference.com/termsofuse.html">Conditions &amp; Terms of Service</a> &bull;
+  <a href="//www.sports-reference.com/advertise.html">Advertise With Us</a>
+  <br><br>
+  <a href="//www.sports-reference.com/privacy.html">Privacy Policy</a> &bull;
+  <a href="//www.sports-reference.com/gambling-revenue-policy.html">Gambling Revenue Policy</a> &bull;
+  <a href="//www.sports-reference.com/accessibility-policy.html">Accessibility Policy</a> &bull;
+  <a href="//www.sports-reference.com/data_use.html">Use of Data</a>
+  </div>
+  <!-- div#about -->
+</div><!-- div#footer -->
+
+</div><!-- div#wrap -->
+
+
+
+<!-- rails -->
+
+<div class="adblock rails  left"></div>
+<div class="adblock rails right"></div>
+
+
+<!-- sr_gender is used in Templates/Assets/GoogleAnalytics.tt2 -->
+<script>var sr_gender = "";</script>
+<!-- Google Analytics --> <!-- new extra script, apparently we only use one of these, regardless of the number of products... https://developers.google.com/tag-platform/gtagjs/install#google-analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1890630-23"></script> <script> var sr_cookie = vjs_readCookie('stathead_user') || ''; var sr_cookie_split = sr_cookie.split("::"); var sr_session_key = (sr_cookie_split.length > 1)?sr_cookie_split[2]:''; var sr_ad_free_key = "6"; var sr_site_id = "fb"; var sr_is_subscriber = (sr_ad_free_key && sr_session_key.vjs_isMatch(new RegExp(sr_ad_free_key + "$"))) || sr_session_key.vjs_isMatch(/1$/) || (sr_site_id === 'stathead' && sr_session_key.vjs_isMatch(/[0-7]$/)); var sr_is_user = sr_cookie !== null && sr_cookie !== ''; var sr_seen_modal = vjs_readCookie('modal_ad') !== null; var sr_device = 'unk'; if (Modernizr.phone) { sr_device = 'phone'; } else if (Modernizr.tablet) { sr_device = 'tablet'; } else if (Modernizr.laptop) { sr_device = 'laptop'; } else if (Modernizr.desktop) { sr_device = 'desktop'; } var sr_stathead_site = vjs_readCookie('stathead_site') || ''; var sr_stathead_type = vjs_readCookie('stathead_type') || ''; /* new gtag theres an extra script tag we need to add that I'm not sure how that work for multiple ID's for GA, docs say to ignore it??? https://developers.google.com/tag-platform/gtagjs/install here they have 3 but just use the last one? */ window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); /* OLD, could not find require within reference docs https://developers.google.com/tag-platform/gtagjs/reference ga('require', 'linkid', 'linkid.js'); ga('require', 'ecommerce', 'ecommerce.js'); ga('require', 'displayfeatures'); */ /* new, creates+sends+sets */ /* for fbref we want to allow for tracking of 'men' and 'women' pages for leagues, clubs and players, so we can track the most popular women players easily. In Footer.tt2 there is a place to set sr_gender. */ gtag('config', 'UA-1890630-23', { 'dimension1': sr_is_subscriber, 'dimension2': sr_is_user, 'dimension3': typeof(sr_gender) === 'string'? sr_gender: null, 'dimension4': sr_stathead_type, 'dimension5': sr_stathead_site, 'metric1': Modernizr.viewport_width }); /* all sr-sites together */ /* new, I believe linker works as a parameter here, although there didn't seem to be a simple "true" value to set besides this one https://developers.google.com/analytics/devguides/collection/gtagjs/cross-domain */ gtag('config', 'UA-1890630-9', { 'linker': { 'accept_incoming': true }, 'dimension1': sr_site_id, 'dimension2': sr_is_subscriber, 'dimension3': sr_is_user, 'dimension4': sr_seen_modal, 'dimension5': sr_device, 'dimension6': 'null', 'metric1': Modernizr.viewport_width, 'dimension8': (typeof sr_test == 'undefined')?'no-test':( sr_test ? 'non-blocking':'blocking') }); /* new, cribbed from: https://www.axllent.org/docs/track-outbound-links-with-gtag-js/ */ function _gaLt(event) { /* if GA is blocked or not loaded, or not main|middle|touch click then don't track */ if (typeof gtag == "undefined" || (event.which != 1 && event.which != 2)) { return; } var el = event.srcElement || event.target; /* loop up the DOM tree through parent elements if clicked element is not a link (eg: an image inside a link) */ while ( el && (typeof el.tagName == "undefined" || el.tagName.toLowerCase() != "a" || !el.href) ) { el = el.parentNode; } /* if a link with valid href has been clicked */ if (el && el.href) { var link = el.href; /* only if it is an external link */ if (link.indexOf(location.host) == -1 && !link.match(/^javascript\:/i)) { /* is target set and _(self|parent|top) */ var target = el.target && !el.target.match(/^_(self|parent|top)/i) ? el.target : false; /* assume a target if (ctrl|shift|meta)-click */ if ( event.ctrlKey || event.shiftKey || event.metaKey || event.which == 2 ) { target = "_blank"; } /* tracker has not yet run */ var hbrun = false; /* hitBack to open link in same window after tracker */ var hitBack = function () { /* run once only */ if (hbrun) return; hbrun = true; window.location.href = link; }; if (target) { /* if target opens a new window then just track */ gtag("event", link, { event_category: "Outgoing Links", event_label: document.location.pathname + document.location.search, }); } else { /* Prevent standard click, track then open */ if (event.type == "mousedown") { var blockClick = function (event) { event.preventDefault(); /* remove click event after click */ el.removeEventListener("click", boundClick); }; /* bind the click event */ var boundClick = blockClick.bind(event); /* prevent the click */ el.addEventListener("click", boundClick); } event.preventDefault ? event.preventDefault() : (event.returnValue = !1); /* send event with callback */ gtag("event", link, { event_category: "Outgoing Links", event_label: document.location.pathname + document.location.search, event_callback: hitBack, }); /* Run hitBack again if GA takes longer than 1 second */ setTimeout(hitBack, 1000); } } } } var _w = window; /* Use "click" if touchscreen device, else "mousedown" */ var _gaLtEvt = "ontouchstart" in _w ? "click" : "mousedown"; /* Attach the event to all clicks in the document after page has loaded */ _w.addEventListener( "load", function () { document.body.addEventListener(_gaLtEvt, _gaLt, !1); }, !1 ); </script><!-- End Google Analytics -->
+
+
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/20503178.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+</body>
+<!-- SR -->
+</html>
+
+
